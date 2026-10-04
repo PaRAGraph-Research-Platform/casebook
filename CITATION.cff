@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use the PaRAGraph Casebook, please cite it as below."
+type: dataset
+title: "PaRAGraph Casebook: source-grounded cases in Yue dialect classification and tone inventories"
+version: "0.3"
+date-released: 2026-10-04
+abstract: >-
+  Companion casebook to the PaRAGraph article: four source-grounded cases in Yue
+  (Cantonese) dialectology. Each case pairs a short narrative with the slice of the
+  PaRAGraph knowledge graph behind it — claims, quoted evidence and sources — and a set
+  of graph operations that the static viewer recomputes in the browser and compares
+  with results recorded on the production graph.
+authors:
+  - family-names: Kozha
+    given-names: Ksenia
+    orcid: "https://orcid.org/0000-0003-2717-6156"
+  - family-names: Kozha
+    given-names: Ilia
+url: "https://www.sciencerag.win/casebook"
+repository-code: "https://github.com/PaRAGraph-Research-Platform/casebook"
+license:
+  - CC-BY-4.0
+  - MIT
+keywords:
+  - Yue
+  - Cantonese
+  - Chinese dialectology
+  - dialect classification
+  - tone inventories
+  - knowledge graph
+  - provenance
+  - reproducibility
+  - digital humanities
