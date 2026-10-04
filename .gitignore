@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+dist-single
+.claude/
+.vercel
+.env*
+__pycache__/
+*.py[cod]

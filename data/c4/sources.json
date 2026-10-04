@@ -1,0 +1,506 @@
+[
+  {
+    "document_id": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+    "title": "Modern Cantonese Phonology",
+    "graph_title": "Modern Cantonese Phonology",
+    "document_type": "book",
+    "page_count": 611,
+    "sha256": "658e92dedf5a1b832a0e36e634057d22ef44291d8ab50ef004cf7aa66514486d",
+    "csl_data": {
+      "ISBN": "3110148935",
+      "type": "book",
+      "title": "Modern Cantonese Phonology",
+      "author": [
+        {
+          "given": "Robert S.",
+          "family": "Bauer"
+        },
+        {
+          "given": "Paul K.",
+          "family": "Benedict"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            1997
+          ]
+        ]
+      },
+      "publisher": "Mouton de Gruyter",
+      "container-title": "Trends in Linguistics. Studies and Monographs"
+    },
+    "identifiers": {
+      "isbn": "3110148935"
+    },
+    "library": {
+      "authors": [
+        "Bauer, Robert S.",
+        "Benedict, Paul K."
+      ],
+      "publication_year": 1997,
+      "journal": "Trends in Linguistics. Studies and Monographs",
+      "document_type": "book",
+      "language": "en",
+      "identifiers": {
+        "isbn": "3110148935"
+      }
+    },
+    "page_label_map_present": true,
+    "annotation": {
+      "origin_kind": "native_export",
+      "rights": "quoted_under_quotation_exception; full text not redistributed"
+    }
+  },
+  {
+    "document_id": "31288067-8899-4f17-94b6-f5803bba4c3a",
+    "title": "第八届国际粤方言研讨会论文集",
+    "graph_title": "第八届国际粤方言研讨会论文集",
+    "document_type": "book",
+    "page_count": 717,
+    "sha256": "29e3e9a805673209067a2ddfc094d7f0ae4e95959429133f77a0e31857ce02ab",
+    "csl_data": {
+      "DOI": null,
+      "ISBN": "7500420205",
+      "type": "book",
+      "title": "第八届国际粤方言研讨会论文集",
+      "author": [
+        {
+          "given": "Bo Hui",
+          "family": "Zhan"
+        },
+        {
+          "given": "Wei",
+          "family": "Wu"
+        },
+        {
+          "given": "Yu En",
+          "family": "Gan"
+        },
+        {
+          "given": "Qi",
+          "family": "Zhong"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2003,
+            12
+          ]
+        ]
+      },
+      "authors": [
+        "Zhan, Bohui",
+        "Wu, Wei",
+        "Gan, Yu'en",
+        "Zhong, Qi"
+      ],
+      "abstract": "《第八届国际粤方言研讨会论文集》收录第八届国际粤方言研讨会论文，主题覆盖粤方言语音、词汇、语法、方言比较、语言接触、社会语言学和语料库建设等方向。论文集反映了当时粤方言研究的主要问题、资料基础和方法取向。",
+      "publisher": "China Social Sciences Press",
+      "container-title": null
+    },
+    "identifiers": {
+      "isbn": "7500442025",
+      "issn": "5004-4202"
+    },
+    "library": {
+      "authors": [
+        "Zhan, Bohui",
+        "Wu, Wei",
+        "Gan, Yu'en",
+        "Zhong, Qi"
+      ],
+      "publication_year": 2003,
+      "journal": null,
+      "document_type": "book",
+      "language": null,
+      "identifiers": {
+        "isbn": "7500442025",
+        "issn": "5004-4202"
+      }
+    },
+    "page_label_map_present": true,
+    "annotation": {
+      "origin_kind": "native_export",
+      "rights": "quoted_under_quotation_exception; full text not redistributed"
+    }
+  },
+  {
+    "document_id": "318c6cec-eacf-44d4-a665-5c1667edb985",
+    "title": "台山方言词典",
+    "graph_title": "台山方言词典",
+    "document_type": "book",
+    "page_count": 335,
+    "sha256": "b8ff2a9e6ee2b8e0087867113b6a0bddb01d6c05bb3e9514e8b9a1fc0457e4a3",
+    "csl_data": {
+      "DOI": null,
+      "ISBN": "9787517162635",
+      "type": "book",
+      "title": "台山方言词典",
+      "author": [
+        {
+          "given": "剑云",
+          "family": "黄"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2017,
+            12
+          ]
+        ]
+      },
+      "authors": [
+        "Huang, Jianyun"
+      ],
+      "abstract": "《台山方言词典》记录台山方言的音系、单字读音、词汇分类和常用表达，并附有方言特点、变调和索引。词典按语义类别收录天文、地理、称谓、身体、饮食、农事、动作、代词、量词、形容词、熟语等词条，为台山话词汇和音韵研究提供材料。",
+      "publisher": "中国言实出版社",
+      "container-title": null
+    },
+    "identifiers": {
+      "isbn": "9787517126355",
+      "issn": "5171-2635"
+    },
+    "library": {
+      "authors": [
+        "Huang, Jianyun"
+      ],
+      "publication_year": 2017,
+      "journal": null,
+      "document_type": "book",
+      "language": null,
+      "identifiers": {
+        "isbn": "9787517126355",
+        "issn": "5171-2635"
+      }
+    },
+    "page_label_map_present": true,
+    "annotation": {
+      "origin_kind": "native_export",
+      "rights": "quoted_under_quotation_exception; full text not redistributed"
+    }
+  },
+  {
+    "document_id": "71cc631d-7ec2-4b20-99b0-37f72f75d37b",
+    "title": "The Routledge Encyclopedia of the Chinese Language",
+    "graph_title": "The Routledge Encyclopedia of the Chinese Language",
+    "document_type": "book",
+    "page_count": 829,
+    "sha256": "49261638ebef7c6963ed1d41fc2584589025f9bb4f165f8dcc110905508a5534",
+    "csl_data": {
+      "DOI": null,
+      "ISBN": "9780415539708",
+      "type": "book",
+      "title": "The Routledge Encyclopedia of the Chinese Language",
+      "author": [
+        {
+          "given": "Sin-wai",
+          "family": "Chan"
+        },
+        {
+          "given": "James",
+          "family": "Minett"
+        },
+        {
+          "given": "Wing Yee",
+          "family": "Li"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "abstract": null,
+      "publisher": "Routledge",
+      "container-title": null
+    },
+    "identifiers": {
+      "doi": "10.4324/9781315675541",
+      "isbn": "9780415539708"
+    },
+    "library": {
+      "authors": [
+        "Chan, Sin-wai",
+        "Minett, James",
+        "Li, Wing Yee"
+      ],
+      "publication_year": 2016,
+      "journal": null,
+      "document_type": "book",
+      "language": null,
+      "identifiers": {
+        "doi": "10.4324/9781315675541",
+        "isbn": "9780415539708"
+      }
+    },
+    "page_label_map_present": true,
+    "annotation": {
+      "origin_kind": "native_export",
+      "rights": "quoted_under_quotation_exception; full text not redistributed"
+    }
+  },
+  {
+    "document_id": "9f2df161-d69f-4293-93e6-13989a727f83",
+    "title": "信宜方言志",
+    "graph_title": "信宜方志",
+    "document_type": "book",
+    "page_count": 330,
+    "sha256": "07ee871a1dfd06eb3c10e9c6b629e08d9074d390eb13e995fa3b463b5f4eff12",
+    "csl_data": {
+      "DOI": null,
+      "ISBN": "7306000241",
+      "type": "book",
+      "title": "信宜方言志",
+      "author": [
+        {
+          "given": "康宁",
+          "family": "罗"
+        },
+        {
+          "given": "国泉",
+          "family": "叶"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            1987
+          ]
+        ]
+      },
+      "authors": [
+        "Luo, Kangning"
+      ],
+      "abstract": "本书以信宜县城东镇话为主要对象，记录信宜话的语音、词汇、熟语和语法现象，并说明信宜境内信宜话、涯话、容县话、思贺话等方言的分布。书中重点描写信宜话保留古音成分、受壮语影响以及以声调和韵尾变化表示语法意义的“变音”现象。",
+      "publisher": "中山大学出版社",
+      "container-title": null
+    },
+    "identifiers": {
+      "isbn": "7306000241"
+    },
+    "library": {
+      "authors": [
+        "Luo, Kangning"
+      ],
+      "publication_year": 1987,
+      "journal": null,
+      "document_type": "book",
+      "language": null,
+      "identifiers": {
+        "isbn": "7306000241"
+      }
+    },
+    "page_label_map_present": true,
+    "annotation": {
+      "origin_kind": "native_export",
+      "rights": "quoted_under_quotation_exception; full text not redistributed"
+    }
+  },
+  {
+    "document_id": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+    "title": "广东粤方言概要 / An Outline of Yue Dialects in Guangdong",
+    "graph_title": "广东粤方言概要 / An Outline of Yue Dialects in Guangdong",
+    "document_type": "book",
+    "page_count": 627,
+    "sha256": "476016949c7c9eb0d7e8b6929a4601b740ad83b79fa390108d0d748aee41f255",
+    "csl_data": {
+      "DOI": null,
+      "ISBN": "7810790625",
+      "type": "book",
+      "title": "广东粤方言概要 / An Outline of Yue Dialects in Guangdong",
+      "author": [
+        {
+          "given": "Bohui",
+          "family": "Zhan"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            2004
+          ]
+        ]
+      },
+      "authors": [
+        "Zhan, Bohui"
+      ],
+      "abstract": "本书是在珠江三角洲、粤北、粤西等广东粤方言成片调查成果基础上的综合性概述，旨在勾画广东境内粤方言的整体轮廓。内容包括广东粤方言的地理分布、形成发展、分片，以及广州方言和各地粤方言在语音、词汇、语法方面的一致性与差异。",
+      "publisher": "Jinan University Press",
+      "container-title": null
+    },
+    "identifiers": {
+      "isbn": "7810790625"
+    },
+    "library": {
+      "authors": [
+        "Zhan, Bohui"
+      ],
+      "publication_year": 2004,
+      "journal": null,
+      "document_type": "book",
+      "language": null,
+      "identifiers": {
+        "isbn": "7810790625"
+      }
+    },
+    "page_label_map_present": true,
+    "annotation": {
+      "origin_kind": "native_export",
+      "rights": "quoted_under_quotation_exception; full text not redistributed"
+    }
+  },
+  {
+    "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+    "title": "The Yue Dialect",
+    "graph_title": "The Yue Dialect",
+    "document_type": "article-journal",
+    "page_count": 32,
+    "sha256": "5e409247ef9d6bdc004539db124bf413bb801a29b4893b9703a7b47b384363b4",
+    "csl_data": {
+      "DOI": null,
+      "ISBN": null,
+      "type": "article-journal",
+      "title": "The Yue Dialect",
+      "author": [
+        {
+          "given": "Anne",
+          "family": "Yue-Hashimoto"
+        }
+      ],
+      "issued": {
+        "date-parts": [
+          [
+            1991
+          ]
+        ]
+      },
+      "authors": [
+        "Yue-Hashimoto, Anne"
+      ],
+      "abstract": "Anne Yue-Hashimoto’s monograph article surveys the Yue dialect group, distinguishing Yue as a southern Chinese dialect family from Cantonese as its prestige variety. It discusses historical background, possible substrata, migration history, subgrouping, and major phonological and lexical characteristics of Yue dialects.",
+      "publisher": "The Chinese University of Hong Kong Press",
+      "container-title": "Journal of Chinese Linguistics Monograph Series"
+    },
+    "identifiers": {},
+    "library": {
+      "authors": [
+        "Yue-Hashimoto, Anne"
+      ],
+      "publication_year": 1991,
+      "journal": "Journal of Chinese Linguistics Monograph Series",
+      "document_type": "article-journal",
+      "language": null,
+      "identifiers": {}
+    },
+    "page_label_map_present": true,
+    "annotation": {
+      "origin_kind": "native_export",
+      "rights": "quoted_under_quotation_exception; full text not redistributed"
+    }
+  },
+  {
+    "document_id": "e6be7364-5058-4634-83c1-f0df521b1b59",
+    "title": "The Morphology of Cantonese “Changed Tone”: Extensions and Limitations",
+    "graph_title": "The Morphology of Cantonese “Changed Tone”: Extensions and Limitations",
+    "document_type": "article-journal",
+    "page_count": 31,
+    "sha256": "5059f53b34b2fcb1d400f72f64b355d07a3f4308aa0fb430c6a9b4d9aaf7a80c",
+    "csl_data": {
+      "DOI": "10.11435/gengo.161.0_139",
+      "ISBN": null,
+      "type": "article-journal",
+      "title": "The Morphology of Cantonese “Changed Tone”: Extensions and Limitations",
+      "author": [
+        {
+          "given": "John",
+          "family": "Alderete"
+        },
+        {
+          "given": "Queenie",
+          "family": "Chan"
+        },
+        {
+          "given": "Shin-ichi",
+          "family": "Tanaka"
+        }
+      ],
+      "issued": null,
+      "abstract": "Cantonese substitutes a base tone with either a high-level or high-rising tone in certain derived environments, a kind of process morphology dubbed pinjam (變音) “changed tone”. We develop a comprehensive analysis of Cantonese pinjam morphology that predicts this tonal change as the realization of a tonal affix that is shaped by both language particular patterns and universal constraints. The predictions of this core analysis are then used to explore a range of morphological and syntactic constructions that also have a pinjam, but have not been fully analyzed in prior research. This investigation also makes an empirical contribution by showing how the core analysis can extend naturally to many under-studied constructions, as well as documenting some of the limits of this analysis.",
+      "publisher": null,
+      "container-title": "Gengo"
+    },
+    "identifiers": {
+      "doi": "10.11435/gengo.161.0_139",
+      "issn": "2014-0452"
+    },
+    "library": {
+      "authors": [
+        "Alderete, John",
+        "Chan, Queenie",
+        "Tanaka, Shin-ichi"
+      ],
+      "publication_year": 1980,
+      "journal": "Gengo",
+      "document_type": "article-journal",
+      "language": null,
+      "identifiers": {
+        "doi": "10.11435/gengo.161.0_139",
+        "issn": "2014-0452"
+      }
+    },
+    "page_label_map_present": true,
+    "annotation": {
+      "origin_kind": "native_export",
+      "rights": "quoted_under_quotation_exception; full text not redistributed"
+    }
+  },
+  {
+    "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+    "title": "Yuè 粵 Dialects",
+    "graph_title": "Yuè 粵 Dialects",
+    "document_type": "report",
+    "page_count": 21,
+    "sha256": "5eae92701d87c02e40770f8e273524a889a0ea09740765fbd83cfda6b2e28ce8",
+    "csl_data": {
+      "DOI": "10.1163/2210-7363_ecll_com_00000476",
+      "type": "dataset",
+      "title": "Yuè 粵 Dialects",
+      "issued": {
+        "date-parts": [
+          [
+            null
+          ]
+        ]
+      },
+      "publisher": "Walter de Gruyter GmbH",
+      "container-title": "Encyclopedia of Chinese Language and Linguistics"
+    },
+    "identifiers": {
+      "doi": "10.1163/2210-7363_ecll_COM_00000476"
+    },
+    "library": {
+      "authors": [
+        "Kwok, Bit-Chee",
+        "Tsou, Benjamin K.",
+        "Chin, Andy C."
+      ],
+      "publication_year": 2005,
+      "journal": "Encyclopedia of Chinese Language and Linguistics",
+      "document_type": "report",
+      "language": null,
+      "identifiers": {
+        "doi": "10.1163/2210-7363_ecll_COM_00000476"
+      }
+    },
+    "page_label_map_present": true,
+    "annotation": {
+      "origin_kind": "native_export",
+      "rights": "quoted_under_quotation_exception; full text not redistributed"
+    }
+  }
+]

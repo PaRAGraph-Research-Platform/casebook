@@ -1,0 +1,513 @@
+{
+  "origin_kind": "native_export",
+  "note_en": "Only relationships that exist in the production graph. The levels of the source schemes (區 / 片 / 小片) are not drawn as edges: the graph does not carry them.",
+  "nodes": [
+    {
+      "id": "claim_0389da505b6cbdff6eb65755",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_1bcde9febf2f8e5ecfadf6d2",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_39ec5fd17ce8736f5973a464",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_4633dd0cf013feb72f12f718",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_4cf43021976128a0939ce88a",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_5764dbb5750b494ed12fd4e1",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_6330081035a097caf275c64e",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_67e2ee896580e24fd0ec3cb1",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_a0314ec98e293304abc62820",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_b51e88ef7598892203251d11",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_cfd92b2d77712342e18c6b94",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_08bb66c847967b940a6e",
+      "label": "Evidence",
+      "type": "Evidence",
+      "chunk_id": "be3dcfbb-c240-52b6-ab98-ed6bba5e3eee",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_0e46deee89182712d021",
+      "label": "Evidence",
+      "type": "Evidence",
+      "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_11c5995ab0a5dc9f40f0",
+      "label": "Evidence",
+      "type": "Evidence",
+      "chunk_id": "253d01ed-ae4c-5867-842e-833808ecbe1d",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_1564e8a9cd0931eb7dd7",
+      "label": "Evidence",
+      "type": "Evidence",
+      "chunk_id": "10f2afb5-769f-5a28-b2e5-e2d275f2cc10",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_34ebb48de4435dee6eaf",
+      "label": "Evidence",
+      "type": "Evidence",
+      "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_603ec447e1748395f65b",
+      "label": "Evidence",
+      "type": "Evidence",
+      "chunk_id": "0a51d990-eae7-56fc-83fc-2a64a3059f11",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_688c22d1deb961cb05ec",
+      "label": "Evidence",
+      "type": "Evidence",
+      "chunk_id": "10f2afb5-769f-5a28-b2e5-e2d275f2cc10",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_6cf783004b36e8b58c54",
+      "label": "Evidence",
+      "type": "Evidence",
+      "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_7e621afd66859f1de4b8",
+      "label": "Evidence",
+      "type": "Evidence",
+      "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_90550a4228a3d348f4b5",
+      "label": "Evidence",
+      "type": "Evidence",
+      "chunk_id": "be3dcfbb-c240-52b6-ab98-ed6bba5e3eee",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_c0d6f0cb40851b93461a",
+      "label": "Evidence",
+      "type": "Evidence",
+      "chunk_id": "2c31a6ae-235d-5eef-baaf-21c84fe1370d",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "CLASSIFICATION_ATLAS2012",
+      "label": "Feature",
+      "type": "Feature",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "CLASSIFICATION_CRITERIA_REPORTED",
+      "label": "Feature",
+      "type": "Feature",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "GEOGRAPHY_DISTRIBUTION",
+      "label": "Feature",
+      "type": "Feature",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "label": "Feature",
+      "type": "Feature",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "YUE",
+      "label": "Group",
+      "type": "Group",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "label": "Source",
+      "type": "Source",
+      "title": "粤语方言分区问题初探",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "cf5ae16a-4eeb-4aa4-9306-399192dbcbb2",
+      "label": "Source",
+      "type": "Source",
+      "title": "Development of the Stop Endings in the Yue Dialects",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+      "label": "Source",
+      "type": "Source",
+      "title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+      "label": "Source",
+      "type": "Source",
+      "title": "Yuè 粵 Dialects",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "YUE_GAOYANG",
+      "label": "Subgroup",
+      "type": "Subgroup",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "YUE_GUANGFU",
+      "label": "Subgroup",
+      "type": "Subgroup",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "YUE_SIYI",
+      "label": "Subgroup",
+      "type": "Subgroup",
+      "origin_kind": "native_export"
+    }
+  ],
+  "edges": [
+    {
+      "source": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_0e46deee89182712d021",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_34ebb48de4435dee6eaf",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_6cf783004b36e8b58c54",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_7e621afd66859f1de4b8",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "cf5ae16a-4eeb-4aa4-9306-399192dbcbb2",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_08bb66c847967b940a6e",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "cf5ae16a-4eeb-4aa4-9306-399192dbcbb2",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_90550a4228a3d348f4b5",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_0389da505b6cbdff6eb65755",
+      "type": "ABOUT_FEATURE",
+      "target": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_0389da505b6cbdff6eb65755",
+      "type": "ABOUT_SUBGROUP",
+      "target": "YUE_GUANGFU",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_1bcde9febf2f8e5ecfadf6d2",
+      "type": "ABOUT_FEATURE",
+      "target": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_1bcde9febf2f8e5ecfadf6d2",
+      "type": "ABOUT_GROUP",
+      "target": "YUE",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_39ec5fd17ce8736f5973a464",
+      "type": "ABOUT_FEATURE",
+      "target": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_39ec5fd17ce8736f5973a464",
+      "type": "ABOUT_GROUP",
+      "target": "YUE",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_4633dd0cf013feb72f12f718",
+      "type": "ABOUT_FEATURE",
+      "target": "GEOGRAPHY_DISTRIBUTION",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_4633dd0cf013feb72f12f718",
+      "type": "ABOUT_GROUP",
+      "target": "YUE",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_4cf43021976128a0939ce88a",
+      "type": "ABOUT_FEATURE",
+      "target": "GEOGRAPHY_DISTRIBUTION",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_4cf43021976128a0939ce88a",
+      "type": "ABOUT_SUBGROUP",
+      "target": "YUE_SIYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_5764dbb5750b494ed12fd4e1",
+      "type": "ABOUT_FEATURE",
+      "target": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_5764dbb5750b494ed12fd4e1",
+      "type": "ABOUT_SUBGROUP",
+      "target": "YUE_SIYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_6330081035a097caf275c64e",
+      "type": "ABOUT_FEATURE",
+      "target": "CLASSIFICATION_ATLAS2012",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_6330081035a097caf275c64e",
+      "type": "ABOUT_GROUP",
+      "target": "YUE",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_67e2ee896580e24fd0ec3cb1",
+      "type": "ABOUT_FEATURE",
+      "target": "CLASSIFICATION_CRITERIA_REPORTED",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_67e2ee896580e24fd0ec3cb1",
+      "type": "ABOUT_GROUP",
+      "target": "YUE",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_a0314ec98e293304abc62820",
+      "type": "ABOUT_FEATURE",
+      "target": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_a0314ec98e293304abc62820",
+      "type": "ABOUT_GROUP",
+      "target": "YUE",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_b51e88ef7598892203251d11",
+      "type": "ABOUT_FEATURE",
+      "target": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_b51e88ef7598892203251d11",
+      "type": "ABOUT_GROUP",
+      "target": "YUE",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_cfd92b2d77712342e18c6b94",
+      "type": "ABOUT_FEATURE",
+      "target": "GEOGRAPHY_DISTRIBUTION",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_cfd92b2d77712342e18c6b94",
+      "type": "ABOUT_SUBGROUP",
+      "target": "YUE_GAOYANG",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_1564e8a9cd0931eb7dd7",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_603ec447e1748395f65b",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_688c22d1deb961cb05ec",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_08bb66c847967b940a6e",
+      "type": "SUPPORTS",
+      "target": "claim_0389da505b6cbdff6eb65755",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_0e46deee89182712d021",
+      "type": "SUPPORTS",
+      "target": "claim_39ec5fd17ce8736f5973a464",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_11c5995ab0a5dc9f40f0",
+      "type": "SUPPORTS",
+      "target": "claim_6330081035a097caf275c64e",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_1564e8a9cd0931eb7dd7",
+      "type": "SUPPORTS",
+      "target": "claim_cfd92b2d77712342e18c6b94",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_34ebb48de4435dee6eaf",
+      "type": "SUPPORTS",
+      "target": "claim_4633dd0cf013feb72f12f718",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_603ec447e1748395f65b",
+      "type": "SUPPORTS",
+      "target": "claim_a0314ec98e293304abc62820",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_688c22d1deb961cb05ec",
+      "type": "SUPPORTS",
+      "target": "claim_4cf43021976128a0939ce88a",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_6cf783004b36e8b58c54",
+      "type": "SUPPORTS",
+      "target": "claim_1bcde9febf2f8e5ecfadf6d2",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_7e621afd66859f1de4b8",
+      "type": "SUPPORTS",
+      "target": "claim_b51e88ef7598892203251d11",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_90550a4228a3d348f4b5",
+      "type": "SUPPORTS",
+      "target": "claim_5764dbb5750b494ed12fd4e1",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_c0d6f0cb40851b93461a",
+      "type": "SUPPORTS",
+      "target": "claim_67e2ee896580e24fd0ec3cb1",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_11c5995ab0a5dc9f40f0",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_c0d6f0cb40851b93461a",
+      "origin_kind": "native_export"
+    }
+  ]
+}

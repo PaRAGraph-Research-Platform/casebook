@@ -1,0 +1,884 @@
+{
+  "version": "c2-internal-0.3",
+  "scope": {
+    "claim_ids": [
+      "claim_1cd75cb6f867faacbf730003",
+      "claim_299220d48644a5a06aef162b",
+      "claim_515c2e546a092b12e4589fdc",
+      "claim_66d7d48ba25643b042006d2a",
+      "claim_7506816eea9d37ca0ee8841a",
+      "claim_aee8cfae9c56115ccabe9877",
+      "claim_b891599fbeaa737b8620cf07",
+      "claim_ca0d079c05b90981dfbb8fc7",
+      "claim_d0bf3486dc16e9ba1bc2759c"
+    ],
+    "sources": {
+      "yue_hashimoto_1991": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+      "chen_chen_2005": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99"
+    },
+    "target": "YUE_QINLIAN",
+    "features": [
+      "CLASSIFICATION_ATLAS2012",
+      "CLASSIFICATION_CRITERIA_REPORTED",
+      "METALINGUISTIC_HIERARCHY_LEVEL",
+      "CONS_ASPIRATION_CONTRAST",
+      "CONS_VOICED_OBSTRUENTS_REPORTED"
+    ],
+    "statuses": [
+      "approved",
+      "auto_approved"
+    ]
+  },
+  "verification": {
+    "verified_at_utc": "2026-09-09T17:08:18.480333+00:00",
+    "completed_at_utc": "2026-09-09T17:08:19.957063+00:00",
+    "probe_file": "casebook_probes/2026-09-09__c2_native_operations_verify.json",
+    "row_counts": {
+      "shared_basis": 2,
+      "independent_bases": 5,
+      "source_split": 6,
+      "source_comparison_by_feature": 5,
+      "contested_cell": 1,
+      "polarity_value_consistency": 9,
+      "feature_level_split": 15
+    },
+    "errors": {},
+    "proposal_row_counts_2026_09_08": {
+      "shared_basis": 2,
+      "independent_bases": 5,
+      "source_split": 6,
+      "source_comparison_by_feature": 5,
+      "contested_cell": 1,
+      "polarity_value_consistency": 9,
+      "feature_level_split": 15
+    },
+    "rows_identical_to_proposal": {
+      "shared_basis": true,
+      "independent_bases": true,
+      "source_split": true,
+      "source_comparison_by_feature": true,
+      "contested_cell": true,
+      "polarity_value_consistency": true,
+      "feature_level_split": true
+    }
+  },
+  "operations": [
+    {
+      "name": "shared_basis",
+      "title_en": "Statements leaning on the same passage",
+      "question_en": "Which statements rest on the same textual passage and therefore are not independent?",
+      "template_ref": null,
+      "native_fields": [
+        "Evidence.id",
+        "Evidence.chunk_id",
+        "Evidence.start_char",
+        "Evidence.end_char",
+        "SUPPORTS"
+      ],
+      "cypher": "MATCH (e1:Evidence)-[:SUPPORTS]->(c1:Claim), (e2:Evidence)-[:SUPPORTS]->(c2:Claim)\nWHERE c1.id IN $claim_ids AND c2.id IN $claim_ids AND c1.id < c2.id\n  AND e1.chunk_id = e2.chunk_id\n  AND e1.start_char IS NOT NULL AND e2.start_char IS NOT NULL\n  AND e1.start_char < e2.end_char AND e2.start_char < e1.end_char\nRETURN c1.id AS claim_a, c2.id AS claim_b, e1.id AS ev_a, e2.id AS ev_b,\n       e1.chunk_id AS chunk_id, e1.start_char AS a_start, e1.end_char AS a_end,\n       e2.start_char AS b_start, e2.end_char AS b_end,\n       CASE WHEN e1.id = e2.id THEN 'same_evidence' ELSE 'overlapping_span' END AS relation\nORDER BY claim_a, claim_b",
+      "params": {
+        "claim_ids": [
+          "claim_1cd75cb6f867faacbf730003",
+          "claim_299220d48644a5a06aef162b",
+          "claim_515c2e546a092b12e4589fdc",
+          "claim_66d7d48ba25643b042006d2a",
+          "claim_7506816eea9d37ca0ee8841a",
+          "claim_aee8cfae9c56115ccabe9877",
+          "claim_b891599fbeaa737b8620cf07",
+          "claim_ca0d079c05b90981dfbb8fc7",
+          "claim_d0bf3486dc16e9ba1bc2759c"
+        ]
+      },
+      "expected": [
+        {
+          "claim_a": "claim_299220d48644a5a06aef162b",
+          "claim_b": "claim_b891599fbeaa737b8620cf07",
+          "ev_a": "ev_8b6401e65cf7824d4fad",
+          "ev_b": "ev_6a15bde8c83095e7c5f6",
+          "chunk_id": "54002f3a-508b-5b05-8fea-13ef8d254fe6",
+          "a_start": 1186,
+          "a_end": 1691,
+          "b_start": 1381,
+          "b_end": 1691,
+          "relation": "overlapping_span"
+        },
+        {
+          "claim_a": "claim_515c2e546a092b12e4589fdc",
+          "claim_b": "claim_7506816eea9d37ca0ee8841a",
+          "ev_a": "ev_efa56f8d77a108b10b05",
+          "ev_b": "ev_efa56f8d77a108b10b05",
+          "chunk_id": "b59f09a9-fad9-5343-b123-9d9e79d010e9",
+          "a_start": 7,
+          "a_end": 202,
+          "b_start": 7,
+          "b_end": 202,
+          "relation": "same_evidence"
+        }
+      ],
+      "expected_row_count": 2,
+      "verified_at_utc": "2026-09-09T17:08:18.480333+00:00",
+      "status": "native",
+      "caveat_en": "A coarser 'same chunk' test adds a false pair K2/K3 (adjacent, non-overlapping spans [1301,1455) and [1456,1750)). The operation uses span overlap, not chunk identity.",
+      "reproduces_case_en": [
+        "K4/K5 footnote 21",
+        "S1/S2 share one evidence passage"
+      ],
+      "slice_totals": null,
+      "expected_totals": null,
+      "expected_groups": null,
+      "expected_note": null,
+      "corpus_scale_2026_09_08": null,
+      "unchanged_since_proposal": true,
+      "finding_en": "{n_rows} pairs of statements rest on the same passage ({anchors}). They support each other less than their number suggests.",
+      "finding_vars": {
+        "anchors": {
+          "op": "anchors_of",
+          "columns": [
+            "claim_a",
+            "claim_b"
+          ]
+        }
+      },
+      "finding_empty_en": "No pair of statements in this selection shares a textual basis: each one draws on a separate passage.",
+      "why_it_matters_en": "The argument about Lianzhou draws on a single footnote more than once; counting statements would overstate the evidence.",
+      "columns_en": {
+        "claim_a": "First statement of the pair",
+        "claim_b": "Second statement of the pair",
+        "ev_a": "Evidence record backing the first statement",
+        "ev_b": "Evidence record backing the second statement",
+        "chunk_id": "Text chunk containing both quotations",
+        "a_start": "Position of the first statement's quotation inside the source fragment (characters)",
+        "a_end": "End position of the first statement's quotation (characters)",
+        "b_start": "Position of the second statement's quotation inside the source fragment (characters)",
+        "b_end": "End position of the second statement's quotation (characters)",
+        "relation": "same_evidence = both statements cite the very same quotation; overlapping_span = separate but overlapping quotations"
+      },
+      "reader_visible": true
+    },
+    {
+      "name": "independent_bases",
+      "title_en": "How many independent textual bases",
+      "question_en": "How many independent textual bases and how many sources stand behind the slice and behind each feature category?",
+      "template_ref": null,
+      "native_fields": [
+        "Evidence.id",
+        "Evidence.chunk_id",
+        "Source.id",
+        "HAS_EVIDENCE",
+        "SUPPORTS",
+        "ABOUT_FEATURE"
+      ],
+      "cypher": "MATCH (c:Claim) WHERE c.id IN $claim_ids\nMATCH (c)-[:ABOUT_FEATURE]->(f:Feature)\nOPTIONAL MATCH (s:Source)-[:HAS_EVIDENCE]->(e:Evidence)-[:SUPPORTS]->(c)\nRETURN f.id AS feature, count(DISTINCT c) AS claims,\n       count(DISTINCT e) AS distinct_evidence,\n       count(DISTINCT e.chunk_id) AS distinct_chunks,\n       count(DISTINCT s) AS distinct_sources,\n       collect(DISTINCT s.id) AS source_ids\nORDER BY feature",
+      "params": {
+        "claim_ids": [
+          "claim_1cd75cb6f867faacbf730003",
+          "claim_299220d48644a5a06aef162b",
+          "claim_515c2e546a092b12e4589fdc",
+          "claim_66d7d48ba25643b042006d2a",
+          "claim_7506816eea9d37ca0ee8841a",
+          "claim_aee8cfae9c56115ccabe9877",
+          "claim_b891599fbeaa737b8620cf07",
+          "claim_ca0d079c05b90981dfbb8fc7",
+          "claim_d0bf3486dc16e9ba1bc2759c"
+        ]
+      },
+      "expected": [
+        {
+          "feature": "CLASSIFICATION_ATLAS2012",
+          "claims": 1,
+          "distinct_evidence": 1,
+          "distinct_chunks": 1,
+          "distinct_sources": 1,
+          "source_ids": [
+            "c8227da0-01e8-4008-a5a2-cc7d68ad3628"
+          ]
+        },
+        {
+          "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+          "claims": 1,
+          "distinct_evidence": 1,
+          "distinct_chunks": 1,
+          "distinct_sources": 1,
+          "source_ids": [
+            "c8227da0-01e8-4008-a5a2-cc7d68ad3628"
+          ]
+        },
+        {
+          "feature": "CONS_ASPIRATION_CONTRAST",
+          "claims": 4,
+          "distinct_evidence": 4,
+          "distinct_chunks": 4,
+          "distinct_sources": 2,
+          "source_ids": [
+            "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+            "93f9cd6b-4318-4c8b-9cc6-30a140d92e99"
+          ]
+        },
+        {
+          "feature": "CONS_VOICED_OBSTRUENTS_REPORTED",
+          "claims": 2,
+          "distinct_evidence": 2,
+          "distinct_chunks": 2,
+          "distinct_sources": 1,
+          "source_ids": [
+            "93f9cd6b-4318-4c8b-9cc6-30a140d92e99"
+          ]
+        },
+        {
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "claims": 1,
+          "distinct_evidence": 1,
+          "distinct_chunks": 1,
+          "distinct_sources": 1,
+          "source_ids": [
+            "c8227da0-01e8-4008-a5a2-cc7d68ad3628"
+          ]
+        }
+      ],
+      "expected_row_count": 5,
+      "verified_at_utc": "2026-09-09T17:08:18.480333+00:00",
+      "status": "native",
+      "caveat_en": "Every claim in the graph carries exactly one Evidence (checked across the whole active graph on 2026-09-08: 57476/57476). There is no count of independent bases below the claim level; the number is computed per slice after merging shared_basis pairs. Distinct sources are distinct documents, not proven scholarly independence.",
+      "reproduces_case_en": null,
+      "slice_totals": {
+        "claims": 9,
+        "evidence_nodes": 8,
+        "chunks": 6,
+        "sources": 2,
+        "independent_textual_bases_after_shared_basis_merge": 7
+      },
+      "expected_totals": null,
+      "expected_groups": null,
+      "expected_note": null,
+      "corpus_scale_2026_09_08": null,
+      "unchanged_since_proposal": true,
+      "finding_en": "Across the {n_rows} feature categories in this selection, the {claims_total} statements are backed by {chunks_total} distinct text passages from two source documents.",
+      "finding_vars": {
+        "claims_total": {
+          "op": "sum",
+          "column": "claims"
+        },
+        "chunks_total": {
+          "op": "sum",
+          "column": "distinct_chunks"
+        }
+      },
+      "finding_empty_en": "No feature category is present in this selection.",
+      "why_it_matters_en": "Every claim in the graph carries exactly one evidence record; genuine independence has to be read off distinct passages, which is what this operation counts.",
+      "columns_en": {
+        "feature": "Feature category the statements are about",
+        "claims": "Number of statements in this category",
+        "distinct_evidence": "Number of distinct evidence (quotation) records behind them",
+        "distinct_chunks": "Number of distinct text chunks the quotations come from",
+        "distinct_sources": "Number of distinct source documents involved",
+        "source_ids": "Identifiers of the source documents involved"
+      },
+      "reader_visible": false
+    },
+    {
+      "name": "source_split",
+      "title_en": "Which source says what",
+      "question_en": "What does each of the two sources record under each feature category?",
+      "template_ref": null,
+      "native_fields": [
+        "Source.id",
+        "Source.title",
+        "HAS_EVIDENCE",
+        "SUPPORTS",
+        "ABOUT_FEATURE"
+      ],
+      "cypher": "MATCH (s:Source)-[:HAS_EVIDENCE]->(:Evidence)-[:SUPPORTS]->(c:Claim)\nWHERE c.id IN $claim_ids\nMATCH (c)-[:ABOUT_FEATURE]->(f:Feature)\nRETURN s.id AS document_id, s.title AS source_title, f.id AS feature,\n       count(DISTINCT c) AS claims, collect(DISTINCT c.id) AS claim_ids\nORDER BY source_title, feature",
+      "params": {
+        "claim_ids": [
+          "claim_1cd75cb6f867faacbf730003",
+          "claim_299220d48644a5a06aef162b",
+          "claim_515c2e546a092b12e4589fdc",
+          "claim_66d7d48ba25643b042006d2a",
+          "claim_7506816eea9d37ca0ee8841a",
+          "claim_aee8cfae9c56115ccabe9877",
+          "claim_b891599fbeaa737b8620cf07",
+          "claim_ca0d079c05b90981dfbb8fc7",
+          "claim_d0bf3486dc16e9ba1bc2759c"
+        ]
+      },
+      "expected": [
+        {
+          "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+          "source_title": "The Yue Dialect",
+          "feature": "CLASSIFICATION_ATLAS2012",
+          "claims": 1,
+          "claim_ids": [
+            "claim_1cd75cb6f867faacbf730003"
+          ]
+        },
+        {
+          "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+          "source_title": "The Yue Dialect",
+          "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+          "claims": 1,
+          "claim_ids": [
+            "claim_b891599fbeaa737b8620cf07"
+          ]
+        },
+        {
+          "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+          "source_title": "The Yue Dialect",
+          "feature": "CONS_ASPIRATION_CONTRAST",
+          "claims": 2,
+          "claim_ids": [
+            "claim_66d7d48ba25643b042006d2a",
+            "claim_aee8cfae9c56115ccabe9877"
+          ]
+        },
+        {
+          "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+          "source_title": "The Yue Dialect",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "claims": 1,
+          "claim_ids": [
+            "claim_299220d48644a5a06aef162b"
+          ]
+        },
+        {
+          "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99",
+          "source_title": "广西北海市粤方言调查研究",
+          "feature": "CONS_ASPIRATION_CONTRAST",
+          "claims": 2,
+          "claim_ids": [
+            "claim_515c2e546a092b12e4589fdc",
+            "claim_d0bf3486dc16e9ba1bc2759c"
+          ]
+        },
+        {
+          "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99",
+          "source_title": "广西北海市粤方言调查研究",
+          "feature": "CONS_VOICED_OBSTRUENTS_REPORTED",
+          "claims": 2,
+          "claim_ids": [
+            "claim_7506816eea9d37ca0ee8841a",
+            "claim_ca0d079c05b90981dfbb8fc7"
+          ]
+        }
+      ],
+      "expected_row_count": 6,
+      "verified_at_utc": "2026-09-09T17:08:18.480333+00:00",
+      "status": "native",
+      "caveat": null,
+      "caveat_en": null,
+      "reproduces_case_en": [
+        "five records for Yue-Hashimoto and four for Chen–Chen"
+      ],
+      "slice_totals": null,
+      "expected_totals": {
+        "c8227da0-01e8-4008-a5a2-cc7d68ad3628": 5,
+        "93f9cd6b-4318-4c8b-9cc6-30a140d92e99": 4
+      },
+      "expected_groups": null,
+      "expected_note": null,
+      "corpus_scale_2026_09_08": null,
+      "unchanged_since_proposal": true,
+      "finding_en": "Of the {n_rows} source-by-category combinations in this selection, Yue-Hashimoto 1991 and Chen–Chen 2005 overlap on one feature category and otherwise each contribute categories the other source does not record.",
+      "finding_vars": {},
+      "finding_empty_en": "No source contributes a statement in this selection.",
+      "why_it_matters_en": "The reclassification story needs to know exactly which of the two sources supplied which categories before asking why the classification changed.",
+      "columns_en": {
+        "document_id": "Source document identifier",
+        "source_title": "Title of the source document",
+        "feature": "Feature category recorded by this source",
+        "claims": "Number of statements this source records in this category",
+        "claim_ids": "Identifiers of those statements"
+      },
+      "reader_visible": false
+    },
+    {
+      "name": "source_comparison_by_feature",
+      "title_en": "Are the two sources talking about the same thing?",
+      "question_en": "In which feature categories do the two sources overlap, and which are unique to one?",
+      "native_fields": [
+        "Source.id",
+        "Claim.polarity",
+        "ABOUT_FEATURE"
+      ],
+      "cypher": "MATCH (c:Claim)-[:ABOUT_FEATURE]->(f:Feature) WHERE c.id IN $claim_ids\nMATCH (s:Source)-[:HAS_EVIDENCE]->(:Evidence)-[:SUPPORTS]->(c)\nWITH f.id AS feature,\n  sum(CASE WHEN s.id=$source_a AND c.polarity='attested' THEN 1 ELSE 0 END) AS a_att,\n  sum(CASE WHEN s.id=$source_a AND c.polarity='not_attested' THEN 1 ELSE 0 END) AS a_nat,\n  sum(CASE WHEN s.id=$source_b AND c.polarity='attested' THEN 1 ELSE 0 END) AS b_att,\n  sum(CASE WHEN s.id=$source_b AND c.polarity='not_attested' THEN 1 ELSE 0 END) AS b_nat\nRETURN feature, a_att, a_nat, b_att, b_nat,\n  CASE WHEN (a_att+a_nat)=0 THEN 'unique_b'\n       WHEN (b_att+b_nat)=0 THEN 'unique_a'\n       WHEN (a_att>0 AND b_nat>0) OR (a_nat>0 AND b_att>0) THEN 'contrast'\n       ELSE 'shared' END AS row_class\nORDER BY row_class, feature",
+      "params": {
+        "claim_ids": [
+          "claim_1cd75cb6f867faacbf730003",
+          "claim_299220d48644a5a06aef162b",
+          "claim_515c2e546a092b12e4589fdc",
+          "claim_66d7d48ba25643b042006d2a",
+          "claim_7506816eea9d37ca0ee8841a",
+          "claim_aee8cfae9c56115ccabe9877",
+          "claim_b891599fbeaa737b8620cf07",
+          "claim_ca0d079c05b90981dfbb8fc7",
+          "claim_d0bf3486dc16e9ba1bc2759c"
+        ],
+        "source_a": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+        "source_b": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99"
+      },
+      "expected": [
+        {
+          "feature": "CONS_ASPIRATION_CONTRAST",
+          "a_att": 2,
+          "a_nat": 0,
+          "b_att": 2,
+          "b_nat": 0,
+          "row_class": "shared"
+        },
+        {
+          "feature": "CLASSIFICATION_ATLAS2012",
+          "a_att": 1,
+          "a_nat": 0,
+          "b_att": 0,
+          "b_nat": 0,
+          "row_class": "unique_a"
+        },
+        {
+          "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+          "a_att": 1,
+          "a_nat": 0,
+          "b_att": 0,
+          "b_nat": 0,
+          "row_class": "unique_a"
+        },
+        {
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "a_att": 1,
+          "a_nat": 0,
+          "b_att": 0,
+          "b_nat": 0,
+          "row_class": "unique_a"
+        },
+        {
+          "feature": "CONS_VOICED_OBSTRUENTS_REPORTED",
+          "a_att": 0,
+          "a_nat": 0,
+          "b_att": 1,
+          "b_nat": 1,
+          "row_class": "unique_b"
+        }
+      ],
+      "expected_row_count": 5,
+      "verified_at_utc": "2026-09-09T17:08:18.480333+00:00",
+      "status": "native",
+      "caveat_en": "The canonical T7 template compares two targets. C2 has a single target (YUE_QINLIAN, 9 of 9 records), so canonical T7 is not executable inside this slice; sources are compared instead. This is free Cypher of the same shape, not the shipped template.",
+      "reproduces_case_en": null,
+      "slice_totals": null,
+      "expected_totals": null,
+      "expected_groups": null,
+      "expected_note": null,
+      "corpus_scale_2026_09_08": null,
+      "unchanged_since_proposal": true,
+      "finding_en": "Yue-Hashimoto 1991 and Chen & Chen 2005 address the same question in only {shared_count} of the {n_rows} categories recorded here. For the most part they describe different things.",
+      "finding_vars": {
+        "shared_count": {
+          "op": "count_rows",
+          "where": {
+            "column": "row_class",
+            "equals": "shared"
+          }
+        }
+      },
+      "finding_empty_en": "No feature category is comparable between these two sources.",
+      "why_it_matters_en": "Two descriptions filed under one heading are not automatically answers to one question.",
+      "columns_en": {
+        "feature": "Feature category being compared",
+        "a_att": "Attested-polarity statements from Yue-Hashimoto 1991 in this category",
+        "a_nat": "Not-attested-polarity statements from Yue-Hashimoto 1991 in this category",
+        "b_att": "Attested-polarity statements from Chen–Chen 2005 in this category",
+        "b_nat": "Not-attested-polarity statements from Chen–Chen 2005 in this category",
+        "row_class": "How the two sources relate for this category: shared, unique_a, or unique_b"
+      },
+      "reader_visible": true
+    },
+    {
+      "name": "contested_cell",
+      "title_en": "One apparent contradiction",
+      "question_en": "Is there a feature category where statements about the same target carry opposite polarity?",
+      "template_ref": "T9 contested",
+      "native_fields": [
+        "Claim.polarity",
+        "ABOUT_FEATURE",
+        "ABOUT_SUBGROUP",
+        "Source.id"
+      ],
+      "cypher": "MATCH (c:Claim)-[:ABOUT_FEATURE]->(f:Feature) WHERE c.id IN $claim_ids\nMATCH (c)-[:ABOUT_SUBGROUP]->(t:Subgroup)\nOPTIONAL MATCH (s:Source)-[:HAS_EVIDENCE]->(:Evidence)-[:SUPPORTS]->(c)\nWITH t.id AS target, f.id AS feature,\n  sum(CASE WHEN c.polarity='attested' THEN 1 ELSE 0 END) AS att,\n  sum(CASE WHEN c.polarity='not_attested' THEN 1 ELSE 0 END) AS nat,\n  count(DISTINCT s) AS sources, collect(DISTINCT c.id) AS claim_ids\nWHERE att > 0 AND nat > 0\nRETURN target, feature, att, nat, sources, claim_ids ORDER BY feature",
+      "params": {
+        "claim_ids": [
+          "claim_1cd75cb6f867faacbf730003",
+          "claim_299220d48644a5a06aef162b",
+          "claim_515c2e546a092b12e4589fdc",
+          "claim_66d7d48ba25643b042006d2a",
+          "claim_7506816eea9d37ca0ee8841a",
+          "claim_aee8cfae9c56115ccabe9877",
+          "claim_b891599fbeaa737b8620cf07",
+          "claim_ca0d079c05b90981dfbb8fc7",
+          "claim_d0bf3486dc16e9ba1bc2759c"
+        ]
+      },
+      "expected": [
+        {
+          "target": "YUE_QINLIAN",
+          "feature": "CONS_VOICED_OBSTRUENTS_REPORTED",
+          "att": 1,
+          "nat": 1,
+          "sources": 1,
+          "claim_ids": [
+            "claim_7506816eea9d37ca0ee8841a",
+            "claim_ca0d079c05b90981dfbb8fc7"
+          ]
+        }
+      ],
+      "expected_row_count": 1,
+      "verified_at_utc": "2026-09-09T17:08:18.480333+00:00",
+      "status": "native",
+      "caveat_en": "The single contested cell is a coding artefact, not a scholarly dispute: both claims come from one source and both carry value.present=false. Show it only together with polarity_value_consistency.",
+      "reproduces_case_en": null,
+      "slice_totals": null,
+      "expected_totals": null,
+      "expected_groups": null,
+      "expected_note": null,
+      "corpus_scale_2026_09_08": null,
+      "unchanged_since_proposal": true,
+      "finding_en": "One pair of statements about voiced obstruents carries opposite signs ({anchors}). Read against their quotations, this is an inconsistency in how the records were coded, not a disagreement between scholars.",
+      "finding_vars": {
+        "anchors": {
+          "op": "anchors_of",
+          "columns": [
+            "claim_ids"
+          ]
+        }
+      },
+      "finding_empty_en": "No two statements here contradict each other outright.",
+      "why_it_matters_en": "A contradiction in the records is not yet a contradiction in the literature.",
+      "columns_en": {
+        "target": "Working address the contested statements are about",
+        "feature": "Feature category in contradiction",
+        "att": "Number of attested-polarity statements",
+        "nat": "Number of not-attested-polarity statements",
+        "sources": "Number of distinct sources involved",
+        "claim_ids": "Identifiers of the contradictory statements"
+      },
+      "reader_visible": true
+    },
+    {
+      "name": "polarity_value_consistency",
+      "title_en": "Polarity against the recorded value",
+      "question_en": "Does the recorded polarity agree with the present flag inside the value?",
+      "template_ref": null,
+      "native_fields": [
+        "Claim.polarity",
+        "Claim.value"
+      ],
+      "cypher": "MATCH (c:Claim) WHERE c.id IN $claim_ids\nMATCH (c)-[:ABOUT_FEATURE]->(f:Feature)\nRETURN c.id AS claim_id, f.id AS feature, c.polarity AS polarity,\n  CASE WHEN c.value CONTAINS '\"present\": true' OR c.value CONTAINS '\"present\":true' THEN 'present_true'\n       WHEN c.value CONTAINS '\"present\": false' OR c.value CONTAINS '\"present\":false' THEN 'present_false'\n       ELSE 'no_present_flag' END AS present_flag\nORDER BY feature, claim_id",
+      "params": {
+        "claim_ids": [
+          "claim_1cd75cb6f867faacbf730003",
+          "claim_299220d48644a5a06aef162b",
+          "claim_515c2e546a092b12e4589fdc",
+          "claim_66d7d48ba25643b042006d2a",
+          "claim_7506816eea9d37ca0ee8841a",
+          "claim_aee8cfae9c56115ccabe9877",
+          "claim_b891599fbeaa737b8620cf07",
+          "claim_ca0d079c05b90981dfbb8fc7",
+          "claim_d0bf3486dc16e9ba1bc2759c"
+        ]
+      },
+      "expected": [
+        {
+          "claim_id": "claim_1cd75cb6f867faacbf730003",
+          "feature": "CLASSIFICATION_ATLAS2012",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_b891599fbeaa737b8620cf07",
+          "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_515c2e546a092b12e4589fdc",
+          "feature": "CONS_ASPIRATION_CONTRAST",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_66d7d48ba25643b042006d2a",
+          "feature": "CONS_ASPIRATION_CONTRAST",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_aee8cfae9c56115ccabe9877",
+          "feature": "CONS_ASPIRATION_CONTRAST",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_d0bf3486dc16e9ba1bc2759c",
+          "feature": "CONS_ASPIRATION_CONTRAST",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_7506816eea9d37ca0ee8841a",
+          "feature": "CONS_VOICED_OBSTRUENTS_REPORTED",
+          "polarity": "not_attested",
+          "present_flag": "present_false"
+        },
+        {
+          "claim_id": "claim_ca0d079c05b90981dfbb8fc7",
+          "feature": "CONS_VOICED_OBSTRUENTS_REPORTED",
+          "polarity": "attested",
+          "present_flag": "present_false"
+        },
+        {
+          "claim_id": "claim_299220d48644a5a06aef162b",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        }
+      ],
+      "expected_row_count": 9,
+      "verified_at_utc": "2026-09-09T17:08:18.480333+00:00",
+      "status": "native",
+      "caveat": null,
+      "caveat_en": null,
+      "reproduces_case_en": null,
+      "slice_totals": null,
+      "expected_totals": null,
+      "expected_groups": null,
+      "corpus_scale_2026_09_08": {
+        "present_false_and_attested": 128,
+        "present_false_and_not_attested": 263,
+        "present_true_and_attested": 2144,
+        "present_true_and_not_attested": 1
+      },
+      "unchanged_since_proposal": true,
+      "finding_en": "Across the {n_rows} statements in this selection, {present_false} carry a present:false flag in their own recorded value; two of those disagree with each other only in polarity, which is exactly the contested cell above, not a genuine dispute about the phonology.",
+      "finding_vars": {
+        "present_false": {
+          "op": "count_rows",
+          "where": {
+            "column": "present_flag",
+            "equals": "present_false"
+          }
+        }
+      },
+      "finding_empty_en": "No statement is present in this selection.",
+      "why_it_matters_en": "This is the native explanation for the single contested cell: both disputing statements come from the same source and carry the same present:false value, so the polarity disagreement is a labelling artefact, not a scholarly one.",
+      "columns_en": {
+        "claim_id": "Statement identifier",
+        "feature": "Feature category",
+        "polarity": "Recorded polarity of the statement",
+        "present_flag": "Whether the record's own value carries a present:true/false flag"
+      },
+      "reader_visible": false
+    },
+    {
+      "name": "feature_level_split",
+      "title_en": "One label, two questions",
+      "question_en": "Does CONS_VOICED_OBSTRUENTS_REPORTED separate a synchronic from a diachronic reading?",
+      "template_ref": null,
+      "native_fields": [
+        "Claim.value",
+        "Claim.polarity",
+        "Claim.conditions",
+        "Claim.idiom_tag",
+        "ABOUT_SUBGROUP",
+        "ABOUT_FEATURE"
+      ],
+      "cypher": "MATCH (c:Claim)-[:ABOUT_FEATURE]->(:Feature {id:$feature})\nMATCH (c)-[:ABOUT_SUBGROUP]->(:Subgroup {id:$target})\nWHERE c.status IN $statuses\nOPTIONAL MATCH (s:Source)-[:HAS_EVIDENCE]->(e:Evidence)-[:SUPPORTS]->(c)\nRETURN c.id AS claim_id, c.idiom_tag AS locality, c.polarity AS polarity,\n  CASE WHEN c.value CONTAINS '\"present\": true' THEN 'present_true'\n       WHEN c.value CONTAINS '\"present\": false' THEN 'present_false'\n       ELSE 'no_present_flag' END AS present_flag,\n  c.value AS value, c.conditions AS conditions, s.id AS document_id\nORDER BY present_flag, claim_id",
+      "params": {
+        "feature": "CONS_VOICED_OBSTRUENTS_REPORTED",
+        "target": "YUE_QINLIAN",
+        "statuses": [
+          "approved",
+          "auto_approved"
+        ]
+      },
+      "expected": [
+        {
+          "claim_id": "claim_2511c0728810c87e9ace0de7",
+          "locality": null,
+          "polarity": "attested",
+          "present_flag": "no_present_flag",
+          "value": "special treatment of Middle Chinese voiced obstruents, distinct from other Yue groups in Guangxi",
+          "conditions": null,
+          "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef"
+        },
+        {
+          "claim_id": "claim_571ee1c1fadde50149f7ac69",
+          "locality": "HAIBIAN",
+          "polarity": "attested",
+          "present_flag": "present_false",
+          "value": "{\"note\": \"古全浊塞音声母不论平仄今多读为送气清音声母\", \"present\": false}",
+          "conditions": null,
+          "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99"
+        },
+        {
+          "claim_id": "claim_7506816eea9d37ca0ee8841a",
+          "locality": "LIANZHOU_BEIHAI",
+          "polarity": "not_attested",
+          "present_flag": "present_false",
+          "value": "{\"present\": false, \"note\": \"古全浊声母读为送气清声母，无浊阻音\"}",
+          "conditions": null,
+          "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99"
+        },
+        {
+          "claim_id": "claim_a0862d6762f34dc69a472346",
+          "locality": "BEIHAI",
+          "polarity": "not_attested",
+          "present_flag": "present_false",
+          "value": "{\"present\": false, \"note\": \"MC voiced initials devoiced: 群母字嚿kɛu²², 臼kɛu²²\"}",
+          "conditions": "\"群母(voiced velar stop)字读清声母 k/k'\"",
+          "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99"
+        },
+        {
+          "claim_id": "claim_ca0d079c05b90981dfbb8fc7",
+          "locality": null,
+          "polarity": "attested",
+          "present_flag": "present_false",
+          "value": "{\"note\": \"古全浊塞音声母不论平仄今多读为送气清音，与广州话等大多数粤方言不同，与客赣方言特点相一致\", \"present\": false}",
+          "conditions": null,
+          "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99"
+        },
+        {
+          "claim_id": "claim_f192a28c994146bc7363cec0",
+          "locality": null,
+          "polarity": "not_attested",
+          "present_flag": "present_false",
+          "value": "{\"present\": false, \"note\": \"古全浊声母字已经全部清化 — all Middle Chinese voiced obstruents have devoiced\"}",
+          "conditions": null,
+          "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99"
+        },
+        {
+          "claim_id": "claim_7067dc9bb1defd8c1a8ee417",
+          "locality": "HAIBIAN",
+          "polarity": "attested",
+          "present_flag": "present_true",
+          "value": "{\"present\": true, \"note\": \"唇齿浊擦音v声母出现：如乌vu²¹³、温ven²¹³、碗vun¹¹、围vei⁵⁵、位vei⁵⁵等\"}",
+          "conditions": null,
+          "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99"
+        },
+        {
+          "claim_id": "claim_7fe71c071030610f14d1a1e3",
+          "locality": "HAIBIAN",
+          "polarity": "attested",
+          "present_flag": "present_true",
+          "value": "{\"note\": \"海边话个别微母字读 v 声母\", \"present\": true}",
+          "conditions": "\"五个粤语的微母字有个别念 w；其中海边话是 v\"",
+          "document_id": "31288067-8899-4f17-94b6-f5803bba4c3a"
+        },
+        {
+          "claim_id": "claim_8f1d22014e4634e02d5d76e5",
+          "locality": "HAIBIAN",
+          "polarity": "attested",
+          "present_flag": "present_true",
+          "value": "{\"note\": \"有 z、v 声母\", \"present\": true}",
+          "conditions": null,
+          "document_id": "31288067-8899-4f17-94b6-f5803bba4c3a"
+        },
+        {
+          "claim_id": "claim_90b1e0a6ca433e7bdc46b081",
+          "locality": "HAIBIAN",
+          "polarity": "attested",
+          "present_flag": "present_true",
+          "value": "{\"present\": true, \"note\": \"z is a voiced fricative (发音时摩擦程度比广州话j重得多); v is voiced labiodental fricative\"}",
+          "conditions": "\"声母系统说明\"",
+          "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99"
+        },
+        {
+          "claim_id": "claim_db59bf484cfb3acc703c630e",
+          "locality": null,
+          "polarity": "attested",
+          "present_flag": "present_true",
+          "value": "{\"note\": \"海边话在微母字中有个别读 v 声母\", \"present\": true}",
+          "conditions": "\"五个粤语点；海边话\"",
+          "document_id": "31288067-8899-4f17-94b6-f5803bba4c3a"
+        },
+        {
+          "claim_id": "claim_e5e4fd1e7eb0d6bcdc4558ae",
+          "locality": "HAIBIAN",
+          "polarity": "attested",
+          "present_flag": "present_true",
+          "value": "{\"present\": true, \"note\": \"海边话 uses v- initial (vo¹¹) for 火/夥/貨, while other dialects use f- — voiced labiodental fricative v attested\"}",
+          "conditions": null,
+          "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99"
+        },
+        {
+          "claim_id": "claim_ead94021f33a15e5997be8fa",
+          "locality": "HAIBIAN",
+          "polarity": "attested",
+          "present_flag": "present_true",
+          "value": "{\"note\": \"海边话的合口溪母字也有读 v 声母。\", \"present\": true}",
+          "conditions": "\"合口溪母字\"",
+          "document_id": "31288067-8899-4f17-94b6-f5803bba4c3a"
+        },
+        {
+          "claim_id": "claim_ed699e03a5d62f3a92f364ab",
+          "locality": "HAIBIAN",
+          "polarity": "attested",
+          "present_flag": "present_true",
+          "value": "{\"present\": true, \"note\": \"止合三平脂以: 維/惟 vɐi⁵⁵ — v- initial (voiced labiodental)\"}",
+          "conditions": "\"entries 1179-1182: 海边话 shows v- initial for 維惟遺唯\"",
+          "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99"
+        },
+        {
+          "claim_id": "claim_fc493c88b43f3e1b030ed90d",
+          "locality": "HAIBIAN",
+          "polarity": "attested",
+          "present_flag": "present_true",
+          "value": "{\"note\": \"有 v 声母\", \"present\": true}",
+          "conditions": "\"海边话没有 j、w，而有 z、v 声母。\"",
+          "document_id": "31288067-8899-4f17-94b6-f5803bba4c3a"
+        }
+      ],
+      "expected_row_count": 15,
+      "verified_at_utc": "2026-09-09T17:08:18.480333+00:00",
+      "status": "partially_native",
+      "caveat_en": "In this snapshot present=false coincides with the diachronic reflex and present=true with synchronic voiced fricatives, but the coincidence is observed on 15 claims and is not declared anywhere as a contract. The distinguishing information sits in the free text of value.note; polarity does not separate the levels and conditions is filled in irregularly. For CASE_EN the level stays a curated annotation.",
+      "reproduces_case_en": null,
+      "slice_totals": null,
+      "expected_totals": null,
+      "expected_groups": {
+        "present_false": 5,
+        "present_true": 9,
+        "no_present_flag": 1
+      },
+      "expected_note": null,
+      "corpus_scale_2026_09_08": null,
+      "unchanged_since_proposal": true,
+      "finding_en": "Under one feature label sit two different questions: what became of the earlier voiced initials, and which sounds the present-day inventory contains. Split by their recorded value, the records fall into groups of {present_false} and {present_true}.",
+      "finding_vars": {
+        "present_false": {
+          "op": "count_rows",
+          "where": {
+            "column": "present_flag",
+            "equals": "present_false"
+          }
+        },
+        "present_true": {
+          "op": "count_rows",
+          "where": {
+            "column": "present_flag",
+            "equals": "present_true"
+          }
+        }
+      },
+      "finding_empty_en": "No record of this feature is present in this selection.",
+      "why_it_matters_en": "Statements at different descriptive levels cannot confirm or refute one another.",
+      "columns_en": {
+        "claim_id": "Statement identifier",
+        "locality": "Locality tag recorded on the statement, if any",
+        "polarity": "Recorded polarity of the statement",
+        "present_flag": "Whether the record's own value carries a present:true/false flag",
+        "value": "Quoted or translated content of the statement, as recorded in the source",
+        "conditions": "Conditions or scope note attached to the statement, if any",
+        "document_id": "Source document identifier"
+      },
+      "reader_visible": true
+    }
+  ],
+  "remains_curated": {}
+}

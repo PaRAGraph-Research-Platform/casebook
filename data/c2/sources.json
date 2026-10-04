@@ -1,0 +1,104 @@
+[
+ {
+  "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99",
+  "title": "广西北海市粤方言调查研究",
+  "csl_data": {
+   "DOI": null,
+   "ISBN": "7801063767",
+   "type": "book",
+   "title": "广西北海市粤方言调查研究",
+   "author": [
+    {
+     "given": "晓锦",
+     "family": "陈"
+    },
+    {
+     "given": "滔",
+     "family": "陈"
+    }
+   ],
+   "issued": {
+    "date-parts": [
+     [
+      2005
+     ]
+    ]
+   },
+   "authors": [
+    "Chen, Xiaojin",
+    "Chen, Tao"
+   ],
+   "abstract": "《广西北海市粤方言调查研究》是对广西北海市粤方言的专题调查成果。书中记录北海粤方言的语音、词汇和语法材料，并结合地方语言接触环境分析其与粤语内部其他方言点以及周边语言的关系。",
+   "publisher": "中国社会科学出版社",
+   "container-title": null
+  },
+  "sha256": "0795c5efbb2b3999722b9b0263773fdecd999b93e0096581f7fc09fba056a5cb",
+  "document_type_native": "book",
+  "annotation": {
+   "origin_kind": "curated_annotation",
+   "evidence_role": "comparative_field_description",
+   "independence": "Different publications; shared passages and retrospective references are not independent studies",
+   "rights": "quoted_under_quotation_exception; full text not redistributed"
+  },
+  "library": {
+   "authors": [
+    "Chen, Xiaojin",
+    "Chen, Tao"
+   ],
+   "publication_year": 2005,
+   "journal": null,
+   "document_type": "book",
+   "language": null,
+   "identifiers": {
+    "isbn": "7801063767"
+   }
+  }
+ },
+ {
+  "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+  "title": "The Yue Dialect",
+  "csl_data": {
+   "DOI": null,
+   "ISBN": null,
+   "type": "article-journal",
+   "title": "The Yue Dialect",
+   "author": [
+    {
+     "given": "Anne",
+     "family": "Yue-Hashimoto"
+    }
+   ],
+   "issued": {
+    "date-parts": [
+     [
+      1991
+     ]
+    ]
+   },
+   "authors": [
+    "Yue-Hashimoto, Anne"
+   ],
+   "abstract": "Anne Yue-Hashimoto’s monograph article surveys the Yue dialect group, distinguishing Yue as a southern Chinese dialect family from Cantonese as its prestige variety. It discusses historical background, possible substrata, migration history, subgrouping, and major phonological and lexical characteristics of Yue dialects.",
+   "publisher": "The Chinese University of Hong Kong Press",
+   "container-title": "Journal of Chinese Linguistics Monograph Series"
+  },
+  "sha256": "5e409247ef9d6bdc004539db124bf413bb801a29b4893b9703a7b47b384363b4",
+  "document_type_native": "article-journal",
+  "annotation": {
+   "origin_kind": "curated_annotation",
+   "evidence_role": "author_retrospective_classification_report",
+   "independence": "Different publications; shared passages and retrospective references are not independent studies",
+   "rights": "quoted_under_quotation_exception; full text not redistributed"
+  },
+  "library": {
+   "authors": [
+    "Yue-Hashimoto, Anne"
+   ],
+   "publication_year": 1991,
+   "journal": "Journal of Chinese Linguistics Monograph Series",
+   "document_type": "article-journal",
+   "language": null,
+   "identifiers": {}
+  }
+ }
+]

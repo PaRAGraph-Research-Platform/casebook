@@ -1,0 +1,360 @@
+{
+  "version": "c3-internal-0.2",
+  "source_manifest_sha256": "fdedb28e96dcc93c86eaa91c1ad6bb849583c69fd2ccefdbf13eb549841c4b41",
+  "sanitized_at_utc": "2026-09-24T07:00:31.098019+00:00",
+  "removed_paths": {
+    "MANIFEST.json": [
+      {
+        "path": "iteration_status",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "scope.scope_rule",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_rule_1991a",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_checks.dff1c92a-b507-4d36-85b5-273f7f79bfb0.185.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_checks.dff1c92a-b507-4d36-85b5-273f7f79bfb0.39.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_checks.69af2bca-a58d-4342-8ec7-f78715b77e25.3.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_checks.69af2bca-a58d-4342-8ec7-f78715b77e25.13.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_checks.cf5ae16a-4eeb-4aa4-9306-399192dbcbb2.25.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_checks.cf5ae16a-4eeb-4aa4-9306-399192dbcbb2.26.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_checks.f005846b-d6be-44a1-a8f7-be5b0c1a02ef.2.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_checks.f005846b-d6be-44a1-a8f7-be5b0c1a02ef.4.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "native_operations.not_applicable.feature_level_split.reason",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "changelog[0].summary",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "changelog[1].summary",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "open_questions",
+        "reason": "cyrillic"
+      }
+    ],
+    "comparison_graph.json": [
+      {
+        "path": "note",
+        "reason": "cyrillic"
+      }
+    ],
+    "core.json": [
+      {
+        "path": "[0].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[1].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[2].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[3].native.verification.verification_notes",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[3].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[4].native.verification.verification_notes",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[4].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[5].native.verification.verification_notes",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[5].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[6].native.verification.verification_notes",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[6].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[7].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[8].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[9].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[10].annotation.page_note",
+        "reason": "cyrillic"
+      }
+    ],
+    "counts.json": [],
+    "expected_native_operations.json": [
+      {
+        "path": "principle",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "verification.method",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "not_applicable.feature_level_split.reason",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[5].caveat",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[6].caveat",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[7].caveat",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[8].caveat",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "remains_curated.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "remains_curated.items",
+        "reason": "cyrillic"
+      }
+    ],
+    "expected_operations.json": [
+      {
+        "path": "primary_operation_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "excluded_claim_ids_note",
+        "reason": "cyrillic"
+      }
+    ],
+    "graph.json": [
+      {
+        "path": "note",
+        "reason": "cyrillic"
+      }
+    ],
+    "levels_table.json": [
+      {
+        "path": "note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_rule_1991a",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "cross_scheme_passage.why_curated_ru",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "cross_scheme_passage.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "curator_questions",
+        "reason": "cyrillic"
+      }
+    ],
+    "sources.json": [
+      {
+        "path": "sources[1].page_label_map.provenance.validation_tsv",
+        "reason": "closed_repo_path"
+      },
+      {
+        "path": "sources[2].page_label_map.provenance.validation_tsv",
+        "reason": "closed_repo_path"
+      },
+      {
+        "path": "sources[3].page_label_map.provenance.validation_tsv",
+        "reason": "closed_repo_path"
+      },
+      {
+        "path": "bibliography_notes[0].note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "bibliography_notes[1].note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "bibliography_notes[2].note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "bibliography_notes[3].note",
+        "reason": "cyrillic"
+      }
+    ],
+    "supplement.json": [
+      {
+        "path": "[0].native.verification.verification_notes",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[0].annotation.note_ru",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[0].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[1].native.verification.verification_notes",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[1].annotation.note_ru",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[2].native.verification.verification_notes",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[2].annotation.note_ru",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[2].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[3].annotation.note_ru",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[3].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[4].annotation.note_ru",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[4].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[5].annotation.note_ru",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[5].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[6].annotation.note_ru",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[6].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[7].annotation.note_ru",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[7].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[8].annotation.note_ru",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[8].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[9].annotation.note_ru",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[9].annotation.page_note",
+        "reason": "cyrillic"
+      }
+    ],
+    "CASE_EN.md": [
+      {
+        "path": "## Open curator decisions",
+        "reason": "cyrillic"
+      }
+    ]
+  },
+  "trimmed_quotations": [
+    {
+      "file": "supplement.json",
+      "anchor": "S10",
+      "reason": "trimmed_quotation"
+    }
+  ],
+  "file_sha256": {
+    "CASE_EN.md": "5d56c0765299d0cbdf1d602da56efb90647d7fc1388d7c659c4db35b2c999fca",
+    "MANIFEST.json": "2c6c865376bbedfba51ebfcb11dd98688b83e82cf9b41dedbfe77d431da65c0e",
+    "comparison_graph.json": "7898b9c40ab9fa75fcb3db90d5b508a759d6f36e4db828123ea4ec0daa355be0",
+    "core.json": "7d0a41b59e7b1ef6661c06b37ab9c700e2212f366497bb55c90958ff0508a203",
+    "counts.json": "c53f4cfdb194680f50b517c69384d2f6634afaa29e04eeec7e4be055ed28c09d",
+    "expected_native_operations.json": "7f5e3a41f8f6e6e626664e0bda17277831fc3271951f0da393b88fcfd989eed2",
+    "expected_operations.json": "7dfc2c89ebf7e3700c2c9d3fbf035baec0e97c359e6d29c763daf10cd90f52e7",
+    "graph.json": "d081cb4714882c29d4253c9311af15c82fef0f531eb478d5b19a8908a8c69ab4",
+    "levels_table.json": "2d611208cfe4443d53079fab7806d5c2630743dab3d056ec5493f4655e4fc619",
+    "sources.json": "ace7b0b8e23b1ffa0e6263ca1d1c6ad1f9a29ece37ba4f6f4c0b2db97377c7a4",
+    "supplement.json": "859587e555e55e1d33b9b2fe9174c924a04516fab003b898344db4aa75bed284"
+  }
+}

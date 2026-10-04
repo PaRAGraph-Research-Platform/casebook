@@ -1,0 +1,328 @@
+{
+  "sources": [
+    {
+      "source_key": "yue_hashimoto_1991a",
+      "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "title": "粤语方言分区问题初探",
+      "graph_year": 1991,
+      "graph_authors": [
+        "余霭芹"
+      ],
+      "page_count": 18,
+      "sha256": "fdb09aa12aba607fbc7a5c5480abe149dcb2d06226e939fd4999c4d425fa6615",
+      "csl_data": {
+        "type": "article-journal",
+        "title": "粤语方言分区问题初探",
+        "author": [
+          {
+            "given": "霭芹",
+            "family": "余"
+          }
+        ]
+      },
+      "library": {
+        "authors": [
+          "余霭芹"
+        ],
+        "publication_year": 1991,
+        "journal": "方言",
+        "document_type": "article",
+        "language": "zh",
+        "identifiers": {}
+      },
+      "page_label_map": null,
+      "annotation": {
+        "origin_kind": "curated_annotation",
+        "origin_method": "editor_written",
+        "review_status": "unreviewed",
+        "schemes": [
+          "SCH_ATLAS",
+          "SCH_YH"
+        ],
+        "rights": "quoted_under_quotation_exception; full text not redistributed"
+      }
+    },
+    {
+      "source_key": "yue_stop_endings_appendix",
+      "document_id": "cf5ae16a-4eeb-4aa4-9306-399192dbcbb2",
+      "title": "Development of the Stop Endings in the Yue Dialects",
+      "graph_year": 2000,
+      "graph_authors": [
+        "Anne O. Yue"
+      ],
+      "page_count": 29,
+      "sha256": "ae578268214f294103475d355a60792c9d5ad2dba0adf5e05bec2b302db89cac",
+      "csl_data": {
+        "DOI": null,
+        "ISBN": null,
+        "type": "paper-conference",
+        "title": "Development of the Stop Endings in the Yue Dialects",
+        "author": [
+          {
+            "given": "Anne O.",
+            "family": "Yue"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2000
+            ]
+          ]
+        },
+        "abstract": null,
+        "publisher": null,
+        "container-title": "Third International Conference on Sinology"
+      },
+      "library": {
+        "authors": [
+          "Yue-Hashimoto, Anne"
+        ],
+        "publication_year": 2000,
+        "journal": "Third International Conference on Sinology",
+        "document_type": "paper-conference",
+        "language": null,
+        "identifiers": {}
+      },
+      "page_label_map": {
+        "method": "manual_validation_table",
+        "version": 1,
+        "coverage": 0.9655172413793104,
+        "segments": [
+          {
+            "style": "none",
+            "phys_to": 1,
+            "phys_from": 1
+          },
+          {
+            "start": 218,
+            "style": "arabic",
+            "phys_to": 29,
+            "phys_from": 2
+          }
+        ],
+        "overrides": [],
+        "confidence": "high",
+        "provenance": {
+          "source": "weak/segmented blocks",
+          "decision": "[V] done; anchors filled",
+          "validation_row": 5
+        },
+        "updated_at": "2026-06-27T12:34:42.853952+00:00",
+        "updated_by": "validation_table",
+        "source_parser": "validation_table"
+      },
+      "annotation": {
+        "origin_kind": "curated_annotation",
+        "origin_method": "editor_written",
+        "review_status": "unreviewed",
+        "schemes": [
+          "SCH_CROSS",
+          "SCH_YH"
+        ],
+        "rights": "quoted_under_quotation_exception; full text not redistributed"
+      }
+    },
+    {
+      "source_key": "atlas_2012",
+      "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+      "title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+      "graph_year": 2012,
+      "graph_authors": [
+        "正辉 熊",
+        "振兴 张",
+        "行 黄",
+        "布 道",
+        "嘉彦 邹"
+      ],
+      "page_count": 291,
+      "sha256": "803a00acdf3d76220bff7dcfd895029389499984ae7a30f197b70ec16175cc9b",
+      "csl_data": {
+        "DOI": null,
+        "ISBN": "9787100070546",
+        "type": "book",
+        "title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+        "author": [
+          {
+            "given": "正辉",
+            "family": "熊"
+          },
+          {
+            "given": "振兴",
+            "family": "张"
+          },
+          {
+            "given": "行",
+            "family": "黄"
+          },
+          {
+            "given": "布",
+            "family": "道"
+          },
+          {
+            "given": "嘉彦",
+            "family": "邹"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2012
+            ]
+          ]
+        },
+        "authors": [
+          "Xiong, Zhenghui",
+          "Zhang, Zhenxing",
+          "Huang, Xing",
+          "Dao, Bu",
+          "Tsou, Benjamin K."
+        ],
+        "abstract": "《中国语言地图集（第2版）汉语方言卷》以地图和说明形式呈现中国境内汉语方言的地理分布和分类格局。该卷汇集官话、晋语、吴语、徽语、闽语、粤语、客家话、赣语、湘语、平话土话等方言区的分布信息，是汉语方言分类和区域研究的重要参考工具。",
+        "publisher": "The Commercial Press",
+        "container-title": null
+      },
+      "library": {
+        "authors": [
+          "Xiong, Zhenghui",
+          "Zhang, Zhenxing",
+          "Huang, Xing",
+          "Dao, Bu",
+          "Tsou, Benjamin K."
+        ],
+        "publication_year": 2012,
+        "journal": null,
+        "document_type": "book",
+        "language": null,
+        "identifiers": {
+          "isbn": "9787100070546",
+          "issn": "2002-2008"
+        }
+      },
+      "page_label_map": {
+        "method": "manual_validation_table",
+        "version": 1,
+        "coverage": 0.8006872852233677,
+        "segments": [
+          {
+            "style": "none",
+            "phys_to": 58,
+            "phys_from": 1
+          },
+          {
+            "start": 1,
+            "style": "arabic",
+            "phys_to": 291,
+            "phys_from": 59
+          }
+        ],
+        "overrides": [],
+        "confidence": "high",
+        "provenance": {
+          "source": "weak/segmented blocks",
+          "decision": "[V] done; visual corrected detector expected",
+          "validation_row": 34
+        },
+        "updated_at": "2026-06-27T12:34:42.971783+00:00",
+        "updated_by": "validation_table",
+        "source_parser": "validation_table"
+      },
+      "annotation": {
+        "origin_kind": "curated_annotation",
+        "origin_method": "editor_written",
+        "review_status": "unreviewed",
+        "schemes": [
+          "SCH_ATLAS"
+        ],
+        "rights": "quoted_under_quotation_exception; full text not redistributed"
+      }
+    },
+    {
+      "source_key": "kwok_tsou_chin",
+      "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+      "title": "Yuè 粵 Dialects",
+      "graph_year": 2005,
+      "graph_authors": [],
+      "page_count": 21,
+      "sha256": "5eae92701d87c02e40770f8e273524a889a0ea09740765fbd83cfda6b2e28ce8",
+      "csl_data": {
+        "DOI": "10.1163/2210-7363_ecll_com_00000476",
+        "type": "dataset",
+        "title": "Yuè 粵 Dialects",
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "publisher": "Walter de Gruyter GmbH",
+        "container-title": "Encyclopedia of Chinese Language and Linguistics"
+      },
+      "library": {
+        "authors": [
+          "Kwok, Bit-Chee",
+          "Tsou, Benjamin K.",
+          "Chin, Andy C."
+        ],
+        "publication_year": 2005,
+        "journal": "Encyclopedia of Chinese Language and Linguistics",
+        "document_type": "report",
+        "language": null,
+        "identifiers": {
+          "doi": "10.1163/2210-7363_ecll_COM_00000476"
+        }
+      },
+      "page_label_map": {
+        "method": "manual_validation_table",
+        "version": 1,
+        "coverage": 1.0,
+        "segments": [
+          {
+            "start": 1,
+            "style": "arabic",
+            "phys_to": 21,
+            "phys_from": 1
+          }
+        ],
+        "overrides": [],
+        "confidence": "high",
+        "provenance": {
+          "source": "weak/segmented blocks",
+          "decision": "[V] done; unnumbered document uses phys=fact",
+          "validation_row": 27
+        },
+        "updated_at": "2026-06-27T12:34:42.967736+00:00",
+        "updated_by": "validation_table",
+        "source_parser": "validation_table"
+      },
+      "annotation": {
+        "origin_kind": "curated_annotation",
+        "origin_method": "editor_written",
+        "review_status": "unreviewed",
+        "schemes": [
+          "SCH_CROSS"
+        ],
+        "rights": "quoted_under_quotation_exception; full text not redistributed"
+      }
+    }
+  ],
+  "bibliography_notes": [
+    {
+      "key": "kwok_tsou_chin_year_and_edition",
+      "note_en": "Production records year 2005 for f005846b with empty authors and empty csl_data.issued. The file at hand is the web version of Yuè 粵 Dialects in the Encyclopedia of Chinese Language and Linguistics (Brill), DOI 10.1163/2210-7363_ecll_com_00000476; the edition is 2017, printed pp. 690–702, and the article cites pp. 692–693. The stored 2005 is a metadata defect, not a publication fact."
+    },
+    {
+      "key": "stop_endings_year_and_attribution",
+      "note_en": "Production records year 2000 for cf5ae16a, author 'Anne O. Yue'; earlier C3 material called this work 2002. The Appendix itself states that its classification is based on Yue 1988. The year needs checking against the volume."
+    },
+    {
+      "key": "yue_hashimoto_1991a_vs_1991b",
+      "note_en": "1991a is 余霭芹, 粤语方言分区问题初探, 方言 1991(3):164–181, production 69af2bca. 1991b is Anne Yue-Hashimoto, The Yue Dialect, JCL Monograph Series, production c8227da0, which is not part of the C3 slice. They are different works."
+    },
+    {
+      "key": "atlas_editor_and_page_reference",
+      "note_en": "The article cites the Atlas as 'Zhang Zhenxing, 2012: 185'; production lists five editors, and 185 is the physical PDF page whose printed number is 127. The card carries both fields."
+    }
+  ]
+}

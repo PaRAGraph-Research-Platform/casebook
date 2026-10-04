@@ -1,0 +1,178 @@
+{
+  "version": "c2-internal-0.3",
+  "source_manifest_sha256": "8afa02d6fa8d8d08e3d14e288e0649b3215ffbc730b31fb6da2bdc8636aecd94",
+  "sanitized_at_utc": "2026-09-24T07:00:27.106512+00:00",
+  "removed_paths": {
+    "MANIFEST.json": [
+      {
+        "path": "iteration_status",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "production_campaigns.lianzhou_homograph_retarget_20260908.report",
+        "reason": "closed_repo_path"
+      },
+      {
+        "path": "production_campaigns.lianzhou_homograph_retarget_20260908.summary",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "production_campaigns.locality_curation_20260909.report",
+        "reason": "closed_repo_path"
+      },
+      {
+        "path": "production_campaigns.locality_curation_20260909.summary",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "changelog[0].summary",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "changelog[1].summary",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "changelog[2].summary",
+        "reason": "cyrillic"
+      }
+    ],
+    "comparison_graph.json": [],
+    "core.json": [],
+    "counts.json": [],
+    "expected_comparison_operations.json": [
+      {
+        "path": "excluded_note",
+        "reason": "cyrillic"
+      }
+    ],
+    "expected_native_operations.json": [
+      {
+        "path": "principle",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "verification.method",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[0].question",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[0].caveat",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[1].question",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[1].caveat",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[2].question",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[3].question",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[3].template_ref",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[3].caveat",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[4].question",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[4].caveat",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[5].question",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[5].expected_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[6].question",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[6].caveat",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "remains_curated.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "remains_curated.items",
+        "reason": "cyrillic"
+      }
+    ],
+    "expected_operations.json": [],
+    "graph.json": [],
+    "provenance.json": [
+      {
+        "path": "read_sources.reports[0]",
+        "reason": "closed_repo_path"
+      },
+      {
+        "path": "read_sources.reports[1]",
+        "reason": "closed_repo_path"
+      },
+      {
+        "path": "campaigns.lianzhou_homograph_retarget_20260908.report",
+        "reason": "closed_repo_path"
+      },
+      {
+        "path": "campaigns.lianzhou_homograph_retarget_20260908.summary",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "campaigns.locality_curation_20260909.report",
+        "reason": "closed_repo_path"
+      },
+      {
+        "path": "campaigns.locality_curation_20260909.summary",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "reading",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "limits",
+        "reason": "cyrillic"
+      }
+    ],
+    "sources.json": [],
+    "supplement.json": [],
+    "CASE_EN.md": []
+  },
+  "trimmed_quotations": [],
+  "file_sha256": {
+    "CASE_EN.md": "cc9fefced9dc1f16fb274d09b2f8c35af7f1c444f8ff199109e66425ca6fd1ed",
+    "MANIFEST.json": "a300acb8e018d7159c303be4796fb6c9c5922606f429c701d29da2352a7c5361",
+    "comparison_graph.json": "d9349dba6513d39f543e833b105da68b182ae4acf42f90a95a78ec5786daabad",
+    "core.json": "f9f68bd9bfa7a0e5dc141e4f01a8ba1ed9a3b567513e8a62998445942bbb4419",
+    "counts.json": "63111cdea1b6e0acd08354cd676c93776fcf03f53b1128893bef2ee42f2a99db",
+    "expected_comparison_operations.json": "54c683f804e1624bfe37fd71b85d9a9a893269cb7eaaa19c94c182a550227981",
+    "expected_native_operations.json": "246e29b0bca8b0df1c57e043072aeed513b0f3db3d21938c013cd2079df09cf2",
+    "expected_operations.json": "b7710a222f0a6f2992a7438a9f7d8287e2cb012b37cecd3ca96d1d8cf7c3ea65",
+    "graph.json": "f99107a6322419d634da7c5c1dac928bb7f4c67d2d7cafe39c6ff5bd49effbec",
+    "provenance.json": "b175ffae6f4d30be7746135cd32e792aa88d516df08791b5bc6febef4af7eaa8",
+    "sources.json": "75f9938aa2ab502fe75354c0ac30a08ef5f50b421e81b7a1db2d18213ad538d6",
+    "supplement.json": "4d8679f43b2ba4fab4395a09c8e0aa392ea2f63511c995ab0dc66befc61288d5"
+  }
+}

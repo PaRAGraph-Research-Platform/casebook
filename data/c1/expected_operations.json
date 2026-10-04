@@ -1,0 +1,175 @@
+{
+  "primary_operation": "source_filter",
+  "baseline_claim_ids": [
+    "claim_2802a2ca639ec1cc8be8fd4b",
+    "claim_39ec5fd17ce8736f5973a464",
+    "claim_4633dd0cf013feb72f12f718",
+    "claim_6033e81c656f778b7c6fffe5",
+    "claim_678197917767d8ecc05f4e2d",
+    "claim_689186fdf155a69d661380e0",
+    "claim_6b54aa03df9869457d6b0be1",
+    "claim_7d20d293e2afdcc5a3805279",
+    "claim_a0314ec98e293304abc62820"
+  ],
+  "reset": [
+    "claim_2802a2ca639ec1cc8be8fd4b",
+    "claim_39ec5fd17ce8736f5973a464",
+    "claim_4633dd0cf013feb72f12f718",
+    "claim_6033e81c656f778b7c6fffe5",
+    "claim_678197917767d8ecc05f4e2d",
+    "claim_689186fdf155a69d661380e0",
+    "claim_6b54aa03df9869457d6b0be1",
+    "claim_7d20d293e2afdcc5a3805279",
+    "claim_a0314ec98e293304abc62820"
+  ],
+  "core_by_source": {
+    "62b488a4-b782-43c5-a6e2-bd22e35ff2fb": [
+      "claim_2802a2ca639ec1cc8be8fd4b",
+      "claim_689186fdf155a69d661380e0"
+    ],
+    "69af2bca-a58d-4342-8ec7-f78715b77e25": [
+      "claim_39ec5fd17ce8736f5973a464",
+      "claim_4633dd0cf013feb72f12f718",
+      "claim_6033e81c656f778b7c6fffe5"
+    ],
+    "b5302e7d-02be-45c9-8f77-e2c62daa9034": [
+      "claim_6b54aa03df9869457d6b0be1"
+    ],
+    "dff1c92a-b507-4d36-85b5-273f7f79bfb0": [
+      "claim_7d20d293e2afdcc5a3805279",
+      "claim_a0314ec98e293304abc62820"
+    ],
+    "f005846b-d6be-44a1-a8f7-be5b0c1a02ef": [
+      "claim_678197917767d8ecc05f4e2d"
+    ]
+  },
+  "core_by_feature": {
+    "GEOGRAPHY_DISTRIBUTION": [
+      "claim_4633dd0cf013feb72f12f718",
+      "claim_6033e81c656f778b7c6fffe5",
+      "claim_689186fdf155a69d661380e0",
+      "claim_6b54aa03df9869457d6b0be1",
+      "claim_7d20d293e2afdcc5a3805279"
+    ],
+    "METALINGUISTIC_HIERARCHY_LEVEL": [
+      "claim_2802a2ca639ec1cc8be8fd4b",
+      "claim_39ec5fd17ce8736f5973a464",
+      "claim_678197917767d8ecc05f4e2d",
+      "claim_a0314ec98e293304abc62820"
+    ]
+  },
+  "core_by_target": {
+    "YUE": [
+      "claim_39ec5fd17ce8736f5973a464",
+      "claim_4633dd0cf013feb72f12f718",
+      "claim_6033e81c656f778b7c6fffe5",
+      "claim_a0314ec98e293304abc62820"
+    ],
+    "YUE_GAOYANG": [
+      "claim_2802a2ca639ec1cc8be8fd4b",
+      "claim_689186fdf155a69d661380e0",
+      "claim_6b54aa03df9869457d6b0be1"
+    ],
+    "YUE_WUHUA": [
+      "claim_678197917767d8ecc05f4e2d",
+      "claim_7d20d293e2afdcc5a3805279"
+    ]
+  },
+  "comparison_by_source": {
+    "62b488a4-b782-43c5-a6e2-bd22e35ff2fb": [
+      "claim_2802a2ca639ec1cc8be8fd4b",
+      "claim_689186fdf155a69d661380e0"
+    ],
+    "69af2bca-a58d-4342-8ec7-f78715b77e25": [
+      "claim_022833074dd15cd7808893e7",
+      "claim_39ec5fd17ce8736f5973a464",
+      "claim_4633dd0cf013feb72f12f718",
+      "claim_5d449dc7fe41fd5ef3eab9b3",
+      "claim_6033e81c656f778b7c6fffe5",
+      "claim_c1754227eae26797a003f693"
+    ],
+    "b5302e7d-02be-45c9-8f77-e2c62daa9034": [
+      "claim_4be864f26c82a0d72ff8ceb2",
+      "claim_6b54aa03df9869457d6b0be1"
+    ],
+    "dff1c92a-b507-4d36-85b5-273f7f79bfb0": [
+      "claim_7d20d293e2afdcc5a3805279",
+      "claim_a0314ec98e293304abc62820",
+      "claim_cfd92b2d77712342e18c6b94"
+    ],
+    "f005846b-d6be-44a1-a8f7-be5b0c1a02ef": [
+      "claim_678197917767d8ecc05f4e2d"
+    ]
+  },
+  "comparison_by_feature": {
+    "GEOGRAPHY_DISTRIBUTION": [
+      "claim_4633dd0cf013feb72f12f718",
+      "claim_4be864f26c82a0d72ff8ceb2",
+      "claim_6033e81c656f778b7c6fffe5",
+      "claim_689186fdf155a69d661380e0",
+      "claim_6b54aa03df9869457d6b0be1",
+      "claim_7d20d293e2afdcc5a3805279",
+      "claim_cfd92b2d77712342e18c6b94"
+    ],
+    "METALINGUISTIC_HIERARCHY_LEVEL": [
+      "claim_022833074dd15cd7808893e7",
+      "claim_2802a2ca639ec1cc8be8fd4b",
+      "claim_39ec5fd17ce8736f5973a464",
+      "claim_5d449dc7fe41fd5ef3eab9b3",
+      "claim_678197917767d8ecc05f4e2d",
+      "claim_a0314ec98e293304abc62820",
+      "claim_c1754227eae26797a003f693"
+    ]
+  },
+  "comparison_by_target": {
+    "YUE": [
+      "claim_022833074dd15cd7808893e7",
+      "claim_39ec5fd17ce8736f5973a464",
+      "claim_4633dd0cf013feb72f12f718",
+      "claim_4be864f26c82a0d72ff8ceb2",
+      "claim_5d449dc7fe41fd5ef3eab9b3",
+      "claim_6033e81c656f778b7c6fffe5",
+      "claim_a0314ec98e293304abc62820",
+      "claim_c1754227eae26797a003f693"
+    ],
+    "YUE_GAOYANG": [
+      "claim_2802a2ca639ec1cc8be8fd4b",
+      "claim_689186fdf155a69d661380e0",
+      "claim_6b54aa03df9869457d6b0be1",
+      "claim_cfd92b2d77712342e18c6b94"
+    ],
+    "YUE_WUHUA": [
+      "claim_678197917767d8ecc05f4e2d",
+      "claim_7d20d293e2afdcc5a3805279"
+    ]
+  },
+  "by_position": {
+    "P1": [
+      "claim_7d20d293e2afdcc5a3805279",
+      "claim_a0314ec98e293304abc62820",
+      "claim_cfd92b2d77712342e18c6b94"
+    ],
+    "P2": [
+      "claim_4be864f26c82a0d72ff8ceb2",
+      "claim_678197917767d8ecc05f4e2d",
+      "claim_6b54aa03df9869457d6b0be1"
+    ],
+    "P3": [
+      "claim_022833074dd15cd7808893e7",
+      "claim_39ec5fd17ce8736f5973a464",
+      "claim_4633dd0cf013feb72f12f718",
+      "claim_5d449dc7fe41fd5ef3eab9b3",
+      "claim_6033e81c656f778b7c6fffe5",
+      "claim_c1754227eae26797a003f693"
+    ],
+    "P4": [
+      "claim_2802a2ca639ec1cc8be8fd4b",
+      "claim_689186fdf155a69d661380e0"
+    ]
+  },
+  "source_filter_empty_cases": {
+    "c8227da0-01e8-4008-a5a2-cc7d68ad3628": [],
+    "absent_source": []
+  },
+  "empty_result_meaning": "No records in this iteration's scope, not the absence of a position"
+}

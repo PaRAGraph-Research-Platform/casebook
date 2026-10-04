@@ -1,0 +1,388 @@
+[
+  {
+    "native": {
+      "claim_id": "claim_1cd75cb6f867faacbf730003",
+      "status": "approved",
+      "locality": "LIANZHOU_BEIHAI",
+      "feature": "CLASSIFICATION_ATLAS2012",
+      "target": "YUE_QINLIAN",
+      "target_relationship": "ABOUT_SUBGROUP",
+      "value": "Should be classified as Yue dialect (was misnamed Hakka); reclassification based on tonal and lexical features",
+      "conditions": "\"Lianzhou was previously misclassified as Hakka\"",
+      "polarity": "attested",
+      "evidence_id": "ev_f170f88ee2fd6d6b1498",
+      "chunk_id": "dca057d7-ef4d-51d0-a3f2-bfdf7985bb97",
+      "quote": "Indeed, Lianzhou has been misnamed a Hakka dialect[^21] and Shaowu is still considered a Hakka dialect by a number of linguists. [^22] Taking into account other linguistic features, tonal and lexical, Lianzhou should be classified a Yue dialect while Shaowu is classified as a Min dialect by Jerry Norman.",
+      "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+      "source_title": "The Yue Dialect",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "explicit_support",
+        "verification_notes": null,
+        "verifier_confidence": 0.82,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "anchor": "K3",
+      "role": "reclassification",
+      "semantic_review": "source_text_and_pdf_checked_by_orchestrator",
+      "physical_page": 21,
+      "printed_page": "311",
+      "locator_method": "visual_pdf_override_of_runtime_map",
+      "context_segments": [
+        {
+          "id": "ebe75cee-d478-43ac-bb40-046ef4ebf541",
+          "chunk_id": "dca057d7-ef4d-51d0-a3f2-bfdf7985bb97",
+          "segment_order": 12,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 22,
+          "page": 21,
+          "start_char": 1456,
+          "end_char": 1579,
+          "text": "Indeed, Lianzhou has been misnamed a Hakka dialect[^21] and Shaowu is still considered a Hakka dialect by a number of linguists."
+        },
+        {
+          "id": "dcbe4e28-580e-4dc8-aa72-c40bc1ffa77d",
+          "chunk_id": "dca057d7-ef4d-51d0-a3f2-bfdf7985bb97",
+          "segment_order": 13,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 24,
+          "page": 21,
+          "start_char": 1580,
+          "end_char": 1750,
+          "text": "[^22] Taking into account other linguistic features, tonal and lexical, Lianzhou should be classified a Yue dialect while Shaowu is classified as a Min dialect by Jerry Norman."
+        }
+      ],
+      "public_preview_status": "rights_review_pending",
+      "scope_note": "K4 and K5 share footnote21; they are not independent corroboration",
+      "verifier_note_en": null,
+      "author_unit": null
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_299220d48644a5a06aef162b",
+      "status": "approved",
+      "locality": "LIANZHOU_BEIHAI",
+      "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "target": "YUE_QINLIAN",
+      "target_relationship": "ABOUT_SUBGROUP",
+      "value": "Reclassified from Hakka to Yue based on subsequent fieldwork on colloquial speech",
+      "conditions": "\"Earlier classified as Hakka due to limited data\"",
+      "polarity": "attested",
+      "evidence_id": "ev_8b6401e65cf7824d4fad",
+      "chunk_id": "54002f3a-508b-5b05-8fea-13ef8d254fe6",
+      "quote": "21 The identification of Lianzhou as a Hakka dialect in Yue-Hashimoto 1970 is partly due to the limited linguistic data on Lianzhou at that time when only Y. R. Chao’s field notes were available. In addition, the field notes consist of only a list of forms represented through characters designed for easy identification of the phonological system of a modern dialect in correspondence with Ancient Chinese. Subsequent field work based on colloquial speech confirms the status of Lianzhou as a Yue dialect.",
+      "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+      "source_title": "The Yue Dialect",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "partial_support",
+        "verification_notes": null,
+        "verifier_confidence": 0.68,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "anchor": "K4",
+      "role": "historical_material",
+      "semantic_review": "source_text_and_pdf_checked_by_orchestrator",
+      "physical_page": 29,
+      "printed_page": "319",
+      "locator_method": "visual_pdf_override_of_runtime_map",
+      "context_segments": [
+        {
+          "id": "52386b19-9df7-4d97-a2ee-faa6c2dac544",
+          "chunk_id": "54002f3a-508b-5b05-8fea-13ef8d254fe6",
+          "segment_order": 11,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 54,
+          "page": 29,
+          "start_char": 1186,
+          "end_char": 1343,
+          "text": "21 The identification of Lianzhou as a Hakka dialect in Yue-Hashimoto 1970 is partly due to the limited linguistic data on Lianzhou at that time when only Y."
+        },
+        {
+          "id": "d51f49e9-e0a1-4991-9822-d25fe6884957",
+          "chunk_id": "54002f3a-508b-5b05-8fea-13ef8d254fe6",
+          "segment_order": 12,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 1343,
+          "end_char": 1345,
+          "text": "R."
+        },
+        {
+          "id": "8a6eaa00-d843-4245-b678-ab76b7a0f9da",
+          "chunk_id": "54002f3a-508b-5b05-8fea-13ef8d254fe6",
+          "segment_order": 13,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 1346,
+          "end_char": 1380,
+          "text": "Chao’s field notes were available."
+        },
+        {
+          "id": "35c2da07-7cf0-4c11-b0ec-72ec2fc2d070",
+          "chunk_id": "54002f3a-508b-5b05-8fea-13ef8d254fe6",
+          "segment_order": 14,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 56,
+          "page": 29,
+          "start_char": 1381,
+          "end_char": 1592,
+          "text": "In addition, the field notes consist of only a list of forms represented through characters designed for easy identification of the phonological system of a modern dialect in correspondence with Ancient Chinese."
+        },
+        {
+          "id": "4d514164-2110-4cc6-8eb6-156958fb9071",
+          "chunk_id": "54002f3a-508b-5b05-8fea-13ef8d254fe6",
+          "segment_order": 15,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 59,
+          "page": 29,
+          "start_char": 1593,
+          "end_char": 1691,
+          "text": "Subsequent field work based on colloquial speech confirms the status of Lianzhou as a Yue dialect."
+        }
+      ],
+      "public_preview_status": "rights_review_pending",
+      "scope_note": "K4 and K5 share footnote21; they are not independent corroboration",
+      "verifier_note_en": null,
+      "author_unit": null
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_66d7d48ba25643b042006d2a",
+      "status": "approved",
+      "locality": "LIANZHOU_BEIHAI",
+      "feature": "CONS_ASPIRATION_CONTRAST",
+      "target": "YUE_QINLIAN",
+      "target_relationship": "ABOUT_SUBGROUP",
+      "value": "Ancient voiced affricate/stop initials developed into voiceless aspirated affricates/stops (qualifying as Hakka criterion)",
+      "conditions": "\"Same phonological development as Hakka, but classified as Yue based on other features\"",
+      "polarity": "attested",
+      "evidence_id": "ev_cfd99473e98b42a4b26e",
+      "chunk_id": "dca057d7-ef4d-51d0-a3f2-bfdf7985bb97",
+      "quote": "Both qualify as Hakka dialects since the Ancient voiced affricate/stop initials have developed into voiceless aspirated affricate/stops in these dialects.",
+      "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+      "source_title": "The Yue Dialect",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "partial_support",
+        "verification_notes": null,
+        "verifier_confidence": 0.68,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "anchor": "K2",
+      "role": "single_criterion",
+      "semantic_review": "source_text_and_pdf_checked_by_orchestrator",
+      "physical_page": 21,
+      "printed_page": "311",
+      "locator_method": "visual_pdf_override_of_runtime_map",
+      "context_segments": [
+        {
+          "id": "e5a826a2-54b7-4b9f-a4d1-61cd1431f288",
+          "chunk_id": "dca057d7-ef4d-51d0-a3f2-bfdf7985bb97",
+          "segment_order": 10,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 18,
+          "page": 21,
+          "start_char": 1153,
+          "end_char": 1300,
+          "text": "To show the importance of an overall view rather than adhering to a single authoritative criterion, we may mention the case of Lianzhou and Shaowu."
+        },
+        {
+          "id": "073c9ec5-5588-4c06-9c1f-913d0224573a",
+          "chunk_id": "dca057d7-ef4d-51d0-a3f2-bfdf7985bb97",
+          "segment_order": 11,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 20,
+          "page": 21,
+          "start_char": 1301,
+          "end_char": 1455,
+          "text": "Both qualify as Hakka dialects since the Ancient voiced affricate/stop initials have developed into voiceless aspirated affricate/stops in these dialects."
+        }
+      ],
+      "public_preview_status": "rights_review_pending",
+      "scope_note": "K4 and K5 share footnote21; they are not independent corroboration",
+      "verifier_note_en": null,
+      "author_unit": null
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_aee8cfae9c56115ccabe9877",
+      "status": "approved",
+      "locality": "LIANZHOU_BEIHAI",
+      "feature": "CONS_ASPIRATION_CONTRAST",
+      "target": "YUE_QINLIAN",
+      "target_relationship": "ABOUT_SUBGROUP",
+      "value": "true",
+      "conditions": "\"Ancient voiced stop/affricate initials become voiceless aspirates despite tonal distinction (Hakka/Gan-like pattern)\"",
+      "polarity": "attested",
+      "evidence_id": "ev_547657c95bd5ef5c1001",
+      "chunk_id": "2061b340-a78e-5869-9302-07b758b114ec",
+      "quote": "At least two Yue dialects display a development typical of the Hakka or the Gan dialects in which the Ancient voiced stop/affricate initial consonants have become voiceless aspirates despite tonal distinction. These two dialects, Bobai and Lianzhou, according to the established criterion, would qualify as Hakka or Gan dialects.",
+      "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+      "source_title": "The Yue Dialect",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "explicit_support",
+        "verification_notes": null,
+        "verifier_confidence": 0.82,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "anchor": "K1",
+      "role": "criterion_context",
+      "semantic_review": "source_text_and_pdf_checked_by_orchestrator",
+      "physical_page": 9,
+      "printed_page": "299",
+      "locator_method": "visual_pdf_override_of_runtime_map",
+      "context_segments": [
+        {
+          "id": "d6934107-8af2-4f89-94fa-268fee4615bc",
+          "chunk_id": "2061b340-a78e-5869-9302-07b758b114ec",
+          "segment_order": 10,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 24,
+          "page": 9,
+          "start_char": 1607,
+          "end_char": 1816,
+          "text": "At least two Yue dialects display a development typical of the Hakka or the Gan dialects in which the Ancient voiced stop/affricate initial consonants have become voiceless aspirates despite tonal distinction."
+        },
+        {
+          "id": "dc417529-99df-406b-a95e-49daddaf7c91",
+          "chunk_id": "2061b340-a78e-5869-9302-07b758b114ec",
+          "segment_order": 11,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 26,
+          "page": 9,
+          "start_char": 1817,
+          "end_char": 1936,
+          "text": "These two dialects, Bobai and Lianzhou, according to the established criterion, would qualify as Hakka or Gan dialects."
+        }
+      ],
+      "public_preview_status": "rights_review_pending",
+      "scope_note": "K4 and K5 share footnote21; they are not independent corroboration",
+      "verifier_note_en": null,
+      "author_unit": null
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_b891599fbeaa737b8620cf07",
+      "status": "approved",
+      "locality": "LIANZHOU_BEIHAI",
+      "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+      "target": "YUE_QINLIAN",
+      "target_relationship": "ABOUT_SUBGROUP",
+      "value": "Classification based on colloquial speech fieldwork; earlier phonological list insufficient",
+      "conditions": null,
+      "polarity": "attested",
+      "evidence_id": "ev_6a15bde8c83095e7c5f6",
+      "chunk_id": "54002f3a-508b-5b05-8fea-13ef8d254fe6",
+      "quote": "In addition, the field notes consist of only a list of forms represented through characters designed for easy identification of the phonological system of a modern dialect in correspondence with Ancient Chinese. Subsequent field work based on colloquial speech confirms the status of Lianzhou as a Yue dialect.",
+      "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+      "source_title": "The Yue Dialect",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "partial_support",
+        "verification_notes": null,
+        "verifier_confidence": 0.68,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "anchor": "K5",
+      "role": "changed_material",
+      "semantic_review": "source_text_and_pdf_checked_by_orchestrator",
+      "physical_page": 29,
+      "printed_page": "319",
+      "locator_method": "visual_pdf_override_of_runtime_map",
+      "context_segments": [
+        {
+          "id": "52386b19-9df7-4d97-a2ee-faa6c2dac544",
+          "chunk_id": "54002f3a-508b-5b05-8fea-13ef8d254fe6",
+          "segment_order": 11,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 54,
+          "page": 29,
+          "start_char": 1186,
+          "end_char": 1343,
+          "text": "21 The identification of Lianzhou as a Hakka dialect in Yue-Hashimoto 1970 is partly due to the limited linguistic data on Lianzhou at that time when only Y."
+        },
+        {
+          "id": "d51f49e9-e0a1-4991-9822-d25fe6884957",
+          "chunk_id": "54002f3a-508b-5b05-8fea-13ef8d254fe6",
+          "segment_order": 12,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 1343,
+          "end_char": 1345,
+          "text": "R."
+        },
+        {
+          "id": "8a6eaa00-d843-4245-b678-ab76b7a0f9da",
+          "chunk_id": "54002f3a-508b-5b05-8fea-13ef8d254fe6",
+          "segment_order": 13,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 1346,
+          "end_char": 1380,
+          "text": "Chao’s field notes were available."
+        },
+        {
+          "id": "35c2da07-7cf0-4c11-b0ec-72ec2fc2d070",
+          "chunk_id": "54002f3a-508b-5b05-8fea-13ef8d254fe6",
+          "segment_order": 14,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 56,
+          "page": 29,
+          "start_char": 1381,
+          "end_char": 1592,
+          "text": "In addition, the field notes consist of only a list of forms represented through characters designed for easy identification of the phonological system of a modern dialect in correspondence with Ancient Chinese."
+        },
+        {
+          "id": "4d514164-2110-4cc6-8eb6-156958fb9071",
+          "chunk_id": "54002f3a-508b-5b05-8fea-13ef8d254fe6",
+          "segment_order": 15,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 59,
+          "page": 29,
+          "start_char": 1593,
+          "end_char": 1691,
+          "text": "Subsequent field work based on colloquial speech confirms the status of Lianzhou as a Yue dialect."
+        }
+      ],
+      "public_preview_status": "rights_review_pending",
+      "scope_note": "K4 and K5 share footnote21; they are not independent corroboration",
+      "verifier_note_en": null,
+      "author_unit": null
+    }
+  }
+]

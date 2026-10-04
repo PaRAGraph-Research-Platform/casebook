@@ -1,0 +1,94 @@
+{
+  "inventory_claims": 224,
+  "null_locality_context_claims": 22,
+  "ledger_rows": 246,
+  "candidate_claims": 33,
+  "core_claims": 5,
+  "core_evidence": 5,
+  "core_sources": 1,
+  "core_chunks": 3,
+  "graph_nodes": 16,
+  "graph_edges": 20,
+  "comparison_claims": 9,
+  "comparison_sources": 2,
+  "comparison_nodes": 25,
+  "comparison_edges": 35,
+  "ledger_decisions": {
+    "outside_features": 213,
+    "core": 5,
+    "supplement": 4,
+    "comparison_candidate": 3,
+    "context_candidate": 21
+  },
+  "comparison_evidence": 8,
+  "comparison_strata": {
+    "locality": {
+      "LIANZHOU_BEIHAI": 8,
+      "None": 1
+    },
+    "status": {
+      "approved": 5,
+      "auto_approved": 4
+    },
+    "polarity": {
+      "attested": 8,
+      "not_attested": 1
+    },
+    "feature": {
+      "CLASSIFICATION_ATLAS2012": 1,
+      "METALINGUISTIC_HIERARCHY_LEVEL": 1,
+      "CONS_ASPIRATION_CONTRAST": 4,
+      "CLASSIFICATION_CRITERIA_REPORTED": 1,
+      "CONS_VOICED_OBSTRUENTS_REPORTED": 2
+    }
+  },
+  "candidate_strata": {
+    "locality": {
+      "LIANZHOU_BEIHAI": 11,
+      "None": 22
+    },
+    "status": {
+      "approved": 5,
+      "auto_approved": 28
+    },
+    "polarity": {
+      "attested": 31,
+      "not_attested": 2
+    },
+    "feature": {
+      "CLASSIFICATION_ATLAS2012": 3,
+      "METALINGUISTIC_HIERARCHY_LEVEL": 9,
+      "CONS_ASPIRATION_CONTRAST": 15,
+      "CONS_VOICED_OBSTRUENTS_REPORTED": 5,
+      "CLASSIFICATION_CRITERIA_REPORTED": 1
+    },
+    "document_id": {
+      "c8227da0-01e8-4008-a5a2-cc7d68ad3628": 5,
+      "93f9cd6b-4318-4c8b-9cc6-30a140d92e99": 12,
+      "31288067-8899-4f17-94b6-f5803bba4c3a": 7,
+      "6ea76f6e-3a98-4bfe-ae3c-d93ee8a1d21c": 1,
+      "dff1c92a-b507-4d36-85b5-273f7f79bfb0": 5,
+      "f005846b-d6be-44a1-a8f7-be5b0c1a02ef": 2,
+      "ce4ecaa6-4f62-4cf2-bdc9-ac2a52cd9f92": 1
+    }
+  },
+  "native_operations": {
+    "shared_basis": 2,
+    "independent_bases": 5,
+    "source_split": 6,
+    "source_comparison_by_feature": 5,
+    "contested_cell": 1,
+    "polarity_value_consistency": 9,
+    "feature_level_split": 15
+  },
+  "slice_diff": {
+    "universe_before": 246,
+    "universe_after": 246,
+    "left_scope": 0,
+    "entered_scope": 0,
+    "unchanged_common_rows": 0,
+    "changed_common_rows": 246,
+    "candidates_before": 33,
+    "candidates_after": 33
+  }
+}

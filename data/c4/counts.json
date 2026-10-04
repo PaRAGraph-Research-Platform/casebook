@@ -1,0 +1,57 @@
+{
+  "record_ids_count": 65,
+  "claim_ids_count": 65,
+  "record_ids_without_promoted_claim_id": [],
+  "core_claims": 65,
+  "core_evidence": 64,
+  "core_chunks": 63,
+  "core_sources": 7,
+  "comparison_sources": 9,
+  "supplement_claims": 32,
+  "graph_nodes": 140,
+  "graph_edges": 260,
+  "comparison_claims": 97,
+  "comparison_nodes": 205,
+  "comparison_edges": 388,
+  "pairs": 17,
+  "pairs_by_idiom_tag": {
+    "CANTONESE_STD": 7,
+    "TAISHAN": 3,
+    "XINYI": 7
+  },
+  "records_by_idiom_tag": {
+    "CANTONESE_STD": 9,
+    "TAISHAN": 27,
+    "XINYI": 29
+  },
+  "basis_review_class_totals": {
+    "A": 19,
+    "B": 13,
+    "C": 33
+  },
+  "passport_entries": {
+    "CANTONESE_STD": 11,
+    "TAISHAN": 4,
+    "XINYI": 6
+  },
+  "passport_rows_linked_to_claim_ids": 17,
+  "passport_rows_total": 21,
+  "passport_rows_by_link_method": {
+    "by_locality_tag": 10,
+    "by_subgroup_address": 7,
+    "none": 4
+  },
+  "passport_native_records_covered": 59,
+  "context_segments_missing": [],
+  "shared_basis_pairs": 2,
+  "within_source_divergence_groups": 4,
+  "addressing_gap": {
+    "measured_at": "2026-09-20T18:07:43.982493+00:00",
+    "feature_total": 1130,
+    "feature_no_tag": 801,
+    "yue_total": 504,
+    "yue_no_tag": 236,
+    "passport_rows_linked_by_subgroup_address": 7,
+    "note_en": "Records of the same book are sometimes addressed to a variety (idiom_tag) and sometimes only to a branch (subgroup); a query filtered by variety label misses the second kind."
+  }
+}

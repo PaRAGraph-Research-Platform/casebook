@@ -1,0 +1,211 @@
+{
+  "version": "c2-internal-0.3",
+  "previous_version": "c2-internal-0.2",
+  "created_at": "2026-09-24T06:57:10.321031+00:00",
+  "status": "core_and_selected_comparison_reviewed; public preview iteration",
+  "rights_release_status": {
+    "status": "public_preview",
+    "code_license": "MIT",
+    "content_license": "CC-BY-4.0",
+    "third_party_quotations": "excluded from the CC BY 4.0 grant; reproduced under the quotation exception for analysis and criticism; all rights remain with the respective rightsholders; see NOTICE.md in the viewer repository",
+    "full_texts_redistributed": false
+  },
+  "counts": {
+    "inventory_claims": 224,
+    "null_locality_context_claims": 22,
+    "ledger_rows": 246,
+    "candidate_claims": 33,
+    "core_claims": 5,
+    "core_evidence": 5,
+    "core_sources": 1,
+    "core_chunks": 3,
+    "graph_nodes": 16,
+    "graph_edges": 20,
+    "comparison_claims": 9,
+    "comparison_sources": 2,
+    "comparison_nodes": 25,
+    "comparison_edges": 35,
+    "ledger_decisions": {
+      "outside_features": 213,
+      "core": 5,
+      "supplement": 4,
+      "comparison_candidate": 3,
+      "context_candidate": 21
+    },
+    "comparison_evidence": 8,
+    "comparison_strata": {
+      "locality": {
+        "LIANZHOU_BEIHAI": 8,
+        "None": 1
+      },
+      "status": {
+        "approved": 5,
+        "auto_approved": 4
+      },
+      "polarity": {
+        "attested": 8,
+        "not_attested": 1
+      },
+      "feature": {
+        "CLASSIFICATION_ATLAS2012": 1,
+        "METALINGUISTIC_HIERARCHY_LEVEL": 1,
+        "CONS_ASPIRATION_CONTRAST": 4,
+        "CLASSIFICATION_CRITERIA_REPORTED": 1,
+        "CONS_VOICED_OBSTRUENTS_REPORTED": 2
+      }
+    },
+    "candidate_strata": {
+      "locality": {
+        "LIANZHOU_BEIHAI": 11,
+        "None": 22
+      },
+      "status": {
+        "approved": 5,
+        "auto_approved": 28
+      },
+      "polarity": {
+        "attested": 31,
+        "not_attested": 2
+      },
+      "feature": {
+        "CLASSIFICATION_ATLAS2012": 3,
+        "METALINGUISTIC_HIERARCHY_LEVEL": 9,
+        "CONS_ASPIRATION_CONTRAST": 15,
+        "CONS_VOICED_OBSTRUENTS_REPORTED": 5,
+        "CLASSIFICATION_CRITERIA_REPORTED": 1
+      },
+      "document_id": {
+        "c8227da0-01e8-4008-a5a2-cc7d68ad3628": 5,
+        "93f9cd6b-4318-4c8b-9cc6-30a140d92e99": 12,
+        "31288067-8899-4f17-94b6-f5803bba4c3a": 7,
+        "6ea76f6e-3a98-4bfe-ae3c-d93ee8a1d21c": 1,
+        "dff1c92a-b507-4d36-85b5-273f7f79bfb0": 5,
+        "f005846b-d6be-44a1-a8f7-be5b0c1a02ef": 2,
+        "ce4ecaa6-4f62-4cf2-bdc9-ac2a52cd9f92": 1
+      }
+    },
+    "native_operations": {
+      "shared_basis": 2,
+      "independent_bases": 5,
+      "source_split": 6,
+      "source_comparison_by_feature": 5,
+      "contested_cell": 1,
+      "polarity_value_consistency": 9,
+      "feature_level_split": 15
+    },
+    "slice_diff": {
+      "universe_before": 246,
+      "universe_after": 246,
+      "left_scope": 0,
+      "entered_scope": 0,
+      "unchanged_common_rows": 0,
+      "changed_common_rows": 246,
+      "candidates_before": 33,
+      "candidates_after": 33
+    }
+  },
+  "source_export_started_at": "2026-09-18T16:54:35.780280+00:00",
+  "source_export_completed_at": "2026-09-18T16:54:36.566606+00:00",
+  "storage_consistency": "Two storage transactions; not a distributed atomic snapshot. Cross-store IDs checked offline.",
+  "claim_statuses": [
+    "approved",
+    "auto_approved"
+  ],
+  "scope": {
+    "locality": "LIANZHOU_BEIHAI",
+    "source": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+    "features": [
+      "CLASSIFICATION_ATLAS2012",
+      "CLASSIFICATION_CRITERIA_REPORTED",
+      "METALINGUISTIC_HIERARCHY_LEVEL",
+      "CONS_ASPIRATION_CONTRAST",
+      "CONS_VOICED_OBSTRUENTS_REPORTED"
+    ],
+    "inventory_tags": [
+      "LIANZHOU_BEIHAI",
+      "LIANZHOU"
+    ],
+    "comparison_inclusions": [
+      "claim_515c2e546a092b12e4589fdc",
+      "claim_7506816eea9d37ca0ee8841a",
+      "claim_ca0d079c05b90981dfbb8fc7",
+      "claim_d0bf3486dc16e9ba1bc2759c"
+    ],
+    "additional_stratum": "untagged active Qinlian claims in the five feature categories"
+  },
+  "production_campaigns": {
+    "lianzhou_homograph_retarget_20260908": {
+      "date_utc": "2026-09-08"
+    },
+    "locality_curation_20260909": {
+      "date_utc": "2026-09-09"
+    }
+  },
+  "native_operations": {
+    "file": "expected_native_operations.json",
+    "verified_at_utc": "2026-09-09T17:08:18.480333+00:00",
+    "row_counts": {
+      "shared_basis": 2,
+      "independent_bases": 5,
+      "source_split": 6,
+      "source_comparison_by_feature": 5,
+      "contested_cell": 1,
+      "polarity_value_consistency": 9,
+      "feature_level_split": 15
+    },
+    "statuses": {
+      "shared_basis": "native",
+      "independent_bases": "native",
+      "source_split": "native",
+      "source_comparison_by_feature": "native",
+      "contested_cell": "native",
+      "polarity_value_consistency": "native",
+      "feature_level_split": "partially_native"
+    }
+  },
+  "changelog": [
+    {
+      "version": "c2-internal-0.1",
+      "created_at": "2026-09-07T20:25:36.092251+00:00",
+      "raw_export": "casebook_probes/2026-09-07__c2_full_export.json"
+    },
+    {
+      "version": "c2-internal-0.2",
+      "raw_export": "casebook_probes/2026-09-09__c2_full_export.json"
+    },
+    {
+      "version": "c2-internal-0.3",
+      "raw_export": "casebook_probes/2026-09-18__c2_full_export.json"
+    }
+  ],
+  "queries_sha256": "a0f02a267cce6bf3c2529f6ab73085bfd6415e271d196184d80efbb0f44346e0",
+  "article_sha256": "3122e7fcf76cdc1470a17a17141da079500d3942c271b8c6722458d8d76b6a51",
+  "build_scripts_sha256": {
+    "casebook_probes/scripts/build_c2_bundle.py": "5d0af4458354006bed5b6a05b0f86b064ecc444a54723be5516315fb2a249eaf",
+    "casebook_probes/scripts/export_c2.py": "fa4d30a6990b0b0923fd557a25a8831967980f524a04daac46a8c8218a396d98",
+    "casebook_probes/scripts/verify_c2_bundle.py": "26709e5553b1cf75ef6ce570d4b273ba2bfed2e89895647329d92179dba28e25"
+  },
+  "files_sha256": {
+    "CASE_EN.md": "cc9fefced9dc1f16fb274d09b2f8c35af7f1c444f8ff199109e66425ca6fd1ed",
+    "README.md": "ef0d03616c77ab2631fccc325afd806a6faad818133e0f26366ae636f9416f1d",
+    "REVIEW.md": "1ea643089425dae2faebbf47d03a117bd03fa4e9e5695aa4fb57a42bbc15f943",
+    "candidate_review.csv": "9047f23b81d0ff24e6197b7651e522b6ca4713e216517507e9dc4a3066d4dba8",
+    "candidates.json": "d147d1feb16540420fa8757eb3f1044c4dc245bd67e9dbc26c99b8b7103e8f21",
+    "comparison_graph.json": "d9349dba6513d39f543e833b105da68b182ae4acf42f90a95a78ec5786daabad",
+    "core.json": "f9f68bd9bfa7a0e5dc141e4f01a8ba1ed9a3b567513e8a62998445942bbb4419",
+    "counts.json": "63111cdea1b6e0acd08354cd676c93776fcf03f53b1128893bef2ee42f2a99db",
+    "diff_0.1_to_0.2.json": "af206a49351e0d871371a480d51fd3c651de7fee059eb7857de3854b26bc5254",
+    "diff_0.2_to_0.3.json": "ce8aa53a54802bda7a2fe545c913bc71df0404a43269000a43322eb7fa32985e",
+    "expected_comparison_operations.json": "ce3bd3381a8c3e414d39ab1c1d1e1cf00f06dacf2da40e4b220e45cd9fd8a46d",
+    "expected_native_operations.json": "62c8457846a940121eb82b4dc9bb249684a0263fc36f6194ad44e781edd87679",
+    "expected_operations.json": "b7710a222f0a6f2992a7438a9f7d8287e2cb012b37cecd3ca96d1d8cf7c3ea65",
+    "graph.json": "f99107a6322419d634da7c5c1dac928bb7f4c67d2d7cafe39c6ff5bd49effbec",
+    "identity_comparison_probe.json": "aaa6f1d87fc32b00ad87a752b23c8633adb1d99c8717efef2f6a041af47c7b84",
+    "provenance.json": "98bfd5a85aecbebb2661cf9e67dc0fc168d4ca8ffccf47a132082e97da3700f4",
+    "raw_export.json": "7a60a1eb9ad714f760f53bec09dd36e0cfb72481bd80eac5452c9542d0818d3c",
+    "selection_ledger.csv": "9b227edfc10c9113522806676df9e80e7906d01750c1c546d4e14122e6d2b109",
+    "sources.json": "75f9938aa2ab502fe75354c0ac30a08ef5f50b421e81b7a1db2d18213ad538d6",
+    "supplement.json": "4d8679f43b2ba4fab4395a09c8e0aa392ea2f63511c995ab0dc66befc61288d5"
+  },
+  "note": "This is the C2 internal bundle, not the all-case public snapshot v0.1."
+}

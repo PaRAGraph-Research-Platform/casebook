@@ -1,0 +1,385 @@
+{
+  "sources": [
+    {
+      "source_key": "zhang_zhuang_2008",
+      "document_id": "62b488a4-b782-43c5-a6e2-bd22e35ff2fb",
+      "title": "廣東方言的地理格局與自然地理及歷史地理的關係",
+      "page_count": 17,
+      "sha256": "a8cd1ad04c66c2bdea06cd2c7924a4d6d7f1ce7cd5f06edc8ab40de18f755605",
+      "csl_data": {
+        "DOI": null,
+        "ISBN": null,
+        "type": "article-journal",
+        "title": "廣東方言的地理格局與自然地理及歷史地理的關係",
+        "author": [
+          {
+            "given": "Shuangqing",
+            "family": "Zhang"
+          },
+          {
+            "given": "Chusheng",
+            "family": "Zhuang"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2008
+            ]
+          ]
+        },
+        "abstract": null,
+        "publisher": "The Chinese University of Hong Kong",
+        "container-title": "Journal of Chinese Studies"
+      },
+      "library": {
+        "authors": [
+          "Zhang, Shuangqing",
+          "Zhuang, Chusheng"
+        ],
+        "publication_year": 2008,
+        "journal": "Journal of Chinese Studies",
+        "document_type": "article-journal",
+        "language": null,
+        "identifiers": {}
+      },
+      "page_label_map": {
+        "method": "pdf_page_labels",
+        "version": 1,
+        "coverage": 1.0,
+        "segments": [
+          {
+            "start": 407,
+            "style": "arabic",
+            "phys_to": 17,
+            "phys_from": 1
+          }
+        ],
+        "overrides": [],
+        "confidence": "high",
+        "provenance": {
+          "source": "PDF PageLabels",
+          "decision": "[V] done",
+          "validation_row": 10
+        },
+        "updated_at": "2026-06-27T12:34:42.871292+00:00",
+        "updated_by": "auto",
+        "source_parser": "pymupdf"
+      },
+      "annotation": {
+        "origin_kind": "curated_annotation",
+        "origin_method": "editor_written",
+        "review_status": "unreviewed",
+        "position": [
+          "P4"
+        ],
+        "rights": "quoted_under_quotation_exception; full text not redistributed"
+      }
+    },
+    {
+      "source_key": "yue_hashimoto_1991a",
+      "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "title": "粤语方言分区问题初探",
+      "page_count": 18,
+      "sha256": "fdb09aa12aba607fbc7a5c5480abe149dcb2d06226e939fd4999c4d425fa6615",
+      "csl_data": {
+        "type": "article-journal",
+        "title": "粤语方言分区问题初探",
+        "author": [
+          {
+            "given": "霭芹",
+            "family": "余"
+          }
+        ]
+      },
+      "library": {
+        "authors": [
+          "余霭芹"
+        ],
+        "publication_year": 1991,
+        "journal": "方言",
+        "document_type": "article",
+        "language": "zh",
+        "identifiers": {}
+      },
+      "page_label_map": null,
+      "annotation": {
+        "origin_kind": "curated_annotation",
+        "origin_method": "editor_written",
+        "review_status": "unreviewed",
+        "position": [
+          "P3"
+        ],
+        "rights": "quoted_under_quotation_exception; full text not redistributed"
+      }
+    },
+    {
+      "source_key": "zhan_outline",
+      "document_id": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+      "title": "广东粤方言概要 / An Outline of Yue Dialects in Guangdong",
+      "page_count": 627,
+      "sha256": "476016949c7c9eb0d7e8b6929a4601b740ad83b79fa390108d0d748aee41f255",
+      "csl_data": {
+        "DOI": null,
+        "ISBN": "7810790625",
+        "type": "book",
+        "title": "广东粤方言概要 / An Outline of Yue Dialects in Guangdong",
+        "author": [
+          {
+            "given": "Bohui",
+            "family": "Zhan"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2004
+            ]
+          ]
+        },
+        "authors": [
+          "Zhan, Bohui"
+        ],
+        "abstract": "本书是在珠江三角洲、粤北、粤西等广东粤方言成片调查成果基础上的综合性概述，旨在勾画广东境内粤方言的整体轮廓。内容包括广东粤方言的地理分布、形成发展、分片，以及广州方言和各地粤方言在语音、词汇、语法方面的一致性与差异。",
+        "publisher": "Jinan University Press",
+        "container-title": null
+      },
+      "library": {
+        "authors": [
+          "Zhan, Bohui"
+        ],
+        "publication_year": 2004,
+        "journal": null,
+        "document_type": "book",
+        "language": null,
+        "identifiers": {
+          "isbn": "7810790625"
+        }
+      },
+      "page_label_map": {
+        "method": "manual_validation_table",
+        "version": 1,
+        "coverage": 0.9856459330143541,
+        "segments": [
+          {
+            "style": "none",
+            "phys_to": 9,
+            "phys_from": 1
+          },
+          {
+            "start": 1,
+            "style": "arabic",
+            "phys_to": 627,
+            "phys_from": 10
+          }
+        ],
+        "overrides": [],
+        "confidence": "high",
+        "provenance": {
+          "source": "blocks ladder",
+          "decision": "[V] done",
+          "validation_row": 12
+        },
+        "updated_at": "2026-06-27T12:34:42.871679+00:00",
+        "updated_by": "validation_table",
+        "source_parser": "validation_table"
+      },
+      "annotation": {
+        "origin_kind": "curated_annotation",
+        "origin_method": "editor_written",
+        "review_status": "unreviewed",
+        "position": [
+          "P2"
+        ],
+        "rights": "quoted_under_quotation_exception; full text not redistributed"
+      }
+    },
+    {
+      "source_key": "atlas_2012",
+      "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+      "title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+      "page_count": 291,
+      "sha256": "803a00acdf3d76220bff7dcfd895029389499984ae7a30f197b70ec16175cc9b",
+      "csl_data": {
+        "DOI": null,
+        "ISBN": "9787100070546",
+        "type": "book",
+        "title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+        "author": [
+          {
+            "given": "正辉",
+            "family": "熊"
+          },
+          {
+            "given": "振兴",
+            "family": "张"
+          },
+          {
+            "given": "行",
+            "family": "黄"
+          },
+          {
+            "given": "布",
+            "family": "道"
+          },
+          {
+            "given": "嘉彦",
+            "family": "邹"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2012
+            ]
+          ]
+        },
+        "authors": [
+          "Xiong, Zhenghui",
+          "Zhang, Zhenxing",
+          "Huang, Xing",
+          "Dao, Bu",
+          "Tsou, Benjamin K."
+        ],
+        "abstract": "《中国语言地图集（第2版）汉语方言卷》以地图和说明形式呈现中国境内汉语方言的地理分布和分类格局。该卷汇集官话、晋语、吴语、徽语、闽语、粤语、客家话、赣语、湘语、平话土话等方言区的分布信息，是汉语方言分类和区域研究的重要参考工具。",
+        "publisher": "The Commercial Press",
+        "container-title": null
+      },
+      "library": {
+        "authors": [
+          "Xiong, Zhenghui",
+          "Zhang, Zhenxing",
+          "Huang, Xing",
+          "Dao, Bu",
+          "Tsou, Benjamin K."
+        ],
+        "publication_year": 2012,
+        "journal": null,
+        "document_type": "book",
+        "language": null,
+        "identifiers": {
+          "isbn": "9787100070546",
+          "issn": "2002-2008"
+        }
+      },
+      "page_label_map": {
+        "method": "manual_validation_table",
+        "version": 1,
+        "coverage": 0.8006872852233677,
+        "segments": [
+          {
+            "style": "none",
+            "phys_to": 58,
+            "phys_from": 1
+          },
+          {
+            "start": 1,
+            "style": "arabic",
+            "phys_to": 291,
+            "phys_from": 59
+          }
+        ],
+        "overrides": [],
+        "confidence": "high",
+        "provenance": {
+          "source": "weak/segmented blocks",
+          "decision": "[V] done; visual corrected detector expected",
+          "validation_row": 34
+        },
+        "updated_at": "2026-06-27T12:34:42.971783+00:00",
+        "updated_by": "validation_table",
+        "source_parser": "validation_table"
+      },
+      "annotation": {
+        "origin_kind": "curated_annotation",
+        "origin_method": "editor_written",
+        "review_status": "unreviewed",
+        "position": [
+          "P1"
+        ],
+        "rights": "quoted_under_quotation_exception; full text not redistributed"
+      }
+    },
+    {
+      "source_key": "kwok_tsou_chin",
+      "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+      "title": "Yuè 粵 Dialects",
+      "page_count": 21,
+      "sha256": "5eae92701d87c02e40770f8e273524a889a0ea09740765fbd83cfda6b2e28ce8",
+      "csl_data": {
+        "DOI": "10.1163/2210-7363_ecll_com_00000476",
+        "type": "dataset",
+        "title": "Yuè 粵 Dialects",
+        "issued": {
+          "date-parts": [
+            [
+              null
+            ]
+          ]
+        },
+        "publisher": "Walter de Gruyter GmbH",
+        "container-title": "Encyclopedia of Chinese Language and Linguistics"
+      },
+      "library": {
+        "authors": [
+          "Kwok, Bit-Chee",
+          "Tsou, Benjamin K.",
+          "Chin, Andy C."
+        ],
+        "publication_year": 2005,
+        "journal": "Encyclopedia of Chinese Language and Linguistics",
+        "document_type": "report",
+        "language": null,
+        "identifiers": {
+          "doi": "10.1163/2210-7363_ecll_COM_00000476"
+        }
+      },
+      "page_label_map": {
+        "method": "manual_validation_table",
+        "version": 1,
+        "coverage": 1.0,
+        "segments": [
+          {
+            "start": 1,
+            "style": "arabic",
+            "phys_to": 21,
+            "phys_from": 1
+          }
+        ],
+        "overrides": [],
+        "confidence": "high",
+        "provenance": {
+          "source": "weak/segmented blocks",
+          "decision": "[V] done; unnumbered document uses phys=fact",
+          "validation_row": 27
+        },
+        "updated_at": "2026-06-27T12:34:42.967736+00:00",
+        "updated_by": "validation_table",
+        "source_parser": "validation_table"
+      },
+      "annotation": {
+        "origin_kind": "curated_annotation",
+        "origin_method": "editor_written",
+        "review_status": "unreviewed",
+        "position": [
+          "P2"
+        ],
+        "rights": "quoted_under_quotation_exception; full text not redistributed"
+      }
+    }
+  ],
+  "bibliography_notes": [
+    {
+      "key": "yue_hashimoto_1991a_vs_1991b"
+    },
+    {
+      "key": "kwok_tsou_chin_year_and_doi"
+    },
+    {
+      "key": "zhan_outline_year"
+    },
+    {
+      "key": "atlas_editor"
+    }
+  ]
+}

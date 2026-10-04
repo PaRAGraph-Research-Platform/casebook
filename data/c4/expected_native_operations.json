@@ -1,0 +1,787 @@
+{
+  "control": {
+    "record_ids_count": 65,
+    "claim_ids_count": 65,
+    "pairs_count": 17,
+    "shared_basis_pairs": 2,
+    "within_source_divergence_groups": 4
+  },
+  "operations": [
+    {
+      "name": "shared_basis",
+      "origin": "c2/c3:shared_basis",
+      "status": "native",
+      "question_en": "Which statements rest on the same textual passage (same chunk, overlapping character span) and therefore are not independent?",
+      "cypher": "MATCH (e1:Evidence)-[:SUPPORTS]->(c1:Claim), (e2:Evidence)-[:SUPPORTS]->(c2:Claim)\nWHERE c1.id IN $claim_ids AND c2.id IN $claim_ids AND c1.id < c2.id\n  AND e1.chunk_id = e2.chunk_id\n  AND e1.start_char IS NOT NULL AND e2.start_char IS NOT NULL\n  AND e1.start_char < e2.end_char AND e2.start_char < e1.end_char\nRETURN c1.id AS claim_a, c2.id AS claim_b, e1.id AS ev_a, e2.id AS ev_b,\n       e1.chunk_id AS chunk_id, e1.start_char AS a_start, e1.end_char AS a_end,\n       e2.start_char AS b_start, e2.end_char AS b_end,\n       CASE WHEN e1.id = e2.id THEN 'same_evidence' ELSE 'overlapping_span' END AS relation\nORDER BY claim_a, claim_b",
+      "params": {
+        "claim_ids": [
+          "claim_02e056b60cf1dfd5e1c3ee7e",
+          "claim_058ac97559878e44f96a1ede",
+          "claim_0c5154aabe82fbe031cd33f1",
+          "claim_112adc555ffe9645a883ddef",
+          "claim_11ac1a0479dfbb7c7202b172",
+          "claim_148aa4aa48b640d3f40979a5",
+          "claim_14923c451ca9a098f7175a37",
+          "claim_18271ce5bff6a5eddd2c87da",
+          "claim_19c0e935cdf38a05f2a04655",
+          "claim_227039c0ad76c602939ef7e9",
+          "claim_235ff1422a90eff73100530b",
+          "claim_2d8222642c1080aa6ca887ee",
+          "claim_301f77d8b065f3eb9237a8d6",
+          "claim_3a811cec6372c98b044d49d3",
+          "claim_3c296686a817f279934b8917",
+          "claim_3c32af2af7b9e7a01132c09e",
+          "claim_3f0e6e8a57f1a01231987c1c",
+          "claim_41f1b4b16ab7f8b80d9edd18",
+          "claim_42f909ee30b1824655013ca9",
+          "claim_467b46648c9a038fdd2db1ef",
+          "claim_4754a68dc08240ebab360312",
+          "claim_4b51a6804939cc2aca355b1b",
+          "claim_4f61a4043ced905b587cd748",
+          "claim_5027645e8ffea24263a9b36a",
+          "claim_583a369a8be53634c14039b6",
+          "claim_5e363ba8f24c27c0c138ce21",
+          "claim_5ed156f7ee50ac69d81aef88",
+          "claim_6291de79d3ac0cee6250ea6c",
+          "claim_64afcc0802bb0dee12c30c1c",
+          "claim_687209b133edd56e6a87c414",
+          "claim_6a5d873c43f9a5600d764b0f",
+          "claim_6ba7f9779c451dc91283d69c",
+          "claim_6ee85f65a7ad0ec5068bb7c2",
+          "claim_6f4c093ac451f3e34ba9318f",
+          "claim_6fee508b1a77bb90e6600196",
+          "claim_74a6dd7c92012d5e5354e0d8",
+          "claim_761068332ea55621facefea0",
+          "claim_77e427ae9b1a3aa5688694ac",
+          "claim_78bb8ee87a98f1b298d39a22",
+          "claim_8687d90cdb1455fb42f62678",
+          "claim_876d5758efb444e7f1a65e9c",
+          "claim_87f4d1d2bc9dc2ca124ac4a0",
+          "claim_89e5fce12e22e941acd2361f",
+          "claim_8d792911665017b15bdbc4f4",
+          "claim_947e86a84240c486842fe728",
+          "claim_98dcd0bf6af0d33734a8fda0",
+          "claim_9928be1df8afabbc0403411a",
+          "claim_9d39c7e293644e0745d36a17",
+          "claim_a24173d48a82c7cd759300c1",
+          "claim_aefb671843ec59ddeb8f28d0",
+          "claim_b4c27e4695f6d44e4c6eb1b9",
+          "claim_b5e2c481b26969d93857663b",
+          "claim_bff930c17ff5f7d9525e0f9a",
+          "claim_c58bbe5e0b7fbef0d2bc9cf2",
+          "claim_d2e8e9284861f20cd1dd0fc9",
+          "claim_d82677aac2cfe2f1ed78f3b7",
+          "claim_d8ac7d66d9ecdd15dcf68a6b",
+          "claim_e4bbc91c337b012f6490b1cb",
+          "claim_ec78cd50d1af8b6e17de5795",
+          "claim_f659af1316a02359e55fa1c7",
+          "claim_f78c8f31549ba5d9dc3ac20a",
+          "claim_fa5593dbf73f4967c3ead8e2",
+          "claim_fba3c4586e8042159ceafbdd",
+          "claim_fbfc39b8fa86f9d7a612620f",
+          "claim_fef9fea2dc571072302f0c29"
+        ]
+      },
+      "expected": [
+        {
+          "claim_a": "claim_18271ce5bff6a5eddd2c87da",
+          "claim_b": "claim_2d8222642c1080aa6ca887ee",
+          "ev_a": "ev_89aa8109f0342211cee8",
+          "ev_b": "ev_89aa8109f0342211cee8",
+          "chunk_id": "994f4e5d-51fe-5b9f-a02c-3fffbcfcc1f0",
+          "a_start": 2646,
+          "a_end": 2750,
+          "b_start": 2646,
+          "b_end": 2750,
+          "relation": "same_evidence"
+        },
+        {
+          "claim_a": "claim_6f4c093ac451f3e34ba9318f",
+          "claim_b": "claim_8d792911665017b15bdbc4f4",
+          "ev_a": "ev_92d3f4e698a14f97cc24",
+          "ev_b": "ev_92c24ace999ffce91316",
+          "chunk_id": "32fb4ca0-baa7-5c7f-b653-c0aea7e1bc38",
+          "a_start": 404,
+          "a_end": 574,
+          "b_start": 404,
+          "b_end": 689,
+          "relation": "overlapping_span"
+        }
+      ],
+      "expected_row_count": 2,
+      "caveat_en": "This query catches only same-chunk span overlap. The curator's recurring Taishan dictionary headers (P09, P10) live in distinct chunks (one dictionary entry per chunk), so the actual result is 2 pairs, not the dozens one might expect from 'repeated headers'. The result is reported as measured, not adjusted to match that expectation.",
+      "title_en": "Why the repeated header stays invisible",
+      "finding_en": "Only {n_rows} pairs of records share a passage ({anchors}). The five-tone header repeated through the Taishan dictionary is not among them: each table sits on its own page, so the repetition shows up only when records are grouped by source and value.",
+      "finding_vars": {
+        "anchors": {
+          "op": "anchors_of",
+          "columns": [
+            "claim_a",
+            "claim_b"
+          ]
+        }
+      },
+      "finding_empty_en": "No pair of records in this selection shares a textual basis.",
+      "why_it_matters_en": "Dependence between records takes more than one form; a check built for shared footnotes does not see a repeated table header.",
+      "columns_en": {
+        "claim_a": "First record of the pair",
+        "claim_b": "Second record of the pair",
+        "ev_a": "Evidence record backing the first record",
+        "ev_b": "Evidence record backing the second record",
+        "chunk_id": "Text chunk containing both quotations",
+        "a_start": "Position of the first record's quotation inside the source fragment (characters)",
+        "a_end": "End position of the first record's quotation (characters)",
+        "b_start": "Position of the second record's quotation inside the source fragment (characters)",
+        "b_end": "End position of the second record's quotation (characters)",
+        "relation": "same_evidence = both records cite the very same quotation; overlapping_span = separate but overlapping quotations"
+      },
+      "reader_visible": true
+    },
+    {
+      "name": "records_by_value",
+      "origin": "c4:records_by_value",
+      "status": "native",
+      "question_en": "For a given idiom tag, how many records report each value?",
+      "cypher": "MATCH (c:Claim) WHERE c.id IN $claim_ids\nRETURN c.idiom_tag AS idiom_tag, c.value AS value, count(c) AS claims\nORDER BY idiom_tag, value",
+      "params": {
+        "claim_ids": [
+          "claim_02e056b60cf1dfd5e1c3ee7e",
+          "claim_058ac97559878e44f96a1ede",
+          "claim_0c5154aabe82fbe031cd33f1",
+          "claim_112adc555ffe9645a883ddef",
+          "claim_11ac1a0479dfbb7c7202b172",
+          "claim_148aa4aa48b640d3f40979a5",
+          "claim_14923c451ca9a098f7175a37",
+          "claim_18271ce5bff6a5eddd2c87da",
+          "claim_19c0e935cdf38a05f2a04655",
+          "claim_227039c0ad76c602939ef7e9",
+          "claim_235ff1422a90eff73100530b",
+          "claim_2d8222642c1080aa6ca887ee",
+          "claim_301f77d8b065f3eb9237a8d6",
+          "claim_3a811cec6372c98b044d49d3",
+          "claim_3c296686a817f279934b8917",
+          "claim_3c32af2af7b9e7a01132c09e",
+          "claim_3f0e6e8a57f1a01231987c1c",
+          "claim_41f1b4b16ab7f8b80d9edd18",
+          "claim_42f909ee30b1824655013ca9",
+          "claim_467b46648c9a038fdd2db1ef",
+          "claim_4754a68dc08240ebab360312",
+          "claim_4b51a6804939cc2aca355b1b",
+          "claim_4f61a4043ced905b587cd748",
+          "claim_5027645e8ffea24263a9b36a",
+          "claim_583a369a8be53634c14039b6",
+          "claim_5e363ba8f24c27c0c138ce21",
+          "claim_5ed156f7ee50ac69d81aef88",
+          "claim_6291de79d3ac0cee6250ea6c",
+          "claim_64afcc0802bb0dee12c30c1c",
+          "claim_687209b133edd56e6a87c414",
+          "claim_6a5d873c43f9a5600d764b0f",
+          "claim_6ba7f9779c451dc91283d69c",
+          "claim_6ee85f65a7ad0ec5068bb7c2",
+          "claim_6f4c093ac451f3e34ba9318f",
+          "claim_6fee508b1a77bb90e6600196",
+          "claim_74a6dd7c92012d5e5354e0d8",
+          "claim_761068332ea55621facefea0",
+          "claim_77e427ae9b1a3aa5688694ac",
+          "claim_78bb8ee87a98f1b298d39a22",
+          "claim_8687d90cdb1455fb42f62678",
+          "claim_876d5758efb444e7f1a65e9c",
+          "claim_87f4d1d2bc9dc2ca124ac4a0",
+          "claim_89e5fce12e22e941acd2361f",
+          "claim_8d792911665017b15bdbc4f4",
+          "claim_947e86a84240c486842fe728",
+          "claim_98dcd0bf6af0d33734a8fda0",
+          "claim_9928be1df8afabbc0403411a",
+          "claim_9d39c7e293644e0745d36a17",
+          "claim_a24173d48a82c7cd759300c1",
+          "claim_aefb671843ec59ddeb8f28d0",
+          "claim_b4c27e4695f6d44e4c6eb1b9",
+          "claim_b5e2c481b26969d93857663b",
+          "claim_bff930c17ff5f7d9525e0f9a",
+          "claim_c58bbe5e0b7fbef0d2bc9cf2",
+          "claim_d2e8e9284861f20cd1dd0fc9",
+          "claim_d82677aac2cfe2f1ed78f3b7",
+          "claim_d8ac7d66d9ecdd15dcf68a6b",
+          "claim_e4bbc91c337b012f6490b1cb",
+          "claim_ec78cd50d1af8b6e17de5795",
+          "claim_f659af1316a02359e55fa1c7",
+          "claim_f78c8f31549ba5d9dc3ac20a",
+          "claim_fa5593dbf73f4967c3ead8e2",
+          "claim_fba3c4586e8042159ceafbdd",
+          "claim_fbfc39b8fa86f9d7a612620f",
+          "claim_fef9fea2dc571072302f0c29"
+        ]
+      },
+      "expected": [
+        {
+          "idiom_tag": "CANTONESE_STD",
+          "value": "10",
+          "claims": 2
+        },
+        {
+          "idiom_tag": "CANTONESE_STD",
+          "value": "6",
+          "claims": 2
+        },
+        {
+          "idiom_tag": "CANTONESE_STD",
+          "value": "7",
+          "claims": 1
+        },
+        {
+          "idiom_tag": "CANTONESE_STD",
+          "value": "9",
+          "claims": 4
+        },
+        {
+          "idiom_tag": "TAISHAN",
+          "value": "10",
+          "claims": 1
+        },
+        {
+          "idiom_tag": "TAISHAN",
+          "value": "5",
+          "claims": 12
+        },
+        {
+          "idiom_tag": "TAISHAN",
+          "value": "6",
+          "claims": 14
+        },
+        {
+          "idiom_tag": "XINYI",
+          "value": "3",
+          "claims": 2
+        },
+        {
+          "idiom_tag": "XINYI",
+          "value": "6",
+          "claims": 15
+        },
+        {
+          "idiom_tag": "XINYI",
+          "value": "8",
+          "claims": 7
+        },
+        {
+          "idiom_tag": "XINYI",
+          "value": "9",
+          "claims": 5
+        }
+      ],
+      "expected_row_count": 11,
+      "caveat_en": "Counts records (claims), not independent analyses.",
+      "title_en": "The most frequent number is nobody's analysis",
+      "finding_en": "Counted record by record, six tones is the most frequent value for Xinyi ({xinyi_six} records). No source gives six as its analysis of Xinyi: the number comes from tables that were split into fragments.",
+      "finding_vars": {
+        "xinyi_six": {
+          "op": "sum",
+          "column": "claims",
+          "where": [
+            {
+              "column": "idiom_tag",
+              "equals": "XINYI"
+            },
+            {
+              "column": "value",
+              "equals": "6"
+            }
+          ]
+        }
+      },
+      "finding_empty_en": "No record reports a tone count in this selection.",
+      "why_it_matters_en": "A vote over records answers a question nobody asked.",
+      "columns_en": {
+        "idiom_tag": "Idiom the record is about",
+        "value": "Reported tone-inventory count, as a string",
+        "claims": "Number of records reporting this value for this idiom"
+      },
+      "reader_visible": true
+    },
+    {
+      "name": "source_value_pairs",
+      "origin": "c4:source_value_pairs",
+      "status": "native",
+      "question_en": "Grouping idiom_tag + document + value: how many technical pairs and how many records in each?",
+      "cypher": "MATCH (c:Claim) WHERE c.id IN $claim_ids\nOPTIONAL MATCH (s:Source)-[:HAS_EVIDENCE]->(:Evidence)-[:SUPPORTS]->(c)\nRETURN c.idiom_tag AS idiom_tag, s.id AS document_id, s.title AS source_title,\nc.value AS value, count(DISTINCT c) AS record_count\nORDER BY idiom_tag, document_id, value",
+      "params": {
+        "claim_ids": [
+          "claim_02e056b60cf1dfd5e1c3ee7e",
+          "claim_058ac97559878e44f96a1ede",
+          "claim_0c5154aabe82fbe031cd33f1",
+          "claim_112adc555ffe9645a883ddef",
+          "claim_11ac1a0479dfbb7c7202b172",
+          "claim_148aa4aa48b640d3f40979a5",
+          "claim_14923c451ca9a098f7175a37",
+          "claim_18271ce5bff6a5eddd2c87da",
+          "claim_19c0e935cdf38a05f2a04655",
+          "claim_227039c0ad76c602939ef7e9",
+          "claim_235ff1422a90eff73100530b",
+          "claim_2d8222642c1080aa6ca887ee",
+          "claim_301f77d8b065f3eb9237a8d6",
+          "claim_3a811cec6372c98b044d49d3",
+          "claim_3c296686a817f279934b8917",
+          "claim_3c32af2af7b9e7a01132c09e",
+          "claim_3f0e6e8a57f1a01231987c1c",
+          "claim_41f1b4b16ab7f8b80d9edd18",
+          "claim_42f909ee30b1824655013ca9",
+          "claim_467b46648c9a038fdd2db1ef",
+          "claim_4754a68dc08240ebab360312",
+          "claim_4b51a6804939cc2aca355b1b",
+          "claim_4f61a4043ced905b587cd748",
+          "claim_5027645e8ffea24263a9b36a",
+          "claim_583a369a8be53634c14039b6",
+          "claim_5e363ba8f24c27c0c138ce21",
+          "claim_5ed156f7ee50ac69d81aef88",
+          "claim_6291de79d3ac0cee6250ea6c",
+          "claim_64afcc0802bb0dee12c30c1c",
+          "claim_687209b133edd56e6a87c414",
+          "claim_6a5d873c43f9a5600d764b0f",
+          "claim_6ba7f9779c451dc91283d69c",
+          "claim_6ee85f65a7ad0ec5068bb7c2",
+          "claim_6f4c093ac451f3e34ba9318f",
+          "claim_6fee508b1a77bb90e6600196",
+          "claim_74a6dd7c92012d5e5354e0d8",
+          "claim_761068332ea55621facefea0",
+          "claim_77e427ae9b1a3aa5688694ac",
+          "claim_78bb8ee87a98f1b298d39a22",
+          "claim_8687d90cdb1455fb42f62678",
+          "claim_876d5758efb444e7f1a65e9c",
+          "claim_87f4d1d2bc9dc2ca124ac4a0",
+          "claim_89e5fce12e22e941acd2361f",
+          "claim_8d792911665017b15bdbc4f4",
+          "claim_947e86a84240c486842fe728",
+          "claim_98dcd0bf6af0d33734a8fda0",
+          "claim_9928be1df8afabbc0403411a",
+          "claim_9d39c7e293644e0745d36a17",
+          "claim_a24173d48a82c7cd759300c1",
+          "claim_aefb671843ec59ddeb8f28d0",
+          "claim_b4c27e4695f6d44e4c6eb1b9",
+          "claim_b5e2c481b26969d93857663b",
+          "claim_bff930c17ff5f7d9525e0f9a",
+          "claim_c58bbe5e0b7fbef0d2bc9cf2",
+          "claim_d2e8e9284861f20cd1dd0fc9",
+          "claim_d82677aac2cfe2f1ed78f3b7",
+          "claim_d8ac7d66d9ecdd15dcf68a6b",
+          "claim_e4bbc91c337b012f6490b1cb",
+          "claim_ec78cd50d1af8b6e17de5795",
+          "claim_f659af1316a02359e55fa1c7",
+          "claim_f78c8f31549ba5d9dc3ac20a",
+          "claim_fa5593dbf73f4967c3ead8e2",
+          "claim_fba3c4586e8042159ceafbdd",
+          "claim_fbfc39b8fa86f9d7a612620f",
+          "claim_fef9fea2dc571072302f0c29"
+        ]
+      },
+      "expected": [
+        {
+          "idiom_tag": "CANTONESE_STD",
+          "document_id": "31288067-8899-4f17-94b6-f5803bba4c3a",
+          "source_title": "第八届国际粤方言研讨会论文集",
+          "value": "10",
+          "record_count": 1
+        },
+        {
+          "idiom_tag": "CANTONESE_STD",
+          "document_id": "31288067-8899-4f17-94b6-f5803bba4c3a",
+          "source_title": "第八届国际粤方言研讨会论文集",
+          "value": "6",
+          "record_count": 1
+        },
+        {
+          "idiom_tag": "CANTONESE_STD",
+          "document_id": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+          "source_title": "广东粤方言概要 / An Outline of Yue Dialects in Guangdong",
+          "value": "9",
+          "record_count": 3
+        },
+        {
+          "idiom_tag": "CANTONESE_STD",
+          "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+          "source_title": "The Yue Dialect",
+          "value": "9",
+          "record_count": 1
+        },
+        {
+          "idiom_tag": "CANTONESE_STD",
+          "document_id": "e6be7364-5058-4634-83c1-f0df521b1b59",
+          "source_title": "The Morphology of Cantonese “Changed Tone”: Extensions and Limitations",
+          "value": "6",
+          "record_count": 1
+        },
+        {
+          "idiom_tag": "CANTONESE_STD",
+          "document_id": "e6be7364-5058-4634-83c1-f0df521b1b59",
+          "source_title": "The Morphology of Cantonese “Changed Tone”: Extensions and Limitations",
+          "value": "7",
+          "record_count": 1
+        },
+        {
+          "idiom_tag": "CANTONESE_STD",
+          "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+          "source_title": "Yuè 粵 Dialects",
+          "value": "10",
+          "record_count": 1
+        },
+        {
+          "idiom_tag": "TAISHAN",
+          "document_id": "318c6cec-eacf-44d4-a665-5c1667edb985",
+          "source_title": "台山方言词典",
+          "value": "5",
+          "record_count": 12
+        },
+        {
+          "idiom_tag": "TAISHAN",
+          "document_id": "318c6cec-eacf-44d4-a665-5c1667edb985",
+          "source_title": "台山方言词典",
+          "value": "6",
+          "record_count": 14
+        },
+        {
+          "idiom_tag": "TAISHAN",
+          "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+          "source_title": "Yuè 粵 Dialects",
+          "value": "10",
+          "record_count": 1
+        },
+        {
+          "idiom_tag": "XINYI",
+          "document_id": "31288067-8899-4f17-94b6-f5803bba4c3a",
+          "source_title": "第八届国际粤方言研讨会论文集",
+          "value": "8",
+          "record_count": 3
+        },
+        {
+          "idiom_tag": "XINYI",
+          "document_id": "9f2df161-d69f-4293-93e6-13989a727f83",
+          "source_title": "信宜方志",
+          "value": "3",
+          "record_count": 2
+        },
+        {
+          "idiom_tag": "XINYI",
+          "document_id": "9f2df161-d69f-4293-93e6-13989a727f83",
+          "source_title": "信宜方志",
+          "value": "6",
+          "record_count": 15
+        },
+        {
+          "idiom_tag": "XINYI",
+          "document_id": "9f2df161-d69f-4293-93e6-13989a727f83",
+          "source_title": "信宜方志",
+          "value": "8",
+          "record_count": 3
+        },
+        {
+          "idiom_tag": "XINYI",
+          "document_id": "9f2df161-d69f-4293-93e6-13989a727f83",
+          "source_title": "信宜方志",
+          "value": "9",
+          "record_count": 4
+        },
+        {
+          "idiom_tag": "XINYI",
+          "document_id": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+          "source_title": "广东粤方言概要 / An Outline of Yue Dialects in Guangdong",
+          "value": "8",
+          "record_count": 1
+        },
+        {
+          "idiom_tag": "XINYI",
+          "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+          "source_title": "The Yue Dialect",
+          "value": "9",
+          "record_count": 1
+        }
+      ],
+      "expected_row_count": 17,
+      "caveat_en": "17 groups match the curator's operations_proposal.json control values exactly: CANTONESE_STD {6:2,7:1,9:4,10:2}, TAISHAN {10:1,6:14,5:12}, XINYI {9:5,6:15,8:7,3:2}. value is stored as a string in the graph (e.g. '6'), not an integer; grouping is done on the string form, which matches the curator's str(value) convention.",
+      "title_en": "Sixty-five records, far fewer sources behind them",
+      "finding_en": "Grouped by source and value, the 65 records collapse into {n_rows} pairs. One dictionary alone accounts for {taishan_dict_records} records, split between two values.",
+      "finding_vars": {
+        "taishan_dict_records": {
+          "op": "sum",
+          "column": "record_count",
+          "where": [
+            {
+              "column": "idiom_tag",
+              "equals": "TAISHAN"
+            },
+            {
+              "column": "document_id",
+              "equals": "318c6cec-eacf-44d4-a665-5c1667edb985"
+            }
+          ]
+        }
+      },
+      "finding_empty_en": "No idiom-document-value grouping is present in this selection.",
+      "why_it_matters_en": "The number of records measures how often a table was cut up, not how many scholars agree.",
+      "columns_en": {
+        "idiom_tag": "Idiom the records are about",
+        "document_id": "Source document identifier",
+        "source_title": "Title of the source document",
+        "value": "Reported tone-inventory count, as a string",
+        "record_count": "Number of records in this idiom-document-value group"
+      },
+      "reader_visible": true
+    },
+    {
+      "name": "within_source_divergence",
+      "origin": "c4:within_source_divergence",
+      "status": "native",
+      "question_en": "Which (idiom_tag, document) pairs report more than one distinct value?",
+      "cypher": "MATCH (c:Claim) WHERE c.id IN $claim_ids\nMATCH (s:Source)-[:HAS_EVIDENCE]->(:Evidence)-[:SUPPORTS]->(c)\nWITH c.idiom_tag AS idiom_tag, s.id AS document_id, collect(DISTINCT c.value) AS values\nWHERE size(values) > 1\nRETURN idiom_tag, document_id, values ORDER BY idiom_tag, document_id",
+      "params": {
+        "claim_ids": [
+          "claim_02e056b60cf1dfd5e1c3ee7e",
+          "claim_058ac97559878e44f96a1ede",
+          "claim_0c5154aabe82fbe031cd33f1",
+          "claim_112adc555ffe9645a883ddef",
+          "claim_11ac1a0479dfbb7c7202b172",
+          "claim_148aa4aa48b640d3f40979a5",
+          "claim_14923c451ca9a098f7175a37",
+          "claim_18271ce5bff6a5eddd2c87da",
+          "claim_19c0e935cdf38a05f2a04655",
+          "claim_227039c0ad76c602939ef7e9",
+          "claim_235ff1422a90eff73100530b",
+          "claim_2d8222642c1080aa6ca887ee",
+          "claim_301f77d8b065f3eb9237a8d6",
+          "claim_3a811cec6372c98b044d49d3",
+          "claim_3c296686a817f279934b8917",
+          "claim_3c32af2af7b9e7a01132c09e",
+          "claim_3f0e6e8a57f1a01231987c1c",
+          "claim_41f1b4b16ab7f8b80d9edd18",
+          "claim_42f909ee30b1824655013ca9",
+          "claim_467b46648c9a038fdd2db1ef",
+          "claim_4754a68dc08240ebab360312",
+          "claim_4b51a6804939cc2aca355b1b",
+          "claim_4f61a4043ced905b587cd748",
+          "claim_5027645e8ffea24263a9b36a",
+          "claim_583a369a8be53634c14039b6",
+          "claim_5e363ba8f24c27c0c138ce21",
+          "claim_5ed156f7ee50ac69d81aef88",
+          "claim_6291de79d3ac0cee6250ea6c",
+          "claim_64afcc0802bb0dee12c30c1c",
+          "claim_687209b133edd56e6a87c414",
+          "claim_6a5d873c43f9a5600d764b0f",
+          "claim_6ba7f9779c451dc91283d69c",
+          "claim_6ee85f65a7ad0ec5068bb7c2",
+          "claim_6f4c093ac451f3e34ba9318f",
+          "claim_6fee508b1a77bb90e6600196",
+          "claim_74a6dd7c92012d5e5354e0d8",
+          "claim_761068332ea55621facefea0",
+          "claim_77e427ae9b1a3aa5688694ac",
+          "claim_78bb8ee87a98f1b298d39a22",
+          "claim_8687d90cdb1455fb42f62678",
+          "claim_876d5758efb444e7f1a65e9c",
+          "claim_87f4d1d2bc9dc2ca124ac4a0",
+          "claim_89e5fce12e22e941acd2361f",
+          "claim_8d792911665017b15bdbc4f4",
+          "claim_947e86a84240c486842fe728",
+          "claim_98dcd0bf6af0d33734a8fda0",
+          "claim_9928be1df8afabbc0403411a",
+          "claim_9d39c7e293644e0745d36a17",
+          "claim_a24173d48a82c7cd759300c1",
+          "claim_aefb671843ec59ddeb8f28d0",
+          "claim_b4c27e4695f6d44e4c6eb1b9",
+          "claim_b5e2c481b26969d93857663b",
+          "claim_bff930c17ff5f7d9525e0f9a",
+          "claim_c58bbe5e0b7fbef0d2bc9cf2",
+          "claim_d2e8e9284861f20cd1dd0fc9",
+          "claim_d82677aac2cfe2f1ed78f3b7",
+          "claim_d8ac7d66d9ecdd15dcf68a6b",
+          "claim_e4bbc91c337b012f6490b1cb",
+          "claim_ec78cd50d1af8b6e17de5795",
+          "claim_f659af1316a02359e55fa1c7",
+          "claim_f78c8f31549ba5d9dc3ac20a",
+          "claim_fa5593dbf73f4967c3ead8e2",
+          "claim_fba3c4586e8042159ceafbdd",
+          "claim_fbfc39b8fa86f9d7a612620f",
+          "claim_fef9fea2dc571072302f0c29"
+        ]
+      },
+      "expected": [
+        {
+          "idiom_tag": "CANTONESE_STD",
+          "document_id": "31288067-8899-4f17-94b6-f5803bba4c3a",
+          "values": [
+            "6",
+            "10"
+          ]
+        },
+        {
+          "idiom_tag": "CANTONESE_STD",
+          "document_id": "e6be7364-5058-4634-83c1-f0df521b1b59",
+          "values": [
+            "6",
+            "7"
+          ]
+        },
+        {
+          "idiom_tag": "TAISHAN",
+          "document_id": "318c6cec-eacf-44d4-a665-5c1667edb985",
+          "values": [
+            "6",
+            "5"
+          ]
+        },
+        {
+          "idiom_tag": "XINYI",
+          "document_id": "9f2df161-d69f-4293-93e6-13989a727f83",
+          "values": [
+            "8",
+            "6",
+            "9",
+            "3"
+          ]
+        }
+      ],
+      "expected_row_count": 4,
+      "caveat_en": "Divergence at the document level does not by itself indicate how many independent analyses a document contains.",
+      "title_en": "Different numbers inside one book",
+      "finding_en": "{n_rows} sources give more than one number for the same variety; the Xinyi gazetteer gives {xinyi_values}. Different numbers inside one book point to different units of count or to fragmented tables, not to a dispute between scholars.",
+      "finding_vars": {
+        "xinyi_values": {
+          "op": "list_len",
+          "column": "values",
+          "where": {
+            "column": "idiom_tag",
+            "equals": "XINYI"
+          }
+        }
+      },
+      "finding_empty_en": "No document in this selection reports more than one distinct value for the same idiom.",
+      "why_it_matters_en": "Nine tonal categories and eight tone values on one page do not contradict each other.",
+      "columns_en": {
+        "idiom_tag": "Idiom the records are about",
+        "document_id": "Source document identifier",
+        "values": "Distinct tone-inventory counts reported by this document for this idiom"
+      },
+      "reader_visible": true
+    },
+    {
+      "name": "independent_bases / distinct_textual_bases",
+      "origin": "c2/c3:independent_bases",
+      "status": "native",
+      "question_en": "Given the shared_basis pairs, how many distinct textual bases (connected components under 'same chunk, overlapping span') do the 65 records reduce to?",
+      "cypher": "MATCH (e1:Evidence)-[:SUPPORTS]->(c1:Claim), (e2:Evidence)-[:SUPPORTS]->(c2:Claim)\nWHERE c1.id IN $claim_ids AND c2.id IN $claim_ids AND c1.id < c2.id\n  AND e1.chunk_id = e2.chunk_id\n  AND e1.start_char IS NOT NULL AND e2.start_char IS NOT NULL\n  AND e1.start_char < e2.end_char AND e2.start_char < e1.end_char\nRETURN c1.id AS claim_a, c2.id AS claim_b, e1.id AS ev_a, e2.id AS ev_b,\n       e1.chunk_id AS chunk_id, e1.start_char AS a_start, e1.end_char AS a_end,\n       e2.start_char AS b_start, e2.end_char AS b_end,\n       CASE WHEN e1.id = e2.id THEN 'same_evidence' ELSE 'overlapping_span' END AS relation\nORDER BY claim_a, claim_b",
+      "params": {
+        "claim_ids": [
+          "claim_02e056b60cf1dfd5e1c3ee7e",
+          "claim_058ac97559878e44f96a1ede",
+          "claim_0c5154aabe82fbe031cd33f1",
+          "claim_112adc555ffe9645a883ddef",
+          "claim_11ac1a0479dfbb7c7202b172",
+          "claim_148aa4aa48b640d3f40979a5",
+          "claim_14923c451ca9a098f7175a37",
+          "claim_18271ce5bff6a5eddd2c87da",
+          "claim_19c0e935cdf38a05f2a04655",
+          "claim_227039c0ad76c602939ef7e9",
+          "claim_235ff1422a90eff73100530b",
+          "claim_2d8222642c1080aa6ca887ee",
+          "claim_301f77d8b065f3eb9237a8d6",
+          "claim_3a811cec6372c98b044d49d3",
+          "claim_3c296686a817f279934b8917",
+          "claim_3c32af2af7b9e7a01132c09e",
+          "claim_3f0e6e8a57f1a01231987c1c",
+          "claim_41f1b4b16ab7f8b80d9edd18",
+          "claim_42f909ee30b1824655013ca9",
+          "claim_467b46648c9a038fdd2db1ef",
+          "claim_4754a68dc08240ebab360312",
+          "claim_4b51a6804939cc2aca355b1b",
+          "claim_4f61a4043ced905b587cd748",
+          "claim_5027645e8ffea24263a9b36a",
+          "claim_583a369a8be53634c14039b6",
+          "claim_5e363ba8f24c27c0c138ce21",
+          "claim_5ed156f7ee50ac69d81aef88",
+          "claim_6291de79d3ac0cee6250ea6c",
+          "claim_64afcc0802bb0dee12c30c1c",
+          "claim_687209b133edd56e6a87c414",
+          "claim_6a5d873c43f9a5600d764b0f",
+          "claim_6ba7f9779c451dc91283d69c",
+          "claim_6ee85f65a7ad0ec5068bb7c2",
+          "claim_6f4c093ac451f3e34ba9318f",
+          "claim_6fee508b1a77bb90e6600196",
+          "claim_74a6dd7c92012d5e5354e0d8",
+          "claim_761068332ea55621facefea0",
+          "claim_77e427ae9b1a3aa5688694ac",
+          "claim_78bb8ee87a98f1b298d39a22",
+          "claim_8687d90cdb1455fb42f62678",
+          "claim_876d5758efb444e7f1a65e9c",
+          "claim_87f4d1d2bc9dc2ca124ac4a0",
+          "claim_89e5fce12e22e941acd2361f",
+          "claim_8d792911665017b15bdbc4f4",
+          "claim_947e86a84240c486842fe728",
+          "claim_98dcd0bf6af0d33734a8fda0",
+          "claim_9928be1df8afabbc0403411a",
+          "claim_9d39c7e293644e0745d36a17",
+          "claim_a24173d48a82c7cd759300c1",
+          "claim_aefb671843ec59ddeb8f28d0",
+          "claim_b4c27e4695f6d44e4c6eb1b9",
+          "claim_b5e2c481b26969d93857663b",
+          "claim_bff930c17ff5f7d9525e0f9a",
+          "claim_c58bbe5e0b7fbef0d2bc9cf2",
+          "claim_d2e8e9284861f20cd1dd0fc9",
+          "claim_d82677aac2cfe2f1ed78f3b7",
+          "claim_d8ac7d66d9ecdd15dcf68a6b",
+          "claim_e4bbc91c337b012f6490b1cb",
+          "claim_ec78cd50d1af8b6e17de5795",
+          "claim_f659af1316a02359e55fa1c7",
+          "claim_f78c8f31549ba5d9dc3ac20a",
+          "claim_fa5593dbf73f4967c3ead8e2",
+          "claim_fba3c4586e8042159ceafbdd",
+          "claim_fbfc39b8fa86f9d7a612620f",
+          "claim_fef9fea2dc571072302f0c29"
+        ]
+      },
+      "expected": {
+        "components_merged_by_shared_basis": 4,
+        "distinct_textual_bases": 63
+      },
+      "expected_row_count": 1,
+      "caveat_en": "65 - 2 = 63 distinct textual bases under this narrow relation (same chunk, overlapping evidence span). This is not the same claim as '63 independent analyses': see count_independent_analyses below.",
+      "title_en": "How many independent passages the 65 records reduce to",
+      "finding_en": "After merging the shared_basis pairs, the 65 records reduce to {distinct_bases} distinct textual bases under this narrow same-chunk, overlapping-span relation.",
+      "finding_vars": {
+        "distinct_bases": {
+          "op": "sum",
+          "column": "distinct_textual_bases"
+        }
+      },
+      "finding_empty_en": "No textual-base count is available for this selection.",
+      "why_it_matters_en": "This number answers 'how many passages', not 'how many independent scholarly analyses' — the case is explicit that the second question needs authorship annotation this graph does not carry (see count_independent_analyses).",
+      "columns_en": {
+        "components_merged_by_shared_basis": "Number of records folded together because they share a textual basis with at least one other record",
+        "distinct_textual_bases": "Number of distinct textual bases the 65 records reduce to after that merge"
+      },
+      "reader_visible": false
+    }
+  ],
+  "not_applicable": {
+    "count_independent_analyses": {
+      "origin": "c4:count_independent_analyses",
+      "status": "not_applicable",
+      "reason_en": "Requires analysis_id, author-of-analysis annotation and author-level shared-basis; the technical pairs (idiom_tag+document+value) do not substitute for that. In P17 a single document holds Wang's own analysis and a retelling of Tang's; document+value does not distinguish the two.",
+      "title_en": "Not counted here: independent analyses",
+      "finding_en": "How many independent analyses stand behind the records is not computed. That needs an expert decision about which statements belong to one analysis; grouping by source and value is only an approximation, and one volume here contains both an author's own analysis and his report of another's.",
+      "reader_visible": true
+    }
+  },
+  "context_findings": {
+    "addressing_gap": {
+      "status": "curated",
+      "title_en": "Same book, two kinds of address",
+      "finding_en": "7 of the 21 passport rows find their records only through the subgroup address: the same books yield some records tagged with a variety and others tagged only with a branch. A query by variety misses the second kind.",
+      "why_it_matters_en": "The answer depends on the unit in which the question is asked — here the unit of addressing, elsewhere in this case the unit of count.",
+      "finding_vars": {
+        "linked_by_subgroup": 7,
+        "passport_rows": 21,
+        "feature_total_active": 1130,
+        "feature_no_tag": 801,
+        "yue_total_active": 504,
+        "yue_no_tag": 236
+      },
+      "reader_visible": true
+    }
+  }
+}

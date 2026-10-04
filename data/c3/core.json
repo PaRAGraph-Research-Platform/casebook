@@ -1,0 +1,1384 @@
+[
+  {
+    "native": {
+      "claim_id": "claim_a0314ec98e293304abc62820",
+      "status": "auto_approved",
+      "locality": null,
+      "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "target": "YUE",
+      "target_relationship": "ABOUT_GROUP",
+      "value": "Yue is divided into seven subgroups: Guangfu, Siyi, Gaoyang, Wuhua, Goulou, Yongxun, and Qinlian.",
+      "conditions": null,
+      "polarity": "attested",
+      "evidence_id": "ev_603ec447e1748395f65b",
+      "chunk_id": "0a51d990-eae7-56fc-83fc-2a64a3059f11",
+      "quote": "根据粤语内部的差异, 又可分为广府、四邑、高阳、吴化、勾漏、邕浔、钦廉七个片。",
+      "evidence_page": 185,
+      "start_char": 12,
+      "end_char": 50,
+      "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+      "source_title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "partial_support",
+        "verification_notes": null,
+        "verifier_confidence": 0.68,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "anchor": "A1",
+      "scheme": "SCH_ATLAS",
+      "scheme_en": "Language Atlas of China (2nd edition, 2012): Yue is cut once, into seven coordinate 片",
+      "role_en": "Atlas 2012, section 2.1: Yue is divided into seven 片 — Guangfu, Siyi, Gaoyang, Wuhua, Goulou, Yongxun and Qinlian. This is the running text, not the map legend: the seven units are coordinate and sit directly under Yue.",
+      "note_ru": null,
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "source_key": "atlas_2012",
+      "chunk_section_title": "2.1 粤语分片的依据",
+      "chunk_page_start": 185,
+      "chunk_page_end": 185,
+      "physical_page": 185,
+      "printed_page": "127",
+      "page_method": "visual_page_image",
+      "page_confidence": "high",
+      "runtime_page_labels": {
+        "page_label_display": "127",
+        "page_label_confidence": "high",
+        "page_label_method": "manual_validation_table",
+        "page_label_start": "127",
+        "page_label_end": "127"
+      },
+      "evidence_page_field": 185,
+      "context_segments": [
+        {
+          "id": "5e47a810-7bae-4aee-8950-47b579db2cde",
+          "chunk_id": "0a51d990-eae7-56fc-83fc-2a64a3059f11",
+          "segment_order": 3,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 0,
+          "page": 185,
+          "start_char": 12,
+          "end_char": 50,
+          "text": "根据粤语内部的差异, 又可分为广府、四邑、高阳、吴化、勾漏、邕浔、钦廉七个片。"
+        }
+      ],
+      "verifier_note_en": null,
+      "author_unit": null,
+      "author_units": [
+        {
+          "unit_as_written": "勾漏",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_stem",
+          "scheme_records": [
+            "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U5"
+          ],
+          "scheme_record": "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U5"
+        },
+        {
+          "unit_as_written": "吴化",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_stem",
+          "scheme_records": [
+            "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U4"
+          ],
+          "scheme_record": "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U4"
+        },
+        {
+          "unit_as_written": "四邑",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_stem",
+          "scheme_records": [
+            "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U2"
+          ],
+          "scheme_record": "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U2"
+        },
+        {
+          "unit_as_written": "广府",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_stem",
+          "scheme_records": [
+            "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U1"
+          ],
+          "scheme_record": "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U1"
+        },
+        {
+          "unit_as_written": "邕浔",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_stem",
+          "scheme_records": [
+            "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U6"
+          ],
+          "scheme_record": "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U6"
+        },
+        {
+          "unit_as_written": "钦廉",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_stem",
+          "scheme_records": [
+            "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U7"
+          ],
+          "scheme_record": "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U7"
+        },
+        {
+          "unit_as_written": "高阳",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_stem",
+          "scheme_records": [
+            "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U3"
+          ],
+          "scheme_record": "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U3"
+        }
+      ]
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_4cf43021976128a0939ce88a",
+      "status": "auto_approved",
+      "locality": null,
+      "feature": "GEOGRAPHY_DISTRIBUTION",
+      "target": "YUE_SIYI",
+      "target_relationship": "ABOUT_SUBGROUP",
+      "value": "Mainly distributed in places in the Tanjiang River basin of Guangdong, including Jiangmen, Xinhui, Enping, Kaiping, Taishan, Heshan, and Doumen district of Zhuhai.",
+      "conditions": null,
+      "polarity": "attested",
+      "evidence_id": "ev_688c22d1deb961cb05ec",
+      "chunk_id": "10f2afb5-769f-5a28-b2e5-e2d275f2cc10",
+      "quote": "(2) 四邑片 本片主要分布于广东潭江流域的一些地方, 共 7 个县市区, 使用人口约 388 万。 广东省: 江门市 (蓬江区、江海区) 新会市 (今并入江门市) 恩平市 开平市 台山市 鹤山市 珠海市 (斗门区)",
+      "evidence_page": null,
+      "start_char": 485,
+      "end_char": 589,
+      "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+      "source_title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "explicit_support",
+        "verification_notes": null,
+        "verifier_confidence": 0.82,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "anchor": "A2",
+      "scheme": "SCH_ATLAS",
+      "scheme_en": "Language Atlas of China (2nd edition, 2012): Yue is cut once, into seven coordinate 片",
+      "role_en": "Atlas 2012, section 2.2: the membership of 四邑片 — seven units of the Tanjiang basin (Jiangmen, Xinhui, Enping, Kaiping, Taishan, Heshan, Doumen district of Zhuhai).",
+      "note_ru": null,
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "source_key": "atlas_2012",
+      "chunk_section_title": "2.2 粤语各片的分布范围",
+      "chunk_page_start": 185,
+      "chunk_page_end": 185,
+      "physical_page": 185,
+      "printed_page": "127",
+      "page_method": "visual_page_image",
+      "page_confidence": "high",
+      "runtime_page_labels": {
+        "page_label_display": "127",
+        "page_label_confidence": "high",
+        "page_label_method": "manual_validation_table",
+        "page_label_start": "127",
+        "page_label_end": "127"
+      },
+      "evidence_page_field": null,
+      "context_segments": [
+        {
+          "id": "f3b28ddb-098e-4c8a-866b-41e0a4964d97",
+          "chunk_id": "10f2afb5-769f-5a28-b2e5-e2d275f2cc10",
+          "segment_order": 9,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 485,
+          "end_char": 533,
+          "text": "(2) 四邑片 本片主要分布于广东潭江流域的一些地方, 共 7 个县市区, 使用人口约 388 万。"
+        },
+        {
+          "id": "446691d3-8e90-466a-9e6f-79339be44dbd",
+          "chunk_id": "10f2afb5-769f-5a28-b2e5-e2d275f2cc10",
+          "segment_order": 10,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 533,
+          "end_char": 589,
+          "text": "广东省: 江门市 (蓬江区、江海区) 新会市 (今并入江门市) 恩平市 开平市 台山市 鹤山市 珠海市 (斗门区)"
+        }
+      ],
+      "verifier_note_en": null,
+      "author_unit": {
+        "unit_as_written": "四邑片",
+        "rank_as_written": "片",
+        "attributed_to": null,
+        "basis": "quote_contains_unit_name",
+        "scheme_records": [
+          "atlas_2012.json#SCH_ATLAS_2012_yue_A2_table#U2",
+          "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U2",
+          "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18_legend#U2",
+          "atlas_2012.json#SCH_ATLAS_2012_yue_B2-1_guangdong#U2",
+          "atlas_2012.json#SCH_ATLAS_2012_yue_B2-1_legend#U2"
+        ],
+        "scheme_record": "atlas_2012.json#SCH_ATLAS_2012_yue_A2_table#U2"
+      }
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_cfd92b2d77712342e18c6b94",
+      "status": "auto_approved",
+      "locality": null,
+      "feature": "GEOGRAPHY_DISTRIBUTION",
+      "target": "YUE_GAOYANG",
+      "target_relationship": "ABOUT_SUBGROUP",
+      "value": "Mainly distributed in most of Maoming and Yangjiang in southwest Guangdong and parts of Wuchuan in Zhanjiang, with listed localities including Gaozhou, Xinyi, Huazhou, Yangchun, Yangdong, Yangxi, Chikan, Wuchuan, and Lianjiang Anpu and nearby areas.",
+      "conditions": null,
+      "polarity": "attested",
+      "evidence_id": "ev_1564e8a9cd0931eb7dd7",
+      "chunk_id": "10f2afb5-769f-5a28-b2e5-e2d275f2cc10",
+      "quote": "(3) 高阳片 本片主要分布于粤西南的茂名、阳江两市的大部分地区及湛江市的吴川部分地区, 共 11 个县市区, 使用人口约 643 万。 广东省: 茂名市 (茂南区) 高州市 (大部分) 信宜市 (中西部) 化州市 (东部) 阳江市 (江城区) 阳春市 (大部分) 阳东县 阳西县 (大部分) 湛江市 (赤坎区) 吴川市 (部分) 廉江市 (安铺等大部分地区)",
+      "evidence_page": null,
+      "start_char": 590,
+      "end_char": 766,
+      "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+      "source_title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "explicit_support",
+        "verification_notes": null,
+        "verifier_confidence": 0.82,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "anchor": "A3",
+      "scheme": "SCH_ATLAS",
+      "scheme_en": "Language Atlas of China (2nd edition, 2012): Yue is cut once, into seven coordinate 片",
+      "role_en": "Atlas 2012, section 2.2: the membership of 高陽片 — eleven units of Maoming and Yangjiang plus part of Wuchuan. Yangjiang and Yangchun are inside Gaoyang here; in the other scheme they are the core of 兩陽片.",
+      "note_ru": null,
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "source_key": "atlas_2012",
+      "chunk_section_title": "2.2 粤语各片的分布范围",
+      "chunk_page_start": 185,
+      "chunk_page_end": 185,
+      "physical_page": 185,
+      "printed_page": "127",
+      "page_method": "visual_page_image",
+      "page_confidence": "high",
+      "runtime_page_labels": {
+        "page_label_display": "127",
+        "page_label_confidence": "high",
+        "page_label_method": "manual_validation_table",
+        "page_label_start": "127",
+        "page_label_end": "127"
+      },
+      "evidence_page_field": null,
+      "context_segments": [
+        {
+          "id": "453829a9-fb95-43c2-a20f-8f970bafcd58",
+          "chunk_id": "10f2afb5-769f-5a28-b2e5-e2d275f2cc10",
+          "segment_order": 11,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 590,
+          "end_char": 656,
+          "text": "(3) 高阳片 本片主要分布于粤西南的茂名、阳江两市的大部分地区及湛江市的吴川部分地区, 共 11 个县市区, 使用人口约 643 万。"
+        },
+        {
+          "id": "b6313bfa-74d5-4faa-bfba-99e2cca6f948",
+          "chunk_id": "10f2afb5-769f-5a28-b2e5-e2d275f2cc10",
+          "segment_order": 12,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 656,
+          "end_char": 766,
+          "text": "广东省: 茂名市 (茂南区) 高州市 (大部分) 信宜市 (中西部) 化州市 (东部) 阳江市 (江城区) 阳春市 (大部分) 阳东县 阳西县 (大部分) 湛江市 (赤坎区) 吴川市 (部分) 廉江市 (安铺等大部分地区)"
+        }
+      ],
+      "verifier_note_en": null,
+      "author_unit": {
+        "unit_as_written": "高阳片",
+        "rank_as_written": "片",
+        "attributed_to": null,
+        "basis": "quote_contains_unit_name",
+        "scheme_records": [
+          "atlas_2012.json#SCH_ATLAS_2012_yue_A2_table#U3",
+          "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U3",
+          "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18_legend#U3",
+          "atlas_2012.json#SCH_ATLAS_2012_yue_B2-1_guangdong#U4",
+          "atlas_2012.json#SCH_ATLAS_2012_yue_B2-1_legend#U4"
+        ],
+        "scheme_record": "atlas_2012.json#SCH_ATLAS_2012_yue_A2_table#U3"
+      }
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_39ec5fd17ce8736f5973a464",
+      "status": "auto_approved",
+      "locality": null,
+      "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "target": "YUE",
+      "target_relationship": "ABOUT_GROUP",
+      "value": "粤语分为两区七片：四邑两阳区（四邑片 A、两阳片 B）与三角洲区（北三角洲片：三邑肇庆小片 C、内陆小片 D；南三角洲片：钦廉小片 E、中山小片 F；广府片 G）",
+      "conditions": null,
+      "polarity": "attested",
+      "evidence_id": "ev_0e46deee89182712d021",
+      "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+      "quote": "| 语言 | 区 | 片 | 小片 | 图中代号 | | --- | --- | --- | --- | --- | | 粤语 | 四邑两阳区 | 四邑片 | | A | | 粤语 | 四邑两阳区 | 两阳片 | | B | | 粤语 | 三角洲区 | 北三角洲片 | 三邑肇庆小片 | C | | 粤语 | 三角洲区 | 北三角洲片 | 内陆小片 | D | | 粤语 | 三角洲区 | 南三角洲片 | 钦廉小片 | E | | 粤语 | 三角洲区 | 南三角洲片 | 中山小片 | F | | 粤语 | 三角洲区 | 广府片 | | G |",
+      "evidence_page": 13,
+      "start_char": 9,
+      "end_char": 281,
+      "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "source_title": "粤语方言分区问题初探",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "partial_support",
+        "verifier_confidence": 0.75,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "anchor": "Y1",
+      "scheme": "SCH_YH",
+      "scheme_en": "Yue-Hashimoto: Yue is cut into two 區 districts, then into 片 and 小片",
+      "role_en": "Yue-Hashimoto 1991a, Table 5 (表五 粤语分区表): Yue is divided into two 區 districts, five 片 and four 小片, printed with the map codes A-G (seven terminal cells in the table). Primary evidence that a 區 stands above 片 in this scheme.",
+      "note_ru": null,
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "source_key": "yue_hashimoto_1991a",
+      "chunk_section_title": "表五 粤语分区表",
+      "chunk_page_start": 13,
+      "chunk_page_end": 13,
+      "physical_page": 13,
+      "printed_page": "176",
+      "page_method": "visual_page_image",
+      "page_confidence": "high",
+      "runtime_page_labels": {},
+      "evidence_page_field": 13,
+      "context_segments": [
+        {
+          "id": "f21723d3-2a45-4949-916a-dc86c2e849d6",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 2,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 9,
+          "end_char": 35,
+          "text": "| 语言 | 区 | 片 | 小片 | 图中代号 |"
+        },
+        {
+          "id": "83e95660-5e3a-4a70-9822-444a1e4fe95f",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 3,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 36,
+          "end_char": 67,
+          "text": "| --- | --- | --- | --- | --- |"
+        },
+        {
+          "id": "32a683fb-d316-43ee-82f1-a4c2d8f507f1",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 4,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 68,
+          "end_char": 94,
+          "text": "| 粤语 | 四邑两阳区 | 四邑片 | | A |"
+        },
+        {
+          "id": "c50d0099-9666-417b-8a69-8528dca5b339",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 5,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 95,
+          "end_char": 121,
+          "text": "| 粤语 | 四邑两阳区 | 两阳片 | | B |"
+        },
+        {
+          "id": "30f8eda2-1688-4d59-8c5d-c3a03f809b59",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 6,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 122,
+          "end_char": 156,
+          "text": "| 粤语 | 三角洲区 | 北三角洲片 | 三邑肇庆小片 | C |"
+        },
+        {
+          "id": "93238519-fb0e-4137-bed7-a039805f889e",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 7,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 157,
+          "end_char": 189,
+          "text": "| 粤语 | 三角洲区 | 北三角洲片 | 内陆小片 | D |"
+        },
+        {
+          "id": "fdcae47e-ffc6-44cc-8120-d887d00aa0ae",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 8,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 190,
+          "end_char": 222,
+          "text": "| 粤语 | 三角洲区 | 南三角洲片 | 钦廉小片 | E |"
+        },
+        {
+          "id": "50c362b9-9cf6-492d-8395-4bafc2b11dbc",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 9,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 223,
+          "end_char": 255,
+          "text": "| 粤语 | 三角洲区 | 南三角洲片 | 中山小片 | F |"
+        },
+        {
+          "id": "cfa85726-9310-46eb-a30f-e7e7b7287855",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 10,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 256,
+          "end_char": 281,
+          "text": "| 粤语 | 三角洲区 | 广府片 | | G |"
+        }
+      ],
+      "verifier_note_en": "The table confirms every listed Yue relationship and the map codes A-G; the expression 'two districts, seven pian' (两区七片) compresses the seven terminal subdivisions, since C-F are formally 小片 (subdivisions), not 片.",
+      "author_unit": null,
+      "author_units": [
+        {
+          "unit_as_written": "三角洲区",
+          "rank_as_written": "区",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U2"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U2"
+        },
+        {
+          "unit_as_written": "三邑肇庆小片",
+          "rank_as_written": "小片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U6"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U6"
+        },
+        {
+          "unit_as_written": "两阳片",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U4"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U4"
+        },
+        {
+          "unit_as_written": "中山小片",
+          "rank_as_written": "小片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U10"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U10"
+        },
+        {
+          "unit_as_written": "内陆小片",
+          "rank_as_written": "小片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U7"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U7"
+        },
+        {
+          "unit_as_written": "北三角洲片",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U5"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U5"
+        },
+        {
+          "unit_as_written": "南三角洲片",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U8"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U8"
+        },
+        {
+          "unit_as_written": "四邑两阳区",
+          "rank_as_written": "区",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U1"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U1"
+        },
+        {
+          "unit_as_written": "四邑片",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U3"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U3"
+        },
+        {
+          "unit_as_written": "广府片",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U11"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U11"
+        },
+        {
+          "unit_as_written": "钦廉小片",
+          "rank_as_written": "小片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U9"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U9"
+        }
+      ]
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_1bcde9febf2f8e5ecfadf6d2",
+      "status": "auto_approved",
+      "locality": null,
+      "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "target": "YUE",
+      "target_relationship": "ABOUT_GROUP",
+      "value": "四邑两阳区下分四邑片（A）、两阳片（B）",
+      "conditions": null,
+      "polarity": "attested",
+      "evidence_id": "ev_6cf783004b36e8b58c54",
+      "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+      "quote": "| 粤语 | 四邑两阳区 | 四邑片 | | A | | 粤语 | 四邑两阳区 | 两阳片 | | B |",
+      "evidence_page": 13,
+      "start_char": 68,
+      "end_char": 121,
+      "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "source_title": "粤语方言分区问题初探",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "explicit_support",
+        "verifier_confidence": 0.98,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "anchor": "Y2",
+      "scheme": "SCH_YH",
+      "scheme_en": "Yue-Hashimoto: Yue is cut into two 區 districts, then into 片 and 小片",
+      "role_en": "Yue-Hashimoto 1991a, Table 5: the 四邑兩陽區 district contains 四邑片 (A) and 兩陽片 (B). Siyi is a 片 inside the district, not the district itself.",
+      "note_ru": null,
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "source_key": "yue_hashimoto_1991a",
+      "chunk_section_title": "表五 粤语分区表",
+      "chunk_page_start": 13,
+      "chunk_page_end": 13,
+      "physical_page": 13,
+      "printed_page": "176",
+      "page_method": "visual_page_image",
+      "page_confidence": "high",
+      "runtime_page_labels": {},
+      "evidence_page_field": 13,
+      "context_segments": [
+        {
+          "id": "32a683fb-d316-43ee-82f1-a4c2d8f507f1",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 4,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 68,
+          "end_char": 94,
+          "text": "| 粤语 | 四邑两阳区 | 四邑片 | | A |"
+        },
+        {
+          "id": "c50d0099-9666-417b-8a69-8528dca5b339",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 5,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 95,
+          "end_char": 121,
+          "text": "| 粤语 | 四邑两阳区 | 两阳片 | | B |"
+        }
+      ],
+      "verifier_note_en": null,
+      "author_unit": null,
+      "author_units": [
+        {
+          "unit_as_written": "两阳片",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U4"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U4"
+        },
+        {
+          "unit_as_written": "四邑两阳区",
+          "rank_as_written": "区",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U1"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U1"
+        },
+        {
+          "unit_as_written": "四邑片",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U3"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U3"
+        }
+      ]
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_b51e88ef7598892203251d11",
+      "status": "auto_approved",
+      "locality": null,
+      "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "target": "YUE",
+      "target_relationship": "ABOUT_GROUP",
+      "value": "三角洲区下分北三角洲片（三邑肇庆小片 C、内陆小片 D）、南三角洲片（钦廉小片 E、中山小片 F）、广府片（G）",
+      "conditions": null,
+      "polarity": "attested",
+      "evidence_id": "ev_7e621afd66859f1de4b8",
+      "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+      "quote": "| 粤语 | 三角洲区 | 北三角洲片 | 三邑肇庆小片 | C | | 粤语 | 三角洲区 | 北三角洲片 | 内陆小片 | D | | 粤语 | 三角洲区 | 南三角洲片 | 钦廉小片 | E | | 粤语 | 三角洲区 | 南三角洲片 | 中山小片 | F | | 粤语 | 三角洲区 | 广府片 | | G |",
+      "evidence_page": 13,
+      "start_char": 122,
+      "end_char": 281,
+      "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "source_title": "粤语方言分区问题初探",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "explicit_support",
+        "verifier_confidence": 0.98,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "anchor": "Y3",
+      "scheme": "SCH_YH",
+      "scheme_en": "Yue-Hashimoto: Yue is cut into two 區 districts, then into 片 and 小片",
+      "role_en": "Yue-Hashimoto 1991a, Table 5: the 三角洲區 district contains 北三角洲片 (with 三邑肇慶小片 C and 內陸小片 D), 南三角洲片 (with 欽廉小片 E and 中山小片 F) and 廣府片 (G). Guangfu is one level below the top cut, not coordinate with Siyi.",
+      "note_ru": null,
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "source_key": "yue_hashimoto_1991a",
+      "chunk_section_title": "表五 粤语分区表",
+      "chunk_page_start": 13,
+      "chunk_page_end": 13,
+      "physical_page": 13,
+      "printed_page": "176",
+      "page_method": "visual_page_image",
+      "page_confidence": "high",
+      "runtime_page_labels": {},
+      "evidence_page_field": 13,
+      "context_segments": [
+        {
+          "id": "30f8eda2-1688-4d59-8c5d-c3a03f809b59",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 6,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 122,
+          "end_char": 156,
+          "text": "| 粤语 | 三角洲区 | 北三角洲片 | 三邑肇庆小片 | C |"
+        },
+        {
+          "id": "93238519-fb0e-4137-bed7-a039805f889e",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 7,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 157,
+          "end_char": 189,
+          "text": "| 粤语 | 三角洲区 | 北三角洲片 | 内陆小片 | D |"
+        },
+        {
+          "id": "fdcae47e-ffc6-44cc-8120-d887d00aa0ae",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 8,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 190,
+          "end_char": 222,
+          "text": "| 粤语 | 三角洲区 | 南三角洲片 | 钦廉小片 | E |"
+        },
+        {
+          "id": "50c362b9-9cf6-492d-8395-4bafc2b11dbc",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 9,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 223,
+          "end_char": 255,
+          "text": "| 粤语 | 三角洲区 | 南三角洲片 | 中山小片 | F |"
+        },
+        {
+          "id": "cfa85726-9310-46eb-a30f-e7e7b7287855",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 10,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 256,
+          "end_char": 281,
+          "text": "| 粤语 | 三角洲区 | 广府片 | | G |"
+        }
+      ],
+      "verifier_note_en": null,
+      "author_unit": null,
+      "author_units": [
+        {
+          "unit_as_written": "三角洲区",
+          "rank_as_written": "区",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U2"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U2"
+        },
+        {
+          "unit_as_written": "三邑肇庆小片",
+          "rank_as_written": "小片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U6"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U6"
+        },
+        {
+          "unit_as_written": "中山小片",
+          "rank_as_written": "小片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U10"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U10"
+        },
+        {
+          "unit_as_written": "内陆小片",
+          "rank_as_written": "小片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U7"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U7"
+        },
+        {
+          "unit_as_written": "北三角洲片",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U5"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U5"
+        },
+        {
+          "unit_as_written": "南三角洲片",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U8"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U8"
+        },
+        {
+          "unit_as_written": "广府片",
+          "rank_as_written": "片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U11"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U11"
+        },
+        {
+          "unit_as_written": "钦廉小片",
+          "rank_as_written": "小片",
+          "attributed_to": null,
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "yue_hashimoto_1991.json#SCH_YUE_1991#U9"
+          ],
+          "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U9"
+        }
+      ]
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_4633dd0cf013feb72f12f718",
+      "status": "auto_approved",
+      "locality": null,
+      "feature": "GEOGRAPHY_DISTRIBUTION",
+      "target": "YUE",
+      "target_relationship": "ABOUT_GROUP",
+      "value": "两阳片包括阳江、阳春及新会河村",
+      "conditions": null,
+      "polarity": "attested",
+      "evidence_id": "ev_34ebb48de4435dee6eaf",
+      "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+      "quote": "两阳片包括阳江、阳春及新会河村。",
+      "evidence_page": 13,
+      "start_char": 540,
+      "end_char": 556,
+      "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "source_title": "粤语方言分区问题初探",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "explicit_support",
+        "verifier_confidence": 0.7,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "anchor": "Y4",
+      "scheme": "SCH_YH",
+      "scheme_en": "Yue-Hashimoto: Yue is cut into two 區 districts, then into 片 and 小片",
+      "role_en": "Yue-Hashimoto 1991a: 兩陽片 contains Yangjiang, Yangchun and Hecun in Xinhui. This is the membership that the Atlas distributes between 高陽片 (Yangjiang, Yangchun) and 四邑片 (Xinhui).",
+      "note_ru": null,
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "source_key": "yue_hashimoto_1991a",
+      "chunk_section_title": "表五 粤语分区表",
+      "chunk_page_start": 13,
+      "chunk_page_end": 13,
+      "physical_page": 13,
+      "printed_page": "176",
+      "page_method": "visual_page_image",
+      "page_confidence": "high",
+      "runtime_page_labels": {},
+      "evidence_page_field": 13,
+      "context_segments": [
+        {
+          "id": "bb57c3d6-4df6-4154-837c-ae84979fa079",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 17,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 540,
+          "end_char": 556,
+          "text": "两阳片包括阳江、阳春及新会河村。"
+        }
+      ],
+      "verifier_note_en": null,
+      "author_unit": {
+        "unit_as_written": "两阳片",
+        "rank_as_written": "片",
+        "attributed_to": null,
+        "basis": "quote_contains_unit_name",
+        "scheme_records": [
+          "yue_hashimoto_1991.json#SCH_YUE_1991#U4"
+        ],
+        "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U4"
+      }
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_5764dbb5750b494ed12fd4e1",
+      "status": "auto_approved",
+      "locality": null,
+      "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "target": "YUE_SIYI",
+      "target_relationship": "ABOUT_SUBGROUP",
+      "value": "四邑兩陽區 encompasses 四邑片 and 兩陽片",
+      "conditions": "\"based on Yue 1988 classification\"",
+      "polarity": "attested",
+      "evidence_id": "ev_90550a4228a3d348f4b5",
+      "chunk_id": "be3dcfbb-c240-52b6-ab98-ed6bba5e3eee",
+      "quote": "四邑兩陽區四邑片：***新會1 (1889-90)、***新會2 (1966)、新會城、江門白沙、斗門鎮、***新寧、*台山城 (1929)、**台山淡村(1971)、***開平1、**開平2 (198? )、開平赤坎、***恩平船角 (1966)、恩平牛江、鶴山雅瑤。 四邑兩陽區兩陽片：***陽江、**陽春岡美 (1973)、*新會河村 (1929)。",
+      "evidence_page": null,
+      "start_char": 1125,
+      "end_char": 1303,
+      "document_id": "cf5ae16a-4eeb-4aa4-9306-399192dbcbb2",
+      "source_title": "Development of the Stop Endings in the Yue Dialects",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "explicit_support",
+        "verification_notes": null,
+        "verifier_confidence": 0.9,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "anchor": "H1",
+      "scheme": "SCH_YH",
+      "scheme_en": "Yue-Hashimoto: Yue is cut into two 區 districts, then into 片 and 小片",
+      "role_en": "Yue-Hashimoto, Appendix to Development of the Stop Endings in the Yue Dialects: the dialect list is headed 四邑兩陽區四邑片 and 四邑兩陽區兩陽片 — a second, independently published witness that 四邑兩陽區 is the unit containing 四邑片 and 兩陽片.",
+      "note_ru": null,
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "source_key": "yue_stop_endings_appendix",
+      "chunk_section_title": "Appendix",
+      "chunk_page_start": 25,
+      "chunk_page_end": 26,
+      "physical_page": 26,
+      "printed_page": "242",
+      "page_method": "visual_page_image",
+      "page_confidence": "high",
+      "runtime_page_labels": {
+        "page_label_display": "241-242",
+        "page_label_confidence": "high",
+        "page_label_method": "manual_validation_table",
+        "page_label_start": "241",
+        "page_label_end": "242"
+      },
+      "evidence_page_field": null,
+      "context_segments": [
+        {
+          "id": "2aa9ffff-59a3-4517-bef3-ce60ac9f8e69",
+          "chunk_id": "be3dcfbb-c240-52b6-ab98-ed6bba5e3eee",
+          "segment_order": 12,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 1039,
+          "end_char": 1126,
+          "text": "四邑兩陽區四邑片：***新會1 (1889-90)、***新會2 (1966)、新會城、江門白沙、斗門鎮、***新寧、*台山城 (1929)、**台山淡村(1971)、***開平1、**開平2 (198?"
+        },
+        {
+          "id": "8e346749-2b52-4a46-b0fa-ea7e5e9f8f1b",
+          "chunk_id": "be3dcfbb-c240-52b6-ab98-ed6bba5e3eee",
+          "segment_order": 13,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 1126,
+          "end_char": 1158,
+          "text": ")、開平赤坎、***恩平船角 (1966)、恩平牛江、鶴山雅瑤。"
+        },
+        {
+          "id": "cf0a59f2-9a6f-467f-9e1d-7d421ec6f4bd",
+          "chunk_id": "be3dcfbb-c240-52b6-ab98-ed6bba5e3eee",
+          "segment_order": 14,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 1154,
+          "end_char": 1191,
+          "text": "四邑兩陽區兩陽片：***陽江、**陽春岡美 (1973)、*新會河村 (1929)。"
+        }
+      ],
+      "verifier_note_en": null,
+      "author_unit": null,
+      "author_units": [
+        {
+          "unit_as_written": "兩陽片",
+          "rank_as_written": "片",
+          "attributed_to": "Yue 1988, Anne (余靄芹). 1988. A preliminary investigation into the subclassification problem of the Yue dialects)",
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "stop_endings.json#SCH_YUE_1988_appendix_classification#U11"
+          ],
+          "scheme_record": "stop_endings.json#SCH_YUE_1988_appendix_classification#U11"
+        },
+        {
+          "unit_as_written": "四邑兩陽區",
+          "rank_as_written": "區",
+          "attributed_to": "Yue 1988, Anne (余靄芹). 1988. A preliminary investigation into the subclassification problem of the Yue dialects)",
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "stop_endings.json#SCH_YUE_1988_appendix_classification#U9"
+          ],
+          "scheme_record": "stop_endings.json#SCH_YUE_1988_appendix_classification#U9"
+        },
+        {
+          "unit_as_written": "四邑片",
+          "rank_as_written": "片",
+          "attributed_to": "Yue 1988, Anne (余靄芹). 1988. A preliminary investigation into the subclassification problem of the Yue dialects)",
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "stop_endings.json#SCH_YUE_1988_appendix_classification#U10"
+          ],
+          "scheme_record": "stop_endings.json#SCH_YUE_1988_appendix_classification#U10"
+        }
+      ]
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_0389da505b6cbdff6eb65755",
+      "status": "auto_approved",
+      "locality": null,
+      "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "target": "YUE_GUANGFU",
+      "target_relationship": "ABOUT_SUBGROUP",
+      "value": "三角洲區廣府片 includes 廣州, 香港, 澳門, 番禺, 斗門, 花縣, 增城, 從化, 佛岡, 清遠, 英德, 韶州, 韶關, 曲江, 樂昌, 仁化, 新興, 雲浮, 羅定, 信宜, 高州保安, 三水, 南寧白話",
+      "conditions": "\"based on Yue 1988 classification\"",
+      "polarity": "attested",
+      "evidence_id": "ev_08bb66c847967b940a6e",
+      "chunk_id": "be3dcfbb-c240-52b6-ab98-ed6bba5e3eee",
+      "quote": "三角洲區廣府片方言：廣州、**香港、澳門、番禺市橋、斗門上橫水上話、花縣花山、增城、從化、佛岡、清遠、英德、*韶州 (1929)、 韶關、曲江、樂昌、仁化、新興、雲浮、羅定、信宜、**高州保安鄉 (1973)、*三水 (1929)、*南寧白話 (1929)。",
+      "evidence_page": 25,
+      "start_char": 337,
+      "end_char": 466,
+      "document_id": "cf5ae16a-4eeb-4aa4-9306-399192dbcbb2",
+      "source_title": "Development of the Stop Endings in the Yue Dialects",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "explicit_support",
+        "verification_notes": null,
+        "verifier_confidence": 0.9,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "anchor": "H2",
+      "scheme": "SCH_YH",
+      "scheme_en": "Yue-Hashimoto: Yue is cut into two 區 districts, then into 片 and 小片",
+      "role_en": "The same Appendix heads its Guangfu list 三角洲區廣府片: in this scheme Guangfu is a 片 inside the Delta district.",
+      "note_ru": null,
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "source_key": "yue_stop_endings_appendix",
+      "chunk_section_title": "Appendix",
+      "chunk_page_start": 25,
+      "chunk_page_end": 26,
+      "physical_page": 25,
+      "printed_page": "241",
+      "page_method": "visual_page_image",
+      "page_confidence": "high",
+      "runtime_page_labels": {
+        "page_label_display": "241-242",
+        "page_label_confidence": "high",
+        "page_label_method": "manual_validation_table",
+        "page_label_start": "241",
+        "page_label_end": "242"
+      },
+      "evidence_page_field": 25,
+      "context_segments": [
+        {
+          "id": "1a1db815-521f-4cc1-83b6-429401a78712",
+          "chunk_id": "be3dcfbb-c240-52b6-ab98-ed6bba5e3eee",
+          "segment_order": 4,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 29,
+          "page": 25,
+          "start_char": 334,
+          "end_char": 396,
+          "text": "三角洲區廣府片方言：廣州、**香港、澳門、番禺市橋、斗門上橫水上話、花縣花山、增城、從化、佛岡、清遠、英德、*韶州 (1929)、"
+        },
+        {
+          "id": "5633e79a-4452-41e3-8bdf-460a5d1e09cf",
+          "chunk_id": "be3dcfbb-c240-52b6-ab98-ed6bba5e3eee",
+          "segment_order": 5,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 396,
+          "end_char": 456,
+          "text": "韶關、曲江、樂昌、仁化、新興、雲浮、羅定、信宜、**高州保安鄉 (1973)、*三水 (1929)、*南寧白話 (1929)。"
+        },
+        {
+          "id": "c2b42a3a-d409-499c-ba63-743e0fac3ce9",
+          "chunk_id": "be3dcfbb-c240-52b6-ab98-ed6bba5e3eee",
+          "segment_order": 6,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 456,
+          "end_char": 590,
+          "text": "三角洲區南三角洲片莞廉小片：東莞石龍1 (1889-90)、東莞石龍2 (1896-97)、*東莞 (1929)、東莞城 (1949)、東莞莞城、增城新塘、寶安沙井、香港新界錦田、***廉江、*廉州1 (1929)、**廉州2 (1973--城內、土骨塘村)、***博白 (192?"
+        }
+      ],
+      "verifier_note_en": null,
+      "author_unit": null,
+      "author_units": [
+        {
+          "unit_as_written": "三角洲區",
+          "rank_as_written": "區",
+          "attributed_to": "Yue 1988, Anne (余靄芹). 1988. A preliminary investigation into the subclassification problem of the Yue dialects)",
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "stop_endings.json#SCH_YUE_1988_appendix_classification#U1"
+          ],
+          "scheme_record": "stop_endings.json#SCH_YUE_1988_appendix_classification#U1"
+        },
+        {
+          "unit_as_written": "廣府片",
+          "rank_as_written": "片",
+          "attributed_to": "Yue 1988, Anne (余靄芹). 1988. A preliminary investigation into the subclassification problem of the Yue dialects)",
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "stop_endings.json#SCH_YUE_1988_appendix_classification#U2"
+          ],
+          "scheme_record": "stop_endings.json#SCH_YUE_1988_appendix_classification#U2"
+        }
+      ]
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_67e2ee896580e24fd0ec3cb1",
+      "status": "auto_approved",
+      "locality": null,
+      "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+      "target": "YUE",
+      "target_relationship": "ABOUT_GROUP",
+      "value": "Yue-Hashimoto 1988: classification based on 30+ features in phonology and lexicon of ~60 Yue dialects; two major groups: Siyi Liang-Yang and Delta",
+      "conditions": "\"alternative classification model\"",
+      "polarity": "attested",
+      "evidence_id": "ev_c0d6f0cb40851b93461a",
+      "chunk_id": "2c31a6ae-235d-5eef-baaf-21c84fe1370d",
+      "quote": "There are also other proposals with different classificatory criteria. For instance, on the basis of an examination of more than thirty features in phonology and lexicon of about sixty Yuè dialects, Yue-Hashimoto (1988) divides the Yuè dialects into two major groups: the Sìyì Liǎng-Yáng 四邑兩陽 group and the Delta (Sānjiǎozhōu 三角洲) group.",
+      "evidence_page": 4,
+      "start_char": 762,
+      "end_char": 1099,
+      "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+      "source_title": "Yuè 粵 Dialects",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "explicit_support",
+        "verification_notes": null,
+        "verifier_confidence": 0.95,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "anchor": "K1",
+      "scheme": "SCH_CROSS",
+      "scheme_en": "Kwok, Tsou and Chin: a third source that states both schemes and relates them approximately",
+      "role_en": "Kwok, Tsou and Chin report that Yue-Hashimoto (1988) divides Yue into two major groups, 四邑兩陽 Siyi Liang-Yang and the Delta group. The sentence that follows in the same paragraph — the approximate correspondence with the Atlas units — is not a separate record in the graph and is carried here as a curated annotation with its segment locator.",
+      "note_ru": null,
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "source_key": "kwok_tsou_chin",
+      "chunk_section_title": "1. BACKGROUND",
+      "chunk_page_start": 3,
+      "chunk_page_end": 4,
+      "physical_page": 4,
+      "printed_page": null,
+      "page_method": "visual_page_image",
+      "page_confidence": "high",
+      "runtime_page_labels": {
+        "page_label_display": "3-4",
+        "page_label_confidence": "high",
+        "page_label_method": "manual_validation_table",
+        "page_label_start": "3",
+        "page_label_end": "4"
+      },
+      "evidence_page_field": 4,
+      "context_segments": [
+        {
+          "id": "ce92b6c8-6830-428b-b0f5-a88110e1e5b5",
+          "chunk_id": "2c31a6ae-235d-5eef-baaf-21c84fe1370d",
+          "segment_order": 9,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 43,
+          "page": 4,
+          "start_char": 762,
+          "end_char": 832,
+          "text": "There are also other proposals with different classificatory criteria."
+        },
+        {
+          "id": "ba097a03-56af-4088-b8ed-3e46559cd1c1",
+          "chunk_id": "2c31a6ae-235d-5eef-baaf-21c84fe1370d",
+          "segment_order": 10,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 45,
+          "page": 4,
+          "start_char": 833,
+          "end_char": 1099,
+          "text": "For instance, on the basis of an examination of more than thirty features in phonology and lexicon of about sixty Yuè dialects, Yue-Hashimoto (1988) divides the Yuè dialects into two major groups: the Sìyì Liǎng-Yáng 四邑兩陽 group and the Delta (Sānjiǎozhōu 三角洲) group."
+        }
+      ],
+      "verifier_note_en": null,
+      "author_unit": null,
+      "author_units": [
+        {
+          "unit_as_written": "the Delta (Sānjiǎozhōu 三角洲) group",
+          "rank_as_written": "major group",
+          "attributed_to": "Yue-Hashimoto (1988)",
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "brill_yue_dialects.json#SCH_YUEHASHIMOTO_1988_two_groups#U2"
+          ],
+          "scheme_record": "brill_yue_dialects.json#SCH_YUEHASHIMOTO_1988_two_groups#U2"
+        },
+        {
+          "unit_as_written": "the Sìyì Liǎng-Yáng 四邑兩陽 group",
+          "rank_as_written": "major group",
+          "attributed_to": "Yue-Hashimoto (1988)",
+          "basis": "quote_contains_unit_name",
+          "scheme_records": [
+            "brill_yue_dialects.json#SCH_YUEHASHIMOTO_1988_two_groups#U1"
+          ],
+          "scheme_record": "brill_yue_dialects.json#SCH_YUEHASHIMOTO_1988_two_groups#U1"
+        }
+      ]
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_6330081035a097caf275c64e",
+      "status": "auto_approved",
+      "locality": null,
+      "feature": "CLASSIFICATION_ATLAS2012",
+      "target": "YUE",
+      "target_relationship": "ABOUT_GROUP",
+      "value": "divided into seven sub-groups (pian), mainly based on phonological features",
+      "conditions": "\"per Language Atlas of China (Wurm et al. 1987)\"",
+      "polarity": "attested",
+      "evidence_id": "ev_11c5995ab0a5dc9f40f0",
+      "chunk_id": "253d01ed-ae4c-5867-842e-833808ecbe1d",
+      "quote": "According to *Language Atlas of China* (Wurm *et al. * 1987), the Yuè dialects are divided, mainly based on phonological features, into seven sub-groups or *piàn* 片. They are:",
+      "evidence_page": 2,
+      "start_char": 1625,
+      "end_char": 1794,
+      "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+      "source_title": "Yuè 粵 Dialects",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "explicit_support",
+        "verification_notes": null,
+        "verifier_confidence": 0.95,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "anchor": "K2",
+      "scheme": "SCH_CROSS",
+      "scheme_en": "Kwok, Tsou and Chin: a third source that states both schemes and relates them approximately",
+      "role_en": "The same source states the other scheme as well: according to the Language Atlas, Yue is divided into seven sub-groups or 片. One source holds both schemes side by side.",
+      "note_ru": null,
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "source_key": "kwok_tsou_chin",
+      "chunk_section_title": "1. BACKGROUND",
+      "chunk_page_start": 1,
+      "chunk_page_end": 2,
+      "physical_page": 2,
+      "printed_page": null,
+      "page_method": "visual_page_image",
+      "page_confidence": "high",
+      "runtime_page_labels": {
+        "page_label_display": "1-2",
+        "page_label_confidence": "high",
+        "page_label_method": "manual_validation_table",
+        "page_label_start": "1",
+        "page_label_end": "2"
+      },
+      "evidence_page_field": 2,
+      "context_segments": [
+        {
+          "id": "614b2255-ea10-49a5-8c2a-9db8cafb0e90",
+          "chunk_id": "253d01ed-ae4c-5867-842e-833808ecbe1d",
+          "segment_order": 23,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 67,
+          "page": 2,
+          "start_char": 1625,
+          "end_char": 1675,
+          "text": "According to *Language Atlas of China* (Wurm *et al."
+        },
+        {
+          "id": "e293a2a5-e057-413f-af78-1df014c0a3ad",
+          "chunk_id": "253d01ed-ae4c-5867-842e-833808ecbe1d",
+          "segment_order": 24,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 69,
+          "page": 2,
+          "start_char": 1675,
+          "end_char": 1784,
+          "text": "* 1987), the Yuè dialects are divided, mainly based on phonological features, into seven sub-groups or *piàn* 片."
+        },
+        {
+          "id": "5601bebc-f5df-4caf-979e-9c9b64dfc2b6",
+          "chunk_id": "253d01ed-ae4c-5867-842e-833808ecbe1d",
+          "segment_order": 25,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 69,
+          "page": 2,
+          "start_char": 1785,
+          "end_char": 1794,
+          "text": "They are:"
+        }
+      ],
+      "verifier_note_en": null,
+      "author_unit": null
+    }
+  }
+]

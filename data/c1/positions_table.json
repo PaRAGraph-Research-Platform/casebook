@@ -1,0 +1,86 @@
+{
+  "origin_kind": "curated_annotation",
+  "origin_method": "editor_written",
+  "review_status": "unreviewed",
+  "note_en": "Each row carries a derivation: 'derived_from_schemes_layer' rows are reproduced mechanically from casebook_probes/schemes_layer (round B) member lists; 'editor_inferred_from_boundary_description' rows convert a boundary description into county membership editorially, because the layer's 'only what is stated' rule cannot do that step. See B3_REPORT.md for the full reconciliation.",
+  "rows": [
+    {
+      "position": "P1",
+      "source_key": "atlas_2012",
+      "source_en": "Language Atlas of China, Chinese Dialects Volume, 2nd edition (2012)",
+      "unit": "吴化片 Wuhua pian; 高阳片 Gaoyang pian",
+      "membership": "Wuhua: Potou district of Zhanjiang, Wuchuan, Huazhou (3 units). Gaoyang: 11 units in Maoming and Yangjiang plus parts of Wuchuan, Zhanjiang, Lianjiang.",
+      "rank_as_stated": "片 pian, one of seven inside Yue",
+      "comparability": "comparable_at_pian_level",
+      "unknowns": "Whether the Atlas partition is disjoint on the ground: Wuchuan and Huazhou appear under both units.",
+      "anchors": "A1, A2, S1",
+      "derivation": "derived_from_schemes_layer",
+      "scheme_records": [
+        "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18",
+        "atlas_2012.json#SCH_ATLAS_2012_yue_B2-1_guangdong"
+      ]
+    },
+    {
+      "position": "P2",
+      "source_key": "zhan_outline",
+      "source_en": "Zhan Bohui (ed.), An Outline of Yue Dialects in Guangdong",
+      "unit": "高雷片 Gao-Lei pian",
+      "membership": "Zhanjiang, Maoming, Yangjiang, Yangchun, Gaozhou, Xinyi, Huazhou, Wuchuan, Dianbai, Suixi, Lianjiang, Leizhou, Xuwen",
+      "rank_as_stated": "片 pian, one of five in Guangdong",
+      "comparability": "comparable_at_pian_level_with_different_extent",
+      "unknowns": "The Outline's five-pian scheme covers Guangdong only; its Gao-Lei absorbs both the Atlas Gaoyang and the Atlas Wuhua areas, but the source does not state that equivalence itself.",
+      "anchors": "B1, S2",
+      "derivation": "derived_from_schemes_layer",
+      "scheme_records": [
+        "gaiyao.json#SCH_GAIYAO_2002"
+      ]
+    },
+    {
+      "position": "P2",
+      "source_key": "kwok_tsou_chin",
+      "source_en": "Hou (2002), as reported by Kwok, Tsou and Chin",
+      "unit": "Gaoyang sub-group with Wuhua merged into it",
+      "membership": "not stated in the reporting source",
+      "rank_as_stated": "sub-group (English wording of the reporting source)",
+      "comparability": "reported_only",
+      "unknowns": "Membership, criteria and the exact wording of Hou 2002 are not in this bundle; the primary work is not in production. The quoted sentence begins mid-clause in the stored Evidence.",
+      "anchors": "B2",
+      "derivation": "derived_from_schemes_layer",
+      "scheme_records": [
+        "brill_yue_dialects.json#SCH_HOU_2002_model"
+      ],
+      "derivation_note_en": "The layer agrees with the manual row by absence: SCH_HOU_2002_model in the layer carries no members_as_listed either, so the empty membership is not a gap in this bundle's reading, it is what the reporting source itself gives."
+    },
+    {
+      "position": "P3",
+      "source_key": "yue_hashimoto_1991a",
+      "source_en": "Yue-Hashimoto, 粤语方言分区问题初探, 方言 1991(3):164–181",
+      "unit": "内陆小片 Interior subdivision of 北三角洲片 Northern Delta pian; 两阳片 Liangyang pian",
+      "membership": "Interior subdivision: Huaxian (Huazhou), Wuchuan and most of interior Guangxi. Liangyang pian (1991a Table 5, running prose): Yangjiang and Yangchun. Hecun in Xinhui is not listed by 1991a itself; it appears only in a second, independently published witness of the same scheme, the Appendix to Development of the Stop Endings in the Yue Dialects (based on Yue 1988), whose 兩陽片 list adds 新會河村 (Hecun, Xinhui, dated 1929). The two witnesses should be kept apart, not merged into one membership statement.",
+      "rank_as_stated": "区 district → 片 pian → 小片 subdivision; a three-level system, not the Atlas two-level one",
+      "comparability": "not_comparable_without_curator_decision",
+      "unknowns": "This scheme has no unit that corresponds to Gaoyang or to Wuhua. Kwok, Tsou and Chin attribute the same two-district scheme to Yue-Hashimoto 1988; whether 1988 and 1991a state the same partition is not settled here.",
+      "anchors": "C1, C2, C3, S3, S4, S5",
+      "derivation": "derived_from_schemes_layer",
+      "scheme_records": [
+        "yue_hashimoto_1991.json#SCH_YUE_1991"
+      ]
+    },
+    {
+      "position": "P4",
+      "source_key": "zhang_zhuang_2008",
+      "source_en": "Zhang Shuangqing and Zhuang Chusheng (2008)",
+      "unit": "兩陽片 Liangyang pian; 高化片 Gaohua pian",
+      "membership": "Liangyang: the Moyang river basin (Yangjiang, Yangchun). Gaohua: Yue south and west of Xinyi and Gaozhou, within the old Gaozhou and Huazhou circuits.",
+      "rank_as_stated": "片 pian, proposed as a revision of the Atlas scheme",
+      "comparability": "comparable_at_pian_level_as_a_proposal",
+      "unknowns": "The full member list of Gaohua is given by administrative circuit, not by county list.",
+      "anchors": "D1, D2",
+      "derivation": "editor_inferred_from_boundary_description",
+      "scheme_records": [
+        "zhang_zhuang.json#SCH_ZHANG_ZHUANG_2008"
+      ],
+      "derivation_note_en": "Zhang and Zhuang describe both units by a river basin and a compass boundary ('the Moyang river basin', 漠陽江流域; 'south and west of Xinyi and Gaozhou'), not by a list of member counties. The schemes_layer round follows a 'only what is stated' rule and therefore records these members as not_listed / mentioned_in_qualifier_only; the county-level membership shown here is an editorial inference from the boundary description, not a reproduction of a source list."
+    }
+  ]
+}

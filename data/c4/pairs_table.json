@@ -1,0 +1,405 @@
+[
+  {
+    "pair_id": "P01",
+    "idiom_tag": "CANTONESE_STD",
+    "source": "The Morphology of Cantonese “Changed Tone”: Extensions and Limitations",
+    "document_id": "e6be7364-5058-4634-83c1-f0df521b1b59",
+    "value": "6",
+    "n_records": 1,
+    "record_ids": [
+      "9f1613ac-0170-434d-8e89-82087180e206"
+    ],
+    "anchors": [
+      "G1"
+    ],
+    "historical_classes": {
+      "A": 1
+    },
+    "basis_note_en": "Value 6 is supported by the passport context, but the retained quote itself does not enumerate the full inventory; the address requires verification."
+  },
+  {
+    "pair_id": "P02",
+    "idiom_tag": "CANTONESE_STD",
+    "source": "The Morphology of Cantonese “Changed Tone”: Extensions and Limitations",
+    "document_id": "e6be7364-5058-4634-83c1-f0df521b1b59",
+    "value": "7",
+    "n_records": 1,
+    "record_ids": [
+      "4b306757-ec70-4357-9efd-cf7c3e9ee5b8"
+    ],
+    "anchors": [
+      "G2"
+    ],
+    "historical_classes": {
+      "A": 1
+    },
+    "basis_note_en": "analysis_notes classes this pair as admissible. The native quote reads 'seven bases', not a direct statement about the tonal inventory; the decision requires review."
+  },
+  {
+    "pair_id": "P03",
+    "idiom_tag": "CANTONESE_STD",
+    "source": "The Yue Dialect",
+    "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+    "value": "9",
+    "n_records": 1,
+    "record_ids": [
+      "491cb518-36e8-41bc-8fa7-51a41454345f"
+    ],
+    "anchors": [
+      "G3"
+    ],
+    "historical_classes": {
+      "A": 1
+    },
+    "basis_note_en": "States a nine-tone system; the referent of 'its' is checked in context."
+  },
+  {
+    "pair_id": "P04",
+    "idiom_tag": "CANTONESE_STD",
+    "source": "Yuè 粵 Dialects",
+    "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+    "value": "10",
+    "n_records": 1,
+    "record_ids": [
+      "5c45ad07-0499-4807-aadd-a9e13b25e124"
+    ],
+    "anchors": [
+      "G4"
+    ],
+    "historical_classes": {
+      "C": 1
+    },
+    "basis_note_en": "Ten comparative headings from ECLL; repeated values do not amount to ten tones."
+  },
+  {
+    "pair_id": "P05",
+    "idiom_tag": "CANTONESE_STD",
+    "source": "广东粤方言概要 / An Outline of Yue Dialects in Guangdong",
+    "document_id": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+    "value": "9",
+    "n_records": 3,
+    "record_ids": [
+      "b84a3b1d-6195-4cbb-87c4-8585a5e53f17",
+      "cc747b35-8767-4ee6-90ec-8d3f65e90486",
+      "d9695bd1-efd0-418e-a920-63907804916f"
+    ],
+    "anchors": [
+      "G5",
+      "G6",
+      "G7"
+    ],
+    "historical_classes": {
+      "A": 3
+    },
+    "basis_note_en": "Statements about nine tones plus a comparative table."
+  },
+  {
+    "pair_id": "P06",
+    "idiom_tag": "CANTONESE_STD",
+    "source": "第八届国际粤方言研讨会论文集",
+    "document_id": "31288067-8899-4f17-94b6-f5803bba4c3a",
+    "value": "6",
+    "n_records": 1,
+    "record_ids": [
+      "1f1d7832-dce2-4058-88b8-cf3fa08f0a3e"
+    ],
+    "anchors": [
+      "G8"
+    ],
+    "historical_classes": {
+      "A": 1
+    },
+    "basis_note_en": "'Nine categories, six tonemes': categories and tonemes are distinguished; Hong Kong context."
+  },
+  {
+    "pair_id": "P07",
+    "idiom_tag": "CANTONESE_STD",
+    "source": "第八届国际粤方言研讨会论文集",
+    "document_id": "31288067-8899-4f17-94b6-f5803bba4c3a",
+    "value": "10",
+    "n_records": 1,
+    "record_ids": [
+      "7dade404-4086-4f8c-b83c-89807387f6fa"
+    ],
+    "anchors": [
+      "G9"
+    ],
+    "historical_classes": {
+      "A": 1
+    },
+    "basis_note_en": "'Ten categories, seven tonemes': a retelling of Zhang Risheng 1969 by Zhang Hongnian 2003, not the editors' own observation."
+  },
+  {
+    "pair_id": "P08",
+    "idiom_tag": "TAISHAN",
+    "source": "Yuè 粵 Dialects",
+    "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+    "value": "10",
+    "n_records": 1,
+    "record_ids": [
+      "acafb79a-8c8d-423c-a516-0a07a337c963"
+    ],
+    "anchors": [
+      "T2"
+    ],
+    "historical_classes": {
+      "C": 1
+    },
+    "basis_note_en": "Ten comparative headings from ECLL; for TS values 3A/3B and 4B/4b coincide."
+  },
+  {
+    "pair_id": "P09",
+    "idiom_tag": "TAISHAN",
+    "source": "台山方言词典",
+    "document_id": "318c6cec-eacf-44d4-a665-5c1667edb985",
+    "value": "6",
+    "n_records": 14,
+    "record_ids": [
+      "2daf8373-8fc7-4527-970e-608298343964",
+      "808ad714-b4ac-46fa-9cfa-d98c2a4e2685",
+      "66b370d2-f33d-46cc-b73a-ca9dcdfcaebf",
+      "07e3d84e-b783-4aae-ae89-846b40bb82ed",
+      "134cdf1b-93e1-475f-b416-d511e29d7526",
+      "bb75b7a6-ab38-4a05-8ee0-ec2f8823e2b0",
+      "6d17240b-54c9-4904-a622-04fbab00fc46",
+      "a0534c0d-7cdb-41db-9b98-4358c7105e92",
+      "a207ede3-f57b-457e-a672-bf39cf67bfa8",
+      "d7ed1c4f-231d-4731-a993-21f7de293285",
+      "f20930cb-1515-49b0-89d4-b7d9ca444f65",
+      "13481675-2594-4369-ad19-2383f882c5e6",
+      "9c3cb35e-7c7c-4c1c-a758-0037955fe4b9",
+      "e5f91111-d161-4982-bfc7-1cd7ecac59cb"
+    ],
+    "anchors": [
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7",
+      "T8",
+      "T9",
+      "T10",
+      "T11",
+      "T12",
+      "T13",
+      "T14",
+      "T15",
+      "T16"
+    ],
+    "historical_classes": {
+      "C": 14
+    },
+    "basis_note_en": "Counts of indices within dictionary entries, not an inventory count."
+  },
+  {
+    "pair_id": "P10",
+    "idiom_tag": "TAISHAN",
+    "source": "台山方言词典",
+    "document_id": "318c6cec-eacf-44d4-a665-5c1667edb985",
+    "value": "5",
+    "n_records": 12,
+    "record_ids": [
+      "1d247619-0320-4d4a-a128-22e401acdd0c",
+      "67ceaced-3be2-4e67-bc16-ceb156b8f6fd",
+      "d4b7ab2b-e3b4-4b54-a751-7950f5d5df83",
+      "5fd225ee-41aa-4dbe-a9d5-2a7b5eb5f32f",
+      "88af007f-5f20-419e-ba9a-67d41e59c2d2",
+      "4dd64ae0-f56d-41eb-b3c0-29db19b07312",
+      "838ddab5-c34f-4d46-8ed8-82c582e28971",
+      "24877fff-5ab4-45ee-9d5d-97d44fbd0fb5",
+      "1f051d7e-176e-48fc-82cf-2b3455eec064",
+      "b0c726d1-d824-45c5-a5f4-056c96a6e2cf",
+      "5cb296bd-d662-4258-a0ea-90049519a2b5",
+      "851a55e5-3b19-4f58-ad2d-cbb0e3fbc4b2"
+    ],
+    "anchors": [
+      "T1",
+      "T17",
+      "T18",
+      "T19",
+      "T20",
+      "T21",
+      "T22",
+      "T23",
+      "T24",
+      "T25",
+      "T26",
+      "T27"
+    ],
+    "historical_classes": {
+      "B": 12
+    },
+    "basis_note_en": "Recurring tables/headers yield five; the number agrees with the author's own count, but the bases are not independent analyses."
+  },
+  {
+    "pair_id": "P11",
+    "idiom_tag": "XINYI",
+    "source": "The Yue Dialect",
+    "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+    "value": "9",
+    "n_records": 1,
+    "record_ids": [
+      "944ed7da-c620-412d-b59c-4329e073a50c"
+    ],
+    "anchors": [
+      "X3"
+    ],
+    "historical_classes": {
+      "A": 1
+    },
+    "basis_note_en": "Direct mention of Xinyi among speakers of a nine-tone system."
+  },
+  {
+    "pair_id": "P12",
+    "idiom_tag": "XINYI",
+    "source": "信宜方言志",
+    "document_id": "9f2df161-d69f-4293-93e6-13989a727f83",
+    "value": "6",
+    "n_records": 15,
+    "record_ids": [
+      "5a5d9283-4fb7-4bb5-8b60-ec1d409eb585",
+      "cedb96c7-2c27-4873-9645-9a1ad4198fb2",
+      "edb08818-0d07-4e97-b41b-ca256be132b6",
+      "67952e45-4bbc-49ac-9668-2022a1562a92",
+      "0cab9b12-f9e6-45ab-a0cf-c310bdbb4bc2",
+      "feaa1cc7-7c3a-44f1-bd7c-2545532ddcb8",
+      "b45f0a80-9650-4878-aa14-934368b8bfa9",
+      "23f2727d-b2ef-40f0-b4f9-000d97d0f23b",
+      "0c761fd0-8d18-4112-bbd1-dee7b75dcd5d",
+      "ece1acbb-72a7-4190-b1f7-71ec2da6ad3b",
+      "44c896ff-a7b4-45f5-88c4-759acc65f1b4",
+      "8567c4b8-007a-4b28-afb3-1d723df7e5cf",
+      "3d4a27f6-ff0c-4e81-b6f3-f7229bf1d122",
+      "2037ba96-c0af-43b2-8f6d-aca322bc5d3a",
+      "f62c6bea-45ed-4f3f-a7f5-734d789d64b0"
+    ],
+    "anchors": [
+      "X1",
+      "X4",
+      "X5",
+      "X6",
+      "X7",
+      "X8",
+      "X9",
+      "X10",
+      "X11",
+      "X12",
+      "X13",
+      "X14",
+      "X15",
+      "X16",
+      "X17"
+    ],
+    "historical_classes": {
+      "C": 15
+    },
+    "basis_note_en": "Incomplete tables; six non-checked columns are not a full inventory."
+  },
+  {
+    "pair_id": "P13",
+    "idiom_tag": "XINYI",
+    "source": "信宜方言志",
+    "document_id": "9f2df161-d69f-4293-93e6-13989a727f83",
+    "value": "8",
+    "n_records": 3,
+    "record_ids": [
+      "a3c0e55c-8ad3-4353-9562-f8f750784fc6",
+      "65f76242-1d71-495c-bfd1-4d3db6f1eeca",
+      "34e78a02-f455-4313-8171-5a2b17f2f0dd"
+    ],
+    "anchors": [
+      "X18",
+      "X19",
+      "X20"
+    ],
+    "historical_classes": {
+      "A": 3
+    },
+    "basis_note_en": "Ye's 调值 is mixed with 单字调 from other quotations. Attribution of two rows marked 文中所记 inside Luo's document requires verification against the original."
+  },
+  {
+    "pair_id": "P14",
+    "idiom_tag": "XINYI",
+    "source": "信宜方言志",
+    "document_id": "9f2df161-d69f-4293-93e6-13989a727f83",
+    "value": "3",
+    "n_records": 2,
+    "record_ids": [
+      "ee588acd-1dce-41ab-8bd0-dc9606f6efc3",
+      "0edc2b92-b25c-4fd3-9053-fcb2bc898288"
+    ],
+    "anchors": [
+      "X21",
+      "X22"
+    ],
+    "historical_classes": {
+      "C": 2
+    },
+    "basis_note_en": "Three columns/a table fragment, not a full inventory."
+  },
+  {
+    "pair_id": "P15",
+    "idiom_tag": "XINYI",
+    "source": "信宜方言志",
+    "document_id": "9f2df161-d69f-4293-93e6-13989a727f83",
+    "value": "9",
+    "n_records": 4,
+    "record_ids": [
+      "8e216661-93d8-4a6e-92c9-608bf352f6b8",
+      "974b7eab-c391-4e4c-b2fe-9c4caaebf6ba",
+      "7a3c9e76-3647-49b1-8174-45904df9d63d",
+      "f4029f1c-3617-4c31-a622-bb90bc6e20dc"
+    ],
+    "anchors": [
+      "X23",
+      "X24",
+      "X25",
+      "X26"
+    ],
+    "historical_classes": {
+      "A": 3,
+      "B": 1
+    },
+    "basis_note_en": "Three substantive records and one incomplete table; the pair-level status cannot be extended to every row."
+  },
+  {
+    "pair_id": "P16",
+    "idiom_tag": "XINYI",
+    "source": "广东粤方言概要 / An Outline of Yue Dialects in Guangdong",
+    "document_id": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+    "value": "8",
+    "n_records": 1,
+    "record_ids": [
+      "3fd4c1ca-6c22-43af-8591-2c91f03d34c8"
+    ],
+    "anchors": [
+      "X27"
+    ],
+    "historical_classes": {
+      "A": 1
+    },
+    "basis_note_en": "Eight basic tones, with the changed tone reported separately."
+  },
+  {
+    "pair_id": "P17",
+    "idiom_tag": "XINYI",
+    "source": "第八届国际粤方言研讨会论文集",
+    "document_id": "31288067-8899-4f17-94b6-f5803bba4c3a",
+    "value": "8",
+    "n_records": 3,
+    "record_ids": [
+      "7ef92b3c-34f3-4f10-b719-8322b52e26c4",
+      "6a6c0379-e340-4c69-823b-088ca24cda47",
+      "e52a167a-2a2c-4ff0-9bc8-f1e34554e498"
+    ],
+    "anchors": [
+      "X2",
+      "X28",
+      "X29"
+    ],
+    "historical_classes": {
+      "A": 3
+    },
+    "basis_note_en": "One document contains Wang's own analysis and a retelling of Tang's; the pair is not equal to one analysis."
+  }
+]

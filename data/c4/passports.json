@@ -1,0 +1,917 @@
+{
+  "CANTONESE_STD": {
+    "idiom_tag": "CANTONESE_STD",
+    "source": "../sources/tone_passports.md",
+    "translation_note_en": "English renderings of the curator's Russian passport fields; pending the author's check.",
+    "entries": [
+      {
+        "entry_id": "CANTONESE_STD-01",
+        "source_attribution": "詹伯慧 2002",
+        "source_attribution_en": "詹伯慧 2002",
+        "counting_unit": "聲調",
+        "counting_unit_en": "聲調",
+        "count_expression": "9",
+        "count_expression_en": "9",
+        "checked_tone_treatment_en": "separate categories: 陰入, 中入, 陽入",
+        "contested_category_en": "variants of one tone",
+        "evidence_type_en": "statement + table",
+        "locator_en": "scan 19",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_subgroup_address",
+          "claim_ids": [
+            "claim_419d93d2d208ecb27ada41a2",
+            "claim_6ff2ee590a480bb00b3e6d10",
+            "claim_7dc1dc963fae14313086b0e2"
+          ],
+          "anchors": [
+            "GS7",
+            "GS11",
+            "GS15"
+          ],
+          "linked_claim_note": "The source document is in the graph, but this record group carries no locality tag (c.idiom_tag is empty) — only the YUE_GUANGFU subgroup address. 3 record(s) under that subgroup carry a value matching '9'; see supplement.json."
+        }
+      },
+      {
+        "entry_id": "CANTONESE_STD-02",
+        "source_attribution": "詹伯慧 2002",
+        "source_attribution_en": "詹伯慧 2002",
+        "counting_unit": "調位",
+        "counting_unit_en": "調位",
+        "count_expression": "6",
+        "count_expression_en": "6",
+        "checked_tone_treatment_en": "variants 陰平, 陰去, 陽去",
+        "contested_category": "–",
+        "contested_category_en": "—",
+        "evidence_type_en": "statement",
+        "locator_en": "scan 19",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "none",
+          "claim_ids": [],
+          "anchors": [],
+          "linked_claim_note": "The source is in the graph, but it has no YUE_GUANGFU record with a value matching '6' (with or without a locality tag)."
+        }
+      },
+      {
+        "entry_id": "CANTONESE_STD-03",
+        "source_attribution": "Bauer, Benedict 1997",
+        "source_attribution_en": "Bauer, Benedict 1997",
+        "counting_unit": "contrastive tones",
+        "counting_unit_en": "contrastive tones",
+        "count_expression": "7",
+        "count_expression_en": "7",
+        "checked_tone_treatment_en": "not separate (contours of \"dead\" syllables = contours of \"live\" syllables, only shorter)",
+        "contested_category_en": "contrast",
+        "evidence_type_en": "statement",
+        "locator_en": "p. 248",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_subgroup_address",
+          "claim_ids": [
+            "claim_38421395f19995565dbec1d4",
+            "claim_460d0d3a2566e17e2b52d8db",
+            "claim_4b913ac19180eda194010ec5",
+            "claim_70b01a2ef61244d9dffcb250",
+            "claim_948a1ed46913471ba2731683",
+            "claim_a75a4115d9a8c98941748be6",
+            "claim_da2a1f75b22c117d3eb8f58e",
+            "claim_f6d4fecc991a2688cbd62ae8"
+          ],
+          "anchors": [
+            "GS5",
+            "GS8",
+            "GS9",
+            "GS12",
+            "GS18",
+            "GS20",
+            "GS26",
+            "GS30"
+          ],
+          "linked_claim_note": "The source document is in the graph, but this record group carries no locality tag (c.idiom_tag is empty) — only the YUE_GUANGFU subgroup address. 8 record(s) under that subgroup carry a value matching '7'; see supplement.json."
+        }
+      },
+      {
+        "entry_id": "CANTONESE_STD-04",
+        "source_attribution": "Bauer, Benedict 1997",
+        "source_attribution_en": "Bauer, Benedict 1997",
+        "counting_unit": "contrastive tones",
+        "counting_unit_en": "contrastive tones",
+        "count_expression": "6",
+        "count_expression_en": "6",
+        "checked_tone_treatment_en": "not separate",
+        "contested_category_en": "for most Hong Kong speakers only High Level",
+        "evidence_type_en": "statement",
+        "locator_en": "pp. 248–249",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_subgroup_address",
+          "claim_ids": [
+            "claim_1f1d7fe6cb7e70191c83ab18",
+            "claim_274b7e3df5d0f44f255a3944",
+            "claim_38421395f19995565dbec1d4",
+            "claim_460d0d3a2566e17e2b52d8db",
+            "claim_8e7ee76d8c149cb499301c1a",
+            "claim_a75a4115d9a8c98941748be6",
+            "claim_cbedd15d1a100bcca1195f32",
+            "claim_d5154783bddd64ad5f2ab637",
+            "claim_ed96973b755a69aab97a058a"
+          ],
+          "anchors": [
+            "GS3",
+            "GS4",
+            "GS5",
+            "GS8",
+            "GS16",
+            "GS20",
+            "GS24",
+            "GS25",
+            "GS29"
+          ],
+          "linked_claim_note": "The source document is in the graph, but this record group carries no locality tag (c.idiom_tag is empty) — only the YUE_GUANGFU subgroup address. 9 record(s) under that subgroup carry a value matching '6'; see supplement.json."
+        }
+      },
+      {
+        "entry_id": "CANTONESE_STD-05",
+        "source_attribution": "Bauer, Benedict 1997",
+        "source_attribution_en": "Bauer, Benedict 1997",
+        "counting_unit": "tone categories",
+        "counting_unit_en": "tone categories",
+        "count_expression": "10",
+        "count_expression_en": "10",
+        "checked_tone_treatment_en": "separate categories: 7a, 7b, 8",
+        "contested_category_en": "split: 1a High Falling, 1b High Level (marked pim-jəm)",
+        "evidence_type_en": "statement + table 2.3–2.4; two pi:n-jəm not included",
+        "locator_en": "pp. 121–122",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_subgroup_address",
+          "claim_ids": [
+            "claim_9045e79bd4105064bde82da4",
+            "claim_9d60bb831c95f473b5e036af",
+            "claim_aa5342335dfd6f0663abcf52",
+            "claim_c20ea4a7d1ddbe270ff800e6"
+          ],
+          "anchors": [
+            "GS17",
+            "GS19",
+            "GS21",
+            "GS22"
+          ],
+          "linked_claim_note": "The source document is in the graph, but this record group carries no locality tag (c.idiom_tag is empty) — only the YUE_GUANGFU subgroup address. 4 record(s) under that subgroup carry a value matching '10'; see supplement.json."
+        }
+      },
+      {
+        "entry_id": "CANTONESE_STD-06",
+        "source_attribution": "温昌衍 2014",
+        "source_attribution_en": "温昌衍 2014",
+        "counting_unit": "声调",
+        "counting_unit_en": "声调",
+        "count_expression": "10",
+        "count_expression_en": "10",
+        "checked_tone_treatment_en": "separate categories: 上阴入, 下阴入, 阳入",
+        "contested_category_en": "split: 上阴平 1A 53, 下阴平 1B 55",
+        "evidence_type_en": "list",
+        "locator_en": "scan 35–37",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "none",
+          "claim_ids": [],
+          "anchors": [],
+          "linked_claim_note": "The source is in the graph, but it has no YUE_GUANGFU record with a value matching '10' (with or without a locality tag)."
+        }
+      },
+      {
+        "entry_id": "CANTONESE_STD-07",
+        "source_attribution_en": "张日升 1969, as reported by 张洪年 2003",
+        "counting_unit": "调类 / 调位",
+        "counting_unit_en": "调类 / 调位",
+        "count_expression": "10 / 7",
+        "count_expression_en": "10 / 7",
+        "checked_tone_treatment_en": "separate categories",
+        "contested_category_en": "split: high falling and high level \"distinguish meaning\"",
+        "evidence_type_en": "report of another author's analysis",
+        "locator_en": "scan 159–160",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_locality_tag",
+          "claim_ids": [
+            "claim_a24173d48a82c7cd759300c1"
+          ],
+          "anchors": [
+            "G9"
+          ],
+          "linked_claim_note": "The article by Zhang Hongnian is a chapter of the 2003 conference volume; the record quotes the passage reporting Zhang Risheng (1969): ten tone categories, seven tonemes (P07)."
+        }
+      },
+      {
+        "entry_id": "CANTONESE_STD-08",
+        "source_attribution": "张洪年 2003",
+        "source_attribution_en": "张洪年 2003",
+        "counting_unit": "调类 / 调位",
+        "counting_unit_en": "调类 / 调位",
+        "count_expression": "9 / 6",
+        "count_expression_en": "9 / 6",
+        "checked_tone_treatment_en": "separate categories",
+        "contested_category_en": "\"few speakers still distinguish them now\"; one high level 55",
+        "evidence_type_en": "statement",
+        "locator_en": "scan 160–161",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_locality_tag",
+          "claim_ids": [
+            "claim_5e363ba8f24c27c0c138ce21"
+          ],
+          "anchors": [
+            "G8"
+          ],
+          "linked_claim_note": "Same chapter of the 2003 conference volume; the record with value 6 comes from the passage on the merger of high-falling and high-level (P06)."
+        }
+      },
+      {
+        "entry_id": "CANTONESE_STD-09",
+        "source_attribution": "张洪年 2003",
+        "source_attribution_en": "张洪年 2003",
+        "counting_unit": "调类 / 调位",
+        "counting_unit_en": "调类 / 调位",
+        "count_expression_en": "8 / 5 (projection)",
+        "checked_tone_treatment": "–",
+        "checked_tone_treatment_en": "—",
+        "contested_category": "–",
+        "contested_category_en": "—",
+        "evidence_type_en": "projection",
+        "locator_en": "scan 160–161",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "none",
+          "claim_ids": [],
+          "anchors": []
+        }
+      },
+      {
+        "entry_id": "CANTONESE_STD-10",
+        "source_attribution": "The Routledge Encyclopedia 2016",
+        "source_attribution_en": "The Routledge Encyclopedia 2016",
+        "counting_unit": "tones",
+        "counting_unit_en": "tones",
+        "count_expression_en": "6 or 9",
+        "checked_tone_treatment_en": "depends on the approach",
+        "contested_category_en": "53 is a variant; either non-distinctive (Cheung 1986) or disappearing (Matthews, Yip 1994)",
+        "evidence_type_en": "statement",
+        "locator_en": "scan 75–76",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_subgroup_address",
+          "claim_ids": [
+            "claim_12c3cd293af2764f9f33fc6f",
+            "claim_1d90169c8d0805ba2f86b244",
+            "claim_40562fb66ccad89f2b38bc80",
+            "claim_5843b87a48337bfb09b247a4",
+            "claim_7171cecabd68db74dd98ca66",
+            "claim_747e8a58aefd028802026798",
+            "claim_c342e81e0fe51a96d2e550a4",
+            "claim_ddde55d0c76253a66f9414f7",
+            "claim_e1cf3b87540cbeaad8a84400"
+          ],
+          "anchors": [
+            "GS1",
+            "GS2",
+            "GS6",
+            "GS10",
+            "GS13",
+            "GS14",
+            "GS23",
+            "GS27",
+            "GS28"
+          ]
+        }
+      },
+      {
+        "entry_id": "CANTONESE_STD-11",
+        "source_attribution": "Alderete, Chan, Tanaka 2022",
+        "source_attribution_en": "Alderete, Chan, Tanaka 2022",
+        "counting_unit_en": "tonal inventory (generative descriptions)",
+        "count_expression_en": "6 or 7",
+        "checked_tone_treatment_en": "merged with long tones (with reference to Yue-Hashimoto 1972: 92)",
+        "contested_category_en": "contrastive for Guangzhou speakers, freely varying for some older Hong Kong speakers, neutralised to 55 for the rest",
+        "evidence_type_en": "statement",
+        "locator_en": "sec. 2.1",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_locality_tag",
+          "claim_ids": [
+            "claim_6ba7f9779c451dc91283d69c",
+            "claim_947e86a84240c486842fe728"
+          ],
+          "anchors": [
+            "G1",
+            "G2"
+          ],
+          "linked_claim_note": "Author list (Alderete, Chan, Tanaka) matches document authors exactly; the passport entry aggregates values 6 and 7 across two native records (P01, P02) without distinguishing which record corresponds to which population."
+        }
+      }
+    ],
+    "context_and_notes_en": null,
+    "chunk_register": [
+      {
+        "chunk_id": "9a17597d-1ddc-5d3c-9e51-783edde2c1fa"
+      },
+      {
+        "chunk_id": "da6d44e6-44e7-51e2-bca7-7ddb6e82e49b"
+      },
+      {
+        "chunk_id": "908a35e7-d418-5a58-9ecc-23b365526869"
+      },
+      {
+        "chunk_id": "2b99436b-b45e-580b-ba70-a5bd16108e28"
+      },
+      {
+        "chunk_id": "2fb2f639-3ce0-5aff-b061-01e6e25c7c80"
+      },
+      {
+        "chunk_id": "7c82814d-9b06-5fb3-9ddc-64c3aaab215e"
+      },
+      {
+        "chunk_id": "709d3a6c-741a-57a3-bb38-cd14f1ac1394"
+      },
+      {
+        "chunk_id": "6a7b0702-1510-5a0a-8a73-aeb471f37d69"
+      },
+      {
+        "chunk_id": "c9c27a0d-f4a8-51f7-886e-303c2fca764e"
+      },
+      {
+        "chunk_id": "668329f9-4772-57f3-b553-7143a9df4ec8"
+      },
+      {
+        "chunk_id": "6eb8b87f-1ffb-5cd6-a72a-df713c90fc3a; c9e20a1d-ba74-5c86-ae81-f052a74bb556"
+      },
+      {
+        "chunk_id": "ece86218-6c90-5374-955a-02b598c4e910"
+      },
+      {
+        "chunk_id": "1d74112d-720a-50b2-8c50-d7d1c3c2a2c6"
+      },
+      {
+        "chunk_id": "25bd7d93-f914-5255-8d2f-b03b39e250ea"
+      },
+      {
+        "chunk_id": "961afd5c-aa6c-584f-ad98-3982c7071a53"
+      },
+      {
+        "chunk_id": "a371904f-cfa7-5a81-bc34-73efe57201cf"
+      },
+      {
+        "chunk_id": "3e2e368e-654a-5013-be92-9e278661ab08"
+      },
+      {
+        "chunk_id": "28d4a9ca-fe8f-5b6f-afb6-2c5189d6e3fb"
+      },
+      {
+        "chunk_id": "7f6bd826-d81c-5fea-9b18-d7d3fca600b2"
+      },
+      {
+        "chunk_id": "3c7a4d46-42c2-57ac-9dd4-d6a9e4f3f551"
+      },
+      {
+        "chunk_id": "82a3e9c8-ad3b-507b-bffc-796453e295f3"
+      },
+      {
+        "chunk_id": "d3519000-085a-5d05-a99c-b81d845b5a25"
+      },
+      {
+        "chunk_id": "6a004e08-1944-5dc9-bd41-a43d3811136b"
+      },
+      {
+        "chunk_id": "c72045ec-dd53-5395-80f3-0639d21a9d15"
+      },
+      {
+        "chunk_id": "9824989c-6041-5973-9389-6dc68cfea503"
+      }
+    ]
+  },
+  "TAISHAN": {
+    "idiom_tag": "TAISHAN",
+    "source": "../sources/tone_passports.md",
+    "translation_note_en": "English renderings of the curator's Russian passport fields; pending the author's check.",
+    "entries": [
+      {
+        "entry_id": "TAISHAN-01",
+        "source_attribution": "黄剑云 2017",
+        "source_attribution_en": "黄剑云 2017",
+        "counting_unit": "调类",
+        "counting_unit_en": "调类",
+        "count_expression": "5",
+        "count_expression_en": "5",
+        "checked_tone_treatment_en": "not distinguished as categories: their values \"are distributed across 阴平, 阴上 and 阳上\"",
+        "contested_category_en": "去声 is one category",
+        "evidence_type_en": "statement",
+        "locator_en": "scan 12",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_locality_tag",
+          "claim_ids": [
+            "claim_02e056b60cf1dfd5e1c3ee7e",
+            "claim_0c5154aabe82fbe031cd33f1",
+            "claim_235ff1422a90eff73100530b",
+            "claim_4754a68dc08240ebab360312",
+            "claim_4f61a4043ced905b587cd748",
+            "claim_64afcc0802bb0dee12c30c1c",
+            "claim_98dcd0bf6af0d33734a8fda0",
+            "claim_bff930c17ff5f7d9525e0f9a",
+            "claim_d82677aac2cfe2f1ed78f3b7",
+            "claim_d8ac7d66d9ecdd15dcf68a6b",
+            "claim_f659af1316a02359e55fa1c7",
+            "claim_fba3c4586e8042159ceafbdd"
+          ],
+          "anchors": [
+            "T1",
+            "T17",
+            "T18",
+            "T19",
+            "T20",
+            "T21",
+            "T22",
+            "T23",
+            "T24",
+            "T25",
+            "T26",
+            "T27"
+          ],
+          "linked_claim_note": "Author (Huang Jianyun 2017) matches document author; unique value=5 group in this document (P10, 12 records)."
+        }
+      },
+      {
+        "entry_id": "TAISHAN-02",
+        "source_attribution": "黄剑云 2017",
+        "source_attribution_en": "黄剑云 2017",
+        "counting_unit": "调值",
+        "counting_unit_en": "调值",
+        "count_expression": "8",
+        "count_expression_en": "8",
+        "checked_tone_treatment": "–",
+        "checked_tone_treatment_en": "—",
+        "contested_category": "–",
+        "contested_category_en": "—",
+        "evidence_type_en": "statement (the author does not explain what the eight values consist of)",
+        "locator_en": "scan 12",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "none",
+          "claim_ids": [],
+          "anchors": [],
+          "linked_claim_note": "The source is in the graph, but it has no YUE_SIYI record with a value matching '8' (with or without a locality tag)."
+        }
+      },
+      {
+        "entry_id": "TAISHAN-03",
+        "source_attribution": "詹伯慧 2002",
+        "source_attribution_en": "詹伯慧 2002",
+        "counting_unit": "声调",
+        "counting_unit_en": "声调",
+        "count_expression": "8: 33, 22, 55, 21, 31 + 55, 33, 21",
+        "count_expression_en": "8: 33, 22, 55, 21, 31 + 55, 33, 21",
+        "checked_tone_treatment_en": "distinguished: 上阴入, 下阴入, 阳入",
+        "contested_category_en": "去声 is one category",
+        "evidence_type_en": "statement + table",
+        "locator_en": "scan 150–151",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_subgroup_address",
+          "claim_ids": [
+            "claim_0408d75f677d6ef57e25d1e3",
+            "claim_8b66c01f5bb1064fdb918bf8"
+          ],
+          "anchors": [
+            "TS1",
+            "TS2"
+          ],
+          "linked_claim_note": "The source document is in the graph, but this record group carries no locality tag (c.idiom_tag is empty) — only the YUE_SIYI subgroup address. 2 record(s) under that subgroup carry a value matching '8: 33, 22, 55, 21, 31 + 55, 33, 21'; see supplement.json."
+        }
+      },
+      {
+        "entry_id": "TAISHAN-04",
+        "source_attribution_en": "詹伯慧 2002, another table",
+        "counting_unit": "聲調",
+        "counting_unit_en": "聲調",
+        "count_expression": "8: 33, 22, **45**, 21, 31 + 55, 33, 21",
+        "count_expression_en": "8: 33, 22, **45**, 21, 31 + 55, 33, 21",
+        "checked_tone_treatment_en": "distinguished",
+        "contested_category_en": "去聲 is one category; words that are 陰去 in Guangzhou merge with 陰平",
+        "evidence_type_en": "statement + table",
+        "locator_en": "scan 157",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_subgroup_address",
+          "claim_ids": [
+            "claim_0408d75f677d6ef57e25d1e3",
+            "claim_8b66c01f5bb1064fdb918bf8"
+          ],
+          "anchors": [
+            "TS1",
+            "TS2"
+          ],
+          "linked_claim_note": "The source document is in the graph, but this record group carries no locality tag (c.idiom_tag is empty) — only the YUE_SIYI subgroup address. 2 record(s) under that subgroup carry a value matching '8: 33, 22, **45**, 21, 31 + 55, 33, 21'; see supplement.json."
+        }
+      }
+    ],
+    "context_and_notes_en": null,
+    "chunk_register": [
+      {
+        "chunk_id": "9a17597d-1ddc-5d3c-9e51-783edde2c1fa"
+      },
+      {
+        "chunk_id": "da6d44e6-44e7-51e2-bca7-7ddb6e82e49b"
+      },
+      {
+        "chunk_id": "908a35e7-d418-5a58-9ecc-23b365526869"
+      },
+      {
+        "chunk_id": "2b99436b-b45e-580b-ba70-a5bd16108e28"
+      },
+      {
+        "chunk_id": "2fb2f639-3ce0-5aff-b061-01e6e25c7c80"
+      },
+      {
+        "chunk_id": "7c82814d-9b06-5fb3-9ddc-64c3aaab215e"
+      },
+      {
+        "chunk_id": "709d3a6c-741a-57a3-bb38-cd14f1ac1394"
+      },
+      {
+        "chunk_id": "6a7b0702-1510-5a0a-8a73-aeb471f37d69"
+      },
+      {
+        "chunk_id": "c9c27a0d-f4a8-51f7-886e-303c2fca764e"
+      },
+      {
+        "chunk_id": "668329f9-4772-57f3-b553-7143a9df4ec8"
+      },
+      {
+        "chunk_id": "6eb8b87f-1ffb-5cd6-a72a-df713c90fc3a; c9e20a1d-ba74-5c86-ae81-f052a74bb556"
+      },
+      {
+        "chunk_id": "ece86218-6c90-5374-955a-02b598c4e910"
+      },
+      {
+        "chunk_id": "1d74112d-720a-50b2-8c50-d7d1c3c2a2c6"
+      },
+      {
+        "chunk_id": "25bd7d93-f914-5255-8d2f-b03b39e250ea"
+      },
+      {
+        "chunk_id": "961afd5c-aa6c-584f-ad98-3982c7071a53"
+      },
+      {
+        "chunk_id": "a371904f-cfa7-5a81-bc34-73efe57201cf"
+      },
+      {
+        "chunk_id": "3e2e368e-654a-5013-be92-9e278661ab08"
+      },
+      {
+        "chunk_id": "28d4a9ca-fe8f-5b6f-afb6-2c5189d6e3fb"
+      },
+      {
+        "chunk_id": "7f6bd826-d81c-5fea-9b18-d7d3fca600b2"
+      },
+      {
+        "chunk_id": "3c7a4d46-42c2-57ac-9dd4-d6a9e4f3f551"
+      },
+      {
+        "chunk_id": "82a3e9c8-ad3b-507b-bffc-796453e295f3"
+      },
+      {
+        "chunk_id": "d3519000-085a-5d05-a99c-b81d845b5a25"
+      },
+      {
+        "chunk_id": "6a004e08-1944-5dc9-bd41-a43d3811136b"
+      },
+      {
+        "chunk_id": "c72045ec-dd53-5395-80f3-0639d21a9d15"
+      },
+      {
+        "chunk_id": "9824989c-6041-5973-9389-6dc68cfea503"
+      }
+    ]
+  },
+  "XINYI": {
+    "idiom_tag": "XINYI",
+    "source": "../sources/tone_passports.md",
+    "translation_note_en": "English renderings of the curator's Russian passport fields; pending the author's check.",
+    "entries": [
+      {
+        "entry_id": "XINYI-01",
+        "source_attribution_en": "叶国泉 1987 (preface to Luo Kangning's book)",
+        "counting_unit": "调类",
+        "counting_unit_en": "调类",
+        "count_expression": "9",
+        "count_expression_en": "9",
+        "checked_tone_treatment": "–",
+        "checked_tone_treatment_en": "—",
+        "contested_category_en": "阳平 is retained, with two values: 23 and 11",
+        "evidence_type_en": "statement",
+        "locator_en": "scan 5–6",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_locality_tag",
+          "claim_ids": [
+            "claim_112adc555ffe9645a883ddef",
+            "claim_3a811cec6372c98b044d49d3",
+            "claim_6fee508b1a77bb90e6600196",
+            "claim_89e5fce12e22e941acd2361f"
+          ],
+          "anchors": [
+            "X23",
+            "X24",
+            "X25",
+            "X26"
+          ],
+          "linked_claim_note": "Author (Ye Guoquan) is a co-author of record; document+value match is unique, but two passport entries (01, 03) compete for the same 4-record group (P15) — not a 1:1 correspondence."
+        }
+      },
+      {
+        "entry_id": "XINYI-02",
+        "source_attribution": "叶国泉 1987",
+        "source_attribution_en": "叶国泉 1987",
+        "counting_unit": "调值",
+        "counting_unit_en": "调值",
+        "count_expression": "8",
+        "count_expression_en": "8",
+        "checked_tone_treatment": "–",
+        "checked_tone_treatment_en": "—",
+        "contested_category_en": "23 coincides with 阳上, 11 — with 阳去",
+        "evidence_type_en": "statement",
+        "locator_en": "scan 5–6",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_locality_tag",
+          "claim_ids": [
+            "claim_301f77d8b065f3eb9237a8d6",
+            "claim_d2e8e9284861f20cd1dd0fc9",
+            "claim_fa5593dbf73f4967c3ead8e2"
+          ],
+          "anchors": [
+            "X18",
+            "X19",
+            "X20"
+          ],
+          "linked_claim_note": "Author (Ye Guoquan) matches document co-author; document+value=8 group is P13 (3 records, open question — see selection_ledger.md)."
+        }
+      },
+      {
+        "entry_id": "XINYI-03",
+        "source_attribution": "罗康宁 1987",
+        "source_attribution_en": "罗康宁 1987",
+        "counting_unit": "调 (本调)",
+        "counting_unit_en": "调 (本调)",
+        "count_expression": "9",
+        "count_expression_en": "9",
+        "checked_tone_treatment": "阴入 55, 中入 33, 阳入 22",
+        "checked_tone_treatment_en": "阴入 55, 中入 33, 阳入 22",
+        "contested_category_en": "阳平 23 ~ 11 depending on position in the word",
+        "evidence_type_en": "table + statement",
+        "locator_en": "pp. 10–11 (scan 21–22)",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_locality_tag",
+          "claim_ids": [
+            "claim_112adc555ffe9645a883ddef",
+            "claim_3a811cec6372c98b044d49d3",
+            "claim_6fee508b1a77bb90e6600196",
+            "claim_89e5fce12e22e941acd2361f"
+          ],
+          "anchors": [
+            "X23",
+            "X24",
+            "X25",
+            "X26"
+          ],
+          "linked_claim_note": "Author (Luo Kangning) matches document author; same 4-record group (P15) as XINYI-01 — see note there."
+        }
+      },
+      {
+        "entry_id": "XINYI-04",
+        "source_attribution_en": "唐志东 1984, as reported by 王建设 2003",
+        "counting_unit": "调类",
+        "counting_unit_en": "调类",
+        "count_expression": "8",
+        "count_expression_en": "8",
+        "checked_tone_treatment": "上入 55, 中入 33, 阳入 11",
+        "checked_tone_treatment_en": "上入 55, 中入 33, 阳入 11",
+        "contested_category_en": "阳平 is not in the list; 13 is called 阳上 (example 马)",
+        "evidence_type_en": "list",
+        "locator_en": "scan 306–308",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_locality_tag",
+          "claim_ids": [
+            "claim_5027645e8ffea24263a9b36a",
+            "claim_74a6dd7c92012d5e5354e0d8",
+            "claim_b5e2c481b26969d93857663b"
+          ],
+          "anchors": [
+            "X2",
+            "X28",
+            "X29"
+          ],
+          "linked_claim_note": "The article by Wang Jianshe is a chapter of the 2003 conference volume; its value-8 group (P17) includes the record that reports Tang Zhidong's eight-category analysis as well as Wang's own — the group is shared with XINYI-05."
+        }
+      },
+      {
+        "entry_id": "XINYI-05",
+        "source_attribution": "王建设 2003",
+        "source_attribution_en": "王建设 2003",
+        "counting_unit": "调类",
+        "counting_unit_en": "调类",
+        "count_expression": "8",
+        "count_expression_en": "8",
+        "checked_tone_treatment": "上阴入 55, 下阴入 33, 阳入 21",
+        "checked_tone_treatment_en": "上阴入 55, 下阴入 33, 阳入 21",
+        "contested_category_en": "13 is called 阳平 (examples 宜, 马, 市, 在); the 13 ~ 21 alternation is sandhi",
+        "evidence_type_en": "statement + argument",
+        "locator_en": "scan 308–310",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_locality_tag",
+          "claim_ids": [
+            "claim_5027645e8ffea24263a9b36a",
+            "claim_74a6dd7c92012d5e5354e0d8",
+            "claim_b5e2c481b26969d93857663b"
+          ],
+          "anchors": [
+            "X2",
+            "X28",
+            "X29"
+          ],
+          "linked_claim_note": "Wang Jianshe's own eight-category analysis, same chapter and same value-8 group (P17) as XINYI-04."
+        }
+      },
+      {
+        "entry_id": "XINYI-06",
+        "source_attribution": "詹伯慧 2002",
+        "source_attribution_en": "詹伯慧 2002",
+        "counting_unit": "声调 / 本调",
+        "counting_unit_en": "声调 / 本调",
+        "count_expression": "8",
+        "count_expression_en": "8",
+        "checked_tone_treatment": "–",
+        "checked_tone_treatment_en": "—",
+        "contested_category_en": "阳上 is absent; there is one high rising changed tone",
+        "evidence_type_en": "statement; data from the same 1999 survey as Wang's",
+        "locator_en": "scan 133–134, 212",
+        "annotation": {
+          "origin_kind": "curated_annotation",
+          "attributed_to": "K. A. Kozha",
+          "review_date": "2026-09-17",
+          "interpretation_layer": "curatorial; transcribed from supplied passport, not native claim",
+          "link_method": "by_locality_tag",
+          "claim_ids": [
+            "claim_4b51a6804939cc2aca355b1b"
+          ],
+          "anchors": [
+            "X27"
+          ],
+          "linked_claim_note": "Zhan Bohui's monograph (library year 2004; the passport cites 2002); unique Xinyi value-8 record in this document (P16)."
+        }
+      }
+    ],
+    "context_and_notes_en": null,
+    "chunk_register": [
+      {
+        "chunk_id": "9a17597d-1ddc-5d3c-9e51-783edde2c1fa"
+      },
+      {
+        "chunk_id": "da6d44e6-44e7-51e2-bca7-7ddb6e82e49b"
+      },
+      {
+        "chunk_id": "908a35e7-d418-5a58-9ecc-23b365526869"
+      },
+      {
+        "chunk_id": "2b99436b-b45e-580b-ba70-a5bd16108e28"
+      },
+      {
+        "chunk_id": "2fb2f639-3ce0-5aff-b061-01e6e25c7c80"
+      },
+      {
+        "chunk_id": "7c82814d-9b06-5fb3-9ddc-64c3aaab215e"
+      },
+      {
+        "chunk_id": "709d3a6c-741a-57a3-bb38-cd14f1ac1394"
+      },
+      {
+        "chunk_id": "6a7b0702-1510-5a0a-8a73-aeb471f37d69"
+      },
+      {
+        "chunk_id": "c9c27a0d-f4a8-51f7-886e-303c2fca764e"
+      },
+      {
+        "chunk_id": "668329f9-4772-57f3-b553-7143a9df4ec8"
+      },
+      {
+        "chunk_id": "6eb8b87f-1ffb-5cd6-a72a-df713c90fc3a; c9e20a1d-ba74-5c86-ae81-f052a74bb556"
+      },
+      {
+        "chunk_id": "ece86218-6c90-5374-955a-02b598c4e910"
+      },
+      {
+        "chunk_id": "1d74112d-720a-50b2-8c50-d7d1c3c2a2c6"
+      },
+      {
+        "chunk_id": "25bd7d93-f914-5255-8d2f-b03b39e250ea"
+      },
+      {
+        "chunk_id": "961afd5c-aa6c-584f-ad98-3982c7071a53"
+      },
+      {
+        "chunk_id": "a371904f-cfa7-5a81-bc34-73efe57201cf"
+      },
+      {
+        "chunk_id": "3e2e368e-654a-5013-be92-9e278661ab08"
+      },
+      {
+        "chunk_id": "28d4a9ca-fe8f-5b6f-afb6-2c5189d6e3fb"
+      },
+      {
+        "chunk_id": "7f6bd826-d81c-5fea-9b18-d7d3fca600b2"
+      },
+      {
+        "chunk_id": "3c7a4d46-42c2-57ac-9dd4-d6a9e4f3f551"
+      },
+      {
+        "chunk_id": "82a3e9c8-ad3b-507b-bffc-796453e295f3"
+      },
+      {
+        "chunk_id": "d3519000-085a-5d05-a99c-b81d845b5a25"
+      },
+      {
+        "chunk_id": "6a004e08-1944-5dc9-bd41-a43d3811136b"
+      },
+      {
+        "chunk_id": "c72045ec-dd53-5395-80f3-0639d21a9d15"
+      },
+      {
+        "chunk_id": "9824989c-6041-5973-9389-6dc68cfea503"
+      }
+    ]
+  }
+}

@@ -1,0 +1,867 @@
+{
+  "version": "c1-internal-0.2",
+  "scope": {
+    "claim_ids": [
+      "claim_022833074dd15cd7808893e7",
+      "claim_2802a2ca639ec1cc8be8fd4b",
+      "claim_39ec5fd17ce8736f5973a464",
+      "claim_4633dd0cf013feb72f12f718",
+      "claim_4be864f26c82a0d72ff8ceb2",
+      "claim_5d449dc7fe41fd5ef3eab9b3",
+      "claim_6033e81c656f778b7c6fffe5",
+      "claim_678197917767d8ecc05f4e2d",
+      "claim_689186fdf155a69d661380e0",
+      "claim_6b54aa03df9869457d6b0be1",
+      "claim_7d20d293e2afdcc5a3805279",
+      "claim_a0314ec98e293304abc62820",
+      "claim_c1754227eae26797a003f693",
+      "claim_cfd92b2d77712342e18c6b94"
+    ],
+    "sources": {
+      "zhang_zhuang_2008": "62b488a4-b782-43c5-a6e2-bd22e35ff2fb",
+      "yue_hashimoto_1991a": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "zhan_outline": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+      "atlas_2012": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+      "kwok_tsou_chin": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef"
+    },
+    "targets": [
+      "YUE",
+      "YUE_GAOYANG",
+      "YUE_WUHUA"
+    ],
+    "features": [
+      "GEOGRAPHY_DISTRIBUTION",
+      "METALINGUISTIC_HIERARCHY_LEVEL"
+    ]
+  },
+  "verification": {
+    "verified_at_utc": "2026-09-10T14:25:35.948400+00:00",
+    "completed_at_utc": "2026-09-10T14:25:37.347715+00:00",
+    "probe_file": "casebook_probes/2026-09-10__c1_native_operations_verify.json",
+    "row_counts": {
+      "shared_basis": 1,
+      "independent_bases": 2,
+      "source_split": 8,
+      "source_comparison_by_feature": 2,
+      "contested_cell": 0,
+      "polarity_value_consistency": 14,
+      "source_filter": 14,
+      "target_comparison_by_feature": 2
+    },
+    "errors": {}
+  },
+  "not_applicable": {
+    "feature_level_split": {
+      "origin": "c2:feature_level_split",
+      "status": "not_applicable",
+      "reason_en": "This C2 operation splits one phonological feature (voiced obstruents) for one target. The C1 slice contains no such feature: it works with metalinguistic features of membership and rank, so the split does not apply.",
+      "title_en": "Two readings inside one feature — not this slice",
+      "finding_en": "Not computed for this case: this check separates two readings of one phonological feature for a single working address defined in case C2. C1 works with different, metalinguistic features of composition and rank, so there is nothing here to split.",
+      "reader_visible": false
+    }
+  },
+  "operations": [
+    {
+      "name": "shared_basis",
+      "origin": "c2:shared_basis",
+      "status": "native",
+      "question_en": "Which statements rest on the same textual passage and therefore are not independent?",
+      "cypher": "MATCH (e1:Evidence)-[:SUPPORTS]->(c1:Claim), (e2:Evidence)-[:SUPPORTS]->(c2:Claim)\nWHERE c1.id IN $claim_ids AND c2.id IN $claim_ids AND c1.id < c2.id\n  AND e1.chunk_id = e2.chunk_id\n  AND e1.start_char IS NOT NULL AND e2.start_char IS NOT NULL\n  AND e1.start_char < e2.end_char AND e2.start_char < e1.end_char\nRETURN c1.id AS claim_a, c2.id AS claim_b, e1.id AS ev_a, e2.id AS ev_b,\n       e1.chunk_id AS chunk_id, e1.start_char AS a_start, e1.end_char AS a_end,\n       e2.start_char AS b_start, e2.end_char AS b_end,\n       CASE WHEN e1.id = e2.id THEN 'same_evidence' ELSE 'overlapping_span' END AS relation\nORDER BY claim_a, claim_b",
+      "params": {
+        "claim_ids": [
+          "claim_a0314ec98e293304abc62820",
+          "claim_7d20d293e2afdcc5a3805279",
+          "claim_6b54aa03df9869457d6b0be1",
+          "claim_678197917767d8ecc05f4e2d",
+          "claim_39ec5fd17ce8736f5973a464",
+          "claim_6033e81c656f778b7c6fffe5",
+          "claim_4633dd0cf013feb72f12f718",
+          "claim_2802a2ca639ec1cc8be8fd4b",
+          "claim_689186fdf155a69d661380e0",
+          "claim_cfd92b2d77712342e18c6b94",
+          "claim_4be864f26c82a0d72ff8ceb2",
+          "claim_5d449dc7fe41fd5ef3eab9b3",
+          "claim_c1754227eae26797a003f693",
+          "claim_022833074dd15cd7808893e7"
+        ]
+      },
+      "expected": [
+        {
+          "claim_a": "claim_022833074dd15cd7808893e7",
+          "claim_b": "claim_c1754227eae26797a003f693",
+          "ev_a": "ev_375b51f97446c5ef274c",
+          "ev_b": "ev_375b51f97446c5ef274c",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "a_start": 790,
+          "a_end": 835,
+          "b_start": 790,
+          "b_end": 835,
+          "relation": "same_evidence"
+        }
+      ],
+      "expected_row_count": 1,
+      "title_en": "Two statements, one sentence",
+      "finding_en": "Two of the statements ({anchors}) quote the very same sentence. They count as one piece of evidence, not two.",
+      "finding_vars": {
+        "anchors": {
+          "op": "anchors_of",
+          "columns": [
+            "claim_a",
+            "claim_b"
+          ]
+        }
+      },
+      "finding_empty_en": "No pair of statements in this selection shares a textual basis: each one draws on a separate quotation.",
+      "why_it_matters_en": "When positions are compared by how much support each has, a shared quotation must not be counted twice.",
+      "columns_en": {
+        "claim_a": "First statement of the pair",
+        "claim_b": "Second statement of the pair",
+        "ev_a": "Evidence record backing the first statement",
+        "ev_b": "Evidence record backing the second statement",
+        "chunk_id": "Text chunk containing both quotations",
+        "a_start": "Position of the first statement's quotation inside the source fragment (characters)",
+        "a_end": "End position of the first statement's quotation (characters)",
+        "b_start": "Position of the second statement's quotation inside the source fragment (characters)",
+        "b_end": "End position of the second statement's quotation (characters)",
+        "relation": "same_evidence = both statements cite the very same quotation; overlapping_span = separate but overlapping quotations"
+      },
+      "reader_visible": true
+    },
+    {
+      "name": "independent_bases",
+      "origin": "c2:independent_bases",
+      "status": "native",
+      "question_en": "How many independent textual bases and how many sources stand behind the slice and behind each feature category?",
+      "cypher": "MATCH (c:Claim) WHERE c.id IN $claim_ids\nMATCH (c)-[:ABOUT_FEATURE]->(f:Feature)\nOPTIONAL MATCH (s:Source)-[:HAS_EVIDENCE]->(e:Evidence)-[:SUPPORTS]->(c)\nRETURN f.id AS feature, count(DISTINCT c) AS claims,\n       count(DISTINCT e) AS distinct_evidence,\n       count(DISTINCT e.chunk_id) AS distinct_chunks,\n       count(DISTINCT s) AS distinct_sources,\n       collect(DISTINCT s.id) AS source_ids\nORDER BY feature",
+      "params": {
+        "claim_ids": [
+          "claim_a0314ec98e293304abc62820",
+          "claim_7d20d293e2afdcc5a3805279",
+          "claim_6b54aa03df9869457d6b0be1",
+          "claim_678197917767d8ecc05f4e2d",
+          "claim_39ec5fd17ce8736f5973a464",
+          "claim_6033e81c656f778b7c6fffe5",
+          "claim_4633dd0cf013feb72f12f718",
+          "claim_2802a2ca639ec1cc8be8fd4b",
+          "claim_689186fdf155a69d661380e0",
+          "claim_cfd92b2d77712342e18c6b94",
+          "claim_4be864f26c82a0d72ff8ceb2",
+          "claim_5d449dc7fe41fd5ef3eab9b3",
+          "claim_c1754227eae26797a003f693",
+          "claim_022833074dd15cd7808893e7"
+        ]
+      },
+      "expected": [
+        {
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "claims": 7,
+          "distinct_evidence": 7,
+          "distinct_chunks": 7,
+          "distinct_sources": 4,
+          "source_ids": [
+            "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+            "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+            "69af2bca-a58d-4342-8ec7-f78715b77e25",
+            "62b488a4-b782-43c5-a6e2-bd22e35ff2fb"
+          ]
+        },
+        {
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "claims": 7,
+          "distinct_evidence": 6,
+          "distinct_chunks": 5,
+          "distinct_sources": 4,
+          "source_ids": [
+            "69af2bca-a58d-4342-8ec7-f78715b77e25",
+            "62b488a4-b782-43c5-a6e2-bd22e35ff2fb",
+            "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+            "dff1c92a-b507-4d36-85b5-273f7f79bfb0"
+          ]
+        }
+      ],
+      "expected_row_count": 2,
+      "title_en": "How much text stands behind the comparison",
+      "finding_en": "The {claims_total} statements compared in this case rest on {chunks_total} separate passages: the comparison does not hang on one sentence repeated many times.",
+      "finding_vars": {
+        "claims_total": {
+          "op": "sum",
+          "column": "claims"
+        },
+        "chunks_total": {
+          "op": "sum",
+          "column": "distinct_chunks"
+        }
+      },
+      "finding_empty_en": "No feature category is present in this selection.",
+      "why_it_matters_en": "Four positions can only be weighed against each other if each is documented by its own text.",
+      "columns_en": {
+        "feature": "Feature category the statements are about",
+        "claims": "Number of statements in this category",
+        "distinct_evidence": "Number of distinct evidence (quotation) records behind them",
+        "distinct_chunks": "Number of distinct text chunks the quotations come from",
+        "distinct_sources": "Number of distinct source documents involved",
+        "source_ids": "Identifiers of the source documents involved"
+      },
+      "reader_visible": true
+    },
+    {
+      "name": "source_split",
+      "origin": "c2:source_split",
+      "status": "native",
+      "question_en": "What does each source record under each feature category?",
+      "cypher": "MATCH (s:Source)-[:HAS_EVIDENCE]->(:Evidence)-[:SUPPORTS]->(c:Claim)\nWHERE c.id IN $claim_ids\nMATCH (c)-[:ABOUT_FEATURE]->(f:Feature)\nRETURN s.id AS document_id, s.title AS source_title, f.id AS feature,\n       count(DISTINCT c) AS claims, collect(DISTINCT c.id) AS claim_ids\nORDER BY source_title, feature",
+      "params": {
+        "claim_ids": [
+          "claim_a0314ec98e293304abc62820",
+          "claim_7d20d293e2afdcc5a3805279",
+          "claim_6b54aa03df9869457d6b0be1",
+          "claim_678197917767d8ecc05f4e2d",
+          "claim_39ec5fd17ce8736f5973a464",
+          "claim_6033e81c656f778b7c6fffe5",
+          "claim_4633dd0cf013feb72f12f718",
+          "claim_2802a2ca639ec1cc8be8fd4b",
+          "claim_689186fdf155a69d661380e0",
+          "claim_cfd92b2d77712342e18c6b94",
+          "claim_4be864f26c82a0d72ff8ceb2",
+          "claim_5d449dc7fe41fd5ef3eab9b3",
+          "claim_c1754227eae26797a003f693",
+          "claim_022833074dd15cd7808893e7"
+        ]
+      },
+      "expected": [
+        {
+          "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+          "source_title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "claims": 2,
+          "claim_ids": [
+            "claim_7d20d293e2afdcc5a3805279",
+            "claim_cfd92b2d77712342e18c6b94"
+          ]
+        },
+        {
+          "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+          "source_title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "claims": 1,
+          "claim_ids": [
+            "claim_a0314ec98e293304abc62820"
+          ]
+        },
+        {
+          "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+          "source_title": "Yuè 粵 Dialects",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "claims": 1,
+          "claim_ids": [
+            "claim_678197917767d8ecc05f4e2d"
+          ]
+        },
+        {
+          "document_id": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+          "source_title": "广东粤方言概要 / An Outline of Yue Dialects in Guangdong",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "claims": 2,
+          "claim_ids": [
+            "claim_4be864f26c82a0d72ff8ceb2",
+            "claim_6b54aa03df9869457d6b0be1"
+          ]
+        },
+        {
+          "document_id": "62b488a4-b782-43c5-a6e2-bd22e35ff2fb",
+          "source_title": "廣東方言的地理格局與自然地理及歷史地理的關係",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "claims": 1,
+          "claim_ids": [
+            "claim_689186fdf155a69d661380e0"
+          ]
+        },
+        {
+          "document_id": "62b488a4-b782-43c5-a6e2-bd22e35ff2fb",
+          "source_title": "廣東方言的地理格局與自然地理及歷史地理的關係",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "claims": 1,
+          "claim_ids": [
+            "claim_2802a2ca639ec1cc8be8fd4b"
+          ]
+        },
+        {
+          "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+          "source_title": "粤语方言分区问题初探",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "claims": 2,
+          "claim_ids": [
+            "claim_4633dd0cf013feb72f12f718",
+            "claim_6033e81c656f778b7c6fffe5"
+          ]
+        },
+        {
+          "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+          "source_title": "粤语方言分区问题初探",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "claims": 4,
+          "claim_ids": [
+            "claim_022833074dd15cd7808893e7",
+            "claim_39ec5fd17ce8736f5973a464",
+            "claim_5d449dc7fe41fd5ef3eab9b3",
+            "claim_c1754227eae26797a003f693"
+          ]
+        }
+      ],
+      "expected_row_count": 8,
+      "title_en": "No source covers everything",
+      "finding_en": "The statements come from {sources} publications, and none of them answers every question asked here: each contributes its own part of the picture.",
+      "finding_vars": {
+        "sources": {
+          "op": "distinct",
+          "column": "document_id"
+        }
+      },
+      "finding_empty_en": "No source contributes a statement in this selection.",
+      "why_it_matters_en": "The four positions are assembled from partial accounts, which is why membership and rank have to be compared source by source.",
+      "columns_en": {
+        "document_id": "Source document identifier",
+        "source_title": "Title of the source document",
+        "feature": "Feature category recorded by this source",
+        "claims": "Number of statements this source records in this category",
+        "claim_ids": "Identifiers of those statements"
+      },
+      "reader_visible": true
+    },
+    {
+      "name": "source_comparison_by_feature",
+      "origin": "c2:source_comparison_by_feature",
+      "status": "partially_native",
+      "question_en": "In which feature categories do the Atlas and Yue-Hashimoto 1991a overlap, and which are unique to one?",
+      "cypher": "MATCH (c:Claim)-[:ABOUT_FEATURE]->(f:Feature) WHERE c.id IN $claim_ids\nMATCH (s:Source)-[:HAS_EVIDENCE]->(:Evidence)-[:SUPPORTS]->(c)\nWITH f.id AS feature,\n  sum(CASE WHEN s.id=$source_a AND c.polarity='attested' THEN 1 ELSE 0 END) AS a_att,\n  sum(CASE WHEN s.id=$source_a AND c.polarity='not_attested' THEN 1 ELSE 0 END) AS a_nat,\n  sum(CASE WHEN s.id=$source_b AND c.polarity='attested' THEN 1 ELSE 0 END) AS b_att,\n  sum(CASE WHEN s.id=$source_b AND c.polarity='not_attested' THEN 1 ELSE 0 END) AS b_nat\nRETURN feature, a_att, a_nat, b_att, b_nat,\n  CASE WHEN (a_att+a_nat)=0 THEN 'unique_b'\n       WHEN (b_att+b_nat)=0 THEN 'unique_a'\n       WHEN (a_att>0 AND b_nat>0) OR (a_nat>0 AND b_att>0) THEN 'contrast'\n       ELSE 'shared' END AS row_class\nORDER BY row_class, feature",
+      "params": {
+        "claim_ids": [
+          "claim_a0314ec98e293304abc62820",
+          "claim_7d20d293e2afdcc5a3805279",
+          "claim_6b54aa03df9869457d6b0be1",
+          "claim_678197917767d8ecc05f4e2d",
+          "claim_39ec5fd17ce8736f5973a464",
+          "claim_6033e81c656f778b7c6fffe5",
+          "claim_4633dd0cf013feb72f12f718",
+          "claim_2802a2ca639ec1cc8be8fd4b",
+          "claim_689186fdf155a69d661380e0",
+          "claim_cfd92b2d77712342e18c6b94",
+          "claim_4be864f26c82a0d72ff8ceb2",
+          "claim_5d449dc7fe41fd5ef3eab9b3",
+          "claim_c1754227eae26797a003f693",
+          "claim_022833074dd15cd7808893e7"
+        ],
+        "source_a": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+        "source_b": "69af2bca-a58d-4342-8ec7-f78715b77e25"
+      },
+      "expected": [
+        {
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "a_att": 2,
+          "a_nat": 0,
+          "b_att": 2,
+          "b_nat": 0,
+          "row_class": "shared"
+        },
+        {
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "a_att": 1,
+          "a_nat": 0,
+          "b_att": 3,
+          "b_nat": 0,
+          "row_class": "shared"
+        }
+      ],
+      "expected_row_count": 2,
+      "caveat_en": "The comparison template takes two sources. C1 has five, so this operation compares the selected pair only; the full per-source picture is in source_split.",
+      "title_en": "Two sources side by side",
+      "finding_en": "Comparing this pair of sources category by category, {shared_count} of the {n_rows} categories shown are recorded by both sides; this narrow, two-source view finds nothing unique to either one.",
+      "finding_vars": {
+        "shared_count": {
+          "op": "count_rows",
+          "where": {
+            "column": "row_class",
+            "equals": "shared"
+          }
+        }
+      },
+      "finding_empty_en": "No feature category is comparable between this pair of sources.",
+      "why_it_matters_en": "This is the free-Cypher analogue of the project's canonical two-source comparison template, applied to the two positions with the most categories in common.",
+      "columns_en": {
+        "feature": "Feature category being compared",
+        "a_att": "Attested-polarity statements from the first source in this category",
+        "a_nat": "Not-attested-polarity statements from the first source in this category",
+        "b_att": "Attested-polarity statements from the second source in this category",
+        "b_nat": "Not-attested-polarity statements from the second source in this category",
+        "row_class": "How the two sources relate for this category: shared, unique_a, unique_b, or contrast"
+      },
+      "reader_visible": false
+    },
+    {
+      "name": "contested_cell",
+      "origin": "c2:contested_cell",
+      "status": "native",
+      "question_en": "Is there a feature category where statements about the same target carry opposite polarity?",
+      "cypher": "MATCH (c:Claim)-[:ABOUT_FEATURE]->(f:Feature) WHERE c.id IN $claim_ids\nMATCH (c)-[r:ABOUT_SUBGROUP|ABOUT_GROUP]->(t)\nOPTIONAL MATCH (s:Source)-[:HAS_EVIDENCE]->(:Evidence)-[:SUPPORTS]->(c)\nWITH t.id AS target, f.id AS feature,\n  sum(CASE WHEN c.polarity='attested' THEN 1 ELSE 0 END) AS att,\n  sum(CASE WHEN c.polarity='not_attested' THEN 1 ELSE 0 END) AS nat,\n  count(DISTINCT s) AS sources, collect(DISTINCT c.id) AS claim_ids\nWHERE att > 0 AND nat > 0\nRETURN target, feature, att, nat, sources, claim_ids ORDER BY feature",
+      "params": {
+        "claim_ids": [
+          "claim_a0314ec98e293304abc62820",
+          "claim_7d20d293e2afdcc5a3805279",
+          "claim_6b54aa03df9869457d6b0be1",
+          "claim_678197917767d8ecc05f4e2d",
+          "claim_39ec5fd17ce8736f5973a464",
+          "claim_6033e81c656f778b7c6fffe5",
+          "claim_4633dd0cf013feb72f12f718",
+          "claim_2802a2ca639ec1cc8be8fd4b",
+          "claim_689186fdf155a69d661380e0",
+          "claim_cfd92b2d77712342e18c6b94",
+          "claim_4be864f26c82a0d72ff8ceb2",
+          "claim_5d449dc7fe41fd5ef3eab9b3",
+          "claim_c1754227eae26797a003f693",
+          "claim_022833074dd15cd7808893e7"
+        ]
+      },
+      "expected": [],
+      "expected_row_count": 0,
+      "title_en": "No flat contradictions",
+      "finding_en": "{n_rows} pairs of statements contradict each other outright.",
+      "finding_vars": {},
+      "finding_empty_en": "No two statements here contradict each other outright. The four positions differ in how they draw their units, not in any yes-or-no fact.",
+      "why_it_matters_en": "A search for contradictions would report nothing, although the classifications plainly differ: the difference lives in membership and rank.",
+      "columns_en": {
+        "target": "Working address the contested statements are about",
+        "feature": "Feature category in contradiction",
+        "att": "Number of attested-polarity statements",
+        "nat": "Number of not-attested-polarity statements",
+        "sources": "Number of distinct sources involved",
+        "claim_ids": "Identifiers of the contradictory statements"
+      },
+      "reader_visible": true
+    },
+    {
+      "name": "polarity_value_consistency",
+      "origin": "c2:polarity_value_consistency",
+      "status": "native",
+      "question_en": "Does the recorded polarity agree with the present flag inside the value?",
+      "cypher": "MATCH (c:Claim) WHERE c.id IN $claim_ids\nMATCH (c)-[:ABOUT_FEATURE]->(f:Feature)\nRETURN c.id AS claim_id, f.id AS feature, c.polarity AS polarity,\n  CASE WHEN c.value CONTAINS '\"present\": true' OR c.value CONTAINS '\"present\":true' THEN 'present_true'\n       WHEN c.value CONTAINS '\"present\": false' OR c.value CONTAINS '\"present\":false' THEN 'present_false'\n       ELSE 'no_present_flag' END AS present_flag\nORDER BY feature, claim_id",
+      "params": {
+        "claim_ids": [
+          "claim_a0314ec98e293304abc62820",
+          "claim_7d20d293e2afdcc5a3805279",
+          "claim_6b54aa03df9869457d6b0be1",
+          "claim_678197917767d8ecc05f4e2d",
+          "claim_39ec5fd17ce8736f5973a464",
+          "claim_6033e81c656f778b7c6fffe5",
+          "claim_4633dd0cf013feb72f12f718",
+          "claim_2802a2ca639ec1cc8be8fd4b",
+          "claim_689186fdf155a69d661380e0",
+          "claim_cfd92b2d77712342e18c6b94",
+          "claim_4be864f26c82a0d72ff8ceb2",
+          "claim_5d449dc7fe41fd5ef3eab9b3",
+          "claim_c1754227eae26797a003f693",
+          "claim_022833074dd15cd7808893e7"
+        ]
+      },
+      "expected": [
+        {
+          "claim_id": "claim_4633dd0cf013feb72f12f718",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_4be864f26c82a0d72ff8ceb2",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_6033e81c656f778b7c6fffe5",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_689186fdf155a69d661380e0",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_6b54aa03df9869457d6b0be1",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_7d20d293e2afdcc5a3805279",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_cfd92b2d77712342e18c6b94",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_022833074dd15cd7808893e7",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_2802a2ca639ec1cc8be8fd4b",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_39ec5fd17ce8736f5973a464",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_5d449dc7fe41fd5ef3eab9b3",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "polarity": "uncertain",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_678197917767d8ecc05f4e2d",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_a0314ec98e293304abc62820",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        },
+        {
+          "claim_id": "claim_c1754227eae26797a003f693",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "polarity": "attested",
+          "present_flag": "no_present_flag"
+        }
+      ],
+      "expected_row_count": 14,
+      "title_en": "Polarity against the recorded value",
+      "finding_en": "Across the {n_rows} statements in this selection, polarity and the value's own present flag never conflict; {no_flag} of them carry no present flag at all, because this feature is not a binary presence/absence question.",
+      "finding_vars": {
+        "no_flag": {
+          "op": "count_rows",
+          "where": {
+            "column": "present_flag",
+            "equals": "no_present_flag"
+          }
+        }
+      },
+      "finding_empty_en": "No statement is present in this selection.",
+      "why_it_matters_en": "A coding artefact where polarity disagrees with the record's own value would look like a scholarly dispute if left unchecked; this rules that out for the selection.",
+      "columns_en": {
+        "claim_id": "Statement identifier",
+        "feature": "Feature category",
+        "polarity": "Recorded polarity of the statement",
+        "present_flag": "Whether the record's own value carries a present:true/false flag"
+      },
+      "reader_visible": false
+    },
+    {
+      "name": "source_filter",
+      "origin": "c1:new",
+      "status": "native",
+      "question_en": "Change the selected source: which statements about composition and rank remain visible?",
+      "cypher": "MATCH (s:Source)-[:HAS_EVIDENCE]->(e:Evidence)-[:SUPPORTS]->(c:Claim)\nWHERE c.id IN $claim_ids\nMATCH (c)-[:ABOUT_FEATURE]->(f:Feature)\nMATCH (c)-[r:ABOUT_SUBGROUP|ABOUT_GROUP]->(t)\nRETURN s.id AS document_id, s.title AS source_title, c.id AS claim_id,\n       f.id AS feature, t.id AS target, type(r) AS target_relationship,\n       c.polarity AS polarity, c.value AS value, e.id AS evidence_id\nORDER BY source_title, feature, claim_id",
+      "params": {
+        "claim_ids": [
+          "claim_a0314ec98e293304abc62820",
+          "claim_7d20d293e2afdcc5a3805279",
+          "claim_6b54aa03df9869457d6b0be1",
+          "claim_678197917767d8ecc05f4e2d",
+          "claim_39ec5fd17ce8736f5973a464",
+          "claim_6033e81c656f778b7c6fffe5",
+          "claim_4633dd0cf013feb72f12f718",
+          "claim_2802a2ca639ec1cc8be8fd4b",
+          "claim_689186fdf155a69d661380e0",
+          "claim_cfd92b2d77712342e18c6b94",
+          "claim_4be864f26c82a0d72ff8ceb2",
+          "claim_5d449dc7fe41fd5ef3eab9b3",
+          "claim_c1754227eae26797a003f693",
+          "claim_022833074dd15cd7808893e7"
+        ]
+      },
+      "expected": [
+        {
+          "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+          "source_title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+          "claim_id": "claim_7d20d293e2afdcc5a3805279",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "target": "YUE_WUHUA",
+          "target_relationship": "ABOUT_SUBGROUP",
+          "polarity": "attested",
+          "value": "Mainly concentrated in the bay area southwest of Maoming and east of Zhanjiang, covering 3 urban/county-level areas including parts of Potou District, Wuchuan, and Huazhou in Guangdong.",
+          "evidence_id": "ev_59bf6ca648b749806c6e"
+        },
+        {
+          "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+          "source_title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+          "claim_id": "claim_cfd92b2d77712342e18c6b94",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "target": "YUE_GAOYANG",
+          "target_relationship": "ABOUT_SUBGROUP",
+          "polarity": "attested",
+          "value": "Mainly distributed in most of Maoming and Yangjiang in southwest Guangdong and parts of Wuchuan in Zhanjiang, with listed localities including Gaozhou, Xinyi, Huazhou, Yangchun, Yangdong, Yangxi, Chikan, Wuchuan, and Lianjiang Anpu and nearby areas.",
+          "evidence_id": "ev_1564e8a9cd0931eb7dd7"
+        },
+        {
+          "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+          "source_title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+          "claim_id": "claim_a0314ec98e293304abc62820",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "target": "YUE",
+          "target_relationship": "ABOUT_GROUP",
+          "polarity": "attested",
+          "value": "Yue is divided into seven subgroups: Guangfu, Siyi, Gaoyang, Wuhua, Goulou, Yongxun, and Qinlian.",
+          "evidence_id": "ev_603ec447e1748395f65b"
+        },
+        {
+          "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+          "source_title": "Yuè 粵 Dialects",
+          "claim_id": "claim_678197917767d8ecc05f4e2d",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "target": "YUE_WUHUA",
+          "target_relationship": "ABOUT_SUBGROUP",
+          "polarity": "attested",
+          "value": "Hou 2002: Wuhua merged with Gaoyang sub-group",
+          "evidence_id": "ev_49b1be3cce76c62ebf9e"
+        },
+        {
+          "document_id": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+          "source_title": "广东粤方言概要 / An Outline of Yue Dialects in Guangdong",
+          "claim_id": "claim_4be864f26c82a0d72ff8ceb2",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "target": "YUE",
+          "target_relationship": "ABOUT_GROUP",
+          "polarity": "attested",
+          "value": "广东省内的粤方言明显分为5个方言片：粤海片、四邑片、高雷片、莞宝片、香山片。",
+          "evidence_id": "ev_87d96a8644318887c028"
+        },
+        {
+          "document_id": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+          "source_title": "广东粤方言概要 / An Outline of Yue Dialects in Guangdong",
+          "claim_id": "claim_6b54aa03df9869457d6b0be1",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "target": "YUE_GAOYANG",
+          "target_relationship": "ABOUT_SUBGROUP",
+          "polarity": "attested",
+          "value": "高雷片分布于湛江、茂名、阳江、阳春、高州、信宜、化州、吴川、电白、遂溪、廉江、雷州、徐闻。",
+          "evidence_id": "ev_dea784d6623c1326529f"
+        },
+        {
+          "document_id": "62b488a4-b782-43c5-a6e2-bd22e35ff2fb",
+          "source_title": "廣東方言的地理格局與自然地理及歷史地理的關係",
+          "claim_id": "claim_689186fdf155a69d661380e0",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "target": "YUE_GAOYANG",
+          "target_relationship": "ABOUT_SUBGROUP",
+          "polarity": "attested",
+          "value": "陽江、陽春、高州、茂名、信宜、廉州、湛江、化州、吳川等",
+          "evidence_id": "ev_8897ff59e0ca705f8750"
+        },
+        {
+          "document_id": "62b488a4-b782-43c5-a6e2-bd22e35ff2fb",
+          "source_title": "廣東方言的地理格局與自然地理及歷史地理的關係",
+          "claim_id": "claim_2802a2ca639ec1cc8be8fd4b",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "target": "YUE_GAOYANG",
+          "target_relationship": "ABOUT_SUBGROUP",
+          "polarity": "attested",
+          "value": "信宜高州以南以西粵語獨立為「高化片」",
+          "evidence_id": "ev_237494d2a04b1362ac02"
+        },
+        {
+          "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+          "source_title": "粤语方言分区问题初探",
+          "claim_id": "claim_4633dd0cf013feb72f12f718",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "target": "YUE",
+          "target_relationship": "ABOUT_GROUP",
+          "polarity": "attested",
+          "value": "两阳片包括阳江、阳春及新会河村",
+          "evidence_id": "ev_34ebb48de4435dee6eaf"
+        },
+        {
+          "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+          "source_title": "粤语方言分区问题初探",
+          "claim_id": "claim_6033e81c656f778b7c6fffe5",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "target": "YUE",
+          "target_relationship": "ABOUT_GROUP",
+          "polarity": "attested",
+          "value": "化县、吴川及广西内陆大部分地区",
+          "evidence_id": "ev_e569e70c617d0cd2223c"
+        },
+        {
+          "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+          "source_title": "粤语方言分区问题初探",
+          "claim_id": "claim_022833074dd15cd7808893e7",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "target": "YUE",
+          "target_relationship": "ABOUT_GROUP",
+          "polarity": "attested",
+          "value": "化县归入北三角洲片（与广西内陆方言关系密切）",
+          "evidence_id": "ev_375b51f97446c5ef274c"
+        },
+        {
+          "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+          "source_title": "粤语方言分区问题初探",
+          "claim_id": "claim_39ec5fd17ce8736f5973a464",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "target": "YUE",
+          "target_relationship": "ABOUT_GROUP",
+          "polarity": "attested",
+          "value": "粤语分为两区七片：四邑两阳区（四邑片 A、两阳片 B）与三角洲区（北三角洲片：三邑肇庆小片 C、内陆小片 D；南三角洲片：钦廉小片 E、中山小片 F；广府片 G）",
+          "evidence_id": "ev_0e46deee89182712d021"
+        },
+        {
+          "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+          "source_title": "粤语方言分区问题初探",
+          "claim_id": "claim_5d449dc7fe41fd5ef3eab9b3",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "target": "YUE",
+          "target_relationship": "ABOUT_GROUP",
+          "polarity": "uncertain",
+          "value": "同时列入吴化片与高阳片，归属未说明",
+          "evidence_id": "ev_942fcfe0a4b8317288aa"
+        },
+        {
+          "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+          "source_title": "粤语方言分区问题初探",
+          "claim_id": "claim_c1754227eae26797a003f693",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "target": "YUE",
+          "target_relationship": "ABOUT_GROUP",
+          "polarity": "attested",
+          "value": "吴川归入北三角洲片（与广西内陆方言关系密切）",
+          "evidence_id": "ev_375b51f97446c5ef274c"
+        }
+      ],
+      "expected_row_count": 14,
+      "title_en": "Change the source, see what remains",
+      "finding_en": "Switching the selected source across this slice's {sources} documents leaves {n_rows} statements about composition and rank visible in total, each tagged with its own source, feature category, working address and quoted value.",
+      "finding_vars": {
+        "sources": {
+          "op": "distinct",
+          "column": "document_id"
+        }
+      },
+      "finding_empty_en": "No statement about composition or rank remains visible for this source.",
+      "why_it_matters_en": "This is the reading-order operation for the case: pick a source and see exactly what it commits to, without the other three positions' statements bleeding in.",
+      "columns_en": {
+        "document_id": "Source document identifier",
+        "source_title": "Title of the source document",
+        "claim_id": "Statement identifier",
+        "feature": "Feature category the statement is about",
+        "target": "Working address the statement is attached to",
+        "target_relationship": "Whether the statement addresses the whole group (ABOUT_GROUP) or one subgroup (ABOUT_SUBGROUP)",
+        "polarity": "Recorded polarity of the statement",
+        "value": "Quoted or translated content of the statement, as recorded in the source",
+        "evidence_id": "Identifier of the underlying quotation record"
+      },
+      "reader_visible": false
+    },
+    {
+      "name": "target_comparison_by_feature",
+      "origin": "c1:new (canonical two-target T7, not executable inside the C2 slice)",
+      "status": "native",
+      "question_en": "Side by side: what do the working addresses Gaoyang and Wuhua collect under each feature category?",
+      "cypher": "MATCH (c:Claim)-[:ABOUT_FEATURE]->(f:Feature) WHERE c.id IN $claim_ids\nMATCH (c)-[:ABOUT_SUBGROUP|ABOUT_GROUP]->(t)\nWITH f.id AS feature,\n  sum(CASE WHEN t.id=$target_a THEN 1 ELSE 0 END) AS a_claims,\n  sum(CASE WHEN t.id=$target_b THEN 1 ELSE 0 END) AS b_claims,\n  collect(DISTINCT CASE WHEN t.id=$target_a THEN c.id END) AS a_ids,\n  collect(DISTINCT CASE WHEN t.id=$target_b THEN c.id END) AS b_ids\nRETURN feature, a_claims, b_claims,\n  [x IN a_ids WHERE x IS NOT NULL] AS target_a_claims,\n  [x IN b_ids WHERE x IS NOT NULL] AS target_b_claims,\n  CASE WHEN a_claims=0 THEN 'unique_b' WHEN b_claims=0 THEN 'unique_a' ELSE 'shared' END AS row_class\nORDER BY row_class, feature",
+      "params": {
+        "claim_ids": [
+          "claim_a0314ec98e293304abc62820",
+          "claim_7d20d293e2afdcc5a3805279",
+          "claim_6b54aa03df9869457d6b0be1",
+          "claim_678197917767d8ecc05f4e2d",
+          "claim_39ec5fd17ce8736f5973a464",
+          "claim_6033e81c656f778b7c6fffe5",
+          "claim_4633dd0cf013feb72f12f718",
+          "claim_2802a2ca639ec1cc8be8fd4b",
+          "claim_689186fdf155a69d661380e0",
+          "claim_cfd92b2d77712342e18c6b94",
+          "claim_4be864f26c82a0d72ff8ceb2",
+          "claim_5d449dc7fe41fd5ef3eab9b3",
+          "claim_c1754227eae26797a003f693",
+          "claim_022833074dd15cd7808893e7"
+        ],
+        "target_a": "YUE_GAOYANG",
+        "target_b": "YUE_WUHUA"
+      },
+      "expected": [
+        {
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "a_claims": 3,
+          "b_claims": 1,
+          "target_a_claims": [
+            "claim_6b54aa03df9869457d6b0be1",
+            "claim_689186fdf155a69d661380e0",
+            "claim_cfd92b2d77712342e18c6b94"
+          ],
+          "target_b_claims": [
+            "claim_7d20d293e2afdcc5a3805279"
+          ],
+          "row_class": "shared"
+        },
+        {
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "a_claims": 1,
+          "b_claims": 1,
+          "target_a_claims": [
+            "claim_2802a2ca639ec1cc8be8fd4b"
+          ],
+          "target_b_claims": [
+            "claim_678197917767d8ecc05f4e2d"
+          ],
+          "row_class": "shared"
+        }
+      ],
+      "expected_row_count": 2,
+      "title_en": "Gaoyang and Wuhua side by side",
+      "finding_en": "Placed side by side, the working addresses Gaoyang and Wuhua share {shared_count} of the {n_rows} feature categories present in this slice; neither address carries a category entirely absent from the other, though the number of statements per side differs.",
+      "finding_vars": {
+        "shared_count": {
+          "op": "count_rows",
+          "where": {
+            "column": "row_class",
+            "equals": "shared"
+          }
+        }
+      },
+      "finding_empty_en": "No feature category is shared by these two working addresses.",
+      "why_it_matters_en": "This is the canonical two-target comparison (T7) applied to the case's own two working addresses, rather than to a pair of sources.",
+      "columns_en": {
+        "feature": "Feature category being compared",
+        "a_claims": "Number of statements attached to the first working address in this category",
+        "b_claims": "Number of statements attached to the second working address in this category",
+        "target_a_claims": "Identifiers of the statements attached to the first working address",
+        "target_b_claims": "Identifiers of the statements attached to the second working address",
+        "row_class": "How the two addresses relate for this category: shared, unique_a, or unique_b"
+      },
+      "reader_visible": false
+    }
+  ],
+  "remains_curated": {
+    "note_en": "Editorial layer: what the graph does not compute; not part of the operations.",
+    "items_en": [
+      "Mapping of statements to the four positions of §5.1 (roles A1–A2, B1–B2, C1–C3, D1–D2, S1–S5)",
+      "The positions table (source — unit — membership — rank — comparability) and its comparability column",
+      "The claim that 高雷片 covers the Atlas units 高阳片 and 吴化片: no source says this",
+      "Printed pages 127 / 1 / 5 / 167 / 176 / 178 / 409 / 421 and the finding that two documents carry no pagination",
+      "The absence in the 1991a scheme of any unit corresponding to Gaoyang or Wuhua",
+      "Attribution of the two-region scheme: 1988 in Kwok–Tsou–Chin versus 1991a in the article"
+    ]
+  }
+}

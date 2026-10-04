@@ -1,0 +1,55 @@
+{
+  "baseline_claim_ids": [
+    "claim_1cd75cb6f867faacbf730003",
+    "claim_299220d48644a5a06aef162b",
+    "claim_66d7d48ba25643b042006d2a",
+    "claim_aee8cfae9c56115ccabe9877",
+    "claim_b891599fbeaa737b8620cf07"
+  ],
+  "by_feature": {
+    "CLASSIFICATION_ATLAS2012": [
+      "claim_1cd75cb6f867faacbf730003"
+    ],
+    "CLASSIFICATION_CRITERIA_REPORTED": [
+      "claim_b891599fbeaa737b8620cf07"
+    ],
+    "METALINGUISTIC_HIERARCHY_LEVEL": [
+      "claim_299220d48644a5a06aef162b"
+    ],
+    "CONS_ASPIRATION_CONTRAST": [
+      "claim_66d7d48ba25643b042006d2a",
+      "claim_aee8cfae9c56115ccabe9877"
+    ],
+    "CONS_VOICED_OBSTRUENTS_REPORTED": []
+  },
+  "source_filter": {
+    "c8227da0-01e8-4008-a5a2-cc7d68ad3628": [
+      "claim_1cd75cb6f867faacbf730003",
+      "claim_299220d48644a5a06aef162b",
+      "claim_66d7d48ba25643b042006d2a",
+      "claim_aee8cfae9c56115ccabe9877",
+      "claim_b891599fbeaa737b8620cf07"
+    ],
+    "absent_source": []
+  },
+  "locality_filter": {
+    "LIANZHOU_BEIHAI": [
+      "claim_1cd75cb6f867faacbf730003",
+      "claim_299220d48644a5a06aef162b",
+      "claim_66d7d48ba25643b042006d2a",
+      "claim_aee8cfae9c56115ccabe9877",
+      "claim_b891599fbeaa737b8620cf07"
+    ],
+    "LIANZHOU_CITY": [],
+    "LIANJIANG": [],
+    "LIANZHOU": []
+  },
+  "empty_result_meaning": "No records in this iteration's scope, not linguistic absence",
+  "reset": [
+    "claim_1cd75cb6f867faacbf730003",
+    "claim_299220d48644a5a06aef162b",
+    "claim_66d7d48ba25643b042006d2a",
+    "claim_aee8cfae9c56115ccabe9877",
+    "claim_b891599fbeaa737b8620cf07"
+  ]
+}

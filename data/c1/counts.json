@@ -1,0 +1,263 @@
+{
+  "scope_a_rows": 28,
+  "scope_b_rows": 221,
+  "scope_c_rows": 141,
+  "ledger_rows": 380,
+  "candidate_claims": 362,
+  "core_claims": 9,
+  "core_evidence": 9,
+  "core_chunks": 8,
+  "core_sources": 5,
+  "supplement_claims": 5,
+  "graph_nodes": 28,
+  "graph_edges": 36,
+  "comparison_claims": 14,
+  "comparison_evidence": 13,
+  "comparison_sources": 5,
+  "comparison_nodes": 37,
+  "comparison_edges": 55,
+  "ledger_decisions": {
+    "position_candidate": 348,
+    "supplement": 5,
+    "out_of_position_source": 18,
+    "core": 9
+  },
+  "positions": {
+    "P1": 3,
+    "P2": 3,
+    "P3": 6,
+    "P4": 2
+  },
+  "denominators": {
+    "target_totals": [
+      {
+        "target": "YUE_GAOYANG",
+        "claims": 2150,
+        "evidence": 1708,
+        "features": 106,
+        "sources": 24
+      },
+      {
+        "target": "YUE_WUHUA",
+        "claims": 114,
+        "evidence": 93,
+        "features": 39,
+        "sources": 15
+      }
+    ],
+    "target_all_statuses": [
+      {
+        "target": "YUE_GAOYANG",
+        "status": "approved",
+        "claims": 44
+      },
+      {
+        "target": "YUE_GAOYANG",
+        "status": "archived",
+        "claims": 17
+      },
+      {
+        "target": "YUE_GAOYANG",
+        "status": "auto_approved",
+        "claims": 2106
+      },
+      {
+        "target": "YUE_WUHUA",
+        "status": "approved",
+        "claims": 7
+      },
+      {
+        "target": "YUE_WUHUA",
+        "status": "archived",
+        "claims": 3
+      },
+      {
+        "target": "YUE_WUHUA",
+        "status": "auto_approved",
+        "claims": 107
+      }
+    ],
+    "source_totals": [
+      {
+        "document_id": "62b488a4-b782-43c5-a6e2-bd22e35ff2fb",
+        "source_title": "廣東方言的地理格局與自然地理及歷史地理的關係",
+        "claims": 282,
+        "evidence": 179,
+        "features": 31
+      },
+      {
+        "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+        "source_title": "粤语方言分区问题初探",
+        "claims": 408,
+        "evidence": 169,
+        "features": 34
+      },
+      {
+        "document_id": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+        "source_title": "广东粤方言概要 / An Outline of Yue Dialects in Guangdong",
+        "claims": 2242,
+        "evidence": 1956,
+        "features": 101
+      },
+      {
+        "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+        "source_title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+        "claims": 3290,
+        "evidence": 2634,
+        "features": 75
+      },
+      {
+        "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+        "source_title": "Yuè 粵 Dialects",
+        "claims": 235,
+        "evidence": 169,
+        "features": 65
+      }
+    ],
+    "scope_a_by_target_feature": [
+      {
+        "target": "YUE_GAOYANG",
+        "feature": "CLASSIFICATION_ATLAS2012",
+        "claims": 8
+      },
+      {
+        "target": "YUE_GAOYANG",
+        "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+        "claims": 2
+      },
+      {
+        "target": "YUE_GAOYANG",
+        "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+        "claims": 12
+      },
+      {
+        "target": "YUE_WUHUA",
+        "feature": "CLASSIFICATION_ATLAS2012",
+        "claims": 3
+      },
+      {
+        "target": "YUE_WUHUA",
+        "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+        "claims": 3
+      }
+    ],
+    "scope_b_by_source_feature": [
+      {
+        "document_id": "62b488a4-b782-43c5-a6e2-bd22e35ff2fb",
+        "feature": "CLASSIFICATION_ATLAS2012",
+        "claims": 4
+      },
+      {
+        "document_id": "62b488a4-b782-43c5-a6e2-bd22e35ff2fb",
+        "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+        "claims": 5
+      },
+      {
+        "document_id": "62b488a4-b782-43c5-a6e2-bd22e35ff2fb",
+        "feature": "GEOGRAPHY_DISTRIBUTION",
+        "claims": 28
+      },
+      {
+        "document_id": "62b488a4-b782-43c5-a6e2-bd22e35ff2fb",
+        "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+        "claims": 6
+      },
+      {
+        "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+        "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+        "claims": 10
+      },
+      {
+        "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+        "feature": "GEOGRAPHY_DISTRIBUTION",
+        "claims": 20
+      },
+      {
+        "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+        "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+        "claims": 32
+      },
+      {
+        "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+        "feature": "CLASSIFICATION_ATLAS2012",
+        "claims": 23
+      },
+      {
+        "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+        "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+        "claims": 1
+      },
+      {
+        "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+        "feature": "GEOGRAPHY_DISTRIBUTION",
+        "claims": 59
+      },
+      {
+        "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+        "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+        "claims": 8
+      },
+      {
+        "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+        "feature": "CLASSIFICATION_ATLAS2012",
+        "claims": 1
+      },
+      {
+        "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+        "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+        "claims": 6
+      },
+      {
+        "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+        "feature": "GEOGRAPHY_DISTRIBUTION",
+        "claims": 9
+      },
+      {
+        "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+        "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+        "claims": 9
+      }
+    ],
+    "scope_c_by_feature": [
+      {
+        "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+        "claims": 1
+      },
+      {
+        "feature": "GEOGRAPHY_DISTRIBUTION",
+        "claims": 140
+      }
+    ],
+    "excluded_outside_yue": {
+      "scope_b": [
+        {
+          "document_id": "62b488a4-b782-43c5-a6e2-bd22e35ff2fb",
+          "claims": 74
+        },
+        {
+          "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+          "claims": 19
+        },
+        {
+          "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+          "claims": 1093
+        }
+      ],
+      "scope_c": [
+        {
+          "claims": 60
+        }
+      ]
+    }
+  },
+  "native_operations": {
+    "shared_basis": 1,
+    "independent_bases": 2,
+    "source_split": 8,
+    "source_comparison_by_feature": 2,
+    "contested_cell": 0,
+    "polarity_value_consistency": 14,
+    "source_filter": 14,
+    "target_comparison_by_feature": 2
+  }
+}

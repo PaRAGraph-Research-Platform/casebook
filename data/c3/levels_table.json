@@ -1,0 +1,227 @@
+{
+  "origin_kind": "curated_annotation",
+  "origin_method": "editor_written",
+  "review_status": "unreviewed",
+  "note_en": "This table is a curated reconstruction of the levels stated by the sources. Nesting inside one scheme is what that source says; correspondence between units of different schemes is editorial and attributed, and none of it is a native graph relation. The working addresses YUE_SIYI, YUE_GAOYANG and YUE_GUANGFU are indexes over the same territory, not a statement that the units named by different authors are the same unit. Each row carries a derivation: 'derived_from_schemes_layer' rows are reproduced mechanically from casebook_probes/schemes_layer (round B); 'editor_written' marks the one row (L-X1) that synthesises a cross-scheme sentence rather than reproducing one source's own list. See B3_REPORT.md for the full reconciliation.",
+  "schemes_en": {
+    "SCH_ATLAS": "Language Atlas of China (2nd edition, 2012): Yue is cut once, into seven coordinate 片",
+    "SCH_YH": "Yue-Hashimoto: Yue is cut into two 區 districts, then into 片 and 小片",
+    "SCH_CROSS": "Kwok, Tsou and Chin: a third source that states both schemes and relates them approximately"
+  },
+  "rows": [
+    {
+      "row_id": "L-A0",
+      "scheme": "Language Atlas of China, 1st edition (1987), as reported by Yue-Hashimoto 1991a",
+      "source": "Yue-Hashimoto 1991a reporting Xiong Zhenghui 1987",
+      "unit": "Guangdong Yue",
+      "level_term": "五片 — five 片 pian",
+      "contains": "Guangfu, Siyi, Gaoyang, Goulou, Wuhua (Guangdong only)",
+      "comparability": "earlier_edition_of_the_same_line",
+      "unknowns": "Whether the 1987 five-片 cut of Guangdong and the 2012 seven-片 cut of all Yue are the same units under a wider frame is not stated in this slice.",
+      "anchors": "S3",
+      "derivation": "derived_from_schemes_layer",
+      "scheme_records": [
+        "yue_hashimoto_1991.json#SCH_XIONG_1987"
+      ]
+    },
+    {
+      "row_id": "L-A1",
+      "scheme": "Language Atlas of China, 2nd edition (2012)",
+      "source": "Language Atlas of China, Chinese Dialects Volume, 2nd edition, section 2.1",
+      "unit": "粵語 Yue",
+      "level_term": "方言 group, cut once",
+      "contains": "seven coordinate 片: 廣府, 四邑, 高陽, 吳化, 勾漏, 邕潯, 欽廉",
+      "comparability": "top_of_this_scheme",
+      "unknowns": "The Atlas text does not rank the seven 片 against one another and does not state any unit between Yue and 片.",
+      "anchors": "A1, K2",
+      "derivation": "derived_from_schemes_layer",
+      "scheme_records": [
+        "atlas_2012.json#SCH_ATLAS_2012_yue_A2_table"
+      ]
+    },
+    {
+      "row_id": "L-A2",
+      "scheme": "Language Atlas of China, 2nd edition (2012)",
+      "source": "Language Atlas of China, section 2.2 and the map legend",
+      "unit": "四邑片 Siyi pian",
+      "level_term": "片 pian, directly under Yue",
+      "contains": "Jiangmen (Pengjiang, Jianghai), Xinhui, Enping, Kaiping, Taishan, Heshan, Doumen district of Zhuhai — 7 units of the Tanjiang basin",
+      "comparability": "comparable_at_pian_level_within_this_scheme",
+      "unknowns": "Whether this Siyi and the 四邑片 of the other scheme have the same membership: the lists differ (Doumenzhen and Heshan Yayao appear in the Appendix list).",
+      "anchors": "A2, S7",
+      "derivation": "derived_from_schemes_layer",
+      "scheme_records": [
+        "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18"
+      ]
+    },
+    {
+      "row_id": "L-A3",
+      "scheme": "Language Atlas of China, 2nd edition (2012)",
+      "source": "Language Atlas of China, section 2.2 and the map legend",
+      "unit": "高陽片 Gaoyang pian",
+      "level_term": "片 pian, directly under Yue",
+      "contains": "11 units of Maoming and Yangjiang plus part of Wuchuan: Maonan, Gaozhou, Xinyi, Huazhou, Yangjiang, Yangchun, Yangdong, Yangxi, Zhanjiang Chikan, Wuchuan (part), Lianjiang",
+      "comparability": "comparable_at_pian_level_within_this_scheme",
+      "unknowns": "Which part of Gaoyang the third source means by 'parts of the Gaoyang sub-group' is not spelled out there; the overlap that is visible in this slice is Yangjiang and Yangchun.",
+      "anchors": "A3, S8",
+      "derivation": "derived_from_schemes_layer",
+      "scheme_records": [
+        "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18"
+      ]
+    },
+    {
+      "row_id": "L-A4",
+      "scheme": "Language Atlas of China, 2nd edition (2012)",
+      "source": "Language Atlas of China, section 2.2 and the map legend",
+      "unit": "廣府片 Guangfu pian",
+      "level_term": "片 pian, directly under Yue",
+      "contains": "35 units of the Pearl River Delta, the upper Xijiang basin in Guangxi, Hong Kong and Macau",
+      "comparability": "comparable_at_pian_level_within_this_scheme",
+      "unknowns": "Wider than the 廣府片 of the other scheme, which puts Zhongshan and Dongguan/Bao'an into separate 小片.",
+      "anchors": "S10, S9",
+      "derivation": "derived_from_schemes_layer",
+      "scheme_records": [
+        "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18"
+      ]
+    },
+    {
+      "row_id": "L-Y1",
+      "scheme": "Yue-Hashimoto (1991a Table 5; Appendix based on Yue 1988)",
+      "source": "Yue-Hashimoto 1991a, 表五 粤语分区表, and section 3.2",
+      "unit": "粵語 Yue",
+      "level_term": "group, cut into 區 districts",
+      "contains": "two 區: 四邑兩陽區 and 三角洲區",
+      "comparability": "top_of_this_scheme; a level the Atlas scheme does not have",
+      "unknowns": "Whether Yue-Hashimoto 1988 and 1991a state exactly the same partition is not settled in this slice; the two witnesses differ at the 小片 level.",
+      "anchors": "Y1, S1",
+      "derivation": "derived_from_schemes_layer",
+      "scheme_records": [
+        "yue_hashimoto_1991.json#SCH_YUE_1991"
+      ]
+    },
+    {
+      "row_id": "L-Y2",
+      "scheme": "Yue-Hashimoto (1991a Table 5; Appendix based on Yue 1988)",
+      "source": "Yue-Hashimoto 1991a Table 5; Appendix to Development of the Stop Endings in the Yue Dialects",
+      "unit": "四邑兩陽區 Siyi–Liangyang district",
+      "level_term": "區 qu, one level above 片",
+      "contains": "四邑片 (A) and 兩陽片 (B)",
+      "comparability": "not_comparable_with_an_Atlas_片_without_a_curator_decision",
+      "unknowns": "There is no canonical Liangyang address in the graph, so this district is reachable only through the working address of its Siyi 片.",
+      "anchors": "Y2, H1, S2",
+      "derivation": "derived_from_schemes_layer",
+      "scheme_records": [
+        "yue_hashimoto_1991.json#SCH_YUE_1991",
+        "stop_endings.json#SCH_YUE_1988_appendix_classification"
+      ]
+    },
+    {
+      "row_id": "L-Y3",
+      "scheme": "Yue-Hashimoto (1991a Table 5; Appendix based on Yue 1988)",
+      "source": "Appendix to Development of the Stop Endings in the Yue Dialects",
+      "unit": "四邑片 Siyi pian, inside 四邑兩陽區",
+      "level_term": "片 pian, under a 區",
+      "contains": "Xinhui, Jiangmen Baisha, Doumenzhen, Xinning, Taishan, Kaiping, Enping, Heshan Yayao",
+      "comparability": "same_name_as_the_Atlas_unit_but_a_different_position_in_the_hierarchy",
+      "unknowns": "Membership is given as surveyed dialect points with dates, not as an administrative list, so it cannot be matched unit for unit against the Atlas list.",
+      "anchors": "S5",
+      "derivation": "derived_from_schemes_layer",
+      "scheme_records": [
+        "stop_endings.json#SCH_YUE_1988_appendix_classification"
+      ]
+    },
+    {
+      "row_id": "L-Y4",
+      "scheme": "Yue-Hashimoto (1991a Table 5; Appendix based on Yue 1988)",
+      "source": "Yue-Hashimoto 1991a Table 5 and running prose (primary witness); the Appendix to Development of the Stop Endings in the Yue Dialects (second, independently published witness, based on Yue 1988) adds one further member",
+      "unit": "兩陽片 Liangyang pian",
+      "level_term": "片 pian, under 四邑兩陽區",
+      "contains": "1991a Table 5 (primary): Yangjiang and Yangchun only. The Appendix witness adds Hecun in Xinhui (新會河村, dated 1929) at the same place in the scheme; the two witnesses should be read as separate statements, not merged into one membership.",
+      "comparability": "no_Atlas_unit_with_this_extent; its members are distributed between Atlas Gaoyang and Atlas Siyi",
+      "unknowns": "Hecun in Xinhui sits in Atlas Siyi territory while Yangjiang and Yangchun sit in Atlas Gaoyang; the sources do not say how to resolve that. Whether the Appendix's addition of Hecun reflects 1991a's own view or an independent update by the second witness is not settled here.",
+      "anchors": "Y4",
+      "derivation": "derived_from_schemes_layer",
+      "scheme_records": [
+        "yue_hashimoto_1991.json#SCH_YUE_1991",
+        "stop_endings.json#SCH_YUE_1988_appendix_classification"
+      ]
+    },
+    {
+      "row_id": "L-Y5",
+      "scheme": "Yue-Hashimoto (1991a Table 5; Appendix based on Yue 1988)",
+      "source": "Yue-Hashimoto 1991a Table 5; Appendix to Development of the Stop Endings in the Yue Dialects",
+      "unit": "三角洲區 Delta district",
+      "level_term": "區 qu, one level above 片",
+      "contains": "北三角洲片 (三邑肇慶小片 C, 內陸小片 D), 南三角洲片 (欽廉小片 E in Table 5 / 莞廉小片 in the Appendix, 中山小片 F), 廣府片 (G)",
+      "comparability": "not_comparable_with_an_Atlas_片",
+      "unknowns": "Table 5 and the Appendix name the first 小片 of the Southern Delta differently (欽廉 vs 莞廉); this slice does not resolve which reading the author kept.",
+      "anchors": "Y3, S6",
+      "derivation": "derived_from_schemes_layer",
+      "scheme_records": [
+        "yue_hashimoto_1991.json#SCH_YUE_1991",
+        "stop_endings.json#SCH_YUE_1988_appendix_classification"
+      ]
+    },
+    {
+      "row_id": "L-Y6",
+      "scheme": "Yue-Hashimoto (1991a Table 5; Appendix based on Yue 1988)",
+      "source": "Appendix to Development of the Stop Endings in the Yue Dialects",
+      "unit": "廣府片 Guangfu pian, inside 三角洲區",
+      "level_term": "片 pian, under a 區",
+      "contains": "Guangzhou, Hong Kong, Macau, Panyu, Doumen, Huaxian, Zengcheng, Conghua, Fogang, Qingyuan, Yingde, Shaozhou, Shaoguan, Qujiang, Lechang, Renhua, Xinxing, Yunfu, Luoding, Xinyi, Gaozhou Bao'an, Sanshui, Nanning baihua",
+      "comparability": "same_name_as_the_Atlas_unit_but_one_level_lower_and_a_different_extent",
+      "unknowns": "This list reaches into Xinyi and Gaozhou, which the Atlas puts in Gaoyang; the sources do not reconcile that.",
+      "anchors": "H2",
+      "derivation": "derived_from_schemes_layer",
+      "scheme_records": [
+        "stop_endings.json#SCH_YUE_1988_appendix_classification"
+      ]
+    },
+    {
+      "row_id": "L-X1",
+      "scheme": "Cross-scheme correspondence (curated, attributed to a third source)",
+      "source": "Kwok, Tsou and Chin, Yuè 粵 Dialects, reporting Yue-Hashimoto 1988",
+      "unit": "四邑兩陽 Siyi Liang-Yang group ↔ Atlas 四邑片 + parts of Atlas 高陽片",
+      "level_term": "not a single level: a 區 of one scheme against a 片 and part of another 片 of the other scheme",
+      "contains": "The source's own wording is 'roughly corresponds'; it also says both major groups are further divided into sub-groups.",
+      "comparability": "approximate_correspondence_reported_by_a_third_source",
+      "unknowns": "'Parts of Gaoyang' is not enumerated by the source. The sentence itself has no Claim node in the graph and is carried as a curated annotation with its segment locator.",
+      "anchors": "K1, S4",
+      "derivation": "editor_written",
+      "scheme_records": [
+        "brill_yue_dialects.json#SCH_YUEHASHIMOTO_1988_two_groups"
+      ],
+      "derivation_note_en": "This row is an editorial synthesis of a cross-scheme sentence, not a reproduction of one source's own member list; the schemes_layer round captures the two groups it names but not the approximate correspondence itself."
+    }
+  ],
+  "explicit_non_claims_en": [
+    "This table does NOT state that 兩陽片 Liangyang equals the Atlas 高陽片 Gaoyang. The reported correspondence is between the whole Siyi–Liangyang district and Atlas Siyi plus parts of Gaoyang, and it is approximate.",
+    "This table does NOT place the Siyi–Liangyang district at the Atlas 片 level. It is a 區, one level above 片 in its own scheme, and treating it as an eighth Atlas branch would misread both schemes.",
+    "The absence of a canonical Liangyang address in the graph is shown, not filled in: no node was created for this bundle, and the unit is reachable only through the working address of its Siyi 片.",
+    "None of the correspondences between units of different schemes is a native graph relation."
+  ],
+  "cross_scheme_passage": {
+    "origin_kind": "curated_annotation",
+    "source_key": "kwok_tsou_chin",
+    "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+    "chunk_id": "2c31a6ae-235d-5eef-baaf-21c84fe1370d",
+    "segment_order": 11,
+    "start_char": 1100,
+    "end_char": 1274,
+    "physical_page": 4,
+    "printed_page": null,
+    "quote_en": "The former roughly corresponds to the Sìyì sub-group and parts of the Gāoyáng sub-group in the *Atlas*, and the latter to the remaining sub-groups in the *Atlas*’ classification.",
+    "why_curated_en": "This sentence is the only place in the slice where the two schemes are related to each other. It is present in the stored source text, but no Claim node carries it: the adjacent record K1 stops at the previous sentence. It is therefore shown as a curated annotation with its exact segment locator, and not as a graph relation between units.",
+    "page_method": "visual_page_image",
+    "page_confidence": "high"
+  },
+  "curator_questions_en": [
+    "How should the levels be named in English: keep 區 / 片 / 小片 with pinyin, or translate as district / subgroup / subdivision? The two schemes use the same characters at different positions.",
+    "Attribution of the two-district scheme: the Appendix and Kwok–Tsou–Chin cite Yue 1988, the article cites 1991a. Should the case carry both attributions or choose one?",
+    "Table 5 gives 欽廉小片 where the Appendix gives 莞廉小片 at the same place in the scheme. Is this a difference between publications, a misprint, or a deliberate revision? Should the 1988 original be consulted?",
+    "The cross-scheme sentence in Kwok–Tsou–Chin ('roughly corresponds…') has no record in the graph. Keep it as a curated annotation with its segment locator, or ask extraction to add a record?",
+    "Kwok–Tsou–Chin: production carries year 2005 with an empty csl_data.issued; the edition is 2017 (pp. 690–702) and the web version has no printed page numbers. Fix the metadata before any public slice, or present the card as 'web version; original print locator: unverified'?",
+    "The article's reference 'Zhang Zhenxing, 2012: 185' is a physical PDF page; the printed page is 127. Correct it in the article, or carry a note that both fields are given?",
+    "Does C3 need an explicit 'unit without an address' rendering for 兩陽片, or is the visible absence of a canonical Liangyang address enough?"
+  ]
+}

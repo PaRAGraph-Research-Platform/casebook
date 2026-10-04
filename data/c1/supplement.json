@@ -1,0 +1,388 @@
+[
+  {
+    "native": {
+      "claim_id": "claim_cfd92b2d77712342e18c6b94",
+      "status": "auto_approved",
+      "locality": null,
+      "feature": "GEOGRAPHY_DISTRIBUTION",
+      "target": "YUE_GAOYANG",
+      "target_relationship": "ABOUT_SUBGROUP",
+      "value": "Mainly distributed in most of Maoming and Yangjiang in southwest Guangdong and parts of Wuchuan in Zhanjiang, with listed localities including Gaozhou, Xinyi, Huazhou, Yangchun, Yangdong, Yangxi, Chikan, Wuchuan, and Lianjiang Anpu and nearby areas.",
+      "conditions": null,
+      "polarity": "attested",
+      "evidence_id": "ev_1564e8a9cd0931eb7dd7",
+      "chunk_id": "10f2afb5-769f-5a28-b2e5-e2d275f2cc10",
+      "quote": "(3) 高阳片 本片主要分布于粤西南的茂名、阳江两市的大部分地区及湛江市的吴川部分地区, 共 11 个县市区, 使用人口约 643 万。 广东省: 茂名市 (茂南区) 高州市 (大部分) 信宜市 (中西部) 化州市 (东部) 阳江市 (江城区) 阳春市 (大部分) 阳东县 阳西县 (大部分) 湛江市 (赤坎区) 吴川市 (部分) 廉江市 (安铺等大部分地区)",
+      "evidence_page": null,
+      "start_char": 590,
+      "end_char": 766,
+      "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+      "source_title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "explicit_support",
+        "verification_notes": null,
+        "verifier_confidence": 0.82,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "anchor": "S1",
+      "position": "P1",
+      "position_en": "Atlas 2012: Wuhua is a separate pian",
+      "role_en": "Atlas 2012 membership of Gaoyang: eleven municipal names, with Wuchuan and Huazhou among them. As in Wuhua, the detailed section marks these as partial — part of Wuchuan, the eastern part of Huazhou — so their appearance under both units names the same municipality twice, not necessarily the same territory.",
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "source_key": "atlas_2012",
+      "chunk_section_title": "2.2 粤语各片的分布范围",
+      "chunk_page_start": 185,
+      "chunk_page_end": 185,
+      "physical_page": 185,
+      "printed_page": "127",
+      "page_method": "visual_page_image",
+      "page_confidence": "high",
+      "runtime_page_labels": {
+        "page_label_display": "127",
+        "page_label_confidence": "high",
+        "page_label_method": "manual_validation_table",
+        "page_label_start": "127",
+        "page_label_end": "127"
+      },
+      "evidence_page_field": null,
+      "context_segments": [
+        {
+          "id": "453829a9-fb95-43c2-a20f-8f970bafcd58",
+          "chunk_id": "10f2afb5-769f-5a28-b2e5-e2d275f2cc10",
+          "segment_order": 11,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 590,
+          "end_char": 656,
+          "text": "(3) 高阳片 本片主要分布于粤西南的茂名、阳江两市的大部分地区及湛江市的吴川部分地区, 共 11 个县市区, 使用人口约 643 万。"
+        },
+        {
+          "id": "b6313bfa-74d5-4faa-bfba-99e2cca6f948",
+          "chunk_id": "10f2afb5-769f-5a28-b2e5-e2d275f2cc10",
+          "segment_order": 12,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 656,
+          "end_char": 766,
+          "text": "广东省: 茂名市 (茂南区) 高州市 (大部分) 信宜市 (中西部) 化州市 (东部) 阳江市 (江城区) 阳春市 (大部分) 阳东县 阳西县 (大部分) 湛江市 (赤坎区) 吴川市 (部分) 廉江市 (安铺等大部分地区)"
+        }
+      ],
+      "verifier_note_en": null,
+      "author_unit": {
+        "unit_as_written": "高阳片",
+        "rank_as_written": "片",
+        "attributed_to": null,
+        "basis": "quote_contains_unit_name",
+        "scheme_records": [
+          "atlas_2012.json#SCH_ATLAS_2012_yue_A2_table#U3",
+          "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18#U3",
+          "atlas_2012.json#SCH_ATLAS_2012_yue_B1-18_legend#U3",
+          "atlas_2012.json#SCH_ATLAS_2012_yue_B2-1_guangdong#U4",
+          "atlas_2012.json#SCH_ATLAS_2012_yue_B2-1_legend#U4"
+        ],
+        "scheme_record": "atlas_2012.json#SCH_ATLAS_2012_yue_A2_table#U3"
+      }
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_4be864f26c82a0d72ff8ceb2",
+      "status": "auto_approved",
+      "locality": null,
+      "feature": "GEOGRAPHY_DISTRIBUTION",
+      "target": "YUE",
+      "target_relationship": "ABOUT_GROUP",
+      "value": "广东省内的粤方言明显分为5个方言片：粤海片、四邑片、高雷片、莞宝片、香山片。",
+      "conditions": "\"按语言特色和地理分布\"",
+      "polarity": "attested",
+      "evidence_id": "ev_87d96a8644318887c028",
+      "chunk_id": "958c7801-ec40-52f2-ba79-4fe02d15a17c",
+      "quote": "粵方言以廣東省省會廣州市的方言為代表，按語言特色和地理分布，廣東省內的粵方言明顯分為5個方言片：",
+      "evidence_page": null,
+      "start_char": 16,
+      "end_char": 64,
+      "document_id": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+      "source_title": "广东粤方言概要 / An Outline of Yue Dialects in Guangdong",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "explicit_support",
+        "verification_notes": null,
+        "verifier_confidence": 0.82,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "anchor": "S2",
+      "position": "P2",
+      "position_en": "Gao-Lei pian in the Outline, and Hou 2002 (as reported by Kwok, Tsou and Chin) merging Wuhua into Gaoyang",
+      "role_en": "The Outline divides Guangdong Yue into five pian, Gao-Lei among them.",
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "source_key": "zhan_outline",
+      "chunk_section_title": "第三節 廣東粵方言的分片",
+      "chunk_page_start": 14,
+      "chunk_page_end": 15,
+      "physical_page": 14,
+      "printed_page": "5",
+      "page_method": "visual_page_image_neighbour",
+      "page_confidence": "high",
+      "runtime_page_labels": {
+        "page_label_display": "5-6",
+        "page_label_confidence": "high",
+        "page_label_method": "manual_validation_table",
+        "page_label_start": "5",
+        "page_label_end": "6"
+      },
+      "evidence_page_field": null,
+      "context_segments": [
+        {
+          "id": "1bf92d60-d082-40a2-9693-27dfdacf9bb8",
+          "chunk_id": "958c7801-ec40-52f2-ba79-4fe02d15a17c",
+          "segment_order": 2,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 13,
+          "end_char": 61,
+          "text": "粵方言以廣東省省會廣州市的方言為代表，按語言特色和地理分布，廣東省內的粵方言明顯分為5個方言片："
+        },
+        {
+          "id": "0d1d5773-0d7d-48af-8079-a202f8949bb1",
+          "chunk_id": "958c7801-ec40-52f2-ba79-4fe02d15a17c",
+          "segment_order": 3,
+          "segment_type": "sentence_fallback",
+          "source_block_order": null,
+          "page": null,
+          "start_char": 62,
+          "end_char": 64,
+          "text": "1."
+        }
+      ],
+      "verifier_note_en": null,
+      "author_unit": null
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_5d449dc7fe41fd5ef3eab9b3",
+      "status": "auto_approved",
+      "locality": null,
+      "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "target": "YUE",
+      "target_relationship": "ABOUT_GROUP",
+      "value": "同时列入吴化片与高阳片，归属未说明",
+      "conditions": "熊正辉1987的分片",
+      "polarity": "uncertain",
+      "evidence_id": "ev_942fcfe0a4b8317288aa",
+      "chunk_id": "e39acfc1-78e1-5958-ba25-e21b6d52588d",
+      "quote": "其次，有些方言，如吴川、化州、湛江，共属两片——吴化及高阳——，但没有说明，是否每地各有两种粤语方言？ 还是由于这几个地方的方言拥有两区方言的特征，应划归两片？",
+      "evidence_page": 4,
+      "start_char": 790,
+      "end_char": 869,
+      "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "source_title": "粤语方言分区问题初探",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "explicit_support",
+        "verifier_confidence": 0.97,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "anchor": "S3",
+      "position": "P3",
+      "position_en": "Yue-Hashimoto 1991a: Wuchuan and Huazhou in the Interior subdivision of the Northern Delta; Yangjiang and Yangchun as Liangyang",
+      "role_en": "Yue-Hashimoto 1991a objects that Wuchuan, Huazhou and Zhanjiang are listed under two pian at once with no explanation.",
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "source_key": "yue_hashimoto_1991a",
+      "chunk_section_title": "1.2 粤语方言分区的讨论",
+      "chunk_page_start": 3,
+      "chunk_page_end": 4,
+      "physical_page": 4,
+      "printed_page": "167",
+      "page_method": "visual_page_image",
+      "page_confidence": "high",
+      "page_note": null,
+      "runtime_page_labels": {},
+      "evidence_page_field": 4,
+      "context_segments": [
+        {
+          "id": "bb8c0ad3-235a-4102-a455-5127c93684b7",
+          "chunk_id": "e39acfc1-78e1-5958-ba25-e21b6d52588d",
+          "segment_order": 15,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 2,
+          "page": 4,
+          "start_char": 790,
+          "end_char": 841,
+          "text": "其次，有些方言，如吴川、化州、湛江，共属两片——吴化及高阳——，但没有说明，是否每地各有两种粤语方言？"
+        },
+        {
+          "id": "7c00406a-f5f9-490c-a1c7-7fe328ba3535",
+          "chunk_id": "e39acfc1-78e1-5958-ba25-e21b6d52588d",
+          "segment_order": 16,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 3,
+          "page": 4,
+          "start_char": 841,
+          "end_char": 869,
+          "text": "还是由于这几个地方的方言拥有两区方言的特征，应划归两片？"
+        }
+      ],
+      "verifier_note_en": null,
+      "author_unit": null
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_c1754227eae26797a003f693",
+      "status": "auto_approved",
+      "locality": null,
+      "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "target": "YUE",
+      "target_relationship": "ABOUT_GROUP",
+      "value": "吴川归入北三角洲片（与广西内陆方言关系密切）",
+      "conditions": null,
+      "polarity": "attested",
+      "evidence_id": "ev_375b51f97446c5ef274c",
+      "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+      "quote": "因为南海方言和顺德、高要、高明关系密切，化县、吴川和广西内陆方言关系密切，归入北三角洲片。",
+      "evidence_page": 13,
+      "start_char": 790,
+      "end_char": 835,
+      "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "source_title": "粤语方言分区问题初探",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "explicit_support",
+        "verifier_confidence": 0.7,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "anchor": "S4",
+      "position": "P3",
+      "position_en": "Yue-Hashimoto 1991a: Wuchuan and Huazhou in the Interior subdivision of the Northern Delta; Yangjiang and Yangchun as Liangyang",
+      "role_en": "Yue-Hashimoto 1991a assigns Wuchuan to the Northern Delta pian because of its ties with interior Guangxi.",
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "source_key": "yue_hashimoto_1991a",
+      "chunk_section_title": "表五 粤语分区表",
+      "chunk_page_start": 13,
+      "chunk_page_end": 13,
+      "physical_page": 13,
+      "printed_page": "176",
+      "page_method": "visual_page_image",
+      "page_confidence": "high",
+      "page_note": null,
+      "runtime_page_labels": {},
+      "evidence_page_field": 13,
+      "context_segments": [
+        {
+          "id": "d0ce2758-6e47-41e9-9e68-104dfa03d807",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 22,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 7,
+          "page": 13,
+          "start_char": 790,
+          "end_char": 835,
+          "text": "因为南海方言和顺德、高要、高明关系密切，化县、吴川和广西内陆方言关系密切，归入北三角洲片。"
+        }
+      ],
+      "verifier_note_en": null,
+      "author_unit": {
+        "unit_as_written": "北三角洲片",
+        "rank_as_written": "片",
+        "attributed_to": null,
+        "basis": "quote_contains_unit_name",
+        "scheme_records": [
+          "yue_hashimoto_1991.json#SCH_YUE_1991#U5"
+        ],
+        "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U5"
+      }
+    }
+  },
+  {
+    "native": {
+      "claim_id": "claim_022833074dd15cd7808893e7",
+      "status": "auto_approved",
+      "locality": null,
+      "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "target": "YUE",
+      "target_relationship": "ABOUT_GROUP",
+      "value": "化县归入北三角洲片（与广西内陆方言关系密切）",
+      "conditions": null,
+      "polarity": "attested",
+      "evidence_id": "ev_375b51f97446c5ef274c",
+      "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+      "quote": "因为南海方言和顺德、高要、高明关系密切，化县、吴川和广西内陆方言关系密切，归入北三角洲片。",
+      "evidence_page": 13,
+      "start_char": 790,
+      "end_char": 835,
+      "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "source_title": "粤语方言分区问题初探",
+      "verification": {
+        "verification_verdict": "supported",
+        "verification_reason": "explicit_support",
+        "verifier_confidence": 0.7,
+        "verification_model": "codex-manual-verify"
+      }
+    },
+    "annotation": {
+      "anchor": "S5",
+      "position": "P3",
+      "position_en": "Yue-Hashimoto 1991a: Wuchuan and Huazhou in the Interior subdivision of the Northern Delta; Yangjiang and Yangchun as Liangyang",
+      "role_en": "Yue-Hashimoto 1991a assigns Huaxian (Huazhou) to the Northern Delta pian on the same ground.",
+      "origin_kind": "curated_annotation",
+      "origin_method": "editor_written",
+      "review_status": "unreviewed",
+      "source_key": "yue_hashimoto_1991a",
+      "chunk_section_title": "表五 粤语分区表",
+      "chunk_page_start": 13,
+      "chunk_page_end": 13,
+      "physical_page": 13,
+      "printed_page": "176",
+      "page_method": "visual_page_image",
+      "page_confidence": "high",
+      "page_note": null,
+      "runtime_page_labels": {},
+      "evidence_page_field": 13,
+      "context_segments": [
+        {
+          "id": "d0ce2758-6e47-41e9-9e68-104dfa03d807",
+          "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+          "segment_order": 22,
+          "segment_type": "sentence_fallback",
+          "source_block_order": 7,
+          "page": 13,
+          "start_char": 790,
+          "end_char": 835,
+          "text": "因为南海方言和顺德、高要、高明关系密切，化县、吴川和广西内陆方言关系密切，归入北三角洲片。"
+        }
+      ],
+      "verifier_note_en": null,
+      "author_unit": {
+        "unit_as_written": "北三角洲片",
+        "rank_as_written": "片",
+        "attributed_to": null,
+        "basis": "quote_contains_unit_name",
+        "scheme_records": [
+          "yue_hashimoto_1991.json#SCH_YUE_1991#U5"
+        ],
+        "scheme_record": "yue_hashimoto_1991.json#SCH_YUE_1991#U5"
+      }
+    }
+  }
+]

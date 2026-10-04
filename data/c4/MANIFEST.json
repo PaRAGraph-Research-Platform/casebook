@@ -1,0 +1,214 @@
+{
+  "version": "c4-internal-0.1",
+  "created_at": "2026-09-24T06:56:52.770625+00:00",
+  "case_id": "C4",
+  "case_title": "Same field, different units: when numbers are not comparable",
+  "case_status": "semantic_review",
+  "status": "core_reviewed; supplement_from_subgroup_address; public preview iteration",
+  "rights_release_status": {
+    "status": "public_preview",
+    "code_license": "MIT",
+    "content_license": "CC-BY-4.0",
+    "third_party_quotations": "excluded from the CC BY 4.0 grant; reproduced under the quotation exception for analysis and criticism; all rights remain with the respective rightsholders; see NOTICE.md in the viewer repository",
+    "full_texts_redistributed": false
+  },
+  "addressing_gap": {
+    "measured_at": "2026-09-20T18:07:43.982493+00:00",
+    "feature_total": 1130,
+    "feature_no_tag": 801,
+    "yue_total": 504,
+    "yue_no_tag": 236,
+    "passport_rows_linked_by_subgroup_address": 7,
+    "note_en": "Records of the same book are sometimes addressed to a variety (idiom_tag) and sometimes only to a branch (subgroup); a query filtered by variety label misses the second kind."
+  },
+  "input_package": {
+    "name": "chinling26_casebook_handoff_v2_2026-09-19",
+    "path": "../../c4_inputs/chinling26_casebook_handoff_v2_2026-09-19/",
+    "unchanged": true
+  },
+  "changelog": [
+    {
+      "version": "c4-internal-0.1",
+      "raw_export": "casebook_probes/2026-09-20__c4_full_export.json",
+      "summary": "Human-readable layer added to every native operation and not_applicable entry: title_en, finding_en (declarative finding_vars over expected rows), finding_empty_en, why_it_matters_en, columns_en. Version left unchanged; viewer renders these findings instead of raw Cypher tables."
+    },
+    {
+      "version": "c4-internal-0.1",
+      "raw_export": "casebook_probes/2026-09-20__c4_full_export.json",
+      "summary": "Addressing-gap fix: passport rows are matched to the graph two ways (by_locality_tag, then by_subgroup_address over export['subgroup_address_rows'], a read-only query for active TONE_INVENTORY_COUNT records under YUE_GUANGFU/YUE_SIYI/YUE_GAOYANG with an empty idiom_tag). 17 of 21 rows link to 59 distinct claims: 10 by locality tag and 7 by subgroup address; 4 remain unlinked rather than guessed. The 32 subgroup-address records use their own GS/TS/XS anchor series, comparison_graph.json = core + supplement, and sources.json contains all 9 SourceRecords for that comparison view. graph.json (core only) and the 65/17 control numbers are unchanged. Version left unchanged."
+    }
+  ],
+  "counts": {
+    "record_ids_count": 65,
+    "claim_ids_count": 65,
+    "record_ids_without_promoted_claim_id": [],
+    "core_claims": 65,
+    "core_evidence": 64,
+    "core_chunks": 63,
+    "core_sources": 7,
+    "comparison_sources": 9,
+    "supplement_claims": 32,
+    "graph_nodes": 140,
+    "graph_edges": 260,
+    "comparison_claims": 97,
+    "comparison_nodes": 205,
+    "comparison_edges": 388,
+    "pairs": 17,
+    "pairs_by_idiom_tag": {
+      "CANTONESE_STD": 7,
+      "TAISHAN": 3,
+      "XINYI": 7
+    },
+    "records_by_idiom_tag": {
+      "CANTONESE_STD": 9,
+      "TAISHAN": 27,
+      "XINYI": 29
+    },
+    "basis_review_class_totals": {
+      "A": 19,
+      "B": 13,
+      "C": 33
+    },
+    "passport_entries": {
+      "CANTONESE_STD": 11,
+      "TAISHAN": 4,
+      "XINYI": 6
+    },
+    "passport_rows_linked_to_claim_ids": 17,
+    "passport_rows_total": 21,
+    "passport_rows_by_link_method": {
+      "by_locality_tag": 10,
+      "by_subgroup_address": 7,
+      "none": 4
+    },
+    "passport_native_records_covered": 59,
+    "context_segments_missing": [],
+    "shared_basis_pairs": 2,
+    "within_source_divergence_groups": 4,
+    "addressing_gap": {
+      "measured_at": "2026-09-20T18:07:43.982493+00:00",
+      "feature_total": 1130,
+      "feature_no_tag": 801,
+      "yue_total": 504,
+      "yue_no_tag": 236,
+      "passport_rows_linked_by_subgroup_address": 7,
+      "note_en": "Records of the same book are sometimes addressed to a variety (idiom_tag) and sometimes only to a branch (subgroup); a query filtered by variety label misses the second kind."
+    }
+  },
+  "open_questions_en": [
+    "P02 (CANTONESE_STD, value 7): the quote 'seven bases' is not a direct statement about the tonal inventory; the adequacy of this basis remains an open decision.",
+    "P13 (XINYI, value 8, 信宜方言志): attribution of two rows the source marks as 文中所记 has not been checked against the original; the link to Tang Zhidong / Wang Jianshe is not independently confirmed."
+  ],
+  "build_scripts_sha256": {
+    "casebook_probes/scripts/build_c4_bundle.py": "d76fc43f62d6ff212d83f95a059ebe71b25c77ded62eb2a1e810f2d141c8d26f",
+    "casebook_probes/scripts/casebook_context_safety.py": "f4d1ed0dca36b749e03101713a31ac6a30ffae392c5881933521939d3db7c23c",
+    "casebook_probes/scripts/export_c4.py": "99acc588f55840a74ada6df05c170a626894208ce4d52d9e6ba2b347d621c8dd"
+  },
+  "files_sha256": [
+    {
+      "path": "CASE_EN.md",
+      "sha256": "a5ba65e6ef604ea56b3b8502be30929d792b30d9a23b21f3108fdfc992b97660",
+      "bytes": 14077
+    },
+    {
+      "path": "README.md",
+      "sha256": "6439cecb608afdb4772d98f00c0f79a13d6792c706551a9f55fd6e6a2b3843d8",
+      "bytes": 17682
+    },
+    {
+      "path": "comparison_graph.json",
+      "sha256": "49af2393b1cee6a15d487278b59819c94660b0befbd7ab474c56321bb44b2164",
+      "bytes": 92530
+    },
+    {
+      "path": "core.json",
+      "sha256": "45e90a4ec7c11d19f073a2b6aab88b89b52223533ff266582c30ede5d1287a3c",
+      "bytes": 1169328
+    },
+    {
+      "path": "counts.json",
+      "sha256": "eea5930014046413b85a2096c856aa7d425cd7bc7b462d79f61aca4ac23861f4",
+      "bytes": 1472
+    },
+    {
+      "path": "expected_native_operations.json",
+      "sha256": "42efd28ac8c698734d34251b23659ad459766bd5dfd468381ee58e07df1d3e89",
+      "bytes": 34445
+    },
+    {
+      "path": "expected_operations.json",
+      "sha256": "24cd4a7b7fdb265bdc7df94b15965b997a38aa211415f2d65464088edf0d50c7",
+      "bytes": 8852
+    },
+    {
+      "path": "graph.json",
+      "sha256": "e34ba14b61865b45cd40fe0b9ecc6fc441c1ba27c5e64e849bff5ee350d12c39",
+      "bytes": 62291
+    },
+    {
+      "path": "pairs_table.json",
+      "sha256": "82659fca16c2e85a40278085ea7aa814699b081b80e7ec2f27b3d20b098a621c",
+      "bytes": 13890
+    },
+    {
+      "path": "passports.json",
+      "sha256": "8c94409ab294bde77564d31caa1dc19410159936965e3a97011165557e7abba5",
+      "bytes": 66388
+    },
+    {
+      "path": "raw_export.json",
+      "sha256": "77808e448c9d7c35bc3a2ff696991f0fbd37799397167179ae9f76c0569c5881",
+      "bytes": 4165173
+    },
+    {
+      "path": "selection_ledger.csv",
+      "sha256": "ef14a847d5413257c2f50874b71fddae1233227f6190c2c981f6f483304b99ca",
+      "bytes": 10646
+    },
+    {
+      "path": "snapshot_2026-09-16/method.sql",
+      "sha256": "85d9c48247966cb829854cda2ca6f16561ad2b02af604277f66342c909df336e",
+      "bytes": 423
+    },
+    {
+      "path": "snapshot_2026-09-16/production_claims.json",
+      "sha256": "6eb4061b9be5cde6aa92dcd3902a6d99658f41170bac6d1877ed27795917f999",
+      "bytes": 585406
+    },
+    {
+      "path": "snapshot_2026-09-16/production_method.txt",
+      "sha256": "1ad65fc5bdd13f5744ed1740c9bd3cba0288ffeb8db39f5f72a0d8144c030b06",
+      "bytes": 326
+    },
+    {
+      "path": "snapshot_2026-09-16/snapshot.sql",
+      "sha256": "10273de6888719be699272b1dad498cadf87e7377859edc4678d5baa4beaa2f6",
+      "bytes": 548
+    },
+    {
+      "path": "snapshot_2026-09-16/snapshot_check.json",
+      "sha256": "1cc4d75c5f4a43aeeff7a7556bd09e6cb2511a1901d6546e67a583fbb7df7b2f",
+      "bytes": 8519
+    },
+    {
+      "path": "snapshot_2026-09-16/summary.json",
+      "sha256": "2811bfe9dcb6fe82729bca3d61d794591381a06dcf04892ec8b15b1a61826411",
+      "bytes": 320
+    },
+    {
+      "path": "snapshot_2026-09-16/three_idioms.json",
+      "sha256": "3c3a8d41d0d4372f46821a3cdfd0760f3eaaab89eb84568279703d7499514d19",
+      "bytes": 86555
+    },
+    {
+      "path": "sources.json",
+      "sha256": "cefe87bde5200976c3b536d0b0070517a79e1cdca7c8e42c850bd294f0276bce",
+      "bytes": 15288
+    },
+    {
+      "path": "supplement.json",
+      "sha256": "3f7d349dbf8182b5e8b74d924d45c15ac0834bf223a4c4922d12a80bdd273558",
+      "bytes": 866060
+    }
+  ]
+}

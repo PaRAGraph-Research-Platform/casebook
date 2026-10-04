@@ -1,0 +1,67 @@
+{
+  "all_with_curated_context": [
+    "claim_1cd75cb6f867faacbf730003",
+    "claim_299220d48644a5a06aef162b",
+    "claim_515c2e546a092b12e4589fdc",
+    "claim_66d7d48ba25643b042006d2a",
+    "claim_7506816eea9d37ca0ee8841a",
+    "claim_aee8cfae9c56115ccabe9877",
+    "claim_b891599fbeaa737b8620cf07",
+    "claim_ca0d079c05b90981dfbb8fc7",
+    "claim_d0bf3486dc16e9ba1bc2759c"
+  ],
+  "native_locality_only": [
+    "claim_1cd75cb6f867faacbf730003",
+    "claim_299220d48644a5a06aef162b",
+    "claim_515c2e546a092b12e4589fdc",
+    "claim_66d7d48ba25643b042006d2a",
+    "claim_7506816eea9d37ca0ee8841a",
+    "claim_aee8cfae9c56115ccabe9877",
+    "claim_b891599fbeaa737b8620cf07",
+    "claim_d0bf3486dc16e9ba1bc2759c"
+  ],
+  "curated_context_only": [
+    "claim_ca0d079c05b90981dfbb8fc7"
+  ],
+  "by_source": {
+    "93f9cd6b-4318-4c8b-9cc6-30a140d92e99": [
+      "claim_515c2e546a092b12e4589fdc",
+      "claim_7506816eea9d37ca0ee8841a",
+      "claim_ca0d079c05b90981dfbb8fc7",
+      "claim_d0bf3486dc16e9ba1bc2759c"
+    ],
+    "c8227da0-01e8-4008-a5a2-cc7d68ad3628": [
+      "claim_1cd75cb6f867faacbf730003",
+      "claim_299220d48644a5a06aef162b",
+      "claim_66d7d48ba25643b042006d2a",
+      "claim_aee8cfae9c56115ccabe9877",
+      "claim_b891599fbeaa737b8620cf07"
+    ]
+  },
+  "by_feature": {
+    "CLASSIFICATION_ATLAS2012": [
+      "claim_1cd75cb6f867faacbf730003"
+    ],
+    "CLASSIFICATION_CRITERIA_REPORTED": [
+      "claim_b891599fbeaa737b8620cf07"
+    ],
+    "METALINGUISTIC_HIERARCHY_LEVEL": [
+      "claim_299220d48644a5a06aef162b"
+    ],
+    "CONS_ASPIRATION_CONTRAST": [
+      "claim_515c2e546a092b12e4589fdc",
+      "claim_66d7d48ba25643b042006d2a",
+      "claim_aee8cfae9c56115ccabe9877",
+      "claim_d0bf3486dc16e9ba1bc2759c"
+    ],
+    "CONS_VOICED_OBSTRUENTS_REPORTED": [
+      "claim_7506816eea9d37ca0ee8841a",
+      "claim_ca0d079c05b90981dfbb8fc7"
+    ]
+  },
+  "excluded_claim_ids": [
+    "claim_9940c042fbd06a1d620cb18a",
+    "claim_20270bdd6bd2db3e12114555",
+    "claim_ad297a1a63be359e67e72c18"
+  ]
+}

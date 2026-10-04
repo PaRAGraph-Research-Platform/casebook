@@ -1,0 +1,3575 @@
+{
+  "origin_kind": "native_export",
+  "note_en": "Only relationships that exist in the production graph.",
+  "nodes": [
+    {
+      "id": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "label": "Source",
+      "type": "Source",
+      "title": "Modern Cantonese Phonology",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "31288067-8899-4f17-94b6-f5803bba4c3a",
+      "label": "Source",
+      "type": "Source",
+      "title": "第八届国际粤方言研讨会论文集",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "label": "Source",
+      "type": "Source",
+      "title": "台山方言词典",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "71cc631d-7ec2-4b20-99b0-37f72f75d37b",
+      "label": "Source",
+      "type": "Source",
+      "title": "The Routledge Encyclopedia of the Chinese Language",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "label": "Source",
+      "type": "Source",
+      "title": "信宜方志",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "TONE_INVENTORY_COUNT",
+      "label": "Feature",
+      "type": "Feature",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "YUE_GAOYANG",
+      "label": "Subgroup",
+      "type": "Subgroup",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "YUE_GUANGFU",
+      "label": "Subgroup",
+      "type": "Subgroup",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "YUE_SIYI",
+      "label": "Subgroup",
+      "type": "Subgroup",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+      "label": "Source",
+      "type": "Source",
+      "title": "广东粤方言概要 / An Outline of Yue Dialects in Guangdong",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+      "label": "Source",
+      "type": "Source",
+      "title": "The Yue Dialect",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_02e056b60cf1dfd5e1c3ee7e",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "5",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_0408d75f677d6ef57e25d1e3",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "8",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_058ac97559878e44f96a1ede",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_0c5154aabe82fbe031cd33f1",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "5",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_112adc555ffe9645a883ddef",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "9",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_11ac1a0479dfbb7c7202b172",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "9",
+      "idiom_tag": "CANTONESE_STD",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_12c3cd293af2764f9f33fc6f",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "9",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_148aa4aa48b640d3f40979a5",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_14923c451ca9a098f7175a37",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_18271ce5bff6a5eddd2c87da",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "9",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_19c0e935cdf38a05f2a04655",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_1d90169c8d0805ba2f86b244",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "9",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_1f1d7fe6cb7e70191c83ab18",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_227039c0ad76c602939ef7e9",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "3",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_235ff1422a90eff73100530b",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "5",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_274b7e3df5d0f44f255a3944",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_2d8222642c1080aa6ca887ee",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "approved",
+      "polarity": "attested",
+      "value": "9",
+      "idiom_tag": "CANTONESE_STD",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_301f77d8b065f3eb9237a8d6",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "8",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_38421395f19995565dbec1d4",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6 or 7",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_3a811cec6372c98b044d49d3",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "9",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_3c296686a817f279934b8917",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_3c32af2af7b9e7a01132c09e",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_3f0e6e8a57f1a01231987c1c",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_40562fb66ccad89f2b38bc80",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_419d93d2d208ecb27ada41a2",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "9",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_41f1b4b16ab7f8b80d9edd18",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_42f909ee30b1824655013ca9",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_460d0d3a2566e17e2b52d8db",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6 or 7",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_467b46648c9a038fdd2db1ef",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_4754a68dc08240ebab360312",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "5",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_4b51a6804939cc2aca355b1b",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "8",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_4b913ac19180eda194010ec5",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "7",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_4f61a4043ced905b587cd748",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "5",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_5027645e8ffea24263a9b36a",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "8",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_583a369a8be53634c14039b6",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_5843b87a48337bfb09b247a4",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6 or 9 tones depending on analysis approach; traditionally 9: 6 non-entering (Dark/Light Flat, Rising, Departing) + 3 Entering (Upper Dark, Lower Dark, Light)",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_5e363ba8f24c27c0c138ce21",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "CANTONESE_STD",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_5ed156f7ee50ac69d81aef88",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_6291de79d3ac0cee6250ea6c",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_64afcc0802bb0dee12c30c1c",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "5",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_687209b133edd56e6a87c414",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_6a5d873c43f9a5600d764b0f",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_6ba7f9779c451dc91283d69c",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "7",
+      "idiom_tag": "CANTONESE_STD",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_6ee85f65a7ad0ec5068bb7c2",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_6f4c093ac451f3e34ba9318f",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "10",
+      "idiom_tag": "CANTONESE_STD",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_6fee508b1a77bb90e6600196",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "9",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_6ff2ee590a480bb00b3e6d10",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "9",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_70b01a2ef61244d9dffcb250",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "7",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_7171cecabd68db74dd98ca66",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_747e8a58aefd028802026798",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6 non-entering tones (/55/, /25/, /33/, /21/, /23/, /22/); entering tones additional",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_74a6dd7c92012d5e5354e0d8",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "8",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_761068332ea55621facefea0",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_77e427ae9b1a3aa5688694ac",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_78bb8ee87a98f1b298d39a22",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "9",
+      "idiom_tag": "CANTONESE_STD",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_7dc1dc963fae14313086b0e2",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "9",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_8687d90cdb1455fb42f62678",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_876d5758efb444e7f1a65e9c",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_87f4d1d2bc9dc2ca124ac4a0",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "3",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_89e5fce12e22e941acd2361f",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "9",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_8b66c01f5bb1064fdb918bf8",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "8",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_8d792911665017b15bdbc4f4",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "10",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_8e7ee76d8c149cb499301c1a",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_9045e79bd4105064bde82da4",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "9 or 10",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_947e86a84240c486842fe728",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "CANTONESE_STD",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_948a1ed46913471ba2731683",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "7",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_98dcd0bf6af0d33734a8fda0",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "5",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_9928be1df8afabbc0403411a",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_9d39c7e293644e0745d36a17",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "9",
+      "idiom_tag": "CANTONESE_STD",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_9d60bb831c95f473b5e036af",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "10",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_a24173d48a82c7cd759300c1",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "10",
+      "idiom_tag": "CANTONESE_STD",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_a75a4115d9a8c98941748be6",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6 or 7",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_aa5342335dfd6f0663abcf52",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "10",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_aefb671843ec59ddeb8f28d0",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_b4c27e4695f6d44e4c6eb1b9",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_b5e2c481b26969d93857663b",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "8",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_bff930c17ff5f7d9525e0f9a",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "5",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_c20ea4a7d1ddbe270ff800e6",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "10",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_c342e81e0fe51a96d2e550a4",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_c58bbe5e0b7fbef0d2bc9cf2",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_cbedd15d1a100bcca1195f32",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_d2e8e9284861f20cd1dd0fc9",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "8",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_d5154783bddd64ad5f2ab637",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_d82677aac2cfe2f1ed78f3b7",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "5",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_d8ac7d66d9ecdd15dcf68a6b",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "5",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_da2a1f75b22c117d3eb8f58e",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "7",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_ddde55d0c76253a66f9414f7",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_e1cf3b87540cbeaad8a84400",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_e4bbc91c337b012f6490b1cb",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_ec78cd50d1af8b6e17de5795",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_ed96973b755a69aab97a058a",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "At least 6 stopped (dead) and live tones discussed: High Stopped, Mid Stopped, Mid-Low Stopped (checked), plus corresponding live tones High Level, Mid Level, Mid-Low Level",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_f659af1316a02359e55fa1c7",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "5",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_f6d4fecc991a2688cbd62ae8",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "7",
+      "idiom_tag": null,
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_f78c8f31549ba5d9dc3ac20a",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_fa5593dbf73f4967c3ead8e2",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "8",
+      "idiom_tag": "XINYI",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_fba3c4586e8042159ceafbdd",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "5",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_fbfc39b8fa86f9d7a612620f",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_fef9fea2dc571072302f0c29",
+      "label": "Claim",
+      "type": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "value": "6",
+      "idiom_tag": "TAISHAN",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "e6be7364-5058-4634-83c1-f0df521b1b59",
+      "label": "Source",
+      "type": "Source",
+      "title": "The Morphology of Cantonese “Changed Tone”: Extensions and Limitations",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_005bd3fb8f0b414fb985",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_02ad23458b4fb04132fe",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_048cdc829de93bbe35bc",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_0705e08bb15977a2e5c0",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_090592365e038024cf55",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_0a0479f83720238f75a2",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_0baac858350d1128c2f9",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_0bb3a9100fac855e2d5f",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_137dffe57a20d2df54cb",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_138c72e3ebc370d4f144",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_14004b57773d02153dab",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_15a96211bd3836dee868",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_17b241cbea7019ac4b6f",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_190115b556a9656aa53e",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_21dd1b7dec0bffd59f76",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_241abf76d1e55d3385b0",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_2d129a82425c4426cc13",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_2ffc82c55e30b4af7cac",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_32b4bdbe013063cdddcb",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_398361fff6e84a3e1dc8",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_3e38d1331fd3b16472b9",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_4274e18b176ee837cbd8",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_4f5a54689653fe7f8e63",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_518b829714b23c13914e",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_52157607bb82c5ff89e7",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_56d6656eca47c39a16ff",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_5a0c0908873f67d0e8ca",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_5a70d1417678ed94cf04",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_5af5dccf6da9f02f2e28",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_5b7cecd4e49726eb78c0",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_5c4a4ed97eb7e31a4faf",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_6543bdc91ad91c56c8d8",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_65a380d08a8909d9ed50",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_67c4d6e171384a02fa53",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_69465211ecba849443fa",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_6c44335857bae8c1ea20",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_6c9750a9aff63ee30c2a",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_6d78082f6fc1395cb191",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_70ff105077d314d617c3",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_72bb48ccc0b21197bd61",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_74cf6d3028bb8af151ad",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_758612718d2d483720bb",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_78f301302b1b406f4b0b",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_7925e8c6731bf0156b0b",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_7f1d0645562f5bd3fc74",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_80d9be58fccc873deb2d",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_818b170e106e860478a2",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_84918c02bb5054f59beb",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_84a3f0f4095c0f7769e6",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_85ea6f62261d96ce572f",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_89aa8109f0342211cee8",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_8f3e12de8c1a6ceff67c",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_91693abed8eea36320f4",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_92c24ace999ffce91316",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_92d3f4e698a14f97cc24",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_94b4400b678720e41cb2",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_9ef89147fe715754532d",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_a04470c893eca7baa568",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_a0b99402ebccf3a060ba",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_a4364edf4cbe9df43729",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_a4d37509635e02715a79",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_abfdb19837adf2155ee3",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_ac1e5031afa1963f64d1",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_ad0b61f4c5d9768e03df",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_adc0cfac5564f3302dd1",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_b0e579769f39e28abf36",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_b4dfe057ee767dff5cdf",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_b8cf7a9bfa98fccd7603",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_b91bb78d78d6abb59f98",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_ba61e2925a8688cf6a20",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_bb4a533d3c9a42e70edf",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_bc084adda0b02ef55a6b",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_bd2245cd6f805f08ac9f",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_beddba478682dbd734b6",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_c52e322e461e4dc9ba20",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_c55eb823e285825195c9",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_c79fc8f6c1e1f6ac448f",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_c82e553f47cd5d22f613",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_cbb683384cfe275ea756",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_ccb6c8cd8814c73dadd9",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_d0d72694a581b63e92c7",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_daf8809d7d63fbf84f4d",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_dc9ddbfe643737e887c9",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_ddcd1aab302cda7cd88e",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_e1348ec3999854ee9345",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_e14ca08c6e45c7ea04a7",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_e1bbd7b56dc07010c4c8",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_e39ec53cad4a7d96c5ba",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_e8876e0d53554eb0cb98",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_f32dcf687b7c240cfc6b",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_f402dd2598b9c0e860fa",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_f46be8613d8471763b3f",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_f4f7def97803e2513345",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_f8e6bab655bb3830e669",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_fb68ef60bd52009b4de3",
+      "label": "Evidence",
+      "type": "Evidence",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+      "label": "Source",
+      "type": "Source",
+      "title": "Yuè 粵 Dialects",
+      "origin_kind": "native_export"
+    }
+  ],
+  "edges": [
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_02ad23458b4fb04132fe",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_048cdc829de93bbe35bc",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_14004b57773d02153dab",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_15a96211bd3836dee868",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_17b241cbea7019ac4b6f",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_21dd1b7dec0bffd59f76",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_4f5a54689653fe7f8e63",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_52157607bb82c5ff89e7",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_5a70d1417678ed94cf04",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_6c9750a9aff63ee30c2a",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_85ea6f62261d96ce572f",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_b91bb78d78d6abb59f98",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_bc084adda0b02ef55a6b",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_bd2245cd6f805f08ac9f",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_bd2245cd6f805f08ac9f",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_dc9ddbfe643737e887c9",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_f32dcf687b7c240cfc6b",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "191a8707-be0d-4175-9cbb-c73c19fa9dea",
+      "target": "ev_f402dd2598b9c0e860fa",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "31288067-8899-4f17-94b6-f5803bba4c3a",
+      "target": "ev_32b4bdbe013063cdddcb",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "31288067-8899-4f17-94b6-f5803bba4c3a",
+      "target": "ev_8f3e12de8c1a6ceff67c",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "31288067-8899-4f17-94b6-f5803bba4c3a",
+      "target": "ev_a4364edf4cbe9df43729",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "31288067-8899-4f17-94b6-f5803bba4c3a",
+      "target": "ev_cbb683384cfe275ea756",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "31288067-8899-4f17-94b6-f5803bba4c3a",
+      "target": "ev_fb68ef60bd52009b4de3",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_005bd3fb8f0b414fb985",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_0705e08bb15977a2e5c0",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_137dffe57a20d2df54cb",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_241abf76d1e55d3385b0",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_2ffc82c55e30b4af7cac",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_398361fff6e84a3e1dc8",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_4274e18b176ee837cbd8",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_56d6656eca47c39a16ff",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_65a380d08a8909d9ed50",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_67c4d6e171384a02fa53",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_6c44335857bae8c1ea20",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_6d78082f6fc1395cb191",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_7925e8c6731bf0156b0b",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_7f1d0645562f5bd3fc74",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_818b170e106e860478a2",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_84a3f0f4095c0f7769e6",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_9ef89147fe715754532d",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_a04470c893eca7baa568",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_a4d37509635e02715a79",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_ac1e5031afa1963f64d1",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_b4dfe057ee767dff5cdf",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_ba61e2925a8688cf6a20",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_c55eb823e285825195c9",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_c79fc8f6c1e1f6ac448f",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_c82e553f47cd5d22f613",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "318c6cec-eacf-44d4-a665-5c1667edb985",
+      "target": "ev_e8876e0d53554eb0cb98",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "71cc631d-7ec2-4b20-99b0-37f72f75d37b",
+      "target": "ev_0a0479f83720238f75a2",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "71cc631d-7ec2-4b20-99b0-37f72f75d37b",
+      "target": "ev_138c72e3ebc370d4f144",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "71cc631d-7ec2-4b20-99b0-37f72f75d37b",
+      "target": "ev_5af5dccf6da9f02f2e28",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "71cc631d-7ec2-4b20-99b0-37f72f75d37b",
+      "target": "ev_5c4a4ed97eb7e31a4faf",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "71cc631d-7ec2-4b20-99b0-37f72f75d37b",
+      "target": "ev_70ff105077d314d617c3",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "71cc631d-7ec2-4b20-99b0-37f72f75d37b",
+      "target": "ev_91693abed8eea36320f4",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "71cc631d-7ec2-4b20-99b0-37f72f75d37b",
+      "target": "ev_94b4400b678720e41cb2",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "71cc631d-7ec2-4b20-99b0-37f72f75d37b",
+      "target": "ev_a0b99402ebccf3a060ba",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "71cc631d-7ec2-4b20-99b0-37f72f75d37b",
+      "target": "ev_abfdb19837adf2155ee3",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_090592365e038024cf55",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_0bb3a9100fac855e2d5f",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_2d129a82425c4426cc13",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_3e38d1331fd3b16472b9",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_5a0c0908873f67d0e8ca",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_5b7cecd4e49726eb78c0",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_72bb48ccc0b21197bd61",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_74cf6d3028bb8af151ad",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_758612718d2d483720bb",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_78f301302b1b406f4b0b",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_80d9be58fccc873deb2d",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_84918c02bb5054f59beb",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_b0e579769f39e28abf36",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_b8cf7a9bfa98fccd7603",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_bb4a533d3c9a42e70edf",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_c52e322e461e4dc9ba20",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_ccb6c8cd8814c73dadd9",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_d0d72694a581b63e92c7",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_daf8809d7d63fbf84f4d",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_e1348ec3999854ee9345",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_e1bbd7b56dc07010c4c8",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_e39ec53cad4a7d96c5ba",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_f4f7def97803e2513345",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "9f2df161-d69f-4293-93e6-13989a727f83",
+      "target": "ev_f8e6bab655bb3830e669",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+      "target": "ev_190115b556a9656aa53e",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+      "target": "ev_518b829714b23c13914e",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+      "target": "ev_6543bdc91ad91c56c8d8",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+      "target": "ev_69465211ecba849443fa",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+      "target": "ev_ad0b61f4c5d9768e03df",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+      "target": "ev_adc0cfac5564f3302dd1",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+      "target": "ev_beddba478682dbd734b6",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+      "target": "ev_e14ca08c6e45c7ea04a7",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+      "target": "ev_f46be8613d8471763b3f",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+      "target": "ev_89aa8109f0342211cee8",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+      "target": "ev_89aa8109f0342211cee8",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "claim_02e056b60cf1dfd5e1c3ee7e",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_02e056b60cf1dfd5e1c3ee7e",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_0408d75f677d6ef57e25d1e3",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_0408d75f677d6ef57e25d1e3",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_058ac97559878e44f96a1ede",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_058ac97559878e44f96a1ede",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_0c5154aabe82fbe031cd33f1",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_0c5154aabe82fbe031cd33f1",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_112adc555ffe9645a883ddef",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_112adc555ffe9645a883ddef",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_11ac1a0479dfbb7c7202b172",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_11ac1a0479dfbb7c7202b172",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_12c3cd293af2764f9f33fc6f",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_12c3cd293af2764f9f33fc6f",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_148aa4aa48b640d3f40979a5",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_148aa4aa48b640d3f40979a5",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_14923c451ca9a098f7175a37",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_14923c451ca9a098f7175a37",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_18271ce5bff6a5eddd2c87da",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_18271ce5bff6a5eddd2c87da",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_19c0e935cdf38a05f2a04655",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_19c0e935cdf38a05f2a04655",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_1d90169c8d0805ba2f86b244",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_1d90169c8d0805ba2f86b244",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_1f1d7fe6cb7e70191c83ab18",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_1f1d7fe6cb7e70191c83ab18",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_227039c0ad76c602939ef7e9",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_227039c0ad76c602939ef7e9",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_235ff1422a90eff73100530b",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_235ff1422a90eff73100530b",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_274b7e3df5d0f44f255a3944",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_274b7e3df5d0f44f255a3944",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_2d8222642c1080aa6ca887ee",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_2d8222642c1080aa6ca887ee",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_301f77d8b065f3eb9237a8d6",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_301f77d8b065f3eb9237a8d6",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_38421395f19995565dbec1d4",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_38421395f19995565dbec1d4",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_3a811cec6372c98b044d49d3",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_3a811cec6372c98b044d49d3",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_3c296686a817f279934b8917",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_3c296686a817f279934b8917",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_3c32af2af7b9e7a01132c09e",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_3c32af2af7b9e7a01132c09e",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_3f0e6e8a57f1a01231987c1c",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_3f0e6e8a57f1a01231987c1c",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_40562fb66ccad89f2b38bc80",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_40562fb66ccad89f2b38bc80",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_419d93d2d208ecb27ada41a2",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_419d93d2d208ecb27ada41a2",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_41f1b4b16ab7f8b80d9edd18",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_41f1b4b16ab7f8b80d9edd18",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_42f909ee30b1824655013ca9",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_42f909ee30b1824655013ca9",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_460d0d3a2566e17e2b52d8db",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_460d0d3a2566e17e2b52d8db",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_467b46648c9a038fdd2db1ef",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_467b46648c9a038fdd2db1ef",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_4754a68dc08240ebab360312",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_4754a68dc08240ebab360312",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_4b51a6804939cc2aca355b1b",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_4b51a6804939cc2aca355b1b",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_4b913ac19180eda194010ec5",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_4b913ac19180eda194010ec5",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_4f61a4043ced905b587cd748",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_4f61a4043ced905b587cd748",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_5027645e8ffea24263a9b36a",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_5027645e8ffea24263a9b36a",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_583a369a8be53634c14039b6",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_583a369a8be53634c14039b6",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_5843b87a48337bfb09b247a4",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_5843b87a48337bfb09b247a4",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_5e363ba8f24c27c0c138ce21",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_5e363ba8f24c27c0c138ce21",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_5ed156f7ee50ac69d81aef88",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_5ed156f7ee50ac69d81aef88",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_6291de79d3ac0cee6250ea6c",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_6291de79d3ac0cee6250ea6c",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_64afcc0802bb0dee12c30c1c",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_64afcc0802bb0dee12c30c1c",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_687209b133edd56e6a87c414",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_687209b133edd56e6a87c414",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_6a5d873c43f9a5600d764b0f",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_6a5d873c43f9a5600d764b0f",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_6ba7f9779c451dc91283d69c",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_6ba7f9779c451dc91283d69c",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_6ee85f65a7ad0ec5068bb7c2",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_6ee85f65a7ad0ec5068bb7c2",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_6f4c093ac451f3e34ba9318f",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_6f4c093ac451f3e34ba9318f",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_6fee508b1a77bb90e6600196",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_6fee508b1a77bb90e6600196",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_6ff2ee590a480bb00b3e6d10",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_6ff2ee590a480bb00b3e6d10",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_70b01a2ef61244d9dffcb250",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_70b01a2ef61244d9dffcb250",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_7171cecabd68db74dd98ca66",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_7171cecabd68db74dd98ca66",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_747e8a58aefd028802026798",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_747e8a58aefd028802026798",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_74a6dd7c92012d5e5354e0d8",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_74a6dd7c92012d5e5354e0d8",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_761068332ea55621facefea0",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_761068332ea55621facefea0",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_77e427ae9b1a3aa5688694ac",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_77e427ae9b1a3aa5688694ac",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_78bb8ee87a98f1b298d39a22",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_78bb8ee87a98f1b298d39a22",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_7dc1dc963fae14313086b0e2",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_7dc1dc963fae14313086b0e2",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_8687d90cdb1455fb42f62678",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_8687d90cdb1455fb42f62678",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_876d5758efb444e7f1a65e9c",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_876d5758efb444e7f1a65e9c",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_87f4d1d2bc9dc2ca124ac4a0",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_87f4d1d2bc9dc2ca124ac4a0",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_89e5fce12e22e941acd2361f",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_89e5fce12e22e941acd2361f",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_8b66c01f5bb1064fdb918bf8",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_8b66c01f5bb1064fdb918bf8",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_8d792911665017b15bdbc4f4",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_8d792911665017b15bdbc4f4",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_8e7ee76d8c149cb499301c1a",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_8e7ee76d8c149cb499301c1a",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_9045e79bd4105064bde82da4",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_9045e79bd4105064bde82da4",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_947e86a84240c486842fe728",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_947e86a84240c486842fe728",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_948a1ed46913471ba2731683",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_948a1ed46913471ba2731683",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_98dcd0bf6af0d33734a8fda0",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_98dcd0bf6af0d33734a8fda0",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_9928be1df8afabbc0403411a",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_9928be1df8afabbc0403411a",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_9d39c7e293644e0745d36a17",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_9d39c7e293644e0745d36a17",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_9d60bb831c95f473b5e036af",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_9d60bb831c95f473b5e036af",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_a24173d48a82c7cd759300c1",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_a24173d48a82c7cd759300c1",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_a75a4115d9a8c98941748be6",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_a75a4115d9a8c98941748be6",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_aa5342335dfd6f0663abcf52",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_aa5342335dfd6f0663abcf52",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_aefb671843ec59ddeb8f28d0",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_aefb671843ec59ddeb8f28d0",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_b4c27e4695f6d44e4c6eb1b9",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_b4c27e4695f6d44e4c6eb1b9",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_b5e2c481b26969d93857663b",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_b5e2c481b26969d93857663b",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_bff930c17ff5f7d9525e0f9a",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_bff930c17ff5f7d9525e0f9a",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_c20ea4a7d1ddbe270ff800e6",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_c20ea4a7d1ddbe270ff800e6",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_c342e81e0fe51a96d2e550a4",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_c342e81e0fe51a96d2e550a4",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_c58bbe5e0b7fbef0d2bc9cf2",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_c58bbe5e0b7fbef0d2bc9cf2",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_cbedd15d1a100bcca1195f32",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_cbedd15d1a100bcca1195f32",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_d2e8e9284861f20cd1dd0fc9",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_d2e8e9284861f20cd1dd0fc9",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_d5154783bddd64ad5f2ab637",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_d5154783bddd64ad5f2ab637",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_d82677aac2cfe2f1ed78f3b7",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_d82677aac2cfe2f1ed78f3b7",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_d8ac7d66d9ecdd15dcf68a6b",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_d8ac7d66d9ecdd15dcf68a6b",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_da2a1f75b22c117d3eb8f58e",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_da2a1f75b22c117d3eb8f58e",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_ddde55d0c76253a66f9414f7",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_ddde55d0c76253a66f9414f7",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_e1cf3b87540cbeaad8a84400",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_e1cf3b87540cbeaad8a84400",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_e4bbc91c337b012f6490b1cb",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_e4bbc91c337b012f6490b1cb",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_ec78cd50d1af8b6e17de5795",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_ec78cd50d1af8b6e17de5795",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_ed96973b755a69aab97a058a",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_ed96973b755a69aab97a058a",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_f659af1316a02359e55fa1c7",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_f659af1316a02359e55fa1c7",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_f6d4fecc991a2688cbd62ae8",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_f6d4fecc991a2688cbd62ae8",
+      "target": "YUE_GUANGFU",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_f78c8f31549ba5d9dc3ac20a",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_f78c8f31549ba5d9dc3ac20a",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_fa5593dbf73f4967c3ead8e2",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_fa5593dbf73f4967c3ead8e2",
+      "target": "YUE_GAOYANG",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_fba3c4586e8042159ceafbdd",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_fba3c4586e8042159ceafbdd",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_fbfc39b8fa86f9d7a612620f",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_fbfc39b8fa86f9d7a612620f",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "claim_fef9fea2dc571072302f0c29",
+      "target": "TONE_INVENTORY_COUNT",
+      "type": "ABOUT_FEATURE"
+    },
+    {
+      "source": "claim_fef9fea2dc571072302f0c29",
+      "target": "YUE_SIYI",
+      "type": "ABOUT_SUBGROUP"
+    },
+    {
+      "source": "e6be7364-5058-4634-83c1-f0df521b1b59",
+      "target": "ev_0baac858350d1128c2f9",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "e6be7364-5058-4634-83c1-f0df521b1b59",
+      "target": "ev_ddcd1aab302cda7cd88e",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "ev_005bd3fb8f0b414fb985",
+      "target": "claim_761068332ea55621facefea0",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_02ad23458b4fb04132fe",
+      "target": "claim_ed96973b755a69aab97a058a",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_048cdc829de93bbe35bc",
+      "target": "claim_a75a4115d9a8c98941748be6",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_0705e08bb15977a2e5c0",
+      "target": "claim_0c5154aabe82fbe031cd33f1",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_090592365e038024cf55",
+      "target": "claim_b4c27e4695f6d44e4c6eb1b9",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_0a0479f83720238f75a2",
+      "target": "claim_40562fb66ccad89f2b38bc80",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_0baac858350d1128c2f9",
+      "target": "claim_6ba7f9779c451dc91283d69c",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_0bb3a9100fac855e2d5f",
+      "target": "claim_89e5fce12e22e941acd2361f",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_137dffe57a20d2df54cb",
+      "target": "claim_41f1b4b16ab7f8b80d9edd18",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_138c72e3ebc370d4f144",
+      "target": "claim_c342e81e0fe51a96d2e550a4",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_14004b57773d02153dab",
+      "target": "claim_274b7e3df5d0f44f255a3944",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_15a96211bd3836dee868",
+      "target": "claim_70b01a2ef61244d9dffcb250",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_17b241cbea7019ac4b6f",
+      "target": "claim_da2a1f75b22c117d3eb8f58e",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_190115b556a9656aa53e",
+      "target": "claim_78bb8ee87a98f1b298d39a22",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_21dd1b7dec0bffd59f76",
+      "target": "claim_948a1ed46913471ba2731683",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_241abf76d1e55d3385b0",
+      "target": "claim_64afcc0802bb0dee12c30c1c",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_2d129a82425c4426cc13",
+      "target": "claim_3c296686a817f279934b8917",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_2ffc82c55e30b4af7cac",
+      "target": "claim_4f61a4043ced905b587cd748",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_32b4bdbe013063cdddcb",
+      "target": "claim_74a6dd7c92012d5e5354e0d8",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_398361fff6e84a3e1dc8",
+      "target": "claim_9928be1df8afabbc0403411a",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_3e38d1331fd3b16472b9",
+      "target": "claim_fa5593dbf73f4967c3ead8e2",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_4274e18b176ee837cbd8",
+      "target": "claim_6291de79d3ac0cee6250ea6c",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_4f5a54689653fe7f8e63",
+      "target": "claim_9d60bb831c95f473b5e036af",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_518b829714b23c13914e",
+      "target": "claim_6ff2ee590a480bb00b3e6d10",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_52157607bb82c5ff89e7",
+      "target": "claim_c20ea4a7d1ddbe270ff800e6",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_56d6656eca47c39a16ff",
+      "target": "claim_e4bbc91c337b012f6490b1cb",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_5a0c0908873f67d0e8ca",
+      "target": "claim_301f77d8b065f3eb9237a8d6",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_5a70d1417678ed94cf04",
+      "target": "claim_1f1d7fe6cb7e70191c83ab18",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_5af5dccf6da9f02f2e28",
+      "target": "claim_5843b87a48337bfb09b247a4",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_5b7cecd4e49726eb78c0",
+      "target": "claim_87f4d1d2bc9dc2ca124ac4a0",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_5c4a4ed97eb7e31a4faf",
+      "target": "claim_e1cf3b87540cbeaad8a84400",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_6543bdc91ad91c56c8d8",
+      "target": "claim_419d93d2d208ecb27ada41a2",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_65a380d08a8909d9ed50",
+      "target": "claim_98dcd0bf6af0d33734a8fda0",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_67c4d6e171384a02fa53",
+      "target": "claim_f659af1316a02359e55fa1c7",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_69465211ecba849443fa",
+      "target": "claim_9d39c7e293644e0745d36a17",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_6c44335857bae8c1ea20",
+      "target": "claim_fbfc39b8fa86f9d7a612620f",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_6c9750a9aff63ee30c2a",
+      "target": "claim_4b913ac19180eda194010ec5",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_6d78082f6fc1395cb191",
+      "target": "claim_aefb671843ec59ddeb8f28d0",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_70ff105077d314d617c3",
+      "target": "claim_ddde55d0c76253a66f9414f7",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_72bb48ccc0b21197bd61",
+      "target": "claim_5ed156f7ee50ac69d81aef88",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_74cf6d3028bb8af151ad",
+      "target": "claim_3f0e6e8a57f1a01231987c1c",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_758612718d2d483720bb",
+      "target": "claim_3c32af2af7b9e7a01132c09e",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_78f301302b1b406f4b0b",
+      "target": "claim_19c0e935cdf38a05f2a04655",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_7925e8c6731bf0156b0b",
+      "target": "claim_058ac97559878e44f96a1ede",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_7f1d0645562f5bd3fc74",
+      "target": "claim_235ff1422a90eff73100530b",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_80d9be58fccc873deb2d",
+      "target": "claim_112adc555ffe9645a883ddef",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_818b170e106e860478a2",
+      "target": "claim_ec78cd50d1af8b6e17de5795",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_84918c02bb5054f59beb",
+      "target": "claim_227039c0ad76c602939ef7e9",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_84a3f0f4095c0f7769e6",
+      "target": "claim_bff930c17ff5f7d9525e0f9a",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_85ea6f62261d96ce572f",
+      "target": "claim_aa5342335dfd6f0663abcf52",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_89aa8109f0342211cee8",
+      "target": "claim_18271ce5bff6a5eddd2c87da",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_89aa8109f0342211cee8",
+      "target": "claim_2d8222642c1080aa6ca887ee",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_8f3e12de8c1a6ceff67c",
+      "target": "claim_5e363ba8f24c27c0c138ce21",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_91693abed8eea36320f4",
+      "target": "claim_12c3cd293af2764f9f33fc6f",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_92c24ace999ffce91316",
+      "target": "claim_8d792911665017b15bdbc4f4",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_92d3f4e698a14f97cc24",
+      "target": "claim_6f4c093ac451f3e34ba9318f",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_94b4400b678720e41cb2",
+      "target": "claim_1d90169c8d0805ba2f86b244",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_9ef89147fe715754532d",
+      "target": "claim_d82677aac2cfe2f1ed78f3b7",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_a04470c893eca7baa568",
+      "target": "claim_876d5758efb444e7f1a65e9c",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_a0b99402ebccf3a060ba",
+      "target": "claim_7171cecabd68db74dd98ca66",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_a4364edf4cbe9df43729",
+      "target": "claim_5027645e8ffea24263a9b36a",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_a4d37509635e02715a79",
+      "target": "claim_02e056b60cf1dfd5e1c3ee7e",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_abfdb19837adf2155ee3",
+      "target": "claim_747e8a58aefd028802026798",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_ac1e5031afa1963f64d1",
+      "target": "claim_6ee85f65a7ad0ec5068bb7c2",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_ad0b61f4c5d9768e03df",
+      "target": "claim_8b66c01f5bb1064fdb918bf8",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_adc0cfac5564f3302dd1",
+      "target": "claim_0408d75f677d6ef57e25d1e3",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_b0e579769f39e28abf36",
+      "target": "claim_77e427ae9b1a3aa5688694ac",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_b4dfe057ee767dff5cdf",
+      "target": "claim_fef9fea2dc571072302f0c29",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_b8cf7a9bfa98fccd7603",
+      "target": "claim_6fee508b1a77bb90e6600196",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_b91bb78d78d6abb59f98",
+      "target": "claim_38421395f19995565dbec1d4",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_ba61e2925a8688cf6a20",
+      "target": "claim_d8ac7d66d9ecdd15dcf68a6b",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_bb4a533d3c9a42e70edf",
+      "target": "claim_3a811cec6372c98b044d49d3",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_bc084adda0b02ef55a6b",
+      "target": "claim_460d0d3a2566e17e2b52d8db",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_bd2245cd6f805f08ac9f",
+      "target": "claim_8e7ee76d8c149cb499301c1a",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_bd2245cd6f805f08ac9f",
+      "target": "claim_f6d4fecc991a2688cbd62ae8",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_beddba478682dbd734b6",
+      "target": "claim_4b51a6804939cc2aca355b1b",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_c52e322e461e4dc9ba20",
+      "target": "claim_d2e8e9284861f20cd1dd0fc9",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_c55eb823e285825195c9",
+      "target": "claim_14923c451ca9a098f7175a37",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_c79fc8f6c1e1f6ac448f",
+      "target": "claim_fba3c4586e8042159ceafbdd",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_c82e553f47cd5d22f613",
+      "target": "claim_4754a68dc08240ebab360312",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_cbb683384cfe275ea756",
+      "target": "claim_b5e2c481b26969d93857663b",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_ccb6c8cd8814c73dadd9",
+      "target": "claim_8687d90cdb1455fb42f62678",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_d0d72694a581b63e92c7",
+      "target": "claim_f78c8f31549ba5d9dc3ac20a",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_daf8809d7d63fbf84f4d",
+      "target": "claim_c58bbe5e0b7fbef0d2bc9cf2",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_dc9ddbfe643737e887c9",
+      "target": "claim_9045e79bd4105064bde82da4",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_ddcd1aab302cda7cd88e",
+      "target": "claim_947e86a84240c486842fe728",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_e1348ec3999854ee9345",
+      "target": "claim_687209b133edd56e6a87c414",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_e14ca08c6e45c7ea04a7",
+      "target": "claim_7dc1dc963fae14313086b0e2",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_e1bbd7b56dc07010c4c8",
+      "target": "claim_148aa4aa48b640d3f40979a5",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_e39ec53cad4a7d96c5ba",
+      "target": "claim_42f909ee30b1824655013ca9",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_e8876e0d53554eb0cb98",
+      "target": "claim_6a5d873c43f9a5600d764b0f",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_f32dcf687b7c240cfc6b",
+      "target": "claim_d5154783bddd64ad5f2ab637",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_f402dd2598b9c0e860fa",
+      "target": "claim_cbedd15d1a100bcca1195f32",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_f46be8613d8471763b3f",
+      "target": "claim_11ac1a0479dfbb7c7202b172",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_f4f7def97803e2513345",
+      "target": "claim_467b46648c9a038fdd2db1ef",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_f8e6bab655bb3830e669",
+      "target": "claim_583a369a8be53634c14039b6",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "ev_fb68ef60bd52009b4de3",
+      "target": "claim_a24173d48a82c7cd759300c1",
+      "type": "SUPPORTS"
+    },
+    {
+      "source": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+      "target": "ev_92c24ace999ffce91316",
+      "type": "HAS_EVIDENCE"
+    },
+    {
+      "source": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+      "target": "ev_92d3f4e698a14f97cc24",
+      "type": "HAS_EVIDENCE"
+    }
+  ]
+}

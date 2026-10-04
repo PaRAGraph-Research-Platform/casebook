@@ -1,0 +1,1304 @@
+{
+  "version": "c4-internal-0.1",
+  "source_manifest_sha256": "d8a1679d7e95045882cd345859b2aa2650e98f9fc616f0d9be4224d254256ed0",
+  "sanitized_at_utc": "2026-10-04T08:36:52.713037+00:00",
+  "removed_paths": {
+    "MANIFEST.json": [
+      {
+        "path": "iteration_status",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "open_questions",
+        "reason": "cyrillic"
+      }
+    ],
+    "comparison_graph.json": [
+      {
+        "path": "note",
+        "reason": "cyrillic"
+      }
+    ],
+    "core.json": [
+      {
+        "path": "[0].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[0].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[1].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[1].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[2].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[2].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[3].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[3].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[4].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[4].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[5].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[5].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[6].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[6].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[7].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[7].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[8].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[8].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[9].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[9].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[10].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[10].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[11].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[11].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[12].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[12].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[13].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[13].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[14].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[14].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[15].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[15].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[16].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[16].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[17].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[17].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[18].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[18].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[19].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[19].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[20].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[20].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[21].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[21].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[22].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[22].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[23].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[23].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[24].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[24].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[25].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[25].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[26].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[26].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[27].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[27].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[28].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[28].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[29].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[29].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[30].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[30].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[31].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[31].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[32].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[32].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[33].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[33].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[34].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[34].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[35].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[35].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[36].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[36].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[37].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[37].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[38].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[38].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[39].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[39].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[40].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[40].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[41].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[41].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[42].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[42].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[43].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[43].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[44].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[44].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[45].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[45].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[46].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[46].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[47].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[47].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[48].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[48].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[49].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[49].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[50].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[50].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[51].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[51].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[52].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[52].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[53].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[53].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[54].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[54].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[55].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[55].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[56].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[56].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[57].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[57].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[58].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[58].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[59].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[59].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[60].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[60].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[61].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[61].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[62].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[62].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[63].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[63].annotation.classification_basis",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[64].annotation.basis_review_class_meaning",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[64].annotation.classification_basis",
+        "reason": "cyrillic"
+      }
+    ],
+    "counts.json": [],
+    "expected_native_operations.json": [
+      {
+        "path": "not_applicable.count_independent_analyses.reason",
+        "reason": "cyrillic"
+      }
+    ],
+    "expected_operations.json": [],
+    "graph.json": [
+      {
+        "path": "note",
+        "reason": "cyrillic"
+      }
+    ],
+    "pairs_table.json": [
+      {
+        "path": "[0].basis_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[1].basis_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[2].basis_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[3].basis_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[4].basis_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[5].basis_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[6].basis_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[7].basis_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[8].basis_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[9].basis_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[10].basis_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[11].basis_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[12].basis_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[13].basis_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[14].basis_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[15].basis_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[16].basis_note",
+        "reason": "cyrillic"
+      }
+    ],
+    "passports.json": [
+      {
+        "path": "CANTONESE_STD.entries[0].checked_tone_treatment",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[0].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[0].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[0].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[1].checked_tone_treatment",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[1].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[1].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[2].checked_tone_treatment",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[2].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[2].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[2].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[3].checked_tone_treatment",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[3].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[3].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[3].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[4].checked_tone_treatment",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[4].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[4].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[4].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[5].checked_tone_treatment",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[5].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[5].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[5].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[6].source_attribution",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[6].checked_tone_treatment",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[6].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[6].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[6].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[7].checked_tone_treatment",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[7].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[7].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[7].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[8].count_expression",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[8].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[8].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[8].annotation.linked_claim_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[9].count_expression",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[9].checked_tone_treatment",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[9].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[9].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[9].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[9].annotation.linked_claim_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[10].counting_unit",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[10].count_expression",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[10].checked_tone_treatment",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[10].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[10].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.entries[10].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.context_and_notes_markdown",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[0].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[1].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[2].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[3].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[4].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[5].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[6].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[7].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[8].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[9].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[10].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[11].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[12].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[13].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[14].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[15].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[16].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[17].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[18].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[19].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[20].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[21].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[22].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[23].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "CANTONESE_STD.chunk_register[24].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.entries[0].checked_tone_treatment",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.entries[0].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.entries[0].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.entries[0].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.entries[1].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.entries[1].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.entries[2].checked_tone_treatment",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.entries[2].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.entries[2].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.entries[2].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.entries[3].source_attribution",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.entries[3].checked_tone_treatment",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.entries[3].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.entries[3].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.entries[3].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.context_and_notes_markdown",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[0].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[1].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[2].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[3].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[4].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[5].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[6].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[7].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[8].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[9].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[10].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[11].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[12].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[13].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[14].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[15].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[16].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[17].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[18].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[19].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[20].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[21].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[22].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[23].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "TAISHAN.chunk_register[24].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[0].source_attribution",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[0].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[0].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[0].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[1].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[1].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[1].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[2].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[2].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[2].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[3].source_attribution",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[3].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[3].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[3].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[4].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[4].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[4].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[5].contested_category",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[5].evidence_type",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.entries[5].locator",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.context_and_notes_markdown",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[0].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[1].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[2].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[3].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[4].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[5].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[6].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[7].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[8].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[9].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[10].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[11].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[12].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[13].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[14].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[15].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[16].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[17].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[18].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[19].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[20].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[21].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[22].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[23].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "XINYI.chunk_register[24].<editorial-key:da82e805>",
+        "reason": "cyrillic"
+      }
+    ],
+    "snapshot_2026-09-16/snapshot_check.json": [
+      {
+        "path": "aggregate_check.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "whole_graph_all_groups.note",
+        "reason": "cyrillic"
+      }
+    ],
+    "sources.json": [],
+    "supplement.json": [],
+    "CASE_EN.md": []
+  },
+  "trimmed_quotations": [],
+  "file_sha256": {
+    "CASE_EN.md": "a5ba65e6ef604ea56b3b8502be30929d792b30d9a23b21f3108fdfc992b97660",
+    "MANIFEST.json": "d24815ef553ae5fd3785a1f3988ad84684a784ad837413e0f964fb061b5e710c",
+    "comparison_graph.json": "9ec80bca7242e80ffaa606c36d3a0cf70f1f82533e7b4a2eed7a111f914a56a0",
+    "core.json": "fc3a0f30966bcd079ef31c468d74160166f971e3e5270b0c9e30bd117d798067",
+    "counts.json": "eea5930014046413b85a2096c856aa7d425cd7bc7b462d79f61aca4ac23861f4",
+    "expected_native_operations.json": "64d4b8c056f58223811236d538a5c4304c0e94d0e272c2f0a98ca8b07f2fc57a",
+    "expected_operations.json": "24cd4a7b7fdb265bdc7df94b15965b997a38aa211415f2d65464088edf0d50c7",
+    "graph.json": "e21f613c010ed79c120c2c51dbed3f6244e07b6ec74eb4ff0a2d9bf5c6c4490d",
+    "pairs_table.json": "d086286b52794fa9e71d4b923afbcb2a229202db26af8ad5d54ff29735ba4309",
+    "passports.json": "f3bd6fc3f8cd94c7e61351a16d07b76f3b66822292c0d11e2fc9d5e4d8d7b216",
+    "snapshot_2026-09-16/snapshot_check.json": "b6756179d4d444ccbb56fc6b13e8c20c59fc9aa515fd586ba7e7d76c1afaa88f",
+    "sources.json": "cefe87bde5200976c3b536d0b0070517a79e1cdca7c8e42c850bd294f0276bce",
+    "supplement.json": "3f7d349dbf8182b5e8b74d924d45c15ac0834bf223a4c4922d12a80bdd273558"
+  }
+}

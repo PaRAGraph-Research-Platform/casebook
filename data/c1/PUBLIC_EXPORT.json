@@ -1,0 +1,246 @@
+{
+  "version": "c1-internal-0.2",
+  "source_manifest_sha256": "d189d9deb499b1f82c4430f54593d3ceed1bf1074bebd308178da54344e3f123",
+  "sanitized_at_utc": "2026-09-24T07:00:22.870836+00:00",
+  "removed_paths": {
+    "MANIFEST.json": [
+      {
+        "path": "iteration_status",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "scope.scope_rule",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_rule_1991a",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_checks.dff1c92a-b507-4d36-85b5-273f7f79bfb0.185.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_checks.dff1c92a-b507-4d36-85b5-273f7f79bfb0.39.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_checks.b5302e7d-02be-45c9-8f77-e2c62daa9034.10.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_checks.b5302e7d-02be-45c9-8f77-e2c62daa9034.14.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_checks.f005846b-d6be-44a1-a8f7-be5b0c1a02ef.4.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "native_operations.not_applicable.feature_level_split.reason",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "changelog[0].summary",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "changelog[1].summary",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "open_questions",
+        "reason": "cyrillic"
+      }
+    ],
+    "comparison_graph.json": [
+      {
+        "path": "note",
+        "reason": "cyrillic"
+      }
+    ],
+    "core.json": [
+      {
+        "path": "[0].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[1].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[2].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[3].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[4].native.verification.verification_notes",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[5].native.verification.verification_notes",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[6].native.verification.verification_notes",
+        "reason": "cyrillic"
+      }
+    ],
+    "counts.json": [],
+    "expected_native_operations.json": [
+      {
+        "path": "principle",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "verification.method",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "not_applicable.feature_level_split.reason",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "operations[3].caveat",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "remains_curated.note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "remains_curated.items",
+        "reason": "cyrillic"
+      }
+    ],
+    "expected_operations.json": [
+      {
+        "path": "primary_operation_note",
+        "reason": "cyrillic"
+      }
+    ],
+    "graph.json": [
+      {
+        "path": "note",
+        "reason": "cyrillic"
+      }
+    ],
+    "positions_table.json": [
+      {
+        "path": "note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "page_rule_1991a",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "curator_questions",
+        "reason": "cyrillic"
+      }
+    ],
+    "sources.json": [
+      {
+        "path": "sources[0].page_label_map.provenance.pdf_path",
+        "reason": "closed_repo_path"
+      },
+      {
+        "path": "sources[0].page_label_map.provenance.validation_tsv",
+        "reason": "closed_repo_path"
+      },
+      {
+        "path": "sources[2].page_label_map.provenance.validation_tsv",
+        "reason": "closed_repo_path"
+      },
+      {
+        "path": "sources[3].page_label_map.provenance.validation_tsv",
+        "reason": "closed_repo_path"
+      },
+      {
+        "path": "sources[4].page_label_map.provenance.validation_tsv",
+        "reason": "closed_repo_path"
+      },
+      {
+        "path": "bibliography_notes[0].note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "bibliography_notes[1].note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "bibliography_notes[2].note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "bibliography_notes[3].note",
+        "reason": "cyrillic"
+      }
+    ],
+    "supplement.json": [
+      {
+        "path": "[0].annotation.note_ru",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[0].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[1].annotation.note_ru",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[1].annotation.page_note",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[2].native.verification.verification_notes",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[2].annotation.note_ru",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[3].native.verification.verification_notes",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[3].annotation.note_ru",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[4].native.verification.verification_notes",
+        "reason": "cyrillic"
+      },
+      {
+        "path": "[4].annotation.note_ru",
+        "reason": "cyrillic"
+      }
+    ],
+    "CASE_EN.md": [
+      {
+        "path": "## Open curator decisions",
+        "reason": "cyrillic"
+      }
+    ]
+  },
+  "trimmed_quotations": [],
+  "file_sha256": {
+    "CASE_EN.md": "1ce7219b8f5aa549c979f82a41faf1ce09eea49f3ccb638ff225c9fad6a9be21",
+    "MANIFEST.json": "0fa6216a3e1ab61fefcea56ff90c4201ef3f84d20a4dff8483b6074d0cdcf967",
+    "comparison_graph.json": "a6299fc7cd67da511e70df213bff17b5aba6dfe92be6dada612b48a3a4ece4a8",
+    "core.json": "cd91d91204ec6efa1b5ecb6f01b731d452d7ab95f8c30f9504ba43d009ea0857",
+    "counts.json": "f2fbbb1443c523483e5da1909d2880bf81bd43afb5574c7f0002725debcfc530",
+    "expected_native_operations.json": "7a436dcccb14436f88819d7d0fbd5398bf302e1b7489d258062eb43c93b1fe3b",
+    "expected_operations.json": "5b0a414b0c384d195b31bc38c4e2e2649e91a8823fd0755e934f9dfab5daf7cb",
+    "graph.json": "1ae6458ee1b0ec90d4970b472b04eb58f79812157fd43f75903e5a38c2907a26",
+    "positions_table.json": "dd7897f05c3cc886df780de0d88cc1553b98b8a0f5178af4c11e603a3af9daf2",
+    "sources.json": "dfdbfe7d70b7c391181a16e8ae2f6edd607b6036c4e4c74f1a497f58f86f2193",
+    "supplement.json": "13199a40da4e5d37cc1dd6f2bd1b3f8a291759d2cd46a04d86263ede158d96dc"
+  }
+}

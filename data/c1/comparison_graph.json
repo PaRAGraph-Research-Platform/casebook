@@ -1,0 +1,568 @@
+{
+  "origin_kind": "native_export",
+  "nodes": [
+    {
+      "id": "claim_022833074dd15cd7808893e7",
+      "label": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_2802a2ca639ec1cc8be8fd4b",
+      "label": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_39ec5fd17ce8736f5973a464",
+      "label": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_4633dd0cf013feb72f12f718",
+      "label": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_4be864f26c82a0d72ff8ceb2",
+      "label": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_5d449dc7fe41fd5ef3eab9b3",
+      "label": "Claim",
+      "status": "auto_approved",
+      "polarity": "uncertain",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_6033e81c656f778b7c6fffe5",
+      "label": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_678197917767d8ecc05f4e2d",
+      "label": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_689186fdf155a69d661380e0",
+      "label": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_6b54aa03df9869457d6b0be1",
+      "label": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_7d20d293e2afdcc5a3805279",
+      "label": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_a0314ec98e293304abc62820",
+      "label": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_c1754227eae26797a003f693",
+      "label": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "claim_cfd92b2d77712342e18c6b94",
+      "label": "Claim",
+      "status": "auto_approved",
+      "polarity": "attested",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_0e46deee89182712d021",
+      "label": "Evidence",
+      "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_1564e8a9cd0931eb7dd7",
+      "label": "Evidence",
+      "chunk_id": "10f2afb5-769f-5a28-b2e5-e2d275f2cc10",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_237494d2a04b1362ac02",
+      "label": "Evidence",
+      "chunk_id": "5ab1eb1f-576a-52c9-8449-8d0c6863f6bf",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_34ebb48de4435dee6eaf",
+      "label": "Evidence",
+      "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_375b51f97446c5ef274c",
+      "label": "Evidence",
+      "chunk_id": "26deed13-70ea-5b86-90f8-a423b265cc2c",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_49b1be3cce76c62ebf9e",
+      "label": "Evidence",
+      "chunk_id": "2c31a6ae-235d-5eef-baaf-21c84fe1370d",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_59bf6ca648b749806c6e",
+      "label": "Evidence",
+      "chunk_id": "ddc2a244-2204-5495-b49a-5f3b32aa223b",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_603ec447e1748395f65b",
+      "label": "Evidence",
+      "chunk_id": "0a51d990-eae7-56fc-83fc-2a64a3059f11",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_87d96a8644318887c028",
+      "label": "Evidence",
+      "chunk_id": "958c7801-ec40-52f2-ba79-4fe02d15a17c",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_8897ff59e0ca705f8750",
+      "label": "Evidence",
+      "chunk_id": "e36e535d-f6ba-52f0-9fb6-c46676e9a41f",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_942fcfe0a4b8317288aa",
+      "label": "Evidence",
+      "chunk_id": "e39acfc1-78e1-5958-ba25-e21b6d52588d",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_dea784d6623c1326529f",
+      "label": "Evidence",
+      "chunk_id": "12c8df49-26e1-5560-80bb-435ead506fec",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "ev_e569e70c617d0cd2223c",
+      "label": "Evidence",
+      "chunk_id": "def8a4e8-68dd-5fa7-a207-5df90c2ee4db",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "GEOGRAPHY_DISTRIBUTION",
+      "label": "Feature",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "label": "Feature",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "YUE",
+      "label": "Group",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "62b488a4-b782-43c5-a6e2-bd22e35ff2fb",
+      "label": "Source",
+      "title": "廣東方言的地理格局與自然地理及歷史地理的關係",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "label": "Source",
+      "title": "粤语方言分区问题初探",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+      "label": "Source",
+      "title": "广东粤方言概要 / An Outline of Yue Dialects in Guangdong",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+      "label": "Source",
+      "title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+      "label": "Source",
+      "title": "Yuè 粵 Dialects",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "YUE_GAOYANG",
+      "label": "Subgroup",
+      "origin_kind": "native_export"
+    },
+    {
+      "id": "YUE_WUHUA",
+      "label": "Subgroup",
+      "origin_kind": "native_export"
+    }
+  ],
+  "edges": [
+    {
+      "source": "62b488a4-b782-43c5-a6e2-bd22e35ff2fb",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_237494d2a04b1362ac02",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "62b488a4-b782-43c5-a6e2-bd22e35ff2fb",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_8897ff59e0ca705f8750",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_0e46deee89182712d021",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_34ebb48de4435dee6eaf",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_375b51f97446c5ef274c",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_942fcfe0a4b8317288aa",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_e569e70c617d0cd2223c",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_87d96a8644318887c028",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "b5302e7d-02be-45c9-8f77-e2c62daa9034",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_dea784d6623c1326529f",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_022833074dd15cd7808893e7",
+      "type": "ABOUT_FEATURE",
+      "target": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_022833074dd15cd7808893e7",
+      "type": "ABOUT_GROUP",
+      "target": "YUE",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_2802a2ca639ec1cc8be8fd4b",
+      "type": "ABOUT_FEATURE",
+      "target": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_2802a2ca639ec1cc8be8fd4b",
+      "type": "ABOUT_SUBGROUP",
+      "target": "YUE_GAOYANG",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_39ec5fd17ce8736f5973a464",
+      "type": "ABOUT_FEATURE",
+      "target": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_39ec5fd17ce8736f5973a464",
+      "type": "ABOUT_GROUP",
+      "target": "YUE",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_4633dd0cf013feb72f12f718",
+      "type": "ABOUT_FEATURE",
+      "target": "GEOGRAPHY_DISTRIBUTION",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_4633dd0cf013feb72f12f718",
+      "type": "ABOUT_GROUP",
+      "target": "YUE",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_4be864f26c82a0d72ff8ceb2",
+      "type": "ABOUT_FEATURE",
+      "target": "GEOGRAPHY_DISTRIBUTION",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_4be864f26c82a0d72ff8ceb2",
+      "type": "ABOUT_GROUP",
+      "target": "YUE",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_5d449dc7fe41fd5ef3eab9b3",
+      "type": "ABOUT_FEATURE",
+      "target": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_5d449dc7fe41fd5ef3eab9b3",
+      "type": "ABOUT_GROUP",
+      "target": "YUE",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_6033e81c656f778b7c6fffe5",
+      "type": "ABOUT_FEATURE",
+      "target": "GEOGRAPHY_DISTRIBUTION",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_6033e81c656f778b7c6fffe5",
+      "type": "ABOUT_GROUP",
+      "target": "YUE",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_678197917767d8ecc05f4e2d",
+      "type": "ABOUT_FEATURE",
+      "target": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_678197917767d8ecc05f4e2d",
+      "type": "ABOUT_SUBGROUP",
+      "target": "YUE_WUHUA",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_689186fdf155a69d661380e0",
+      "type": "ABOUT_FEATURE",
+      "target": "GEOGRAPHY_DISTRIBUTION",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_689186fdf155a69d661380e0",
+      "type": "ABOUT_SUBGROUP",
+      "target": "YUE_GAOYANG",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_6b54aa03df9869457d6b0be1",
+      "type": "ABOUT_FEATURE",
+      "target": "GEOGRAPHY_DISTRIBUTION",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_6b54aa03df9869457d6b0be1",
+      "type": "ABOUT_SUBGROUP",
+      "target": "YUE_GAOYANG",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_7d20d293e2afdcc5a3805279",
+      "type": "ABOUT_FEATURE",
+      "target": "GEOGRAPHY_DISTRIBUTION",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_7d20d293e2afdcc5a3805279",
+      "type": "ABOUT_SUBGROUP",
+      "target": "YUE_WUHUA",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_a0314ec98e293304abc62820",
+      "type": "ABOUT_FEATURE",
+      "target": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_a0314ec98e293304abc62820",
+      "type": "ABOUT_GROUP",
+      "target": "YUE",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_c1754227eae26797a003f693",
+      "type": "ABOUT_FEATURE",
+      "target": "METALINGUISTIC_HIERARCHY_LEVEL",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_c1754227eae26797a003f693",
+      "type": "ABOUT_GROUP",
+      "target": "YUE",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_cfd92b2d77712342e18c6b94",
+      "type": "ABOUT_FEATURE",
+      "target": "GEOGRAPHY_DISTRIBUTION",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "claim_cfd92b2d77712342e18c6b94",
+      "type": "ABOUT_SUBGROUP",
+      "target": "YUE_GAOYANG",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_1564e8a9cd0931eb7dd7",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_59bf6ca648b749806c6e",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_603ec447e1748395f65b",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_0e46deee89182712d021",
+      "type": "SUPPORTS",
+      "target": "claim_39ec5fd17ce8736f5973a464",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_1564e8a9cd0931eb7dd7",
+      "type": "SUPPORTS",
+      "target": "claim_cfd92b2d77712342e18c6b94",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_237494d2a04b1362ac02",
+      "type": "SUPPORTS",
+      "target": "claim_2802a2ca639ec1cc8be8fd4b",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_34ebb48de4435dee6eaf",
+      "type": "SUPPORTS",
+      "target": "claim_4633dd0cf013feb72f12f718",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_375b51f97446c5ef274c",
+      "type": "SUPPORTS",
+      "target": "claim_022833074dd15cd7808893e7",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_375b51f97446c5ef274c",
+      "type": "SUPPORTS",
+      "target": "claim_c1754227eae26797a003f693",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_49b1be3cce76c62ebf9e",
+      "type": "SUPPORTS",
+      "target": "claim_678197917767d8ecc05f4e2d",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_59bf6ca648b749806c6e",
+      "type": "SUPPORTS",
+      "target": "claim_7d20d293e2afdcc5a3805279",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_603ec447e1748395f65b",
+      "type": "SUPPORTS",
+      "target": "claim_a0314ec98e293304abc62820",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_87d96a8644318887c028",
+      "type": "SUPPORTS",
+      "target": "claim_4be864f26c82a0d72ff8ceb2",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_8897ff59e0ca705f8750",
+      "type": "SUPPORTS",
+      "target": "claim_689186fdf155a69d661380e0",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_942fcfe0a4b8317288aa",
+      "type": "SUPPORTS",
+      "target": "claim_5d449dc7fe41fd5ef3eab9b3",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_dea784d6623c1326529f",
+      "type": "SUPPORTS",
+      "target": "claim_6b54aa03df9869457d6b0be1",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "ev_e569e70c617d0cd2223c",
+      "type": "SUPPORTS",
+      "target": "claim_6033e81c656f778b7c6fffe5",
+      "origin_kind": "native_export"
+    },
+    {
+      "source": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+      "type": "HAS_EVIDENCE",
+      "target": "ev_49b1be3cce76c62ebf9e",
+      "origin_kind": "native_export"
+    }
+  ]
+}

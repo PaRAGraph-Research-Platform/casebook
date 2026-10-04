@@ -1,0 +1,813 @@
+{
+  "version": "c2-internal-0.3",
+  "read_at": "2026-09-09T17:09:30.481350+00:00",
+  "environment": "production, read-only: Neo4j READ + PostgreSQL REPEATABLE READ READ ONLY",
+  "probe_file": "casebook_probes/2026-09-09__c2_campaign_provenance.json",
+  "read_sources": {
+    "neo4j": "MATCH (c:Claim) WHERE c.id IN $ids\nOPTIONAL MATCH (c)-[r:ABOUT_SUBGROUP|ABOUT_GROUP|ABOUT_CLUSTER]->(t)\nOPTIONAL MATCH (c)-[:ABOUT_FEATURE]->(f:Feature)\nOPTIONAL MATCH (s:Source)-[:HAS_EVIDENCE]->(e:Evidence)-[:SUPPORTS]->(c)\nRETURN c.id AS claim_id, properties(c) AS properties, type(r) AS target_relationship,\n       t.id AS target_now, f.id AS feature, s.id AS document_id, e.id AS evidence_id\nORDER BY claim_id",
+    "postgresql": "SELECT id, claim_id, promoted_claim_id, promoted, document_id, chunk_id,\n    idiom_tag, idiom_tag_status, tag_kind, mapping_rule, target_id,\n    verification_status, verification_verdict, target_metadata, archived_at,\n    created_at, updated_at\nFROM pending_verification_claims\nWHERE promoted_claim_id = ANY(:ids) OR claim_id = ANY(:ids)\nORDER BY promoted_claim_id, claim_id",
+    "reports": []
+  },
+  "campaigns": {
+    "lianzhou_homograph_retarget_20260908": {
+      "run_id": "lianzhou_homograph_retarget_20260908",
+      "date_utc": "2026-09-08",
+      "provenance_fields": {
+        "neo4j_claim": [
+          "retarget_run_id",
+          "retargeted_at",
+          "retarget_old_targets",
+          "retargeted_from_idiom_id",
+          "mapping_rule"
+        ],
+        "pg_ledger": [
+          "pending_verification_claims.target_metadata.homograph_retarget",
+          "pending_verification_claims.target_metadata.ledger_copyback"
+        ]
+      }
+    },
+    "locality_curation_20260909": {
+      "run_id": "locality_curation_20260909",
+      "date_utc": "2026-09-09",
+      "provenance_fields": {
+        "neo4j_claim": [
+          "retag_run_id",
+          "retagged_at",
+          "retagged_from_idiom_tag",
+          "mapping_rule",
+          "idiom_tag_status"
+        ],
+        "pg_ledger": [
+          "pending_verification_claims.target_metadata.section_path_retag"
+        ]
+      }
+    }
+  },
+  "claims": [
+    {
+      "claim_id": "claim_aee8cfae9c56115ccabe9877",
+      "bundle_role": "K1",
+      "in_scope": true,
+      "current": {
+        "locality": "LIANZHOU_BEIHAI",
+        "target": "YUE_QINLIAN",
+        "target_relationship": "ABOUT_SUBGROUP",
+        "idiom_tag_status": "inferred",
+        "mapping_rule": null,
+        "feature": "CONS_ASPIRATION_CONTRAST",
+        "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+        "read_from": "Neo4j Claim properties + ABOUT_* edge"
+      },
+      "pg_ledger_row": {
+        "table": "pending_verification_claims",
+        "pg_claim_id": "claim_aee8cfae9c56115ccabe9877",
+        "promoted_claim_id": "claim_aee8cfae9c56115ccabe9877",
+        "idiom_tag": "LIANZHOU_BEIHAI",
+        "idiom_tag_status": "inferred",
+        "mapping_rule": null,
+        "target_id": "YUE_QINLIAN",
+        "updated_at": "2026-09-08 21:18:38.051625+00:00",
+        "target_metadata_keys": [
+          "canonical_target_backfill_route",
+          "ledger_copyback",
+          "legacy_promoted_claim_id",
+          "legacy_target_id",
+          "legacy_target_type",
+          "promoted_link_cleanup_reason"
+        ]
+      },
+      "campaign_touches": [
+        {
+          "run_id": "lianzhou_homograph_retarget_20260908",
+          "layer": "pg_ledger",
+          "rule": null,
+          "before": {
+            "locality": "LIANZHOU",
+            "target": "YUE_QINLIAN"
+          },
+          "after": {
+            "locality": "LIANZHOU_BEIHAI",
+            "target": "YUE_QINLIAN"
+          },
+          "applied_at": "2026-09-08T21:18:38.051625+00:00",
+          "read_from": "PostgreSQL pending_verification_claims.target_metadata.ledger_copyback",
+          "extra": null
+        }
+      ],
+      "campaigns": [
+        "lianzhou_homograph_retarget_20260908"
+      ],
+      "earlier_provenance": null,
+      "absent_provenance_fields": [
+        "retarget_run_id",
+        "retargeted_at",
+        "retarget_old_targets",
+        "retargeted_from_idiom_id",
+        "retag_run_id",
+        "retagged_at",
+        "retagged_from_idiom_tag",
+        "mapping_rule",
+        "backfill_run_id",
+        "backfilled_at"
+      ]
+    },
+    {
+      "claim_id": "claim_66d7d48ba25643b042006d2a",
+      "bundle_role": "K2",
+      "in_scope": true,
+      "current": {
+        "locality": "LIANZHOU_BEIHAI",
+        "target": "YUE_QINLIAN",
+        "target_relationship": "ABOUT_SUBGROUP",
+        "idiom_tag_status": "inferred",
+        "mapping_rule": null,
+        "feature": "CONS_ASPIRATION_CONTRAST",
+        "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+        "read_from": "Neo4j Claim properties + ABOUT_* edge"
+      },
+      "pg_ledger_row": {
+        "table": "pending_verification_claims",
+        "pg_claim_id": "claim_66d7d48ba25643b042006d2a",
+        "promoted_claim_id": "claim_66d7d48ba25643b042006d2a",
+        "idiom_tag": "LIANZHOU_BEIHAI",
+        "idiom_tag_status": "inferred",
+        "mapping_rule": null,
+        "target_id": "YUE_QINLIAN",
+        "updated_at": "2026-09-08 21:18:38.051625+00:00",
+        "target_metadata_keys": [
+          "canonical_target_backfill_route",
+          "ledger_copyback",
+          "legacy_promoted_claim_id",
+          "legacy_target_id",
+          "legacy_target_type",
+          "promoted_link_cleanup_reason"
+        ]
+      },
+      "campaign_touches": [
+        {
+          "run_id": "lianzhou_homograph_retarget_20260908",
+          "layer": "pg_ledger",
+          "rule": null,
+          "before": {
+            "locality": "LIANZHOU",
+            "target": "YUE_QINLIAN"
+          },
+          "after": {
+            "locality": "LIANZHOU_BEIHAI",
+            "target": "YUE_QINLIAN"
+          },
+          "applied_at": "2026-09-08T21:18:38.051625+00:00",
+          "read_from": "PostgreSQL pending_verification_claims.target_metadata.ledger_copyback",
+          "extra": null
+        }
+      ],
+      "campaigns": [
+        "lianzhou_homograph_retarget_20260908"
+      ],
+      "earlier_provenance": null,
+      "absent_provenance_fields": [
+        "retarget_run_id",
+        "retargeted_at",
+        "retarget_old_targets",
+        "retargeted_from_idiom_id",
+        "retag_run_id",
+        "retagged_at",
+        "retagged_from_idiom_tag",
+        "mapping_rule",
+        "backfill_run_id",
+        "backfilled_at"
+      ]
+    },
+    {
+      "claim_id": "claim_1cd75cb6f867faacbf730003",
+      "bundle_role": "K3",
+      "in_scope": true,
+      "current": {
+        "locality": "LIANZHOU_BEIHAI",
+        "target": "YUE_QINLIAN",
+        "target_relationship": "ABOUT_SUBGROUP",
+        "idiom_tag_status": "inferred",
+        "mapping_rule": null,
+        "feature": "CLASSIFICATION_ATLAS2012",
+        "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+        "read_from": "Neo4j Claim properties + ABOUT_* edge"
+      },
+      "pg_ledger_row": {
+        "table": "pending_verification_claims",
+        "pg_claim_id": "claim_1cd75cb6f867faacbf730003",
+        "promoted_claim_id": "claim_1cd75cb6f867faacbf730003",
+        "idiom_tag": "LIANZHOU_BEIHAI",
+        "idiom_tag_status": "inferred",
+        "mapping_rule": null,
+        "target_id": "YUE_QINLIAN",
+        "updated_at": "2026-09-08 21:18:38.051625+00:00",
+        "target_metadata_keys": [
+          "canonical_target_backfill_route",
+          "ledger_copyback",
+          "legacy_promoted_claim_id",
+          "legacy_target_id",
+          "legacy_target_type",
+          "promoted_link_cleanup_reason"
+        ]
+      },
+      "campaign_touches": [
+        {
+          "run_id": "lianzhou_homograph_retarget_20260908",
+          "layer": "pg_ledger",
+          "rule": null,
+          "before": {
+            "locality": "LIANZHOU",
+            "target": "YUE_QINLIAN"
+          },
+          "after": {
+            "locality": "LIANZHOU_BEIHAI",
+            "target": "YUE_QINLIAN"
+          },
+          "applied_at": "2026-09-08T21:18:38.051625+00:00",
+          "read_from": "PostgreSQL pending_verification_claims.target_metadata.ledger_copyback",
+          "extra": null
+        }
+      ],
+      "campaigns": [
+        "lianzhou_homograph_retarget_20260908"
+      ],
+      "earlier_provenance": null,
+      "absent_provenance_fields": [
+        "retarget_run_id",
+        "retargeted_at",
+        "retarget_old_targets",
+        "retargeted_from_idiom_id",
+        "retag_run_id",
+        "retagged_at",
+        "retagged_from_idiom_tag",
+        "mapping_rule",
+        "backfill_run_id",
+        "backfilled_at"
+      ]
+    },
+    {
+      "claim_id": "claim_299220d48644a5a06aef162b",
+      "bundle_role": "K4",
+      "in_scope": true,
+      "current": {
+        "locality": "LIANZHOU_BEIHAI",
+        "target": "YUE_QINLIAN",
+        "target_relationship": "ABOUT_SUBGROUP",
+        "idiom_tag_status": "inferred",
+        "mapping_rule": null,
+        "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+        "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+        "read_from": "Neo4j Claim properties + ABOUT_* edge"
+      },
+      "pg_ledger_row": {
+        "table": "pending_verification_claims",
+        "pg_claim_id": "claim_299220d48644a5a06aef162b",
+        "promoted_claim_id": "claim_299220d48644a5a06aef162b",
+        "idiom_tag": "LIANZHOU_BEIHAI",
+        "idiom_tag_status": "inferred",
+        "mapping_rule": null,
+        "target_id": "YUE_QINLIAN",
+        "updated_at": "2026-09-08 21:18:38.051625+00:00",
+        "target_metadata_keys": [
+          "canonical_target_backfill_route",
+          "ledger_copyback",
+          "legacy_promoted_claim_id",
+          "legacy_target_id",
+          "legacy_target_type",
+          "promoted_link_cleanup_reason"
+        ]
+      },
+      "campaign_touches": [
+        {
+          "run_id": "lianzhou_homograph_retarget_20260908",
+          "layer": "pg_ledger",
+          "rule": null,
+          "before": {
+            "locality": "LIANZHOU",
+            "target": "YUE_QINLIAN"
+          },
+          "after": {
+            "locality": "LIANZHOU_BEIHAI",
+            "target": "YUE_QINLIAN"
+          },
+          "applied_at": "2026-09-08T21:18:38.051625+00:00",
+          "read_from": "PostgreSQL pending_verification_claims.target_metadata.ledger_copyback",
+          "extra": null
+        }
+      ],
+      "campaigns": [
+        "lianzhou_homograph_retarget_20260908"
+      ],
+      "earlier_provenance": null,
+      "absent_provenance_fields": [
+        "retarget_run_id",
+        "retargeted_at",
+        "retarget_old_targets",
+        "retargeted_from_idiom_id",
+        "retag_run_id",
+        "retagged_at",
+        "retagged_from_idiom_tag",
+        "mapping_rule",
+        "backfill_run_id",
+        "backfilled_at"
+      ]
+    },
+    {
+      "claim_id": "claim_b891599fbeaa737b8620cf07",
+      "bundle_role": "K5",
+      "in_scope": true,
+      "current": {
+        "locality": "LIANZHOU_BEIHAI",
+        "target": "YUE_QINLIAN",
+        "target_relationship": "ABOUT_SUBGROUP",
+        "idiom_tag_status": "inferred",
+        "mapping_rule": null,
+        "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+        "document_id": "c8227da0-01e8-4008-a5a2-cc7d68ad3628",
+        "read_from": "Neo4j Claim properties + ABOUT_* edge"
+      },
+      "pg_ledger_row": {
+        "table": "pending_verification_claims",
+        "pg_claim_id": "claim_b891599fbeaa737b8620cf07",
+        "promoted_claim_id": "claim_b891599fbeaa737b8620cf07",
+        "idiom_tag": "LIANZHOU_BEIHAI",
+        "idiom_tag_status": "inferred",
+        "mapping_rule": null,
+        "target_id": "YUE_QINLIAN",
+        "updated_at": "2026-09-08 21:18:38.051625+00:00",
+        "target_metadata_keys": [
+          "canonical_target_backfill_route",
+          "ledger_copyback",
+          "legacy_promoted_claim_id",
+          "legacy_target_id",
+          "legacy_target_type",
+          "promoted_link_cleanup_reason"
+        ]
+      },
+      "campaign_touches": [
+        {
+          "run_id": "lianzhou_homograph_retarget_20260908",
+          "layer": "pg_ledger",
+          "rule": null,
+          "before": {
+            "locality": "LIANZHOU",
+            "target": "YUE_QINLIAN"
+          },
+          "after": {
+            "locality": "LIANZHOU_BEIHAI",
+            "target": "YUE_QINLIAN"
+          },
+          "applied_at": "2026-09-08T21:18:38.051625+00:00",
+          "read_from": "PostgreSQL pending_verification_claims.target_metadata.ledger_copyback",
+          "extra": null
+        }
+      ],
+      "campaigns": [
+        "lianzhou_homograph_retarget_20260908"
+      ],
+      "earlier_provenance": null,
+      "absent_provenance_fields": [
+        "retarget_run_id",
+        "retargeted_at",
+        "retarget_old_targets",
+        "retargeted_from_idiom_id",
+        "retag_run_id",
+        "retagged_at",
+        "retagged_from_idiom_tag",
+        "mapping_rule",
+        "backfill_run_id",
+        "backfilled_at"
+      ]
+    },
+    {
+      "claim_id": "claim_515c2e546a092b12e4589fdc",
+      "bundle_role": "S1",
+      "in_scope": true,
+      "current": {
+        "locality": "LIANZHOU_BEIHAI",
+        "target": "YUE_QINLIAN",
+        "target_relationship": "ABOUT_SUBGROUP",
+        "idiom_tag_status": "explicit",
+        "mapping_rule": "LIANZHOU.QINLIAN",
+        "feature": "CONS_ASPIRATION_CONTRAST",
+        "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99",
+        "read_from": "Neo4j Claim properties + ABOUT_* edge"
+      },
+      "pg_ledger_row": {
+        "table": "pending_verification_claims",
+        "pg_claim_id": "claim_77df1af2c6a3e244a01c479f",
+        "promoted_claim_id": "claim_515c2e546a092b12e4589fdc",
+        "idiom_tag": "LIANZHOU_BEIHAI",
+        "idiom_tag_status": "explicit",
+        "mapping_rule": "LIANZHOU.QINLIAN",
+        "target_id": "YUE_QINLIAN",
+        "updated_at": "2026-06-16 15:45:58.415891+00:00",
+        "target_metadata_keys": [
+          "idiom_tag_confidence",
+          "mapping_note",
+          "raw_target",
+          "remap_source"
+        ]
+      },
+      "campaign_touches": [],
+      "campaigns": [],
+      "earlier_provenance": {
+        "backfill_run_id": "8bf0996f-5a9f-4517-959b-7a2ae29ca5d8",
+        "backfilled_at": "2026-04-29T10:33:24.178000000+00:00"
+      },
+      "absent_provenance_fields": [
+        "retarget_run_id",
+        "retargeted_at",
+        "retarget_old_targets",
+        "retargeted_from_idiom_id",
+        "retag_run_id",
+        "retagged_at",
+        "retagged_from_idiom_tag"
+      ]
+    },
+    {
+      "claim_id": "claim_7506816eea9d37ca0ee8841a",
+      "bundle_role": "S2",
+      "in_scope": true,
+      "current": {
+        "locality": "LIANZHOU_BEIHAI",
+        "target": "YUE_QINLIAN",
+        "target_relationship": "ABOUT_SUBGROUP",
+        "idiom_tag_status": "explicit",
+        "mapping_rule": "LIANZHOU.QINLIAN",
+        "feature": "CONS_VOICED_OBSTRUENTS_REPORTED",
+        "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99",
+        "read_from": "Neo4j Claim properties + ABOUT_* edge"
+      },
+      "pg_ledger_row": {
+        "table": "pending_verification_claims",
+        "pg_claim_id": "claim_756eef5074834d6f9bd1623e",
+        "promoted_claim_id": "claim_7506816eea9d37ca0ee8841a",
+        "idiom_tag": "LIANZHOU_BEIHAI",
+        "idiom_tag_status": "explicit",
+        "mapping_rule": "LIANZHOU.QINLIAN",
+        "target_id": "YUE_QINLIAN",
+        "updated_at": "2026-06-16 15:45:58.415891+00:00",
+        "target_metadata_keys": [
+          "idiom_tag_confidence",
+          "mapping_note",
+          "raw_target",
+          "remap_source"
+        ]
+      },
+      "campaign_touches": [],
+      "campaigns": [],
+      "earlier_provenance": {
+        "backfill_run_id": "8bf0996f-5a9f-4517-959b-7a2ae29ca5d8",
+        "backfilled_at": "2026-04-29T10:33:24.178000000+00:00"
+      },
+      "absent_provenance_fields": [
+        "retarget_run_id",
+        "retargeted_at",
+        "retarget_old_targets",
+        "retargeted_from_idiom_id",
+        "retag_run_id",
+        "retagged_at",
+        "retagged_from_idiom_tag"
+      ]
+    },
+    {
+      "claim_id": "claim_d0bf3486dc16e9ba1bc2759c",
+      "bundle_role": "S3",
+      "in_scope": true,
+      "current": {
+        "locality": "LIANZHOU_BEIHAI",
+        "target": "YUE_QINLIAN",
+        "target_relationship": "ABOUT_SUBGROUP",
+        "idiom_tag_status": "explicit",
+        "mapping_rule": "LIANZHOU.QINLIAN",
+        "feature": "CONS_ASPIRATION_CONTRAST",
+        "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99",
+        "read_from": "Neo4j Claim properties + ABOUT_* edge"
+      },
+      "pg_ledger_row": {
+        "table": "pending_verification_claims",
+        "pg_claim_id": "claim_8c28e5c97840ecdbde814dd4",
+        "promoted_claim_id": "claim_d0bf3486dc16e9ba1bc2759c",
+        "idiom_tag": "LIANZHOU_BEIHAI",
+        "idiom_tag_status": "explicit",
+        "mapping_rule": "LIANZHOU.QINLIAN",
+        "target_id": "YUE_QINLIAN",
+        "updated_at": "2026-06-16 15:45:58.415891+00:00",
+        "target_metadata_keys": [
+          "idiom_tag_confidence",
+          "mapping_note",
+          "raw_target",
+          "remap_source"
+        ]
+      },
+      "campaign_touches": [],
+      "campaigns": [],
+      "earlier_provenance": {
+        "backfill_run_id": "8bf0996f-5a9f-4517-959b-7a2ae29ca5d8",
+        "backfilled_at": "2026-04-29T10:33:25.553000000+00:00"
+      },
+      "absent_provenance_fields": [
+        "retarget_run_id",
+        "retargeted_at",
+        "retarget_old_targets",
+        "retargeted_from_idiom_id",
+        "retag_run_id",
+        "retagged_at",
+        "retagged_from_idiom_tag"
+      ]
+    },
+    {
+      "claim_id": "claim_ca0d079c05b90981dfbb8fc7",
+      "bundle_role": "S4",
+      "in_scope": true,
+      "current": {
+        "locality": null,
+        "target": "YUE_QINLIAN",
+        "target_relationship": "ABOUT_SUBGROUP",
+        "idiom_tag_status": null,
+        "mapping_rule": null,
+        "feature": "CONS_VOICED_OBSTRUENTS_REPORTED",
+        "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99",
+        "read_from": "Neo4j Claim properties + ABOUT_* edge"
+      },
+      "pg_ledger_row": {
+        "table": "pending_verification_claims",
+        "pg_claim_id": "claim_ee52e473e964542627abefa1",
+        "promoted_claim_id": "claim_ca0d079c05b90981dfbb8fc7",
+        "idiom_tag": null,
+        "idiom_tag_status": null,
+        "mapping_rule": null,
+        "target_id": "YUE_QINLIAN",
+        "updated_at": "2026-06-16 15:45:58.415891+00:00",
+        "target_metadata_keys": []
+      },
+      "campaign_touches": [],
+      "campaigns": [],
+      "earlier_provenance": null,
+      "absent_provenance_fields": [
+        "retarget_run_id",
+        "retargeted_at",
+        "retarget_old_targets",
+        "retargeted_from_idiom_id",
+        "retag_run_id",
+        "retagged_at",
+        "retagged_from_idiom_tag",
+        "mapping_rule",
+        "idiom_tag",
+        "idiom_tag_status",
+        "tag_kind",
+        "backfill_run_id",
+        "backfilled_at"
+      ]
+    },
+    {
+      "claim_id": "claim_9940c042fbd06a1d620cb18a",
+      "bundle_role": "excluded_misattributed",
+      "in_scope": false,
+      "current": {
+        "locality": "NANKANG",
+        "target": "YUE_QINLIAN",
+        "target_relationship": "ABOUT_SUBGROUP",
+        "idiom_tag_status": "inferred",
+        "mapping_rule": "SECTION_PATH.NANKANG",
+        "feature": "CONS_ASPIRATION_CONTRAST",
+        "document_id": "93f9cd6b-4318-4c8b-9cc6-30a140d92e99",
+        "read_from": "Neo4j Claim properties + ABOUT_* edge"
+      },
+      "pg_ledger_row": {
+        "table": "pending_verification_claims",
+        "pg_claim_id": "claim_8ff55184239d0b6d63f5442c",
+        "promoted_claim_id": "claim_9940c042fbd06a1d620cb18a",
+        "idiom_tag": "NANKANG",
+        "idiom_tag_status": "inferred",
+        "mapping_rule": "SECTION_PATH.NANKANG",
+        "target_id": "YUE_QINLIAN",
+        "updated_at": "2026-09-09 04:34:30.563046+00:00",
+        "target_metadata_keys": [
+          "idiom_tag_confidence",
+          "mapping_note",
+          "raw_target",
+          "remap_source",
+          "section_path_retag"
+        ]
+      },
+      "campaign_touches": [
+        {
+          "run_id": "locality_curation_20260909",
+          "layer": "neo4j_claim_properties",
+          "rule": "SECTION_PATH.NANKANG",
+          "before": {
+            "locality": "LIANZHOU_BEIHAI",
+            "target": "YUE_QINLIAN"
+          },
+          "after": {
+            "locality": "NANKANG",
+            "target": "YUE_QINLIAN"
+          },
+          "applied_at": "2026-09-09T04:34:30.827000000+00:00",
+          "read_from": "Neo4j Claim.retag_run_id / retagged_at / retagged_from_idiom_tag / mapping_rule"
+        },
+        {
+          "run_id": "locality_curation_20260909",
+          "layer": "pg_ledger",
+          "rule": "SECTION_PATH.NANKANG",
+          "before": {
+            "locality": "LIANZHOU_BEIHAI",
+            "target": null
+          },
+          "after": {
+            "locality": "NANKANG",
+            "target": "YUE_QINLIAN"
+          },
+          "applied_at": "2026-09-09T04:34:30.563046+00:00",
+          "read_from": "PostgreSQL pending_verification_claims.target_metadata.section_path_retag",
+          "extra": {
+            "section_path": [
+              "第二章 北海五个粤方言的语音",
+              "2.2. 铁山港区南康镇南康话音系",
+              "2.2.3. 语音特点",
+              "一 声母特点"
+            ],
+            "evidence_basis": "path+pages"
+          }
+        }
+      ],
+      "campaigns": [
+        "locality_curation_20260909"
+      ],
+      "earlier_provenance": {
+        "backfill_run_id": "8bf0996f-5a9f-4517-959b-7a2ae29ca5d8",
+        "backfilled_at": "2026-04-29T10:33:25.553000000+00:00"
+      },
+      "absent_provenance_fields": [
+        "retarget_run_id",
+        "retargeted_at",
+        "retarget_old_targets",
+        "retargeted_from_idiom_id"
+      ]
+    },
+    {
+      "claim_id": "claim_20270bdd6bd2db3e12114555",
+      "bundle_role": "excluded_identity_guard",
+      "in_scope": false,
+      "current": {
+        "locality": "LIANZHOU_CITY",
+        "target": "TUHUA_YUEBEI",
+        "target_relationship": "ABOUT_SUBGROUP",
+        "idiom_tag_status": "inferred",
+        "mapping_rule": "HOMOGRAPH_FIX.TUHUA_YUEBEI.LIANZHOU_CITY",
+        "feature": "CONS_LATERAL_NASAL_DISTINCTION",
+        "document_id": "168dd4d0-2a0d-4722-aaff-94c60c65b445",
+        "read_from": "Neo4j Claim properties + ABOUT_* edge"
+      },
+      "pg_ledger_row": {
+        "table": "pending_verification_claims",
+        "pg_claim_id": "claim_20270bdd6bd2db3e12114555",
+        "promoted_claim_id": "claim_20270bdd6bd2db3e12114555",
+        "idiom_tag": "LIANZHOU_CITY",
+        "idiom_tag_status": "inferred",
+        "mapping_rule": "HOMOGRAPH_FIX.TUHUA_YUEBEI.LIANZHOU_CITY",
+        "target_id": "TUHUA_YUEBEI",
+        "updated_at": "2026-09-08 21:17:50.653898+00:00",
+        "target_metadata_keys": [
+          "homograph_retarget",
+          "idiom_target_source",
+          "legacy_closeout",
+          "raw_target",
+          "raw_target_type",
+          "resolved_idiom_id"
+        ]
+      },
+      "campaign_touches": [
+        {
+          "run_id": "lianzhou_homograph_retarget_20260908",
+          "layer": "neo4j_claim_properties",
+          "rule": "HOMOGRAPH_FIX.TUHUA_YUEBEI.LIANZHOU_CITY",
+          "before": {
+            "locality": "LIANZHOU",
+            "target": "YUE_QINLIAN"
+          },
+          "after": {
+            "locality": "LIANZHOU_CITY",
+            "target": "TUHUA_YUEBEI"
+          },
+          "applied_at": "2026-09-08T21:17:50.726000000+00:00",
+          "read_from": "Neo4j Claim.retarget_run_id / retargeted_at / retarget_old_targets / retargeted_from_idiom_id / mapping_rule"
+        },
+        {
+          "run_id": "lianzhou_homograph_retarget_20260908",
+          "layer": "pg_ledger",
+          "rule": "HOMOGRAPH_FIX.TUHUA_YUEBEI.LIANZHOU_CITY",
+          "before": {
+            "locality": "LIANZHOU",
+            "target": "YUE_QINLIAN"
+          },
+          "after": {
+            "locality": "LIANZHOU_CITY",
+            "target": "TUHUA_YUEBEI"
+          },
+          "applied_at": "2026-09-08T21:17:50.654107+00:00",
+          "read_from": "PostgreSQL pending_verification_claims.target_metadata.homograph_retarget",
+          "extra": {
+            "historical_claim_id": "claim_20270bdd6bd2db3e12114555",
+            "canonical_collision_with": [],
+            "canonical_claim_id_after_retarget": "claim_2623ed86e28d340107a3517e"
+          }
+        }
+      ],
+      "campaigns": [
+        "lianzhou_homograph_retarget_20260908"
+      ],
+      "earlier_provenance": null,
+      "absent_provenance_fields": [
+        "retag_run_id",
+        "retagged_at",
+        "retagged_from_idiom_tag",
+        "backfill_run_id",
+        "backfilled_at"
+      ]
+    },
+    {
+      "claim_id": "claim_ad297a1a63be359e67e72c18",
+      "bundle_role": "excluded_identity_guard",
+      "in_scope": false,
+      "current": {
+        "locality": "LIANZHOU_CITY",
+        "target": "TUHUA_YUEBEI",
+        "target_relationship": "ABOUT_SUBGROUP",
+        "idiom_tag_status": "inferred",
+        "mapping_rule": "HOMOGRAPH_FIX.TUHUA_YUEBEI.LIANZHOU_CITY",
+        "feature": "CONS_ASPIRATION_CONTRAST",
+        "document_id": "168dd4d0-2a0d-4722-aaff-94c60c65b445",
+        "read_from": "Neo4j Claim properties + ABOUT_* edge"
+      },
+      "pg_ledger_row": {
+        "table": "pending_verification_claims",
+        "pg_claim_id": "claim_ad297a1a63be359e67e72c18",
+        "promoted_claim_id": "claim_ad297a1a63be359e67e72c18",
+        "idiom_tag": "LIANZHOU_CITY",
+        "idiom_tag_status": "inferred",
+        "mapping_rule": "HOMOGRAPH_FIX.TUHUA_YUEBEI.LIANZHOU_CITY",
+        "target_id": "TUHUA_YUEBEI",
+        "updated_at": "2026-09-08 21:17:50.653898+00:00",
+        "target_metadata_keys": [
+          "homograph_retarget",
+          "idiom_target_source",
+          "legacy_closeout",
+          "raw_target",
+          "raw_target_type",
+          "resolved_idiom_id"
+        ]
+      },
+      "campaign_touches": [
+        {
+          "run_id": "lianzhou_homograph_retarget_20260908",
+          "layer": "neo4j_claim_properties",
+          "rule": "HOMOGRAPH_FIX.TUHUA_YUEBEI.LIANZHOU_CITY",
+          "before": {
+            "locality": "LIANZHOU",
+            "target": "YUE_QINLIAN"
+          },
+          "after": {
+            "locality": "LIANZHOU_CITY",
+            "target": "TUHUA_YUEBEI"
+          },
+          "applied_at": "2026-09-08T21:17:50.726000000+00:00",
+          "read_from": "Neo4j Claim.retarget_run_id / retargeted_at / retarget_old_targets / retargeted_from_idiom_id / mapping_rule"
+        },
+        {
+          "run_id": "lianzhou_homograph_retarget_20260908",
+          "layer": "pg_ledger",
+          "rule": "HOMOGRAPH_FIX.TUHUA_YUEBEI.LIANZHOU_CITY",
+          "before": {
+            "locality": "LIANZHOU",
+            "target": "YUE_QINLIAN"
+          },
+          "after": {
+            "locality": "LIANZHOU_CITY",
+            "target": "TUHUA_YUEBEI"
+          },
+          "applied_at": "2026-09-08T21:17:50.654006+00:00",
+          "read_from": "PostgreSQL pending_verification_claims.target_metadata.homograph_retarget",
+          "extra": {
+            "historical_claim_id": "claim_ad297a1a63be359e67e72c18",
+            "canonical_collision_with": [],
+            "canonical_claim_id_after_retarget": "claim_7c8b5cc0e29603505350e743"
+          }
+        }
+      ],
+      "campaigns": [
+        "lianzhou_homograph_retarget_20260908"
+      ],
+      "earlier_provenance": null,
+      "absent_provenance_fields": [
+        "retag_run_id",
+        "retagged_at",
+        "retagged_from_idiom_tag",
+        "backfill_run_id",
+        "backfilled_at"
+      ]
+    }
+  ]
+}

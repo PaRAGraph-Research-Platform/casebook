@@ -1,0 +1,276 @@
+{
+  "scope_a_rows": 112,
+  "scope_b_rows": 186,
+  "ledger_rows": 282,
+  "candidate_claims": 186,
+  "core_claims": 11,
+  "core_evidence": 11,
+  "core_chunks": 6,
+  "core_sources": 4,
+  "supplement_claims": 10,
+  "graph_nodes": 34,
+  "graph_edges": 44,
+  "comparison_claims": 21,
+  "comparison_evidence": 21,
+  "comparison_sources": 4,
+  "comparison_nodes": 55,
+  "comparison_edges": 84,
+  "ledger_decisions": {
+    "out_of_level_source": 96,
+    "level_source_candidate": 165,
+    "core": 11,
+    "supplement": 10
+  },
+  "schemes": {
+    "SCH_ATLAS": 8,
+    "SCH_CROSS": 3,
+    "SCH_YH": 10
+  },
+  "denominators": {
+    "target_totals": [
+      {
+        "target": "YUE_GAOYANG",
+        "claims": 2150,
+        "evidence": 1708,
+        "features": 106,
+        "sources": 24
+      },
+      {
+        "target": "YUE_GUANGFU",
+        "claims": 7471,
+        "evidence": 6262,
+        "features": 115,
+        "sources": 38
+      },
+      {
+        "target": "YUE_SIYI",
+        "claims": 5389,
+        "evidence": 3956,
+        "features": 111,
+        "sources": 29
+      }
+    ],
+    "target_all_statuses": [
+      {
+        "target": "YUE_GAOYANG",
+        "status": "approved",
+        "claims": 44
+      },
+      {
+        "target": "YUE_GAOYANG",
+        "status": "archived",
+        "claims": 17
+      },
+      {
+        "target": "YUE_GAOYANG",
+        "status": "auto_approved",
+        "claims": 2106
+      },
+      {
+        "target": "YUE_GUANGFU",
+        "status": "approved",
+        "claims": 970
+      },
+      {
+        "target": "YUE_GUANGFU",
+        "status": "archived",
+        "claims": 829
+      },
+      {
+        "target": "YUE_GUANGFU",
+        "status": "auto_approved",
+        "claims": 6501
+      },
+      {
+        "target": "YUE_SIYI",
+        "status": "approved",
+        "claims": 495
+      },
+      {
+        "target": "YUE_SIYI",
+        "status": "archived",
+        "claims": 1733
+      },
+      {
+        "target": "YUE_SIYI",
+        "status": "auto_approved",
+        "claims": 4894
+      }
+    ],
+    "source_totals": [
+      {
+        "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+        "source_title": "粤语方言分区问题初探",
+        "claims": 408,
+        "evidence": 169,
+        "features": 34
+      },
+      {
+        "document_id": "cf5ae16a-4eeb-4aa4-9306-399192dbcbb2",
+        "source_title": "Development of the Stop Endings in the Yue Dialects",
+        "claims": 405,
+        "evidence": 169,
+        "features": 24
+      },
+      {
+        "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+        "source_title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+        "claims": 3290,
+        "evidence": 2634,
+        "features": 75
+      },
+      {
+        "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+        "source_title": "Yuè 粵 Dialects",
+        "claims": 235,
+        "evidence": 169,
+        "features": 65
+      }
+    ],
+    "scope_a_by_target_feature": [
+      {
+        "target": "YUE_GAOYANG",
+        "feature": "CLASSIFICATION_ATLAS2012",
+        "claims": 8
+      },
+      {
+        "target": "YUE_GAOYANG",
+        "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+        "claims": 2
+      },
+      {
+        "target": "YUE_GAOYANG",
+        "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+        "claims": 12
+      },
+      {
+        "target": "YUE_GUANGFU",
+        "feature": "CLASSIFICATION_ATLAS2012",
+        "claims": 6
+      },
+      {
+        "target": "YUE_GUANGFU",
+        "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+        "claims": 3
+      },
+      {
+        "target": "YUE_GUANGFU",
+        "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+        "claims": 26
+      },
+      {
+        "target": "YUE_SIYI",
+        "feature": "CLASSIFICATION_ATLAS2012",
+        "claims": 2
+      },
+      {
+        "target": "YUE_SIYI",
+        "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+        "claims": 16
+      },
+      {
+        "target": "YUE_SIYI",
+        "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+        "claims": 37
+      }
+    ],
+    "scope_b_by_source_feature": [
+      {
+        "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+        "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+        "claims": 10
+      },
+      {
+        "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+        "feature": "GEOGRAPHY_DISTRIBUTION",
+        "claims": 20
+      },
+      {
+        "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+        "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+        "claims": 32
+      },
+      {
+        "document_id": "cf5ae16a-4eeb-4aa4-9306-399192dbcbb2",
+        "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+        "claims": 2
+      },
+      {
+        "document_id": "cf5ae16a-4eeb-4aa4-9306-399192dbcbb2",
+        "feature": "GEOGRAPHY_DISTRIBUTION",
+        "claims": 4
+      },
+      {
+        "document_id": "cf5ae16a-4eeb-4aa4-9306-399192dbcbb2",
+        "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+        "claims": 2
+      },
+      {
+        "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+        "feature": "CLASSIFICATION_ATLAS2012",
+        "claims": 23
+      },
+      {
+        "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+        "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+        "claims": 1
+      },
+      {
+        "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+        "feature": "GEOGRAPHY_DISTRIBUTION",
+        "claims": 59
+      },
+      {
+        "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+        "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+        "claims": 8
+      },
+      {
+        "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+        "feature": "CLASSIFICATION_ATLAS2012",
+        "claims": 1
+      },
+      {
+        "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+        "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+        "claims": 6
+      },
+      {
+        "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+        "feature": "GEOGRAPHY_DISTRIBUTION",
+        "claims": 9
+      },
+      {
+        "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+        "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+        "claims": 9
+      }
+    ],
+    "excluded_outside_yue": {
+      "scope_b": [
+        {
+          "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+          "claims": 19
+        },
+        {
+          "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+          "claims": 1093
+        }
+      ]
+    },
+    "liangyang_like_targets": []
+  },
+  "native_operations": {
+    "shared_basis": 3,
+    "independent_bases": 4,
+    "source_split": 10,
+    "source_filter": 21,
+    "address_level_by_source": 7,
+    "source_comparison_by_feature": 4,
+    "target_comparison_by_feature__siyi_gaoyang": 4,
+    "target_comparison_by_feature__siyi_guangfu": 4,
+    "target_comparison_by_feature__gaoyang_guangfu": 4,
+    "contested_cell": 0,
+    "polarity_value_consistency": 21
+  }
+}

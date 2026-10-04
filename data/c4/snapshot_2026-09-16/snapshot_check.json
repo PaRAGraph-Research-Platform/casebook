@@ -1,0 +1,372 @@
+{
+  "checked_at": "2026-09-20T18:07:43.982493+00:00",
+  "rows_checked": 65,
+  "row_level_mismatches": [],
+  "row_level_mismatch_count": 0,
+  "aggregate_check": {
+    "method": "same SQL predicate as c4_inputs snapshot.sql: feature_id='TONE_INVENTORY_COUNT', split_part(target_id,'_',1)='YUE', archived_at IS NULL, verification_status IN (verified, auto_approved, approved)",
+    "snapshot_summary_2026_09_16": {
+      "rows": 504,
+      "documents": 29,
+      "tags": 64,
+      "integers": 353,
+      "nulls": 14,
+      "other": 137
+    },
+    "live_recount_2026_09_20_same_method": {
+      "rows": 504,
+      "documents": 29,
+      "tags": 64,
+      "integers": 353,
+      "nulls": 14,
+      "other": 137
+    },
+    "match": true
+  },
+  "whole_graph_all_groups": {
+    "by_idiom_tag": [
+      {
+        "idiom_tag": "BEIHAI",
+        "claims": 4
+      },
+      {
+        "idiom_tag": "BEIHAI_SHIQU",
+        "claims": 3
+      },
+      {
+        "idiom_tag": "BINYANG",
+        "claims": 2
+      },
+      {
+        "idiom_tag": "BOBAI",
+        "claims": 2
+      },
+      {
+        "idiom_tag": "CANGWU",
+        "claims": 2
+      },
+      {
+        "idiom_tag": "CANTONESE_STD",
+        "claims": 15
+      },
+      {
+        "idiom_tag": "CENXI",
+        "claims": 2
+      },
+      {
+        "idiom_tag": "DEQING",
+        "claims": 8
+      },
+      {
+        "idiom_tag": "DONGYING_MANDARIN",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "ENPING",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "FENGKAI_DEQING_HUAIJI",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "FENGKAI_NANFENG",
+        "claims": 3
+      },
+      {
+        "idiom_tag": "FENGYANG",
+        "claims": 6
+      },
+      {
+        "idiom_tag": "FOGANG",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "GAN_DATONG",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "GAOLEI_PIAN",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "GAOYAO",
+        "claims": 8
+      },
+      {
+        "idiom_tag": "GAOZHOU",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "GUANBAO_PIAN_YUE",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "GUANCHENG",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "GUANGNING",
+        "claims": 7
+      },
+      {
+        "idiom_tag": "GUEIGANG_CHENGUAN_BAIHUA",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "HAIBIAN",
+        "claims": 7
+      },
+      {
+        "idiom_tag": "HAKKA_MEIXIAN",
+        "claims": 2
+      },
+      {
+        "idiom_tag": "HESHAN",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "HUAIJI",
+        "claims": 7
+      },
+      {
+        "idiom_tag": "HUAZHOU",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "KAIPING",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "LECHANG",
+        "claims": 3
+      },
+      {
+        "idiom_tag": "LIANSHAN",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "LIANZHOUFU_TUHUA",
+        "claims": 2
+      },
+      {
+        "idiom_tag": "LIANZHOU_BAOAN",
+        "claims": 4
+      },
+      {
+        "idiom_tag": "LIANZHOU_BEIHAI",
+        "claims": 8
+      },
+      {
+        "idiom_tag": "LIANZHOU_CITY",
+        "claims": 17
+      },
+      {
+        "idiom_tag": "LUODING",
+        "claims": 6
+      },
+      {
+        "idiom_tag": "NANKANG",
+        "claims": 9
+      },
+      {
+        "idiom_tag": "NANNING_YUE",
+        "claims": 2
+      },
+      {
+        "idiom_tag": "PINGNAN",
+        "claims": 9
+      },
+      {
+        "idiom_tag": "PINGNAN_XIANCHENG",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "QINGYUAN",
+        "claims": 4
+      },
+      {
+        "idiom_tag": "QUJIANG",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "RENHUA",
+        "claims": 2
+      },
+      {
+        "idiom_tag": "RONGXIAN",
+        "claims": 2
+      },
+      {
+        "idiom_tag": "SANJIANG",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "SANSHUI",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "SHAOGUAN",
+        "claims": 2
+      },
+      {
+        "idiom_tag": "SHENGHE",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "SHINAN",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "SHIQI",
+        "claims": 2
+      },
+      {
+        "idiom_tag": "SHITANG_RENHUA",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "SHUNDE",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "SIHE",
+        "claims": 2
+      },
+      {
+        "idiom_tag": "SIHUI",
+        "claims": 6
+      },
+      {
+        "idiom_tag": "SISHUI_SIHUIHUA",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "TAISHAN",
+        "claims": 80
+      },
+      {
+        "idiom_tag": "WAHUA",
+        "claims": 12
+      },
+      {
+        "idiom_tag": "WANBAO_PIAN",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "WENCHANG_PUYU",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "XIANGSHAN_PIAN",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "XINGZI",
+        "claims": 13
+      },
+      {
+        "idiom_tag": "XINHUI",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "XINXING",
+        "claims": 3
+      },
+      {
+        "idiom_tag": "XINYI",
+        "claims": 48
+      },
+      {
+        "idiom_tag": "XIONGZHOU",
+        "claims": 2
+      },
+      {
+        "idiom_tag": "XI_AN",
+        "claims": 4
+      },
+      {
+        "idiom_tag": "YANGJIANG",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "YANGSHAN",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "YINGDE_DIALECT",
+        "claims": 2
+      },
+      {
+        "idiom_tag": "YUE_FENGKAI",
+        "claims": 2
+      },
+      {
+        "idiom_tag": "YULIN",
+        "claims": 5
+      },
+      {
+        "idiom_tag": "YUNAN",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "YUNFU",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "YUNFU_YUNCHENG",
+        "claims": 3
+      },
+      {
+        "idiom_tag": "ZHAOQING",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "ZHONGSHAN",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "ZHONGSHAN_HAKKA",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "ZHUHAI_QIANSHAN_HUA",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "平遥",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "文水",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "汾阳",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "沁县",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "祁县",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "离石",
+        "claims": 1
+      },
+      {
+        "idiom_tag": "襄垣",
+        "claims": 1
+      },
+      {
+        "idiom_tag": null,
+        "claims": 838
+      }
+    ],
+    "total": 1212,
+    "non_integer_total": 390
+  }
+}

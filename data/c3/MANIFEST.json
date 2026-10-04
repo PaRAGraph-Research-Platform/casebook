@@ -1,0 +1,458 @@
+{
+  "version": "c3-internal-0.2",
+  "previous_version": "c3-internal-0.1",
+  "created_at": "2026-09-24T06:56:51.729992+00:00",
+  "case_status": "semantic_review",
+  "status": "core_and_supplement_reviewed; public preview iteration",
+  "rights_release_status": {
+    "status": "public_preview",
+    "code_license": "MIT",
+    "content_license": "CC-BY-4.0",
+    "third_party_quotations": "excluded from the CC BY 4.0 grant; reproduced under the quotation exception for analysis and criticism; all rights remain with the respective rightsholders; see NOTICE.md in the viewer repository",
+    "full_texts_redistributed": false
+  },
+  "counts": {
+    "scope_a_rows": 112,
+    "scope_b_rows": 186,
+    "ledger_rows": 282,
+    "candidate_claims": 186,
+    "core_claims": 11,
+    "core_evidence": 11,
+    "core_chunks": 6,
+    "core_sources": 4,
+    "supplement_claims": 10,
+    "graph_nodes": 34,
+    "graph_edges": 44,
+    "comparison_claims": 21,
+    "comparison_evidence": 21,
+    "comparison_sources": 4,
+    "comparison_nodes": 55,
+    "comparison_edges": 84,
+    "ledger_decisions": {
+      "out_of_level_source": 96,
+      "level_source_candidate": 165,
+      "core": 11,
+      "supplement": 10
+    },
+    "schemes": {
+      "SCH_ATLAS": 8,
+      "SCH_CROSS": 3,
+      "SCH_YH": 10
+    },
+    "denominators": {
+      "target_totals": [
+        {
+          "target": "YUE_GAOYANG",
+          "claims": 2150,
+          "evidence": 1708,
+          "features": 106,
+          "sources": 24
+        },
+        {
+          "target": "YUE_GUANGFU",
+          "claims": 7471,
+          "evidence": 6262,
+          "features": 115,
+          "sources": 38
+        },
+        {
+          "target": "YUE_SIYI",
+          "claims": 5389,
+          "evidence": 3956,
+          "features": 111,
+          "sources": 29
+        }
+      ],
+      "target_all_statuses": [
+        {
+          "target": "YUE_GAOYANG",
+          "status": "approved",
+          "claims": 44
+        },
+        {
+          "target": "YUE_GAOYANG",
+          "status": "archived",
+          "claims": 17
+        },
+        {
+          "target": "YUE_GAOYANG",
+          "status": "auto_approved",
+          "claims": 2106
+        },
+        {
+          "target": "YUE_GUANGFU",
+          "status": "approved",
+          "claims": 970
+        },
+        {
+          "target": "YUE_GUANGFU",
+          "status": "archived",
+          "claims": 829
+        },
+        {
+          "target": "YUE_GUANGFU",
+          "status": "auto_approved",
+          "claims": 6501
+        },
+        {
+          "target": "YUE_SIYI",
+          "status": "approved",
+          "claims": 495
+        },
+        {
+          "target": "YUE_SIYI",
+          "status": "archived",
+          "claims": 1733
+        },
+        {
+          "target": "YUE_SIYI",
+          "status": "auto_approved",
+          "claims": 4894
+        }
+      ],
+      "source_totals": [
+        {
+          "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+          "source_title": "粤语方言分区问题初探",
+          "claims": 408,
+          "evidence": 169,
+          "features": 34
+        },
+        {
+          "document_id": "cf5ae16a-4eeb-4aa4-9306-399192dbcbb2",
+          "source_title": "Development of the Stop Endings in the Yue Dialects",
+          "claims": 405,
+          "evidence": 169,
+          "features": 24
+        },
+        {
+          "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+          "source_title": "Language Atlas of China, Chinese Dialects Volume (2nd edition)",
+          "claims": 3290,
+          "evidence": 2634,
+          "features": 75
+        },
+        {
+          "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+          "source_title": "Yuè 粵 Dialects",
+          "claims": 235,
+          "evidence": 169,
+          "features": 65
+        }
+      ],
+      "scope_a_by_target_feature": [
+        {
+          "target": "YUE_GAOYANG",
+          "feature": "CLASSIFICATION_ATLAS2012",
+          "claims": 8
+        },
+        {
+          "target": "YUE_GAOYANG",
+          "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+          "claims": 2
+        },
+        {
+          "target": "YUE_GAOYANG",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "claims": 12
+        },
+        {
+          "target": "YUE_GUANGFU",
+          "feature": "CLASSIFICATION_ATLAS2012",
+          "claims": 6
+        },
+        {
+          "target": "YUE_GUANGFU",
+          "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+          "claims": 3
+        },
+        {
+          "target": "YUE_GUANGFU",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "claims": 26
+        },
+        {
+          "target": "YUE_SIYI",
+          "feature": "CLASSIFICATION_ATLAS2012",
+          "claims": 2
+        },
+        {
+          "target": "YUE_SIYI",
+          "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+          "claims": 16
+        },
+        {
+          "target": "YUE_SIYI",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "claims": 37
+        }
+      ],
+      "scope_b_by_source_feature": [
+        {
+          "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+          "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+          "claims": 10
+        },
+        {
+          "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "claims": 20
+        },
+        {
+          "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "claims": 32
+        },
+        {
+          "document_id": "cf5ae16a-4eeb-4aa4-9306-399192dbcbb2",
+          "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+          "claims": 2
+        },
+        {
+          "document_id": "cf5ae16a-4eeb-4aa4-9306-399192dbcbb2",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "claims": 4
+        },
+        {
+          "document_id": "cf5ae16a-4eeb-4aa4-9306-399192dbcbb2",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "claims": 2
+        },
+        {
+          "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+          "feature": "CLASSIFICATION_ATLAS2012",
+          "claims": 23
+        },
+        {
+          "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+          "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+          "claims": 1
+        },
+        {
+          "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "claims": 59
+        },
+        {
+          "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "claims": 8
+        },
+        {
+          "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+          "feature": "CLASSIFICATION_ATLAS2012",
+          "claims": 1
+        },
+        {
+          "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+          "feature": "CLASSIFICATION_CRITERIA_REPORTED",
+          "claims": 6
+        },
+        {
+          "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+          "feature": "GEOGRAPHY_DISTRIBUTION",
+          "claims": 9
+        },
+        {
+          "document_id": "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+          "feature": "METALINGUISTIC_HIERARCHY_LEVEL",
+          "claims": 9
+        }
+      ],
+      "excluded_outside_yue": {
+        "scope_b": [
+          {
+            "document_id": "69af2bca-a58d-4342-8ec7-f78715b77e25",
+            "claims": 19
+          },
+          {
+            "document_id": "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+            "claims": 1093
+          }
+        ]
+      },
+      "liangyang_like_targets": []
+    },
+    "native_operations": {
+      "shared_basis": 3,
+      "independent_bases": 4,
+      "source_split": 10,
+      "source_filter": 21,
+      "address_level_by_source": 7,
+      "source_comparison_by_feature": 4,
+      "target_comparison_by_feature__siyi_gaoyang": 4,
+      "target_comparison_by_feature__siyi_guangfu": 4,
+      "target_comparison_by_feature__gaoyang_guangfu": 4,
+      "contested_cell": 0,
+      "polarity_value_consistency": 21
+    }
+  },
+  "source_export_started_at": "2026-09-18T16:54:31.420266+00:00",
+  "source_export_completed_at": "2026-09-18T16:54:32.713489+00:00",
+  "storage_consistency": "Two storage transactions; not a distributed atomic snapshot. Cross-store IDs checked offline.",
+  "claim_statuses": [
+    "approved",
+    "auto_approved"
+  ],
+  "scope": {
+    "targets": [
+      "YUE_SIYI",
+      "YUE_GUANGFU",
+      "YUE_GAOYANG"
+    ],
+    "meta_features": [
+      "CLASSIFICATION_ATLAS2012",
+      "CLASSIFICATION_CRITERIA_REPORTED",
+      "METALINGUISTIC_HIERARCHY_LEVEL"
+    ],
+    "level_features": [
+      "CLASSIFICATION_ATLAS2012",
+      "CLASSIFICATION_CRITERIA_REPORTED",
+      "METALINGUISTIC_HIERARCHY_LEVEL",
+      "GEOGRAPHY_DISTRIBUTION"
+    ],
+    "level_sources": [
+      "dff1c92a-b507-4d36-85b5-273f7f79bfb0",
+      "cf5ae16a-4eeb-4aa4-9306-399192dbcbb2",
+      "f005846b-d6be-44a1-a8f7-be5b0c1a02ef",
+      "69af2bca-a58d-4342-8ec7-f78715b77e25"
+    ]
+  },
+  "page_checks": {
+    "dff1c92a-b507-4d36-85b5-273f7f79bfb0": {
+      "185": {
+        "printed_page": "127",
+        "method": "visual_page_image",
+        "confidence": "high"
+      },
+      "39": {
+        "printed_page": null,
+        "method": "visual_page_image",
+        "confidence": "high"
+      }
+    },
+    "69af2bca-a58d-4342-8ec7-f78715b77e25": {
+      "3": {
+        "printed_page": "166",
+        "method": "visual_page_image",
+        "confidence": "high"
+      },
+      "4": {
+        "printed_page": "167",
+        "method": "visual_page_image",
+        "confidence": "high"
+      },
+      "13": {
+        "printed_page": "176",
+        "method": "visual_page_image",
+        "confidence": "high"
+      }
+    },
+    "cf5ae16a-4eeb-4aa4-9306-399192dbcbb2": {
+      "25": {
+        "printed_page": "241",
+        "method": "visual_page_image",
+        "confidence": "high"
+      },
+      "26": {
+        "printed_page": "242",
+        "method": "visual_page_image",
+        "confidence": "high"
+      }
+    },
+    "f005846b-d6be-44a1-a8f7-be5b0c1a02ef": {
+      "2": {
+        "printed_page": null,
+        "method": "visual_page_image",
+        "confidence": "high"
+      },
+      "4": {
+        "printed_page": null,
+        "method": "visual_page_image",
+        "confidence": "high"
+      }
+    }
+  },
+  "native_operations": {
+    "file": "expected_native_operations.json",
+    "verified_at_utc": "2026-09-11T11:26:01.261615+00:00",
+    "row_counts": {
+      "shared_basis": 3,
+      "independent_bases": 4,
+      "source_split": 10,
+      "source_filter": 21,
+      "address_level_by_source": 7,
+      "source_comparison_by_feature": 4,
+      "target_comparison_by_feature__siyi_gaoyang": 4,
+      "target_comparison_by_feature__siyi_guangfu": 4,
+      "target_comparison_by_feature__gaoyang_guangfu": 4,
+      "contested_cell": 0,
+      "polarity_value_consistency": 21
+    },
+    "statuses": {
+      "shared_basis": "native",
+      "independent_bases": "native",
+      "source_split": "native",
+      "source_filter": "native",
+      "address_level_by_source": "native",
+      "source_comparison_by_feature": "partially_native",
+      "target_comparison_by_feature__siyi_gaoyang": "native",
+      "target_comparison_by_feature__siyi_guangfu": "native",
+      "target_comparison_by_feature__gaoyang_guangfu": "native",
+      "contested_cell": "native",
+      "polarity_value_consistency": "native"
+    },
+    "not_applicable": {
+      "feature_level_split": {
+        "origin": "c2:feature_level_split",
+        "status": "not_applicable"
+      }
+    }
+  },
+  "changelog": [
+    {
+      "version": "c3-internal-0.1",
+      "raw_export": "casebook_probes/2026-09-11__c3_full_export.json"
+    },
+    {
+      "version": "c3-internal-0.2",
+      "raw_export": "casebook_probes/2026-09-18__c3_full_export.json"
+    }
+  ],
+  "queries_sha256": "37eb494136b78285089a4c1e8c95473647815c58afcec90eccd3b71e96228828",
+  "article_sha256": "3122e7fcf76cdc1470a17a17141da079500d3942c271b8c6722458d8d76b6a51",
+  "build_scripts_sha256": {
+    "casebook_probes/scripts/build_c3_bundle.py": "f9aac8a3505a9266896cfdf1a59cb6e6ba91b520040fc29edc8a6282f6627a55",
+    "casebook_probes/scripts/export_c3.py": "f2e867c21c8f0f9a45226e2044d3eee4321d21c39b97bd632fa155f0e48ce01c",
+    "casebook_probes/scripts/verify_c3_bundle.py": "21ddb49cb56cfaef5d98678e505f24839c1e6111cb8fa2b624a8f9ff80a83a3f",
+    "casebook_probes/scripts/verify_c3_operations.py": "e9e789dbe5fdc65c91a55d31c5d0fa023c4d3e5b951a20f869cf7963ad8c2f5a"
+  },
+  "files_sha256": {
+    "CASE_EN.md": "d024055283749230432b77fbd1bb98c6947c5e69bcbee778b60e25d16a6d8548",
+    "README.md": "7aa4af829c3d856b1e77068679288708f30bba229099917b32871a425081cb25",
+    "REVIEW.md": "1faad738959cb355847de0d0ea7871c1bab88f054b4584a06d3fc98fa136ae1f",
+    "candidates.json": "ab47dc693c278cb67f65a24e34a6c79bd980ef4f28524b0a4b66eb030413ddd0",
+    "comparison_graph.json": "b6d823470d306bd8da50eace896fbe182897ec97301d5d8e5661ba43a2c92672",
+    "core.json": "cd1d75314304abe58e0fcfe5a779d6080380a92001426c0ee773883ce3e8033d",
+    "counts.json": "c53f4cfdb194680f50b517c69384d2f6634afaa29e04eeec7e4be055ed28c09d",
+    "diff_0.1_to_0.2.json": "1b62096b0aaceef1be07ef5c9eae9dac895cec5166222d5590ef1c744b1dc9e1",
+    "expected_native_operations.json": "a252199ce18a5edf99aec3c14b31226805ba03bd801087f5db6a7a8a1256bee5",
+    "expected_operations.json": "5931fb6aacb6acb7f3d0d1001f76ffb31678efb27cbd4a4d13951dc09e33dfa8",
+    "graph.json": "dd46d8c2567f0d797c30acf893b47b3fa3948c71e945b8be1c4ed2801ec6b2fe",
+    "levels_table.json": "ecd14c6b5cd591bb0c84c11f966f807f38ffbaff6c42863ae685bf96cb263c00",
+    "raw_export.json": "f9127e72497138784fb86a38b843ac07fc1064cf119278bcd07fab417198d2ca",
+    "selection_ledger.csv": "c4f950f677cd27630852f820d80a011f8acecd63063ddbe693674d68446e9210",
+    "sources.json": "23a117e2d82da91d1bfff107028b5b0d7d7b30911163b0e4be19315e6a6d440e",
+    "supplement.json": "700cbee7e20ea5d3234e5a1e1b51adfa43a4b0068b0bfabcc2426f93046963f1"
+  },
+  "open_questions_en": [
+    "How should the levels be named in English: keep 區 / 片 / 小片 with pinyin, or translate as district / subgroup / subdivision? The two schemes use the same characters at different positions.",
+    "Attribution of the two-district scheme: the Appendix and Kwok–Tsou–Chin cite Yue 1988, the article cites 1991a. Should the case carry both attributions or choose one?",
+    "Table 5 gives 欽廉小片 where the Appendix gives 莞廉小片 at the same place in the scheme. Is this a difference between publications, a misprint, or a deliberate revision? Should the 1988 original be consulted?",
+    "The cross-scheme sentence in Kwok–Tsou–Chin ('roughly corresponds…') has no record in the graph. Keep it as a curated annotation with its segment locator, or ask extraction to add a record?",
+    "Kwok–Tsou–Chin: production carries year 2005 with an empty csl_data.issued; the edition is 2017 (pp. 690–702) and the web version has no printed page numbers. Fix the metadata before any public slice, or present the card as 'web version; original print locator: unverified'?",
+    "The article's reference 'Zhang Zhenxing, 2012: 185' is a physical PDF page; the printed page is 127. Correct it in the article, or carry a note that both fields are given?",
+    "Does C3 need an explicit 'unit without an address' rendering for 兩陽片, or is the visible absence of a canonical Liangyang address enough?"
+  ],
+  "note": "This is the C3 internal bundle, not the all-case public snapshot."
+}
