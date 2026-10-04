@@ -1,15 +1,17 @@
 import { useMemo } from "react";
 import { CASES } from "../cases/registry";
-import { CASEBOOK_URL, CASEBOOK_VERSION, CONTACT, REPO_URL } from "../config";
+import { CASEBOOK_DOI, CASEBOOK_URL, CASEBOOK_VERSION, CONTACT, REPO_URL } from "../config";
 import type { CasebookBundle } from "../types/bundle";
 
-const CITATION_TEXT = `Kozha, K. A. 2026. PaRAGraph Casebook: source-grounded cases in Yue dialect classification and tone inventories. ${CASEBOOK_VERSION.charAt(0).toUpperCase()}${CASEBOOK_VERSION.slice(1)}. ${CASEBOOK_URL}`;
+const CITATION_TEXT = `Kozha, K. A. & I. Kozha. 2026. PaRAGraph Casebook: source-grounded cases in Yue dialect classification and tone inventories. ${CASEBOOK_VERSION.charAt(0).toUpperCase()}${CASEBOOK_VERSION.slice(1)}. Zenodo. https://doi.org/${CASEBOOK_DOI}`;
 
 const CITATION_BIBTEX = `@misc{kozha2026paragraph,
-  author = {Kozha, K. A.},
+  author = {Kozha, K. A. and Kozha, I.},
   title = {PaRAGraph Casebook: source-grounded cases in Yue dialect classification and tone inventories},
   year = {2026},
   note = {${CASEBOOK_VERSION}},
+  publisher = {Zenodo},
+  doi = {${CASEBOOK_DOI}},
   url = {${CASEBOOK_URL}}
 }`;
 

@@ -47,12 +47,13 @@ tab currently shows a placeholder); © the author.
 
 If you reuse or redistribute the CC BY 4.0–covered content, attribute it as:
 
-> Kozha, K. A. 2026. *PaRAGraph Casebook: source-grounded cases in Yue
-> dialect classification and tone inventories.* Version <number>.
-> <https://www.sciencerag.win/casebook>
+> Kozha, K. A. & I. Kozha. 2026. *PaRAGraph Casebook: source-grounded cases in
+> Yue dialect classification and tone inventories.* Version <number>. Zenodo.
+> https://doi.org/<version DOI>
 
-(See the app's About tab, or `CASEBOOK_VERSION` in `src/config.ts`, for the
-current version and canonical URL.)
+(See the app's About tab, or `CASEBOOK_VERSION` and `CASEBOOK_DOI` in
+`src/config.ts`, for the current version and its DOI; all versions:
+<https://doi.org/10.5281/zenodo.23140492>.)
 
 ## What is not covered: quoted third-party passages
 

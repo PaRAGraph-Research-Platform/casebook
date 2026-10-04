@@ -18,6 +18,10 @@
   &nbsp;·&nbsp; <a href="https://www.sciencerag.win/info">About PaRAGraph</a>
 </p>
 
+<p align="center">
+  <a href="https://doi.org/10.5281/zenodo.23140492"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.23140492.svg" alt="DOI 10.5281/zenodo.23140492"></a>
+</p>
+
 The Casebook is a companion to a research article about PaRAGraph, a source-grounded
 research platform that works with scholarly literature through a knowledge graph of
 claims, evidence and sources. Each case pairs a short narrative with the slice of the
@@ -69,20 +73,23 @@ live page can be rebuilt byte for byte. Step-by-step instructions are in
 
 ## How to cite
 
-> Kozha, K. A. 2026. PaRAGraph Casebook: source-grounded cases in Yue dialect
-> classification and tone inventories. Version 0.3. https://www.sciencerag.win/casebook
-> (source code and data: https://github.com/PaRAGraph-Research-Platform/casebook)
+> Kozha, K. A. & I. Kozha. 2026. PaRAGraph Casebook: source-grounded cases in Yue dialect
+> classification and tone inventories. Version 0.3. Zenodo. https://doi.org/10.5281/zenodo.23140493
 
 ```bibtex
 @misc{kozha2026paragraph,
-  author = {Kozha, K. A.},
+  author = {Kozha, K. A. and Kozha, I.},
   title = {PaRAGraph Casebook: source-grounded cases in Yue dialect classification and tone inventories},
   year = {2026},
   note = {Version 0.3},
-  url = {https://www.sciencerag.win/casebook},
-  howpublished = {Source code and data: \url{https://github.com/PaRAGraph-Research-Platform/casebook}}
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.23140493},
+  url = {https://www.sciencerag.win/casebook}
 }
 ```
+
+To cite the Casebook regardless of version, use the concept DOI
+[10.5281/zenodo.23140492](https://doi.org/10.5281/zenodo.23140492); it always resolves to the latest release.
 
 ## License
 

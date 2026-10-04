@@ -2,7 +2,7 @@ import { act } from "react";
 import { createRoot, type Root } from "react-dom/client";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { CASES } from "../cases/registry";
-import { CASEBOOK_URL, CASEBOOK_VERSION, CONTACT, REPO_URL } from "../config";
+import { CASEBOOK_DOI, CASEBOOK_URL, CASEBOOK_VERSION, CONTACT, REPO_URL } from "../config";
 import { AboutView } from "./AboutView";
 
 let container: HTMLDivElement;
@@ -56,7 +56,8 @@ describe("AboutView", () => {
             root.render(<AboutView />);
         });
         const text = container.textContent ?? "";
-        expect(text).toContain("Kozha, K. A. 2026.");
+        expect(text).toContain("Kozha, K. A. & I. Kozha. 2026.");
+        expect(text).toContain(`https://doi.org/${CASEBOOK_DOI}`);
         expect(text).toContain(CASEBOOK_URL);
         expect(text).toMatch(new RegExp(CASEBOOK_VERSION.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i"));
         expect(text).toContain("The companion research article is in preparation; the Article tab will carry its text once a preprint is available.");

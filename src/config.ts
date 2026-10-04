@@ -16,6 +16,11 @@ export const CASEBOOK_VERSION = "Version 0.3";
  * `CASEBOOK_VERSION` is (the citation string) — never hardcode it elsewhere. */
 export const CASEBOOK_URL = "https://www.sciencerag.win/casebook";
 
+/** Zenodo DOI of the archived release that matches `CASEBOOK_VERSION`, used by
+ * the About tab's citation. Each release gets its own version DOI from Zenodo;
+ * update it together with `CASEBOOK_VERSION`. */
+export const CASEBOOK_DOI = "10.5281/zenodo.23140493";
+
 /** Public page about the PaRAGraph platform itself, linked from the app
  * header — never hardcode the URL string anywhere else. */
 export const PROJECT_URL = "https://www.sciencerag.win/info";
