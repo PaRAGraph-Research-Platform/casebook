@@ -11,7 +11,7 @@
       "name": "Kozha, Ilia"
     }
   ],
-  "description": "<p>Companion casebook to the PaRAGraph article: four source-grounded cases in Yue (Cantonese) dialectology (C1–C4). Each case pairs a short narrative with the slice of the PaRAGraph knowledge graph behind it — claims, quoted evidence and sources — and a set of graph operations that the static viewer recomputes in the browser and compares with results recorded on the production graph.</p><p>Live: <a href=\"https://www.sciencerag.win/casebook\">https://www.sciencerag.win/casebook</a></p><p>Licensing: curated content (annotations, case narratives, source passports, graph structure) is CC BY 4.0; the viewer code is MIT (see LICENSE); quoted passages from sources are not licensed by this record and are reproduced under the quotation exception (see LICENSING.md and NOTICE.md).</p>",
+  "description": "<p>Companion casebook to the PaRAGraph article: four source-grounded cases in Yue (Cantonese) dialectology (C1–C4). Each case pairs a short narrative with the slice of the PaRAGraph knowledge graph behind it — claims, quoted evidence and sources — and a set of graph operations that the static viewer recomputes in the browser and compares with results recorded on the production graph.</p><p>Live: <a href=\"https://paragraph-lab.org/casebook\">https://paragraph-lab.org/casebook</a></p><p>Licensing: curated content (annotations, case narratives, source passports, graph structure) is CC BY 4.0; the viewer code is MIT (see LICENSE); quoted passages from sources are not licensed by this record and are reproduced under the quotation exception (see LICENSING.md and NOTICE.md).</p>",
   "license": "cc-by-4.0",
   "keywords": [
     "Yue",
@@ -23,5 +23,13 @@
     "provenance",
     "reproducibility",
     "digital humanities"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.48550/arXiv.2610.28663",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    }
   ]
 }

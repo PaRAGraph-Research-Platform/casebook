@@ -1,6 +1,15 @@
 import { useMemo } from "react";
 import { CASES } from "../cases/registry";
-import { CASEBOOK_DOI, CASEBOOK_URL, CASEBOOK_VERSION, CONTACT, REPO_URL } from "../config";
+import {
+    CASEBOOK_DOI,
+    CASEBOOK_URL,
+    CASEBOOK_VERSION,
+    COMPANION_ARTICLE,
+    COMPANION_ARTICLE_BIBTEX,
+    COMPANION_ARTICLE_CITATION,
+    CONTACT,
+    REPO_URL,
+} from "../config";
 import type { CasebookBundle } from "../types/bundle";
 
 const CITATION_TEXT = `Kozha, K. A. & I. Kozha. 2026. PaRAGraph Casebook: source-grounded cases in Yue dialect classification and tone inventories. ${CASEBOOK_VERSION.charAt(0).toUpperCase()}${CASEBOOK_VERSION.slice(1)}. Zenodo. https://doi.org/${CASEBOOK_DOI}`;
@@ -170,14 +179,24 @@ export function AboutView() {
                     </li>
                 </ul>
                 <p>
-                    The companion research article is in preparation; the Article tab will carry its text
-                    once a preprint is available.
+                    The companion research article is available as a preprint:{" "}
+                    <a href={COMPANION_ARTICLE.absUrl} target="_blank" rel="noopener">
+                        {COMPANION_ARTICLE.title}
+                    </a>{" "}
+                    (arXiv:{COMPANION_ARTICLE.arxivId}).
                 </p>
                 <h3>How to cite</h3>
+                <p>The Casebook:</p>
                 <p>{CITATION_TEXT}</p>
                 <details>
                     <summary>BibTeX</summary>
                     <pre className="citation-bibtex">{CITATION_BIBTEX}</pre>
+                </details>
+                <p>The article:</p>
+                <p>{COMPANION_ARTICLE_CITATION}</p>
+                <details>
+                    <summary>BibTeX</summary>
+                    <pre className="citation-bibtex">{COMPANION_ARTICLE_BIBTEX}</pre>
                 </details>
                 <h3>Contact</h3>
                 <p>

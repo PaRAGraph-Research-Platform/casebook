@@ -17,8 +17,10 @@ const articleMarkdownFiles = import.meta.glob<string>("../../data/article/ARTICL
 });
 
 /** `in_preparation`: no text is vendored (placeholder only);
+ * `preprint`: published elsewhere (arXiv); no text is vendored, the Article tab
+ * shows a card linking to it (see COMPANION_ARTICLE in config.ts);
  * `working_draft`: set upstream alongside the article text. */
-export type ArticleStatus = "in_preparation" | "working_draft";
+export type ArticleStatus = "in_preparation" | "preprint" | "working_draft";
 
 export interface ArticleMeta {
     /** e.g. "Working draft v3"; null while no text is vendored. */

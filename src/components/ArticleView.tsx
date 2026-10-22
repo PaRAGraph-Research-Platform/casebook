@@ -3,7 +3,7 @@ import { CASES } from "../cases/registry";
 import { buildCombinedClaims } from "../operations/combinedClaims";
 import { parseFrontmatter } from "../article/frontmatter";
 import { loadArticle, type ArticleData, type ArticleMeta } from "../article/loadArticle";
-import { CONTACT } from "../config";
+import { COMPANION_ARTICLE, CONTACT } from "../config";
 import { renderArticleMarkdown } from "../utils/renderArticleMarkdown";
 import type { AnchorResolutionDeps } from "../article/anchorMap";
 
@@ -56,9 +56,54 @@ function formatDate(isoDate: string): string {
 export function ArticleView({ onOpenLink, article }: ArticleViewProps) {
     const { markdown, meta } = useMemo(() => article ?? loadArticle(), [article]);
     if (markdown === null) {
+        if (meta.status === "preprint") return <ArticlePreprint />;
         return <ArticlePlaceholder meta={meta} />;
     }
     return <ArticleBody markdown={markdown} meta={meta} onOpenLink={onOpenLink} />;
+}
+
+/** The article is published as a preprint and its text is not vendored here:
+ * the tab points to the version of record instead of carrying a copy that
+ * could drift from it. */
+function ArticlePreprint() {
+    return (
+        <div className="article-view">
+            <section className="article-banner article-placeholder">
+                <h2>Companion article</h2>
+                <p className="article-preprint-title">
+                    <a href={COMPANION_ARTICLE.absUrl} target="_blank" rel="noopener">
+                        {COMPANION_ARTICLE.title}
+                    </a>
+                </p>
+                <p className="muted">
+                    {COMPANION_ARTICLE.authors} · arXiv:{COMPANION_ARTICLE.arxivId} [{COMPANION_ARTICLE.category}] ·{" "}
+                    {COMPANION_ARTICLE.year}
+                </p>
+                <p>
+                    This casebook is the article&apos;s companion: each of its four cases can be re-run here, from the
+                    claims and quoted evidence to the recorded graph operations.
+                </p>
+                <p className="article-preprint-links">
+                    <a href={COMPANION_ARTICLE.absUrl} target="_blank" rel="noopener">
+                        Read on arXiv
+                    </a>
+                    <a href={COMPANION_ARTICLE.pdfUrl} target="_blank" rel="noopener">
+                        PDF
+                    </a>
+                    <a href={`https://doi.org/${COMPANION_ARTICLE.doi}`} target="_blank" rel="noopener">
+                        DOI {COMPANION_ARTICLE.doi}
+                    </a>
+                </p>
+                <p className="muted">
+                    Questions about the article or the cases:{" "}
+                    <a href={CONTACT.url} target="_blank" rel="noopener">
+                        {CONTACT.label}
+                    </a>
+                    .
+                </p>
+            </section>
+        </div>
+    );
 }
 
 function ArticlePlaceholder({ meta }: { meta: ArticleMeta }) {

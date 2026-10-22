@@ -24,7 +24,7 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23140493
     description: "Version 0.3 archived on Zenodo"
-url: "https://www.sciencerag.win/casebook"
+url: "https://paragraph-lab.org/casebook"
 repository-code: "https://github.com/PaRAGraph-Research-Platform/casebook"
 license:
   - CC-BY-4.0
@@ -39,3 +39,14 @@ keywords:
   - provenance
   - reproducibility
   - digital humanities
+references:
+  - type: article
+    title: "Beyond source attribution: Address authorship and comparability decisions in an LLM-built scholarly knowledge graph"
+    authors:
+      - family-names: Kozha
+        given-names: Ksenia
+        orcid: "https://orcid.org/0000-0003-2717-6156"
+    year: 2026
+    doi: 10.48550/arXiv.2610.28663
+    url: "https://arxiv.org/abs/2610.28663"
+    notes: "Companion research article (arXiv preprint, cs.DL)"

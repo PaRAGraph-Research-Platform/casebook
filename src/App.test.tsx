@@ -99,7 +99,7 @@ describe("App — header links", () => {
 
         expect(repo?.getAttribute("href")).toBe(REPO_URL);
         expect(project?.getAttribute("href")).toBe(PROJECT_URL);
-        expect(PROJECT_URL).toBe("https://www.sciencerag.win/info");
+        expect(PROJECT_URL).toBe("https://paragraph-lab.org/info");
         for (const link of [repo, project]) {
             expect(link?.getAttribute("target")).toBe("_blank");
             expect(link?.getAttribute("rel")).toBe("noopener");

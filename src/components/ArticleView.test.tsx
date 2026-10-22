@@ -1,8 +1,9 @@
+import { loadArticle } from "../article/loadArticle";
 import { act } from "react";
 import { createRoot, type Root } from "react-dom/client";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { FIXTURE_ARTICLE, PLACEHOLDER_ARTICLE } from "../article/articleFixture.testdata";
-import { CONTACT } from "../config";
+import { COMPANION_ARTICLE, CONTACT } from "../config";
 import { ArticleView } from "./ArticleView";
 
 let container: HTMLDivElement;
@@ -124,5 +125,39 @@ describe("ArticleView — rendered article (text vendored)", () => {
         renderFixture();
         expect(container.querySelector('[data-case="c2"][data-anchor="K1"]')).not.toBeNull();
         expect(container.querySelector('[data-case="c3"][data-anchor="K1"]')).not.toBeNull();
+    });
+});
+
+describe("ArticleView — preprint (published elsewhere, no text vendored)", () => {
+    it("shows the preprint card with arXiv, PDF and DOI links instead of the in-preparation notice", () => {
+        act(() => {
+            root.render(
+                <ArticleView
+                    onOpenLink={vi.fn()}
+                    article={{
+                        markdown: null,
+                        meta: { ...PLACEHOLDER_ARTICLE.meta, status: "preprint", preprint_url: COMPANION_ARTICLE.absUrl },
+                    }}
+                />
+            );
+        });
+        const text = container.textContent ?? "";
+        expect(text).toContain(COMPANION_ARTICLE.title);
+        expect(text).not.toContain("in preparation");
+        const hrefs = Array.from(container.querySelectorAll("a")).map((a) => a.getAttribute("href"));
+        expect(hrefs).toContain(COMPANION_ARTICLE.absUrl);
+        expect(hrefs).toContain(COMPANION_ARTICLE.pdfUrl);
+        expect(hrefs).toContain(`https://doi.org/${COMPANION_ARTICLE.doi}`);
+        for (const a of Array.from(container.querySelectorAll("a"))) {
+            expect(a.getAttribute("target")).toBe("_blank");
+            expect(a.getAttribute("rel")).toBe("noopener");
+        }
+        expect(container.querySelector(".article-markdown")).toBeNull();
+    });
+
+    it("the vendored META points to the same preprint as COMPANION_ARTICLE", () => {
+        const { meta } = loadArticle();
+        expect(meta.status).toBe("preprint");
+        expect(meta.preprint_url).toBe(COMPANION_ARTICLE.absUrl);
     });
 });

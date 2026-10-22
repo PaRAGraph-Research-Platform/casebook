@@ -2,7 +2,7 @@ import { act } from "react";
 import { createRoot, type Root } from "react-dom/client";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { CASES } from "../cases/registry";
-import { CASEBOOK_DOI, CASEBOOK_URL, CASEBOOK_VERSION, CONTACT, REPO_URL } from "../config";
+import { CASEBOOK_DOI, CASEBOOK_URL, CASEBOOK_VERSION, COMPANION_ARTICLE, COMPANION_ARTICLE_CITATION, CONTACT, REPO_URL } from "../config";
 import { AboutView } from "./AboutView";
 
 let container: HTMLDivElement;
@@ -60,7 +60,12 @@ describe("AboutView", () => {
         expect(text).toContain(`https://doi.org/${CASEBOOK_DOI}`);
         expect(text).toContain(CASEBOOK_URL);
         expect(text).toMatch(new RegExp(CASEBOOK_VERSION.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i"));
-        expect(text).toContain("The companion research article is in preparation; the Article tab will carry its text once a preprint is available.");
+        expect(text).toContain("The companion research article is available as a preprint");
+        expect(text).toContain(COMPANION_ARTICLE_CITATION);
+        const articleLink = Array.from(container.querySelectorAll("a")).find(
+            (a) => a.getAttribute("href") === COMPANION_ARTICLE.absUrl
+        );
+        expect(articleLink?.textContent).toBe(COMPANION_ARTICLE.title);
 
         const contactLink = Array.from(container.querySelectorAll("a")).find(
             (a) => a.getAttribute("href") === CONTACT.url

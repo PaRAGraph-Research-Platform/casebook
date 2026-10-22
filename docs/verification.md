@@ -124,7 +124,7 @@ reconstruction step.
 JS, CSS and the case data inlined — no external scripts, stylesheets or images. This
 file is the canonical public copy of the Casebook: the PaRAGraph site vendors it with a
 SHA-256 manifest (the source commit of this repository plus the hash of the artifact)
-and serves it at https://www.sciencerag.win/casebook. Building must leave the working
+and serves it at https://paragraph-lab.org/casebook. Building must leave the working
 tree clean — `dist/` and `dist-single/` are git-ignored — so the recorded source commit
 describes exactly what was built.
 
@@ -133,7 +133,7 @@ builds on the same checkout give a byte-identical file; checked with Node v23.10
 
 ```sh
 # 1. find the commit and hash the published page was built from
-curl -s https://www.sciencerag.win/casebook/manifest.json   # fields: source_commit, artifact_sha256
+curl -s https://paragraph-lab.org/casebook/manifest.json   # fields: source_commit, artifact_sha256
 # 2. build exactly that commit
 git checkout <source_commit>
 npm ci

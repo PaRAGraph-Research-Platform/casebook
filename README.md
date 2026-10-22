@@ -12,10 +12,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.sciencerag.win/casebook"><strong>Open the live casebook</strong></a>
+  <a href="https://paragraph-lab.org/casebook"><strong>Open the live casebook</strong></a>
+  &nbsp;·&nbsp; <a href="https://arxiv.org/abs/2610.28663">Companion article (arXiv)</a>
   &nbsp;·&nbsp; <a href="#how-to-cite">How to cite</a>
   &nbsp;·&nbsp; <a href="#check-it-yourself">Check it yourself</a>
-  &nbsp;·&nbsp; <a href="https://www.sciencerag.win/info">About PaRAGraph</a>
+  &nbsp;·&nbsp; <a href="https://paragraph-lab.org/info">About PaRAGraph</a>
 </p>
 
 <p align="center">
@@ -67,7 +68,7 @@ npm run build:single  # the exact single-file page served at /casebook
 ```
 
 The build is deterministic: the commit and sha256 of the published page are listed in
-[`/casebook/manifest.json`](https://www.sciencerag.win/casebook/manifest.json), so the
+[`/casebook/manifest.json`](https://paragraph-lab.org/casebook/manifest.json), so the
 live page can be rebuilt byte for byte. Step-by-step instructions are in
 [docs/verification.md](docs/verification.md).
 
@@ -84,7 +85,7 @@ live page can be rebuilt byte for byte. Step-by-step instructions are in
   note = {Version 0.3},
   publisher = {Zenodo},
   doi = {10.5281/zenodo.23140493},
-  url = {https://www.sciencerag.win/casebook}
+  url = {https://paragraph-lab.org/casebook}
 }
 ```
 
@@ -110,4 +111,4 @@ To cite the Casebook regardless of version, use the concept DOI
 
 ## Contact
 
-Questions and corrections: ksenia@sciencerag.win · Platform: https://www.sciencerag.win/info
+Questions and corrections: ksenia@paragraph-lab.org · Platform: https://paragraph-lab.org/info
